@@ -1,0 +1,357 @@
+{
+  "dense": {
+    "method": "dense",
+    "description": "Dense: embeddinggemma-2 query -> pgvector index B (Day 6), cosine, exact search",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 17,
+    "hit_at_1": {
+      "n": 15,
+      "N": 17,
+      "rate": 0.882
+    },
+    "evidence_hit_at_3": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "mrr_at_3": 0.941,
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "avg_context_chars": 1908.1,
+    "median_ms": 132.93,
+    "cost_usd": 0.0,
+    "misses_at_3": [],
+    "not_top1": [
+      "q06",
+      "q12"
+    ]
+  },
+  "bm25": {
+    "method": "bm25",
+    "description": "Lexical: Okapi BM25 (k1=1.5, b=0.75), Vietnamese syllable tokens",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 17,
+    "hit_at_1": {
+      "n": 14,
+      "N": 17,
+      "rate": 0.824
+    },
+    "evidence_hit_at_3": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "mrr_at_3": 0.873,
+    "context_evidence_rate": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "avg_context_chars": 2050.1,
+    "median_ms": 0.43,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q12"
+    ],
+    "not_top1": [
+      "q12",
+      "q19",
+      "q22"
+    ]
+  },
+  "bm25_bigram": {
+    "method": "bm25_bigram",
+    "description": "Lexical: BM25 with syllable unigrams + bigrams",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 17,
+    "hit_at_1": {
+      "n": 14,
+      "N": 17,
+      "rate": 0.824
+    },
+    "evidence_hit_at_3": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "mrr_at_3": 0.882,
+    "context_evidence_rate": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "avg_context_chars": 2002.6,
+    "median_ms": 0.51,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q19"
+    ],
+    "not_top1": [
+      "q12",
+      "q19",
+      "q22"
+    ]
+  },
+  "hybrid": {
+    "method": "hybrid",
+    "description": "Hybrid: RRF(k=60) of dense top-20 and bm25 top-20",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 17,
+    "hit_at_1": {
+      "n": 15,
+      "N": 17,
+      "rate": 0.882
+    },
+    "evidence_hit_at_3": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "mrr_at_3": 0.931,
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "avg_context_chars": 2017,
+    "median_ms": 138.55,
+    "cost_usd": 0.0,
+    "misses_at_3": [],
+    "not_top1": [
+      "q12",
+      "q19"
+    ]
+  },
+  "hybrid_bigram": {
+    "method": "hybrid_bigram",
+    "description": "Hybrid: RRF(k=60) of dense top-20 and bm25_bigram top-20",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 17,
+    "hit_at_1": {
+      "n": 15,
+      "N": 17,
+      "rate": 0.882
+    },
+    "evidence_hit_at_3": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "mrr_at_3": 0.941,
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "avg_context_chars": 2007.3,
+    "median_ms": 151.16,
+    "cost_usd": 0.0,
+    "misses_at_3": [],
+    "not_top1": [
+      "q12",
+      "q19"
+    ]
+  },
+  "dense_nofilter": {
+    "method": "dense",
+    "description": "Dense: embeddinggemma-2 query -> pgvector index B (Day 6), cosine, exact search",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": false,
+    "N": 17,
+    "hit_at_1": {
+      "n": 14,
+      "N": 17,
+      "rate": 0.824
+    },
+    "evidence_hit_at_3": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "mrr_at_3": 0.902,
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "avg_context_chars": 1852.7,
+    "median_ms": 139.27,
+    "cost_usd": 0.0,
+    "misses_at_3": [],
+    "not_top1": [
+      "q06",
+      "q09",
+      "q12"
+    ]
+  },
+  "bm25_nofilter": {
+    "method": "bm25",
+    "description": "Lexical: Okapi BM25 (k1=1.5, b=0.75), Vietnamese syllable tokens",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": false,
+    "N": 17,
+    "hit_at_1": {
+      "n": 13,
+      "N": 17,
+      "rate": 0.765
+    },
+    "evidence_hit_at_3": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "mrr_at_3": 0.833,
+    "context_evidence_rate": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "avg_context_chars": 2048.2,
+    "median_ms": 0.43,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q12"
+    ],
+    "not_top1": [
+      "q12",
+      "q13",
+      "q19",
+      "q22"
+    ]
+  },
+  "bm25_bigram_nofilter": {
+    "method": "bm25_bigram",
+    "description": "Lexical: BM25 with syllable unigrams + bigrams",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": false,
+    "N": 17,
+    "hit_at_1": {
+      "n": 13,
+      "N": 17,
+      "rate": 0.765
+    },
+    "evidence_hit_at_3": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "mrr_at_3": 0.843,
+    "context_evidence_rate": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "avg_context_chars": 2051.7,
+    "median_ms": 0.56,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q19"
+    ],
+    "not_top1": [
+      "q12",
+      "q13",
+      "q19",
+      "q22"
+    ]
+  },
+  "hybrid_nofilter": {
+    "method": "hybrid",
+    "description": "Hybrid: RRF(k=60) of dense top-20 and bm25 top-20",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": false,
+    "N": 17,
+    "hit_at_1": {
+      "n": 15,
+      "N": 17,
+      "rate": 0.882
+    },
+    "evidence_hit_at_3": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "mrr_at_3": 0.931,
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "avg_context_chars": 2054.6,
+    "median_ms": 140.85,
+    "cost_usd": 0.0,
+    "misses_at_3": [],
+    "not_top1": [
+      "q12",
+      "q19"
+    ]
+  },
+  "hybrid_bigram_nofilter": {
+    "method": "hybrid_bigram",
+    "description": "Hybrid: RRF(k=60) of dense top-20 and bm25_bigram top-20",
+    "split": "dev",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": false,
+    "N": 17,
+    "hit_at_1": {
+      "n": 15,
+      "N": 17,
+      "rate": 0.882
+    },
+    "evidence_hit_at_3": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "mrr_at_3": 0.941,
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "avg_context_chars": 2042.8,
+    "median_ms": 145.1,
+    "cost_usd": 0.0,
+    "misses_at_3": [],
+    "not_top1": [
+      "q12",
+      "q19"
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+[
+ {
+  "query_id": "q01",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p004-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng; p004-001."
+ },
+ {
+  "query_id": "q02",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p004-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "45 triệu lít, 10 chủng loại; p004-001."
+ },
+ {
+  "query_id": "q03",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p005-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "258,880 triệu VND; OCR p005-001."
+ },
+ {
+  "query_id": "q05",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p008-para800-002"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "500.000 VNĐ; p008-002."
+ },
+ {
+  "query_id": "q06",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p008-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Chi phí thấp kèm đặc điểm; tất cả có trong p008-001."
+ },
+ {
+  "query_id": "q07",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p011-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ điều kiện; p011-001."
+ },
+ {
+  "query_id": "q08",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p012-para800-000"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Giếng 45, trên 140m; p012-000."
+ },
+ {
+  "query_id": "q09",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p013-para800-000",
+   "qlsxks-l06-nhom2-p013-para800-001"
+  ],
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đủ 5 nguyên tắc; ý 5 ở p013-001 (cũng là chunk lân cận của p013-000)."
+ },
+ {
+  "query_id": "q10",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p015-para800-002"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "10/QĐ-MĐC-QLTN; p015-002."
+ },
+ {
+  "query_id": "q11",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p016-para800-003"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "630 bình, 15 ngày; p016-003."
+ },
+ {
+  "query_id": "q12",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p018-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Đông Nam Á và Trung Quốc; p018-001."
+ },
+ {
+  "query_id": "q13",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p019-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "4 loại tồn kho; p019-001."
+ },
+ {
+  "query_id": "q15",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p024-para800-001"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "3 bước; p024-001."
+ },
+ {
+  "query_id": "q19",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p028-para800-000"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Khâu sản xuất, cạnh tranh, vận hành sản xuất, pháp lý; p028-000."
+ },
+ {
+  "query_id": "q22",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p020-para800-000"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "1.605.800.000 VND; p020-000."
+ },
+ {
+  "query_id": "q23",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p023-para800-000"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "ISO 9001:2008, HACCP; p023-000."
+ },
+ {
+  "query_id": "q24",
+  "answer_grade": 2,
+  "citations": [
+   "qlsxks-l06-nhom2-p016-para800-002"
+  ],
+  "citation_support": [
+   true
+  ],
+  "reason": "Lọc thô, lọc tinh, lọc RO; p016-002."
+ },
+ {
+  "query_id": "u01",
+  "answer_grade": null,
+  "citations": [],
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng, không thêm khẳng định."
+ },
+ {
+  "query_id": "u02",
+  "answer_grade": null,
+  "citations": [],
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng, không thêm khẳng định."
+ }
+]

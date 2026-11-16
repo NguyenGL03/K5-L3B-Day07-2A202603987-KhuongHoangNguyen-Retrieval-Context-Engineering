@@ -1,0 +1,145 @@
+{
+  "gold": {
+    "q01": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q02": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q03": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q04": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q05": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q06": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q07": {
+      "gold_mode": "any",
+      "exact_substring": false,
+      "whitespace_insensitive": true
+    },
+    "q08": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q09": {
+      "gold_mode": "any",
+      "exact_substring": false,
+      "whitespace_insensitive": true
+    },
+    "q10": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q11": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q12": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q13": {
+      "gold_mode": "any",
+      "exact_substring": false,
+      "whitespace_insensitive": true
+    },
+    "q14": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q15": {
+      "gold_mode": "any",
+      "exact_substring": false,
+      "whitespace_insensitive": true
+    },
+    "q16": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q17": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q18": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q19": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q20": {
+      "gold_mode": "all",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q21": {
+      "gold_mode": "all",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q22": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q23": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    },
+    "q24": {
+      "gold_mode": "any",
+      "exact_substring": true,
+      "whitespace_insensitive": true
+    }
+  },
+  "absence_matches": {
+    "u01": {
+      "\\d[\\d.,]*\\s*(người|lao động|nhân viên|công nhân)": [],
+      "số lượng (lao động|nhân viên)": []
+    },
+    "u02": {
+      "giá bán": [],
+      "đồng\\s*/\\s*chai": [],
+      "\\d[\\d.,]*\\s*(đ|đồng|vnđ|vnd)\\s*/\\s*(chai|bình)": []
+    },
+    "u03": {
+      "giám đốc": [],
+      "chủ tịch": []
+    },
+    "u04": {
+      "vốn điều lệ": [],
+      "điều lệ": []
+    }
+  },
+  "day6_benchmark_frozen_at": "2026-11-14",
+  "day6_split_rule": "Chốt trước khi chạy truy xuất lần đầu. 17 dev / 7 test; test chọn trải đều các loại câu (diễn đạt lại, số liệu, điều kiện, trực tiếp, filter). Corpus chỉ có 1 tài liệu nên không tách được theo tài liệu; rủi ro rò rỉ: q16 (test) và q23 (dev) cùng trang 23, q09 (dev) và q20 (test) cùng dạng câu 'nguyên tắc' nhưng khác chương."
+}

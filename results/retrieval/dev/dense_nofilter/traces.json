@@ -1,0 +1,903 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "query": "Công ty Cổ phần Nước khoáng Quảng Ninh có tiền thân là đơn vị nào và được thành lập vào ngày nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p004-para800-001",
+        "page": 4,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.889756,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p004-para800-002",
+        "page": 4,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.781196,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p004-para800-000",
+        "page": 4,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.778597,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p004-para800-001",
+      "qlsxks-l06-nhom2-p004-para800-002",
+      "qlsxks-l06-nhom2-p004-para800-000"
+    ],
+    "context_chars": 2361,
+    "elapsed_ms": 135.43,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "so_lieu",
+    "query": "Hiện nay công ty sản xuất và tiêu thụ bao nhiêu lít nước khoáng mỗi năm, với bao nhiêu chủng loại sản phẩm?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p004-para800-001",
+        "page": 4,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.790593,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p004-para800-002",
+        "page": 4,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.774837,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p009-para800-000",
+        "page": 9,
+        "section": "thiet_ke_san_pham_va_dich_vu",
+        "score": 0.773835,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p004-para800-001",
+      "qlsxks-l06-nhom2-p004-para800-002",
+      "qlsxks-l06-nhom2-p009-para800-000"
+    ],
+    "context_chars": 1953,
+    "elapsed_ms": 139.27,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "so_lieu",
+    "query": "Doanh thu thuần năm 2022 của doanh nghiệp đạt bao nhiêu?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p005-para800-000",
+        "page": 5,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.832065,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p005-para800-001",
+        "page": 5,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.786177,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p006-para800-001",
+        "page": 6,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.756341,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p005-para800-000",
+      "qlsxks-l06-nhom2-p005-para800-001",
+      "qlsxks-l06-nhom2-p006-para800-001"
+    ],
+    "context_chars": 1645,
+    "elapsed_ms": 129.77,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "dieu_kien",
+    "query": "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p008-para800-002",
+        "page": 8,
+        "section": "thiet_ke_san_pham_va_dich_vu",
+        "score": 0.770405,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p015-para800-000",
+        "page": 15,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.732442,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p014-para800-001",
+        "page": 14,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.703477,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p008-para800-002",
+      "qlsxks-l06-nhom2-p015-para800-000",
+      "qlsxks-l06-nhom2-p014-para800-001"
+    ],
+    "context_chars": 2296,
+    "elapsed_ms": 128.9,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "query": "Dựa trên các lợi thế sẵn có, nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p029-para800-003",
+        "page": 29,
+        "section": "ket_luan",
+        "score": 0.757864,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p008-para800-001",
+        "page": 8,
+        "section": "thiet_ke_san_pham_va_dich_vu",
+        "score": 0.735678,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p026-para800-002",
+        "page": 26,
+        "section": "quan_ly_rui_ro",
+        "score": 0.727117,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p029-para800-003",
+      "qlsxks-l06-nhom2-p008-para800-001",
+      "qlsxks-l06-nhom2-p026-para800-002"
+    ],
+    "context_chars": 1854,
+    "elapsed_ms": 129.65,
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "rr": 0.5,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "query": "Bố trí mặt bằng theo sản phẩm được áp dụng trong những điều kiện nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p011-para800-001",
+        "page": 11,
+        "section": "bo_tri_mat_bang",
+        "score": 0.875649,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p011-para800-000",
+        "page": 11,
+        "section": "bo_tri_mat_bang",
+        "score": 0.781176,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p013-para800-000",
+        "page": 13,
+        "section": "bo_tri_mat_bang",
+        "score": 0.774489,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p011-para800-001",
+      "qlsxks-l06-nhom2-p011-para800-000",
+      "qlsxks-l06-nhom2-p013-para800-000"
+    ],
+    "context_chars": 2111,
+    "elapsed_ms": 146.15,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "query": "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan nào và ở độ sâu bao nhiêu?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p012-para800-000",
+        "page": 12,
+        "section": "bo_tri_mat_bang",
+        "score": 0.812391,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p009-para800-000",
+        "page": 9,
+        "section": "thiet_ke_san_pham_va_dich_vu",
+        "score": 0.728812,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p004-para800-003",
+        "page": 4,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.718727,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p012-para800-000",
+      "qlsxks-l06-nhom2-p009-para800-000",
+      "qlsxks-l06-nhom2-p004-para800-003"
+    ],
+    "context_chars": 2037,
+    "elapsed_ms": 144.59,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "query": "Những nguyên tắc cần tuân thủ là gì?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p022-para800-001",
+        "page": 22,
+        "section": "quan_ly_chat_luong",
+        "score": 0.694938,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p023-para800-003",
+        "page": 23,
+        "section": "quan_ly_chat_luong",
+        "score": 0.691467,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p013-para800-000",
+        "page": 13,
+        "section": "bo_tri_mat_bang",
+        "score": 0.680534,
+        "components": null,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p022-para800-001",
+      "qlsxks-l06-nhom2-p023-para800-003",
+      "qlsxks-l06-nhom2-p013-para800-000"
+    ],
+    "context_chars": 1750,
+    "elapsed_ms": 123.27,
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 3,
+    "rr": 0.3333333333333333,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "query": "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo giấy phép số mấy?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p015-para800-002",
+        "page": 15,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.815061,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p012-para800-000",
+        "page": 12,
+        "section": "bo_tri_mat_bang",
+        "score": 0.723218,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p013-para800-002",
+        "page": 13,
+        "section": "bo_tri_mat_bang",
+        "score": 0.707329,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p015-para800-002",
+      "qlsxks-l06-nhom2-p012-para800-000",
+      "qlsxks-l06-nhom2-p013-para800-002"
+    ],
+    "context_chars": 2022,
+    "elapsed_ms": 138.89,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "so_lieu",
+    "query": "Mỗi ngày nhà máy sản xuất được bao nhiêu bình 19 lít và cần bao lâu để hoàn thành đơn hàng 10000 bình?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p016-para800-003",
+        "page": 16,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.862494,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p017-para800-001",
+        "page": 17,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.780739,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p012-para800-002",
+        "page": 12,
+        "section": "bo_tri_mat_bang",
+        "score": 0.723556,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p016-para800-003",
+      "qlsxks-l06-nhom2-p017-para800-001",
+      "qlsxks-l06-nhom2-p012-para800-002"
+    ],
+    "context_chars": 1807,
+    "elapsed_ms": 161.77,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "query": "Ngoài thị trường nội địa, sản phẩm của công ty được bán ra những thị trường nước ngoài nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p029-para800-002",
+        "page": 29,
+        "section": "ket_luan",
+        "score": 0.79376,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p018-para800-001",
+        "page": 18,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.76762,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p008-para800-000",
+        "page": 8,
+        "section": "thiet_ke_san_pham_va_dich_vu",
+        "score": 0.726506,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p029-para800-002",
+      "qlsxks-l06-nhom2-p018-para800-001",
+      "qlsxks-l06-nhom2-p008-para800-000"
+    ],
+    "context_chars": 1989,
+    "elapsed_ms": 135.08,
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "rr": 0.5,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "query": "Có bao nhiêu loại và gồm những loại nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p019-para800-001",
+        "page": 19,
+        "section": "quan_ly_ton_kho",
+        "score": 0.745591,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p028-para800-000",
+        "page": 28,
+        "section": "quan_ly_rui_ro",
+        "score": 0.729195,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p014-para800-004",
+        "page": 14,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.708737,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p019-para800-001",
+      "qlsxks-l06-nhom2-p028-para800-000",
+      "qlsxks-l06-nhom2-p014-para800-004"
+    ],
+    "context_chars": 1056,
+    "elapsed_ms": 141.01,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "query": "Quy trình gồm những bước nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p024-para800-001",
+        "page": 24,
+        "section": "quan_ly_rui_ro",
+        "score": 0.773036,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p016-para800-002",
+        "page": 16,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.754476,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p028-para800-003",
+        "page": 28,
+        "section": "quan_ly_rui_ro",
+        "score": 0.752906,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p024-para800-001",
+      "qlsxks-l06-nhom2-p016-para800-002",
+      "qlsxks-l06-nhom2-p028-para800-003"
+    ],
+    "context_chars": 1504,
+    "elapsed_ms": 163.32,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "type": "truc_tiep",
+    "query": "Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p028-para800-000",
+        "page": 28,
+        "section": "quan_ly_rui_ro",
+        "score": 0.81713,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p027-para800-002",
+        "page": 27,
+        "section": "quan_ly_rui_ro",
+        "score": 0.812853,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p027-para800-003",
+        "page": 27,
+        "section": "quan_ly_rui_ro",
+        "score": 0.790808,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p028-para800-000",
+      "qlsxks-l06-nhom2-p027-para800-002",
+      "qlsxks-l06-nhom2-p027-para800-003"
+    ],
+    "context_chars": 993,
+    "elapsed_ms": 200.26,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "type": "so_lieu",
+    "query": "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là bao nhiêu?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p020-para800-000",
+        "page": 20,
+        "section": "quan_ly_ton_kho",
+        "score": 0.862163,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p020-para800-001",
+        "page": 20,
+        "section": "quan_ly_ton_kho",
+        "score": 0.839142,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p021-para800-000",
+        "page": 21,
+        "section": "quan_ly_ton_kho",
+        "score": 0.790559,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p020-para800-000",
+      "qlsxks-l06-nhom2-p020-para800-001",
+      "qlsxks-l06-nhom2-p021-para800-000"
+    ],
+    "context_chars": 2496,
+    "elapsed_ms": 140.16,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "type": "truc_tiep",
+    "query": "Công ty áp dụng những hệ thống quản lý chất lượng theo tiêu chuẩn nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p023-para800-000",
+        "page": 23,
+        "section": "quan_ly_chat_luong",
+        "score": 0.796582,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p022-para800-002",
+        "page": 22,
+        "section": "quan_ly_chat_luong",
+        "score": 0.788392,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p023-para800-001",
+        "page": 23,
+        "section": "quan_ly_chat_luong",
+        "score": 0.770544,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p023-para800-000",
+      "qlsxks-l06-nhom2-p022-para800-002",
+      "qlsxks-l06-nhom2-p023-para800-001"
+    ],
+    "context_chars": 2201,
+    "elapsed_ms": 124.21,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "type": "dieu_kien",
+    "query": "Ở công đoạn thứ ba của quá trình sản xuất, nước được đưa qua những hệ thống lọc nào để loại bỏ tạp chất?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p016-para800-002",
+        "page": 16,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.822017,
+        "components": null,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p013-para800-002",
+        "page": 13,
+        "section": "bo_tri_mat_bang",
+        "score": 0.742229,
+        "components": null,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p012-para800-003",
+        "page": 12,
+        "section": "bo_tri_mat_bang",
+        "score": 0.726621,
+        "components": null,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p016-para800-002",
+      "qlsxks-l06-nhom2-p013-para800-002",
+      "qlsxks-l06-nhom2-p012-para800-003"
+    ],
+    "context_chars": 1421,
+    "elapsed_ms": 141.16,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  }
+]

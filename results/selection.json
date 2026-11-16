@@ -1,0 +1,35 @@
+{
+  "selected_at": "2026-11-16T00:57:43+0700",
+  "split_used": "dev",
+  "criterion": "(applied in this order; written before any Day 7 test run):\n  1. higher mean grounded-answer grade (/2, manual labels) on dev answerable questions\n  2. fewer wrong abstentions + more correct abstentions on dev\n  3. higher valid-citation rate (manual citation_support)\n  4. higher Context Evidence Rate (gold evidence in the final context)\n  5. lower median latency per question, then fewer prompt tokens (cost proxy; $0 local)",
+  "ranking": [
+    "A3_hybrid_orig",
+    "A4_hybrid_orig_ctx",
+    "A2_hybrid",
+    "A1_bm25",
+    "A0_dense"
+  ],
+  "selected": "A3_hybrid_orig",
+  "selected_config": {
+    "retriever": "hybrid_bigram",
+    "top_k": 3,
+    "budget": 2600,
+    "context_policy": "append",
+    "max_searches": 3,
+    "original_first": true
+  },
+  "quality_ties": [
+    "A4_hybrid_orig_ctx"
+  ],
+  "baseline": "A0_dense",
+  "baseline_config": {
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 2600,
+    "context_policy": "append",
+    "max_searches": 3
+  },
+  "llm": "qwen3:4b-instruct",
+  "embedding": "google/embeddinggemma-2@f9972ac",
+  "note": "Chốt trên dev trước khi chạy bất kỳ lần test nào của Day 7. Test chạy đúng 2 cấu hình: baseline và selected."
+}

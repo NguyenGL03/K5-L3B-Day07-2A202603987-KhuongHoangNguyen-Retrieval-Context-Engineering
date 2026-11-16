@@ -1,0 +1,44 @@
+# Day 7 local stack: pgvector (vector store) + Ollama (embeddinggemma + chat model).
+# Run from repo root:  docker compose -f starter/docker-compose.yml up -d
+name: day07-rag
+
+services:
+  pgvector:
+    image: pgvector/pgvector:pg17
+    container_name: day07-pgvector
+    environment:
+      POSTGRES_USER: ${PG_USER:-rag}
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-rag}
+      POSTGRES_DB: ${PG_DB:-rag}
+    ports:
+      - "${PG_PORT:-5433}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER:-rag} -d ${PG_DB:-rag}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: day07-ollama
+    ports:
+      - "${OLLAMA_PORT:-11434}:11434"
+    volumes:
+      - ollama:/root/.ollama
+    environment:
+      OLLAMA_KEEP_ALIVE: 30m
+    # Remove this block if the machine has no NVIDIA GPU; Ollama falls back to CPU.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+volumes:
+  pgdata:
+  ollama:

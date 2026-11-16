@@ -1,0 +1,394 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Công ty Cổ phần Nước khoáng Quảng Ninh có tiền thân là đơn vị nào và được thành lập vào ngày nào?",
+    "expected_answer": "Tiền thân là Xí nghiệp nước khoáng Quảng Ninh, thành lập ngày 17/7/1989.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 4,
+        "evidence": "tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Hiện nay công ty sản xuất và tiêu thụ bao nhiêu lít nước khoáng mỗi năm, với bao nhiêu chủng loại sản phẩm?",
+    "expected_answer": "45 triệu lít/năm, 10 chủng loại sản phẩm của 2 thương hiệu.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 4,
+        "evidence": "sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Doanh thu thuần năm 2022 của doanh nghiệp đạt bao nhiêu?",
+    "expected_answer": "258,880 triệu VND, tăng hơn 20%.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 5,
+        "evidence": "Doanh thu thuần của doanh nghiệp năm 2022 đạt 258,880 triệu VND tăng hơn 20%"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "So với kế hoạch đề ra, năm 2022 công ty hoàn thành chỉ tiêu lợi nhuận sau thuế ở mức bao nhiêu?",
+    "expected_answer": "Đạt 161% kế hoạch lợi nhuận sau thuế (doanh thu đạt 118% kế hoạch).",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 6,
+        "evidence": "đạt doanh thu kế hoạch 118% và lợi nhuận sau thuế kế hoạch lên tới 161%"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp nào?",
+    "expected_answer": "Khi đơn hàng có giá trị từ 500.000 VNĐ trở lên.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 8,
+        "evidence": "Dịch vụ giao hàng tận nơi, miễn phí đối với đơn hàng có giá trị từ 500.000 VNĐ trở lên."
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Dựa trên các lợi thế sẵn có, nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh nào?",
+    "expected_answer": "Chiến lược cạnh tranh chi phí thấp.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 8,
+        "evidence": "nhóm sẽ đề xuất áp dụng chiến lược chi phí thấp để cạnh tranh với các công ty Nước khoáng khác trên thị trường"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Bố trí mặt bằng theo sản phẩm được áp dụng trong những điều kiện nào?",
+    "expected_answer": "Khi sản lượng lớn và ít chủng loại, đồng thời: nhu cầu ổn định, sản lượng đảm bảo hệ số sử dụng thiết bị, sản phẩm đã chuẩn hóa, nguyên vật liệu đảm bảo chất lượng đồng đều.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 11,
+        "evidence": "Bố trí mặt bằng theo sản phẩm hay nhóm sản phẩm được áp dụng khi sản lượng lớn và ít chủng loại sản phẩm, đồng thời thỏa các yếu tố sau: – Nhu cầu ổn định – Sản lượng đảm bảo hệ số sử dụng thiết bị. – Sản phẩm đã chuẩn hóa hay đạt được một pha của chu kỳ sản phẩm. – Nguyên vật liệu đảm bảo chất lượng đồng đều."
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan nào và ở độ sâu bao nhiêu?",
+    "expected_answer": "Giếng khoan số 45, độ sâu trên 140m tại Bãi Cháy, Hạ Long.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 12,
+        "evidence": "Nước khoáng thiên nhiên Suối Mơ được khai thác và sản xuất từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Những nguyên tắc cần tuân thủ là gì?",
+    "expected_answer": "Tuân thủ quy trình công nghệ sản xuất; thuận lợi cho mở rộng sản xuất; đảm bảo an toàn cho người lao động; tận dụng hợp lý không gian làm việc; đảm bảo tính linh hoạt.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 13,
+        "evidence": "Nguyên tắc bố trí mặt bằng: – Tuân thủ quy trình công nghệ sản xuất"
+      }
+    ],
+    "gold_mode": "any",
+    "filter": {
+      "section": "bo_tri_mat_bang"
+    },
+    "filter_context": "Người dùng đang đọc chương 3 'Bố trí mặt bằng'; filter giả định được cung cấp trước truy xuất."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo giấy phép số mấy?",
+    "expected_answer": "Giấy phép số 10/QĐ-MĐC-QLTN (giếng khoan 3B, km9 phường Quảng Ninh, Tp. Cẩm Phả).",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 15,
+        "evidence": "giếng khoan 3B, km9 phường Quảng Ninh, Tp. Cẩm Phả, theo Giấy phép số 10/QĐ-MĐC-QLTN"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Mỗi ngày nhà máy sản xuất được bao nhiêu bình 19 lít và cần bao lâu để hoàn thành đơn hàng 10000 bình?",
+    "expected_answer": "630 bình/ngày; cần 15 ngày.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 16,
+        "evidence": "Tổng sản phẩm (bình 19 lít) một ngày nhà máy có thể sản xuất: 630 bình, cần 15 ngày để đong 10000 bình."
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Ngoài thị trường nội địa, sản phẩm của công ty được bán ra những thị trường nước ngoài nào?",
+    "expected_answer": "Các nước trong khu vực Đông Nam Á và Trung Quốc.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 18,
+        "evidence": "xuất khẩu sản phẩm đến nhiều thị trường quốc tế, bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Có bao nhiêu loại và gồm những loại nào?",
+    "expected_answer": "4 loại tồn kho: nguyên vật liệu, bán thành phẩm, thành phẩm, phụ tùng.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 19,
+        "evidence": "Có 4 loại tồn kho bao gồm: – Tồn kho nguyên vật liệu:là nguyên phụ liệu chưa được đưa vào quy trình sản xuất – Tồn kho bán thành phẩm:là các nguyên liệu đã trải qua một số thay đổi, sử dụng nhưng chưa trở thành thành phẩm. – Tồn kho thành phẩm:là sản phẩm hoàn chỉnh và chờ giao hàng. – Tồn kho phụ tùng:là những phụ tùng dành cho bảo trì/ sửa chữa/ vận hành."
+      }
+    ],
+    "gold_mode": "any",
+    "filter": {
+      "section": "quan_ly_ton_kho"
+    },
+    "filter_context": "Người dùng đang đọc chương 5 'Quản lý tồn kho'; filter giả định được cung cấp trước truy xuất."
+  },
+  {
+    "id": "q14",
+    "split": "test",
+    "type": "so_lieu",
+    "question": "Tổng giá trị hàng tồn kho năm 2022 giảm bao nhiêu, từ mức nào xuống mức nào?",
+    "expected_answer": "Giảm 2.328.603.102 VND, từ 10.957.832.534 VND xuống 8.629.229.432 VND.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 21,
+        "evidence": "Giá trị tồn kho giảm từ 10.957.832.534 VND xuống còn 8.629.229.432 VND giảm 2.328.603.102 VND"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Quy trình gồm những bước nào?",
+    "expected_answer": "Phân tích rủi ro, đánh giá rủi ro, đưa ra giải pháp xử lý rủi ro.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 24,
+        "evidence": "bao gồm các bước như sau: – Phân tích rủi ro – Đánh giá rủi ro – Đưa ra giải pháp xử lý rủi ro"
+      }
+    ],
+    "gold_mode": "any",
+    "filter": {
+      "section": "quan_ly_rui_ro"
+    },
+    "filter_context": "Người dùng đang đọc chương 7 'Quản lý rủi ro'; filter giả định được cung cấp trước truy xuất."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Sản phẩm của công ty đạt quy chuẩn kỹ thuật nào và do cơ quan nào kiểm định?",
+    "expected_answer": "QCVN 6/1:2010/BYT; kiểm định bởi Chi cục an toàn thực phẩm Sở Y tế Quảng Ninh.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 23,
+        "evidence": "đã được kiểm định bởi Chi cục an toàn thực phẩm sở y tế Quảng Ninh. Công ty đạt chuẩn kĩ thuật QCVN 6/1:2010/BYT."
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Những đồng ngoại tệ nào là nguồn chính gây rủi ro tỷ giá cho doanh nghiệp?",
+    "expected_answer": "USD và EUR.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 26,
+        "evidence": "Loại tiền tệ gây ra rủi ro này chủ yếu là USD và EUR"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Nếu sản phẩm lỗi do con người gây ra thì công ty nên xử lý thế nào?",
+    "expected_answer": "Lỗi do con người thường ở khâu vận chuyển hoặc xử lý bằng tay, nên áp dụng tối đa công nghệ tự động hóa, giảm tác động trực tiếp của con người; đồng thời nâng cao chất lượng nhân sự, đào tạo bài bản.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 27,
+        "evidence": "Nếu lỗi xuất phát từ con người, nó thường đến từ khâu vận chuyển hoặc khi được xử lý bằng tay, vậy nên áp dụng tối đa những công nghệ tự động hóa vào quá trình sản xuất"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?",
+    "expected_answer": "Rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 28,
+        "evidence": "Rủi ro nghiêm trọng: Rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý."
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Có những nguyên tắc nào cần tuân theo?",
+    "expected_answer": "Định hướng bởi khách hàng, sự lãnh đạo, sự tham gia của mọi người, tiếp cận theo quá trình, tính hệ thống, cải tiến liên tục, quyết định dựa trên sự kiện.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 22,
+        "evidence": "– Định hướng bởi khách hàng"
+      },
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 22,
+        "evidence": "– Tiếp cận theo quá trình"
+      }
+    ],
+    "gold_mode": "all",
+    "day6_evidence_quote": "Các nguyên tắc để quản lý chất lượng sản phẩm bao gồm: – Định hướng bởi khách hàng",
+    "filter": {
+      "section": "quan_ly_chat_luong"
+    },
+    "filter_context": "Người dùng đang đọc chương 6 'Quản lý chất lượng'; filter giả định được cung cấp trước truy xuất."
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Những ưu điểm chính là gì?",
+    "expected_answer": "Ưu điểm của hợp đồng sản xuất: tiếp cận nhanh công nghệ tiên tiến; đưa sản phẩm ra thị trường nhanh hơn; tăng tính linh hoạt; tổng chi phí thấp hơn nhờ kinh tế quy mô.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 14,
+        "evidence": "– Tiếp cận nhanh các công nghệ sản xuất tiên tiến."
+      },
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 14,
+        "evidence": "– Tổng chi phí thấp hơn do tính kinh tế về quy mô"
+      }
+    ],
+    "gold_mode": "all",
+    "day6_evidence_quote": "Ưu điểm của việc sử dụng hợp đồng sản xuất: – Tiếp cận nhanh các công nghệ sản xuất tiên tiến. – Thời gian đưa sản phẩm ra thị trường nhanh hơn. – Tăng tính linh hoạt của hàng hoá trong thị trường khu vực. – Tổng chi phí thấp hơn do tính kinh tế về quy mô",
+    "filter": {
+      "section": "quan_ly_chuoi_cung_ung"
+    },
+    "filter_context": "Người dùng đang đọc chương 4 'Quản lý chuỗi cung ứng'; filter giả định được cung cấp trước truy xuất."
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là bao nhiêu?",
+    "expected_answer": "1.605.800.000 VND (đầu năm bằng 0).",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 20,
+        "evidence": "Tồn kho do hàng mua đang đi đường:giá trị đầu năm bằng 0 gia tăng đến cuối năm 2021 lên tới 1.605.800.000 VND"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Công ty áp dụng những hệ thống quản lý chất lượng theo tiêu chuẩn nào?",
+    "expected_answer": "ISO 9001:2008 và hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm HACCP - CODE: 2003.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 23,
+        "evidence": "hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế ISO 9001:2008 và Hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm HACCP - CODE: 2003"
+      }
+    ],
+    "gold_mode": "any"
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Ở công đoạn thứ ba của quá trình sản xuất, nước được đưa qua những hệ thống lọc nào để loại bỏ tạp chất?",
+    "expected_answer": "Lọc thô để loại bỏ tạp chất lơ lửng, sau đó qua hệ thống lọc tinh, lọc RO.",
+    "gold": [
+      {
+        "source_id": "qlsxks-l06-nhom2",
+        "page": 16,
+        "evidence": "được bơm qua hệ thống lọc thô để loại bỏ các tạp chất lơ lửng sau đó qua hệ thống lọc tinh, lọc RO"
+      }
+    ],
+    "gold_mode": "any"
+  }
+]

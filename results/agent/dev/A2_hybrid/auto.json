@@ -1,0 +1,108 @@
+{
+  "config_name": "A2_hybrid",
+  "agent_config": {
+    "retriever": "hybrid_bigram",
+    "top_k": 3,
+    "budget": 2600,
+    "context_policy": "append",
+    "max_searches": 3
+  },
+  "retriever": "Hybrid: RRF(k=60) of dense top-20 and bm25_bigram top-20",
+  "llm": {
+    "provider": "Ollama (local, Docker)",
+    "model": "qwen3:4b-instruct",
+    "options": {
+      "temperature": 0.0,
+      "seed": 7,
+      "num_ctx": 6144
+    },
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "4.0B",
+      "quantization_level": "Q4_K_M"
+    },
+    "capabilities": [
+      "tools",
+      "thinking",
+      "completion"
+    ],
+    "digest_modified_at": "2026-11-15T17:23:30.600026646Z"
+  },
+  "embedding": {
+    "model": "google/embeddinggemma-2",
+    "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+    "dimensions": 768,
+    "device": "cpu",
+    "dtype": "float32",
+    "normalized": true,
+    "query_prompt": "task: search result | query: ",
+    "cost_usd": 0.0
+  },
+  "run_started": "2026-11-16T00:41:22+0700",
+  "split": "dev",
+  "metrics": {
+    "cases": 19,
+    "errors": 0,
+    "tool_use": {
+      "n": 19,
+      "N": 19,
+      "rate": 1.0
+    },
+    "searches_distribution": {
+      "1": 19
+    },
+    "mean_searches": 1,
+    "first_search_hit_at_1": {
+      "n": 14,
+      "N": 17,
+      "rate": 0.824
+    },
+    "first_search_evidence_hit_at_3": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "context_evidence_rate": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.941
+    },
+    "status_answerable": {
+      "answered": 17
+    },
+    "status_unanswerable": {
+      "abstain": 2
+    },
+    "abstain_on_unanswerable": {
+      "n": 2,
+      "N": 2,
+      "rate": 1.0
+    },
+    "abstain_on_answerable": {
+      "n": 0,
+      "N": 17,
+      "rate": 0.0
+    },
+    "answers_with_citation": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    },
+    "end_events": {
+      "answer": 17,
+      "abstain": 2
+    },
+    "median_latency_s": 14.99,
+    "total_latency_s": 306.7,
+    "mean_llm_calls": 2.47,
+    "mean_prompt_tokens": 1900.9,
+    "mean_completion_tokens": 131.4,
+    "mean_final_context_chars": 2088.2,
+    "cost_usd": 0.0
+  }
+}

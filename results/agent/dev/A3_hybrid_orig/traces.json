@@ -1,0 +1,2023 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "answerable": true,
+    "question": "Công ty Cổ phần Nước khoáng Quảng Ninh có tiền thân là đơn vị nào và được thành lập vào ngày nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Công ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989 [qlsxks-l06-nhom2-p004-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p004-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Công ty Cổ phần Nước khoáng Quảng Ninh có tiền thân là đơn vị nào và được thành lập vào ngày nào?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p004-para800-001",
+            "page": 4,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p004-para800-000",
+            "page": 4,
+            "score": 0.031498
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p004-para800-002",
+            "page": 4,
+            "score": 0.031054
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p004-para800-001",
+          "qlsxks-l06-nhom2-p004-para800-000",
+          "qlsxks-l06-nhom2-p004-para800-002"
+        ],
+        "context_chars": 2361,
+        "retrieval_ms": 135.29
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p004-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nCông ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau.\n\n[qlsxks-l06-nhom2-p004-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\n1 Tổng quan về doanh nghiệp\n1.1 Giới thiệu doanh nghiệp\nNước khoáng là nguồn cung cấp canxi và magiê tốt. Vì vậy, nó được cho là có lợi cho những người có vấn đề về huyết áp. Sự thiếu hụt magiê và canxi có thể góp phần gây tăng huyết áp. Cả hai khoáng chất này đều tích cực tham gia vào quá trình điện phân của não và cơ thể con người. Ở trong nước ta hiện nay, có hơn 300 địa điểm có dòng nước khoáng tự nhiên song trong số đó có khá ít nguồn nước được sử dụng để khai thác làm nước uống đóng chai. Công ty Cổ phần Nước Khoáng Quảng Ninh (tới đây xin được viết tắt thành: \"Công ty Nước khoáng Quảng Ninh\") là một trong số ít doanh nghiệp lớn về nước uống đóng chai đặc biệt là nước khoáng tự nhiên trong nước ta. Với sự giới thiệu của nhóm về doanh nghiệp, nhóm mong muốn những doanh nghiệp ở trong nước sẽ được biết đến rộng rãi hơn và hiểu hơn về họ.\n\n[qlsxks-l06-nhom2-p004-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nCông ty Cổ phần Nước khoáng Quảng Ninh luôn hướng tới mục tiêu vì chất lượng cuộc sống, bằng những nghiên cứu sáng tạo sản xuất ra những sản phẩm nước khoáng thiên nhiên chất lượng cao, từ nguồn nước quý hiếm mà thiên nhiên ban tặng, mang sắc thái riêng với chất lượng tốt nhất.\nHoạt động chính của công ty là khai thác, sản xuất, kinh doanh các loại nước khoáng thiên nhiên, nước giải khát, nước sinh hoạt. Kinh doanh xuất nhập khẩu trực tiếp. Kinh doanh thương mại, du lịch và dịch vụ tổng hợp.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p004-para800-001",
+      "qlsxks-l06-nhom2-p004-para800-000",
+      "qlsxks-l06-nhom2-p004-para800-002"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-001",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Công ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-000",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "1 Tổng quan về doanh nghiệp\n1.1 Giới thiệu doanh nghiệp\nNước khoáng là nguồn cung cấp canxi và magiê tốt. Vì vậy, nó được cho là có lợi cho những người có vấn đề về huyết áp. Sự thiếu hụt magiê và canxi có thể góp phần gây tăng huyết áp. Cả hai khoáng chất này đều tích cực tham gia vào quá trình điện phân của não và cơ thể con người. Ở trong nước ta hiện nay, có hơn 300 địa điểm có dòng nước khoáng tự nhiên song trong số đó có khá ít nguồn nước được sử dụng để khai thác làm nước uống đóng chai. Công ty Cổ phần Nước Khoáng Quảng Ninh (tới đây xin được viết tắt thành: \"Công ty Nước khoáng Quảng Ninh\") là một trong số ít doanh nghiệp lớn về nước uống đóng chai đặc biệt là nước khoáng tự nhiên trong nước ta. Với sự giới thiệu của nhóm về doanh nghiệp, nhóm mong muốn những doanh nghiệp ở trong nước sẽ được biết đến rộng rãi hơn và hiểu hơn về họ."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-002",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Công ty Cổ phần Nước khoáng Quảng Ninh luôn hướng tới mục tiêu vì chất lượng cuộc sống, bằng những nghiên cứu sáng tạo sản xuất ra những sản phẩm nước khoáng thiên nhiên chất lượng cao, từ nguồn nước quý hiếm mà thiên nhiên ban tặng, mang sắc thái riêng với chất lượng tốt nhất.\nHoạt động chính của công ty là khai thác, sản xuất, kinh doanh các loại nước khoáng thiên nhiên, nước giải khát, nước sinh hoạt. Kinh doanh xuất nhập khẩu trực tiếp. Kinh doanh thương mại, du lịch và dịch vụ tổng hợp."
+      }
+    ],
+    "queries": [
+      "Công ty Cổ phần Nước khoáng Quảng Ninh có tiền thân là đơn vị nào và được thành lập vào ngày nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1320,
+        "completion_tokens": 65,
+        "wall_s": 7.862,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1320,
+    "completion_tokens": 65,
+    "elapsed_s": 7.998,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "so_lieu",
+    "answerable": true,
+    "question": "Hiện nay công ty sản xuất và tiêu thụ bao nhiêu lít nước khoáng mỗi năm, với bao nhiêu chủng loại sản phẩm?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Công ty Cổ phần Nước khoáng Quảng Ninh sản xuất và tiêu thụ 45 triệu lít nước khoáng mỗi năm với 10 chủng loại sản phẩm [qlsxks-l06-nhom2-p004-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p004-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Hiện nay công ty sản xuất và tiêu thụ bao nhiêu lít nước khoáng mỗi năm, với bao nhiêu chủng loại sản phẩm?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p004-para800-001",
+            "page": 4,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p018-para800-000",
+            "page": 18,
+            "score": 0.030769
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p004-para800-002",
+            "page": 4,
+            "score": 0.030415
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p004-para800-001",
+          "qlsxks-l06-nhom2-p018-para800-000",
+          "qlsxks-l06-nhom2-p004-para800-002"
+        ],
+        "context_chars": 2239,
+        "retrieval_ms": 133.52
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p004-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nCông ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau.\n\n[qlsxks-l06-nhom2-p018-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 18 | Quản lý chuỗi cung ứng]\nNhư vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau.\n\n[qlsxks-l06-nhom2-p004-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nCông ty Cổ phần Nước khoáng Quảng Ninh luôn hướng tới mục tiêu vì chất lượng cuộc sống, bằng những nghiên cứu sáng tạo sản xuất ra những sản phẩm nước khoáng thiên nhiên chất lượng cao, từ nguồn nước quý hiếm mà thiên nhiên ban tặng, mang sắc thái riêng với chất lượng tốt nhất.\nHoạt động chính của công ty là khai thác, sản xuất, kinh doanh các loại nước khoáng thiên nhiên, nước giải khát, nước sinh hoạt. Kinh doanh xuất nhập khẩu trực tiếp. Kinh doanh thương mại, du lịch và dịch vụ tổng hợp.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p004-para800-001",
+      "qlsxks-l06-nhom2-p018-para800-000",
+      "qlsxks-l06-nhom2-p004-para800-002"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-001",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Công ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p018-para800-000",
+        "page": 18,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Như vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-002",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Công ty Cổ phần Nước khoáng Quảng Ninh luôn hướng tới mục tiêu vì chất lượng cuộc sống, bằng những nghiên cứu sáng tạo sản xuất ra những sản phẩm nước khoáng thiên nhiên chất lượng cao, từ nguồn nước quý hiếm mà thiên nhiên ban tặng, mang sắc thái riêng với chất lượng tốt nhất.\nHoạt động chính của công ty là khai thác, sản xuất, kinh doanh các loại nước khoáng thiên nhiên, nước giải khát, nước sinh hoạt. Kinh doanh xuất nhập khẩu trực tiếp. Kinh doanh thương mại, du lịch và dịch vụ tổng hợp."
+      }
+    ],
+    "queries": [
+      "Hiện nay công ty sản xuất và tiêu thụ bao nhiêu lít nước khoáng mỗi năm, với bao nhiêu chủng loại sản phẩm?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1289,
+        "completion_tokens": 63,
+        "wall_s": 6.289,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1289,
+    "completion_tokens": 63,
+    "elapsed_s": 6.423,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "so_lieu",
+    "answerable": true,
+    "question": "Doanh thu thuần năm 2022 của doanh nghiệp đạt bao nhiêu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Doanh thu thuần năm 2022 của doanh nghiệp đạt 258,880 triệu VND [qlsxks-l06-nhom2-p005-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p005-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Doanh thu thuần năm 2022 của doanh nghiệp đạt bao nhiêu?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p005-para800-000",
+            "page": 5,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p005-para800-001",
+            "page": 5,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p006-para800-001",
+            "page": 6,
+            "score": 0.031746
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p005-para800-000",
+          "qlsxks-l06-nhom2-p005-para800-001",
+          "qlsxks-l06-nhom2-p006-para800-001"
+        ],
+        "context_chars": 1645,
+        "retrieval_ms": 155.47
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p005-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 5 | Tổng quan về doanh nghiệp]\n1.2 Tình hình kinh doanh của doanh nghiệp\nDoanh thu thuần của doanh nghiệp năm 2022 đạt 258,880 triệu VND tăng hơn 20%, lợi nhuận gộp tăng hơn 24,5% so với cùng kỳ năm 2021 và 2020. Cân đối tài chính của doanh nghiệp năm 2022 tăng mạnh, vốn chủ sở hữu tăng từ 181,927 triệu VND lên 212,629 triệu VND. Nhìn chung sau đại dịch, công ty nước khoáng Quảng Ninh đã phục hồi tốt theo hướng tích cực.\nHình 1: Kết quả kinh doanh (ĐVT: Triệu đồng)\nHình 2: Bảng cân đối kế toán (ĐVT: Triệu đồng)\nHình 3: Chỉ số tài chính (ĐVT: Triệu đồng)\n\n[qlsxks-l06-nhom2-p005-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 5 | Tổng quan về doanh nghiệp]\n[OCR ảnh 1 trang 5 — Tesseract, độ tin cậy 89]\nNăm 2019 Năm 2020 Năm 2021 Năm 2022\nKết quả kinh doanh 01/04-3/12 01/04-3/12 01/04-3/12 01/04-3/12\nKTIĐL KTIĐL KTIĐL KTIĐL\nDoanh thu thuần 267,300 211,170 215,489 258,880\nLợi nhuận gộp 56,298 50,047 52,145 64,940\nLN thuần từ HĐKD 35,767 32,622 31,527 50,359\nLNST thu nhập DN 28,480 26,085 25,003 40,277\nLNST của CÐ cty mẹ 28,480 26,085 25,003 40,277\n\n[qlsxks-l06-nhom2-p006-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 6 | Tổng quan về doanh nghiệp]\n[OCR ảnh 1 trang 6 — Tesseract, độ tin cậy 94]\nChỉ tiêu kế hoạch ›\nTình hình thực hiện\nDoanh thu kê hoạch 0\nLợi nhuận sau thuê kê hoạch\nKê hoạch 2022 & Thực hiện Năm\nChỉ tiêu kế hoạch các năm\nChỉ tiêu Năm 2022 Năm 2021 Năm 2020 Năm 2019\nDoanh thu kế hoạch 220,000 260,000 285,000 230,000\nLợi nhuận trước thuế kế hoạch 40,000\nLợi nhuận sau thuế kế hoạch 25,000 32,000 32,500 10,000\nĐVT: Triệu đồng",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p005-para800-000",
+      "qlsxks-l06-nhom2-p005-para800-001",
+      "qlsxks-l06-nhom2-p006-para800-001"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p005-para800-000",
+        "page": 5,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "1.2 Tình hình kinh doanh của doanh nghiệp\nDoanh thu thuần của doanh nghiệp năm 2022 đạt 258,880 triệu VND tăng hơn 20%, lợi nhuận gộp tăng hơn 24,5% so với cùng kỳ năm 2021 và 2020. Cân đối tài chính của doanh nghiệp năm 2022 tăng mạnh, vốn chủ sở hữu tăng từ 181,927 triệu VND lên 212,629 triệu VND. Nhìn chung sau đại dịch, công ty nước khoáng Quảng Ninh đã phục hồi tốt theo hướng tích cực.\nHình 1: Kết quả kinh doanh (ĐVT: Triệu đồng)\nHình 2: Bảng cân đối kế toán (ĐVT: Triệu đồng)\nHình 3: Chỉ số tài chính (ĐVT: Triệu đồng)"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p005-para800-001",
+        "page": 5,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "[OCR ảnh 1 trang 5 — Tesseract, độ tin cậy 89]\nNăm 2019 Năm 2020 Năm 2021 Năm 2022\nKết quả kinh doanh 01/04-3/12 01/04-3/12 01/04-3/12 01/04-3/12\nKTIĐL KTIĐL KTIĐL KTIĐL\nDoanh thu thuần 267,300 211,170 215,489 258,880\nLợi nhuận gộp 56,298 50,047 52,145 64,940\nLN thuần từ HĐKD 35,767 32,622 31,527 50,359\nLNST thu nhập DN 28,480 26,085 25,003 40,277\nLNST của CÐ cty mẹ 28,480 26,085 25,003 40,277"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p006-para800-001",
+        "page": 6,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "[OCR ảnh 1 trang 6 — Tesseract, độ tin cậy 94]\nChỉ tiêu kế hoạch ›\nTình hình thực hiện\nDoanh thu kê hoạch 0\nLợi nhuận sau thuê kê hoạch\nKê hoạch 2022 & Thực hiện Năm\nChỉ tiêu kế hoạch các năm\nChỉ tiêu Năm 2022 Năm 2021 Năm 2020 Năm 2019\nDoanh thu kế hoạch 220,000 260,000 285,000 230,000\nLợi nhuận trước thuế kế hoạch 40,000\nLợi nhuận sau thuế kế hoạch 25,000 32,000 32,500 10,000\nĐVT: Triệu đồng"
+      }
+    ],
+    "queries": [
+      "Doanh thu thuần năm 2022 của doanh nghiệp đạt bao nhiêu?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1388,
+        "completion_tokens": 52,
+        "wall_s": 5.383,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1388,
+    "completion_tokens": 52,
+    "elapsed_s": 5.539,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "dieu_kien",
+    "answerable": true,
+    "question": "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp đơn hàng có giá trị từ 500.000 VNĐ trở lên [qlsxks-l06-nhom2-p008-para800-002].",
+    "citations": [
+      "qlsxks-l06-nhom2-p008-para800-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp nào?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p008-para800-002",
+            "page": 8,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p014-para800-001",
+            "page": 14,
+            "score": 0.031498
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p018-para800-001",
+            "page": 18,
+            "score": 0.030798
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p008-para800-002",
+          "qlsxks-l06-nhom2-p014-para800-001",
+          "qlsxks-l06-nhom2-p018-para800-001"
+        ],
+        "context_chars": 2214,
+        "retrieval_ms": 130.2
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p008-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 8 | Thiết kế sản phẩm và dịch vụ]\n2.2 Dịch vụ\nĐối với một công ty, điều kiện để giữ chân khách hàng quan trọng nhất chính là cần cung cấp dịch vụ để khách hàng có thể liên hệ với doanh nghiệp. Đối với công ty Nước khoáng Quảng Ninh, doanh nghiệp cung cấp những dịch vụ sau đây:\n– Dịch vụ giao hàng tận nơi, miễn phí đối với đơn hàng có giá trị từ 500.000 VNĐ trở lên.\n– Dịch vụ tư vấn và hỗ trợ khách hàng qua điện thoại hoặc email.\n– Chương trình khách hàng thân thiết với nhiều ưu đãi và giảm giá cho khách hàng trung thành của công ty.\n\n[qlsxks-l06-nhom2-p014-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 14 | Quản lý chuỗi cung ứng]\nTrung tâm phân phối (DC) là kho trung gian giữa nhà máy và khách hàng, vận chuyển trực tiếp cho khách hàng hoặc đến các cửa hàng bán lẻ (nơi sản phẩm được làm sẵn cho khách hàng). Hàng tồn kho liên quan đến nguyên vật liệu, sản phẩm dở dang, bán thành phẩm hoặc các thành phẩm được duy trì để hỗ trợ sản xuất, đáp ứng nhu cầu khách hàng.\nNhiều chuỗi cung ứng sử dụng hợp đồng sản xuất. Một nhà sản xuất theo hợp đồng là một công ty chuyên về một số hoạt động sản xuất hàng hóa, như thiết kế tùy chọn, sản xuất, lắp ráp, đóng gói, và làm theo hợp đồng cho người tiêu dùng cuối cùng.\nƯu điểm của việc sử dụng hợp đồng sản xuất:\n– Tiếp cận nhanh các công nghệ sản xuất tiên tiến.\n– Thời gian đưa sản phẩm ra thị trường nhanh hơn.\n– Tăng tính linh hoạt của hàng hoá trong thị trường khu vực.\n\n[qlsxks-l06-nhom2-p018-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 18 | Quản lý chuỗi cung ứng]\n– Trực tiếp đến khách hàng:Công ty Quảng Ninh cũng cung cấp dịch vụ giao hàng trực tiếp đến khách hàng qua các kênh mua hàng trực tuyến hoặc qua điện thoại.\n– Xuất khẩu:Ngoài thị trường trong nước, Quảng Ninh còn xuất khẩu sản phẩm đến nhiều thị trường quốc tế, bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc.\nCông ty nước khoáng Quảng Ninh cũng thường xuyên tham gia các triển lãm, hội chợ để quảng bá sản phẩm của mình và tìm kiếm các cơ hội hợp tác với các đối tác mới.\nSau khi nghiên cứu, nhóm đã đưa ra bảng mô hình BMC của doanh nghiệp như sau:\nHình 15: Mô hình Bussiness model canvas",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p008-para800-002",
+      "qlsxks-l06-nhom2-p014-para800-001",
+      "qlsxks-l06-nhom2-p018-para800-001"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p008-para800-002",
+        "page": 8,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "2.2 Dịch vụ\nĐối với một công ty, điều kiện để giữ chân khách hàng quan trọng nhất chính là cần cung cấp dịch vụ để khách hàng có thể liên hệ với doanh nghiệp. Đối với công ty Nước khoáng Quảng Ninh, doanh nghiệp cung cấp những dịch vụ sau đây:\n– Dịch vụ giao hàng tận nơi, miễn phí đối với đơn hàng có giá trị từ 500.000 VNĐ trở lên.\n– Dịch vụ tư vấn và hỗ trợ khách hàng qua điện thoại hoặc email.\n– Chương trình khách hàng thân thiết với nhiều ưu đãi và giảm giá cho khách hàng trung thành của công ty."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p014-para800-001",
+        "page": 14,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Trung tâm phân phối (DC) là kho trung gian giữa nhà máy và khách hàng, vận chuyển trực tiếp cho khách hàng hoặc đến các cửa hàng bán lẻ (nơi sản phẩm được làm sẵn cho khách hàng). Hàng tồn kho liên quan đến nguyên vật liệu, sản phẩm dở dang, bán thành phẩm hoặc các thành phẩm được duy trì để hỗ trợ sản xuất, đáp ứng nhu cầu khách hàng.\nNhiều chuỗi cung ứng sử dụng hợp đồng sản xuất. Một nhà sản xuất theo hợp đồng là một công ty chuyên về một số hoạt động sản xuất hàng hóa, như thiết kế tùy chọn, sản xuất, lắp ráp, đóng gói, và làm theo hợp đồng cho người tiêu dùng cuối cùng.\nƯu điểm của việc sử dụng hợp đồng sản xuất:\n– Tiếp cận nhanh các công nghệ sản xuất tiên tiến.\n– Thời gian đưa sản phẩm ra thị trường nhanh hơn.\n– Tăng tính linh hoạt của hàng hoá trong thị trường khu vực."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p018-para800-001",
+        "page": 18,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Trực tiếp đến khách hàng:Công ty Quảng Ninh cũng cung cấp dịch vụ giao hàng trực tiếp đến khách hàng qua các kênh mua hàng trực tuyến hoặc qua điện thoại.\n– Xuất khẩu:Ngoài thị trường trong nước, Quảng Ninh còn xuất khẩu sản phẩm đến nhiều thị trường quốc tế, bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc.\nCông ty nước khoáng Quảng Ninh cũng thường xuyên tham gia các triển lãm, hội chợ để quảng bá sản phẩm của mình và tìm kiếm các cơ hội hợp tác với các đối tác mới.\nSau khi nghiên cứu, nhóm đã đưa ra bảng mô hình BMC của doanh nghiệp như sau:\nHình 15: Mô hình Bussiness model canvas"
+      }
+    ],
+    "queries": [
+      "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1196,
+        "completion_tokens": 57,
+        "wall_s": 7.298,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1196,
+    "completion_tokens": 57,
+    "elapsed_s": 7.429,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "answerable": true,
+    "question": "Dựa trên các lợi thế sẵn có, nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh chi phí thấp, dựa trên lợi thế về công nghệ và quản lý để giảm chi phí, phục vụ nhóm khách hàng trung bình, và tận dụng khả năng thương lượng với nhà cung cấp [qlsxks-l06-nhom2-p008-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p008-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Dựa trên các lợi thế sẵn có, nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh nào?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p008-para800-001",
+            "page": 8,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p029-para800-003",
+            "page": 29,
+            "score": 0.032266
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p026-para800-002",
+            "page": 26,
+            "score": 0.030798
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p008-para800-001",
+          "qlsxks-l06-nhom2-p029-para800-003",
+          "qlsxks-l06-nhom2-p026-para800-002"
+        ],
+        "context_chars": 1854,
+        "retrieval_ms": 253.92
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p008-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 8 | Thiết kế sản phẩm và dịch vụ]\nTừ những lợi thế trên của công ty Nước khoáng Quảng Ninh, nhóm sẽ đề xuất áp dụng chiến lược chi phí thấp để cạnh tranh với các công ty Nước khoáng khác trên thị trường. Đặc điểm của chiến lược cạnh tranh chi phí thấp bao gồm:\n– Tập trung vào công nghệ và quản lý để giảm chi phí\n– Không tập trung vào khác biệt hóa sản phẩm\n– Không đi tiên phong trong lĩnh vực nghiên cứu, đưa ra tính năng mới, sản phẩm mới\n– Nhóm khách hàng mà công ty phục vụ thường là nhóm “khách hàng trung bình”\nƯu điểm của chiến lược cạnh tranh chi phí thấp:\n– Khả năng cạnh tranh cao\n– Khả năng thương lượng với nhà cung cấp mạnh\n– Cạnh tranh tốt với sản phẩm thay thế\n– Tạo rào cản thâm nhập thị trường\n\n[qlsxks-l06-nhom2-p029-para800-003 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 29 | Kết luận]\nNhìn chung, công ty Cổ phần Nước khoáng Quảng Ninh đang có những chính sách, lựa chọn, phương hướng đúng đắn làm cho công ty ngày càng phát triển hơn. Nhóm tác giả mong muốn việc tìm hiểu, đánh giá, giải pháp mà nhóm đề ra sẽ góp phần tham khảo, cải thiện, giúp đỡ phát triển hơn cho doanh nghiệp trong tương lai. Mặt khác, việc phân tích doanh nghiệp này sẽ là cái nhìn khách quan về một doanh nghiệp uy tín Việt Nam, giúp đỡ cho bản thân nhóm sau này có thể đưa ra những đánh giá, lựa chọn chính xác hơn, cải thiện những mặt yếu kém, ngăn chặn được rủi ro về sau.\n\n[qlsxks-l06-nhom2-p026-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 26 | Quản lý rủi ro]\n– Cạnh tranh vừa là cơ hội vừa là thách thức, nếu không đứng vững và chọn đúng hướng sẽ khiến doanh nghiệp gặp nhiều vấn đề.\n– Thị trường cạnh tranh rất khốc liệt nên sẽ có một vài doanh nghiệp xấu sẽ dùng những \"chiêu trò\", \"thủ đoạn\" để hại công ty, đánh cắp ý tưởng, kế hoạch,...\n• Trong vận hành sản xuất:",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p008-para800-001",
+      "qlsxks-l06-nhom2-p029-para800-003",
+      "qlsxks-l06-nhom2-p026-para800-002"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p008-para800-001",
+        "page": 8,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Từ những lợi thế trên của công ty Nước khoáng Quảng Ninh, nhóm sẽ đề xuất áp dụng chiến lược chi phí thấp để cạnh tranh với các công ty Nước khoáng khác trên thị trường. Đặc điểm của chiến lược cạnh tranh chi phí thấp bao gồm:\n– Tập trung vào công nghệ và quản lý để giảm chi phí\n– Không tập trung vào khác biệt hóa sản phẩm\n– Không đi tiên phong trong lĩnh vực nghiên cứu, đưa ra tính năng mới, sản phẩm mới\n– Nhóm khách hàng mà công ty phục vụ thường là nhóm “khách hàng trung bình”\nƯu điểm của chiến lược cạnh tranh chi phí thấp:\n– Khả năng cạnh tranh cao\n– Khả năng thương lượng với nhà cung cấp mạnh\n– Cạnh tranh tốt với sản phẩm thay thế\n– Tạo rào cản thâm nhập thị trường"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p029-para800-003",
+        "page": 29,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Nhìn chung, công ty Cổ phần Nước khoáng Quảng Ninh đang có những chính sách, lựa chọn, phương hướng đúng đắn làm cho công ty ngày càng phát triển hơn. Nhóm tác giả mong muốn việc tìm hiểu, đánh giá, giải pháp mà nhóm đề ra sẽ góp phần tham khảo, cải thiện, giúp đỡ phát triển hơn cho doanh nghiệp trong tương lai. Mặt khác, việc phân tích doanh nghiệp này sẽ là cái nhìn khách quan về một doanh nghiệp uy tín Việt Nam, giúp đỡ cho bản thân nhóm sau này có thể đưa ra những đánh giá, lựa chọn chính xác hơn, cải thiện những mặt yếu kém, ngăn chặn được rủi ro về sau."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p026-para800-002",
+        "page": 26,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Cạnh tranh vừa là cơ hội vừa là thách thức, nếu không đứng vững và chọn đúng hướng sẽ khiến doanh nghiệp gặp nhiều vấn đề.\n– Thị trường cạnh tranh rất khốc liệt nên sẽ có một vài doanh nghiệp xấu sẽ dùng những \"chiêu trò\", \"thủ đoạn\" để hại công ty, đánh cắp ý tưởng, kế hoạch,...\n• Trong vận hành sản xuất:"
+      }
+    ],
+    "queries": [
+      "Dựa trên các lợi thế sẵn có, nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1131,
+        "completion_tokens": 81,
+        "wall_s": 7.66,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1131,
+    "completion_tokens": 81,
+    "elapsed_s": 7.914,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "answerable": true,
+    "question": "Bố trí mặt bằng theo sản phẩm được áp dụng trong những điều kiện nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Bố trí mặt bằng theo sản phẩm được áp dụng khi sản lượng lớn và ít chủng loại sản phẩm, đồng thời thỏa mãn các điều kiện sau: nhu cầu ổn định, sản lượng đảm bảo hệ số sử dụng thiết bị, sản phẩm đã chuẩn hóa hoặc đạt được một pha của chu kỳ sản phẩm, và nguyên vật liệu đảm bảo chất lượng đồng đều [qlsxks-l06-nhom2-p011-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p011-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Bố trí mặt bằng theo sản phẩm được áp dụng trong những điều kiện nào?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p011-para800-001",
+            "page": 11,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p011-para800-000",
+            "page": 11,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p013-para800-000",
+            "page": 13,
+            "score": 0.031498
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p011-para800-001",
+          "qlsxks-l06-nhom2-p011-para800-000",
+          "qlsxks-l06-nhom2-p013-para800-000"
+        ],
+        "context_chars": 2111,
+        "retrieval_ms": 134.35
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p011-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 11 | Bố trí mặt bằng]\n– Bố trí mặt bằng theo sản phẩm: Sản lượng lớn và ít chủng loại sản phẩm.\nBố trí mặt bằng theo sản phẩm hay nhóm sản phẩm được áp dụng khi sản lượng lớn và ít chủng loại sản phẩm, đồng thời thỏa các yếu tố sau:\n– Nhu cầu ổn định\n– Sản lượng đảm bảo hệ số sử dụng thiết bị.\n– Sản phẩm đã chuẩn hóa hay đạt được một pha của chu kỳ sản phẩm.\n– Nguyên vật liệu đảm bảo chất lượng đồng đều.\n\n[qlsxks-l06-nhom2-p011-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 11 | Bố trí mặt bằng]\n3 Bố trí mặt bằng\n3.1 Khái niệm\nBố trí mặt bằng sản xuất là quá trình tổ chức, sắp xếp, định dạng về mặt không gian cho máy móc, thiết bị, những khu vực làm việc, các bộ phận phục vụ sản xuất và cung cấp dịch vụ. Việc đánh giá một mô hình bố trí mặt bằng có hiệu quả hay không được dựa trên những tiêu chí:\n– Sử dụng không gian, thiết bị và con người hiệu quả.\n– Tăng dòng di chuyển của thông tin, vật liệu và con người.\n– Tăng sự thoải mái và môi trường làm việc an toàn.\n– Tăng sự tương tác giữa khách và chủ thể.\n– Linh hoạt.\nCó nhiều loại bố trí mặt bằng dựa theo mục đích (bố trí mặt bằng kinh doanh, sản xuất, kho hàng,...). Ngoài ra, với bố trí mặt bằng trong sản xuất có 2 dạng bố trí mặt bằng chính:\n– Bố trí mặt bằng theo quy trình: Sản lượng sản phẩm ít nhưng chủng loại cao.\n\n[qlsxks-l06-nhom2-p013-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 13 | Bố trí mặt bằng]\nHình 10: Bố trí mặt bằng\ncho từng thiết bị trong từng dây chuyền, đảm bảo chất lượng, môi trường làm việc của công nhân.\nNguyên tắc bố trí mặt bằng:\n– Tuân thủ quy trình công nghệ sản xuất:Nhìn chung, khách hàng nội bộ sẽ được đặt gần nhau để tối ưu hóa năng suất và giảm thiểu chi phí.\n– Thuận lợi cho khả năng mở rộng sản xuất:Việc bố trí mặt bằng đúng có thể tăng quy mô sản xuất một cách dễ dàng.\n– Đảm bảo an toàn cho người sản xuất và lao động:Cần thường xuyên kiểm tra điều kiện làm việc an toàn của nhân viên, máy móc, trang thiết bị...\n– Tận dụng hợp lý không gian làm việc:Việc tận dụng không gian sẽ giúp tránh lãng phí tài nguyên.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p011-para800-001",
+      "qlsxks-l06-nhom2-p011-para800-000",
+      "qlsxks-l06-nhom2-p013-para800-000"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p011-para800-001",
+        "page": 11,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Bố trí mặt bằng theo sản phẩm: Sản lượng lớn và ít chủng loại sản phẩm.\nBố trí mặt bằng theo sản phẩm hay nhóm sản phẩm được áp dụng khi sản lượng lớn và ít chủng loại sản phẩm, đồng thời thỏa các yếu tố sau:\n– Nhu cầu ổn định\n– Sản lượng đảm bảo hệ số sử dụng thiết bị.\n– Sản phẩm đã chuẩn hóa hay đạt được một pha của chu kỳ sản phẩm.\n– Nguyên vật liệu đảm bảo chất lượng đồng đều."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p011-para800-000",
+        "page": 11,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "3 Bố trí mặt bằng\n3.1 Khái niệm\nBố trí mặt bằng sản xuất là quá trình tổ chức, sắp xếp, định dạng về mặt không gian cho máy móc, thiết bị, những khu vực làm việc, các bộ phận phục vụ sản xuất và cung cấp dịch vụ. Việc đánh giá một mô hình bố trí mặt bằng có hiệu quả hay không được dựa trên những tiêu chí:\n– Sử dụng không gian, thiết bị và con người hiệu quả.\n– Tăng dòng di chuyển của thông tin, vật liệu và con người.\n– Tăng sự thoải mái và môi trường làm việc an toàn.\n– Tăng sự tương tác giữa khách và chủ thể.\n– Linh hoạt.\nCó nhiều loại bố trí mặt bằng dựa theo mục đích (bố trí mặt bằng kinh doanh, sản xuất, kho hàng,...). Ngoài ra, với bố trí mặt bằng trong sản xuất có 2 dạng bố trí mặt bằng chính:\n– Bố trí mặt bằng theo quy trình: Sản lượng sản phẩm ít nhưng chủng loại cao."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p013-para800-000",
+        "page": 13,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Hình 10: Bố trí mặt bằng\ncho từng thiết bị trong từng dây chuyền, đảm bảo chất lượng, môi trường làm việc của công nhân.\nNguyên tắc bố trí mặt bằng:\n– Tuân thủ quy trình công nghệ sản xuất:Nhìn chung, khách hàng nội bộ sẽ được đặt gần nhau để tối ưu hóa năng suất và giảm thiểu chi phí.\n– Thuận lợi cho khả năng mở rộng sản xuất:Việc bố trí mặt bằng đúng có thể tăng quy mô sản xuất một cách dễ dàng.\n– Đảm bảo an toàn cho người sản xuất và lao động:Cần thường xuyên kiểm tra điều kiện làm việc an toàn của nhân viên, máy móc, trang thiết bị...\n– Tận dụng hợp lý không gian làm việc:Việc tận dụng không gian sẽ giúp tránh lãng phí tài nguyên."
+      }
+    ],
+    "queries": [
+      "Bố trí mặt bằng theo sản phẩm được áp dụng trong những điều kiện nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1192,
+        "completion_tokens": 102,
+        "wall_s": 10.983,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1192,
+    "completion_tokens": 102,
+    "elapsed_s": 11.117,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "answerable": true,
+    "question": "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan nào và ở độ sâu bao nhiêu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long [qlsxks-l06-nhom2-p012-para800-000].",
+    "citations": [
+      "qlsxks-l06-nhom2-p012-para800-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan nào và ở độ sâu bao nhiêu?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p012-para800-000",
+            "page": 12,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p009-para800-000",
+            "page": 9,
+            "score": 0.031754
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p004-para800-003",
+            "page": 4,
+            "score": 0.031746
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p012-para800-000",
+          "qlsxks-l06-nhom2-p009-para800-000",
+          "qlsxks-l06-nhom2-p004-para800-003"
+        ],
+        "context_chars": 2037,
+        "retrieval_ms": 173.86
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p012-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 12 | Bố trí mặt bằng]\nHình 9: Quy trình sẩn xuất\nQuy trình sản xuất các sản phẩm này đều có sơ đồ chung như trên.\nVới diện tích nhà xưởng1440m2, và số lượng sản xuất nhiều cùng chủng loại ít (đều là nước suối), thì các sản phẩm ở xưởng sản xuất này được nhóm đề xuất bố trí mặt bằng sản xuất theo dạng bố trí mặt bằng theo sản phẩm.\nNước khoáng thiên nhiên Suối Mơ được khai thác và sản xuất từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long. Nhà xưởng đặt gần nguồn nước đồng thời cũng giúp cho quá trình sản xuất cũng như việc bố trí mặt bằng trở nên thuận lợi hơn.\n\n[qlsxks-l06-nhom2-p009-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 9 | Thiết kế sản phẩm và dịch vụ]\n2.3 Một số sản phẩm của doanh nghiệp\nNước khoáng Quang Hanh - Sản phẩm đặc trưng của Quảng Ninh với thành phần nước có chứa nhiều khoáng chất và vi lượng cần thiết cho cơ thể.\nHình 5: Nước khoáng Quang Hanh\nNước khoáng khoáng thiên nhiên Suối Mơ - Với thành phần nước cũng rất giàu khoáng chất. Đây là sản phẩm nổi tiếng của công ty, được sản xuất từ nguồn Nước khoáng tự nhiên tại Hạ Long, Quảng Ninh.\nHình 6: Nước khoáng thiên nhiên Suối Mơ\n\n[qlsxks-l06-nhom2-p004-para800-003 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nVới ý thức, trách nhiệm một doanh nghiệp sản xuất chế biến thực phẩm, Công ty là đơn vị đầu tiên của ngành sản xuất nước giải khát ở Quảng Ninh đưa vào áp dụng hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế và hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm nên sản phẩm làm ra luôn đảm bảo chất lượng vệ sinh an toàn thực phẩm, được người tiêu dùng ưa chuộng và bình chọn là hàng Việt Nam chất lượng cao. Ngoài ra, Nước khoáng thiên nhiên Suối Mơ được nhận giải thưởng nhãn hiệu cạnh tranh Quốc gia, nước khoáng thiên nhiên Quang Hanh được nhận giải thưởng nhãn hiệu nổi tiếng.\nĐặc biệt sản phẩm nước khoáng thiên nhiên Suối Mơ đã được chọn là nước uống chính thức phục vụ Đại hội X và Đại hội XI của Đảng.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p012-para800-000",
+      "qlsxks-l06-nhom2-p009-para800-000",
+      "qlsxks-l06-nhom2-p004-para800-003"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p012-para800-000",
+        "page": 12,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Hình 9: Quy trình sẩn xuất\nQuy trình sản xuất các sản phẩm này đều có sơ đồ chung như trên.\nVới diện tích nhà xưởng1440m2, và số lượng sản xuất nhiều cùng chủng loại ít (đều là nước suối), thì các sản phẩm ở xưởng sản xuất này được nhóm đề xuất bố trí mặt bằng sản xuất theo dạng bố trí mặt bằng theo sản phẩm.\nNước khoáng thiên nhiên Suối Mơ được khai thác và sản xuất từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long. Nhà xưởng đặt gần nguồn nước đồng thời cũng giúp cho quá trình sản xuất cũng như việc bố trí mặt bằng trở nên thuận lợi hơn."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p009-para800-000",
+        "page": 9,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "2.3 Một số sản phẩm của doanh nghiệp\nNước khoáng Quang Hanh - Sản phẩm đặc trưng của Quảng Ninh với thành phần nước có chứa nhiều khoáng chất và vi lượng cần thiết cho cơ thể.\nHình 5: Nước khoáng Quang Hanh\nNước khoáng khoáng thiên nhiên Suối Mơ - Với thành phần nước cũng rất giàu khoáng chất. Đây là sản phẩm nổi tiếng của công ty, được sản xuất từ nguồn Nước khoáng tự nhiên tại Hạ Long, Quảng Ninh.\nHình 6: Nước khoáng thiên nhiên Suối Mơ"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-003",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Với ý thức, trách nhiệm một doanh nghiệp sản xuất chế biến thực phẩm, Công ty là đơn vị đầu tiên của ngành sản xuất nước giải khát ở Quảng Ninh đưa vào áp dụng hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế và hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm nên sản phẩm làm ra luôn đảm bảo chất lượng vệ sinh an toàn thực phẩm, được người tiêu dùng ưa chuộng và bình chọn là hàng Việt Nam chất lượng cao. Ngoài ra, Nước khoáng thiên nhiên Suối Mơ được nhận giải thưởng nhãn hiệu cạnh tranh Quốc gia, nước khoáng thiên nhiên Quang Hanh được nhận giải thưởng nhãn hiệu nổi tiếng.\nĐặc biệt sản phẩm nước khoáng thiên nhiên Suối Mơ đã được chọn là nước uống chính thức phục vụ Đại hội X và Đại hội XI của Đảng."
+      }
+    ],
+    "queries": [
+      "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan nào và ở độ sâu bao nhiêu?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1196,
+        "completion_tokens": 65,
+        "wall_s": 8.197,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1196,
+    "completion_tokens": 65,
+    "elapsed_s": 8.371,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "answerable": true,
+    "question": "Những nguyên tắc cần tuân thủ là gì?",
+    "filter": {
+      "section": "bo_tri_mat_bang"
+    },
+    "status": "answered",
+    "answer": "Những nguyên tắc cần tuân thủ khi bố trí mặt bằng là:  \n– Tuân thủ quy trình công nghệ sản xuất: đặt khách hàng nội bộ gần nhau để tối ưu năng suất và giảm chi phí [qlsxks-l06-nhom2-p013-para800-000].  \n– Thuận lợi cho khả năng mở rộng sản xuất: bố trí mặt bằng đúng giúp tăng quy mô sản xuất dễ dàng [qlsxks-l06-nhom2-p013-para800-000].  \n– Đảm bảo an toàn cho người sản xuất và lao động: cần thường xuyên kiểm tra điều kiện làm việc an toàn của nhân viên, máy móc, trang thiết bị [qlsxks-l06-nhom2-p013-para800-000].  \n– Tận dụng hợp lý không gian làm việc: tránh lãng phí tài nguyên [qlsxks-l06-nhom2-p013-para800-000].  \n– Đảm bảo tính linh hoạt trong sản xuất: khi mở rộng quy mô, bố trí cần điều chỉnh để không ảnh hưởng đến quá trình sản xuất [qlsxks-l06-nhom2-p013-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p013-para800-000",
+      "qlsxks-l06-nhom2-p013-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Những nguyên tắc cần tuân thủ là gì?",
+        "filter": {
+          "section": "bo_tri_mat_bang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p013-para800-000",
+            "page": 13,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p013-para800-001",
+            "page": 13,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p012-para800-001",
+            "page": 12,
+            "score": 0.031746
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p013-para800-000",
+          "qlsxks-l06-nhom2-p013-para800-001",
+          "qlsxks-l06-nhom2-p012-para800-001"
+        ],
+        "context_chars": 1749,
+        "retrieval_ms": 130.39
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p013-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 13 | Bố trí mặt bằng]\nHình 10: Bố trí mặt bằng\ncho từng thiết bị trong từng dây chuyền, đảm bảo chất lượng, môi trường làm việc của công nhân.\nNguyên tắc bố trí mặt bằng:\n– Tuân thủ quy trình công nghệ sản xuất:Nhìn chung, khách hàng nội bộ sẽ được đặt gần nhau để tối ưu hóa năng suất và giảm thiểu chi phí.\n– Thuận lợi cho khả năng mở rộng sản xuất:Việc bố trí mặt bằng đúng có thể tăng quy mô sản xuất một cách dễ dàng.\n– Đảm bảo an toàn cho người sản xuất và lao động:Cần thường xuyên kiểm tra điều kiện làm việc an toàn của nhân viên, máy móc, trang thiết bị...\n– Tận dụng hợp lý không gian làm việc:Việc tận dụng không gian sẽ giúp tránh lãng phí tài nguyên.\n\n[qlsxks-l06-nhom2-p013-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 13 | Bố trí mặt bằng]\n– Đảm bảo tính linh hoạt trong sản xuất:Một khi quy mô được mở rộng, việc bố trí sản xuất cần xem xét đến hệ thống sẽ thay đổi tính toán sao cho thực hiện được những thay đổi sao cho không lãng phí hoặc ảnh hưởng đến quá trình sản xuất.\n\n[qlsxks-l06-nhom2-p012-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 12 | Bố trí mặt bằng]\nNhu cầu nguồn nước khoáng chất lượng nhìn chung trong thị trường luôn ở mức ổn định, khi mà người sử dụng luôn có nhu cầu tìm kiếm những nguồn nước chất lượng và nhiều dưỡng chất hơn. Với công nghệ sản xuất tiên tiến cho ra nhiều sản phẩm chất lượng thì sản phẩm của công ty nước khoáng Quảng Ninh sẽ luôn có nguồn cầu ổn định. Mặt khác, dây chuyền sản xuất các sản phẩm khác nhau của công ty nước khoáng Quảng Ninh nhìn chung đều có điểm chung ở khâu xử lý nước và gia công sản phẩm.\nTừ những yếu tố trên thì phương pháp bố trí mặt bằng theo sản phẩm là hoàn toàn khả thi.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p013-para800-000",
+      "qlsxks-l06-nhom2-p013-para800-001",
+      "qlsxks-l06-nhom2-p012-para800-001"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p013-para800-000",
+        "page": 13,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Hình 10: Bố trí mặt bằng\ncho từng thiết bị trong từng dây chuyền, đảm bảo chất lượng, môi trường làm việc của công nhân.\nNguyên tắc bố trí mặt bằng:\n– Tuân thủ quy trình công nghệ sản xuất:Nhìn chung, khách hàng nội bộ sẽ được đặt gần nhau để tối ưu hóa năng suất và giảm thiểu chi phí.\n– Thuận lợi cho khả năng mở rộng sản xuất:Việc bố trí mặt bằng đúng có thể tăng quy mô sản xuất một cách dễ dàng.\n– Đảm bảo an toàn cho người sản xuất và lao động:Cần thường xuyên kiểm tra điều kiện làm việc an toàn của nhân viên, máy móc, trang thiết bị...\n– Tận dụng hợp lý không gian làm việc:Việc tận dụng không gian sẽ giúp tránh lãng phí tài nguyên."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p013-para800-001",
+        "page": 13,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Đảm bảo tính linh hoạt trong sản xuất:Một khi quy mô được mở rộng, việc bố trí sản xuất cần xem xét đến hệ thống sẽ thay đổi tính toán sao cho thực hiện được những thay đổi sao cho không lãng phí hoặc ảnh hưởng đến quá trình sản xuất."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p012-para800-001",
+        "page": 12,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Nhu cầu nguồn nước khoáng chất lượng nhìn chung trong thị trường luôn ở mức ổn định, khi mà người sử dụng luôn có nhu cầu tìm kiếm những nguồn nước chất lượng và nhiều dưỡng chất hơn. Với công nghệ sản xuất tiên tiến cho ra nhiều sản phẩm chất lượng thì sản phẩm của công ty nước khoáng Quảng Ninh sẽ luôn có nguồn cầu ổn định. Mặt khác, dây chuyền sản xuất các sản phẩm khác nhau của công ty nước khoáng Quảng Ninh nhìn chung đều có điểm chung ở khâu xử lý nước và gia công sản phẩm.\nTừ những yếu tố trên thì phương pháp bố trí mặt bằng theo sản phẩm là hoàn toàn khả thi."
+      }
+    ],
+    "queries": [
+      "Những nguyên tắc cần tuân thủ là gì?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1064,
+        "completion_tokens": 283,
+        "wall_s": 33.986,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1064,
+    "completion_tokens": 283,
+    "elapsed_s": 34.117,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "answerable": true,
+    "question": "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo giấy phép số mấy?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo Giấy phép số 10/QĐ-MĐC-QLTN [qlsxks-l06-nhom2-p015-para800-002].",
+    "citations": [
+      "qlsxks-l06-nhom2-p015-para800-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo giấy phép số mấy?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p015-para800-002",
+            "page": 15,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p012-para800-000",
+            "page": 12,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p018-para800-000",
+            "page": 18,
+            "score": 0.03055
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p015-para800-002",
+          "qlsxks-l06-nhom2-p012-para800-000",
+          "qlsxks-l06-nhom2-p018-para800-000"
+        ],
+        "context_chars": 2403,
+        "retrieval_ms": 184.03
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p015-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 15 | Quản lý chuỗi cung ứng]\n4.3 Hợp đồng sản xuất\nCông ty Quảng Ninh được Bộ Tài nguyên và Môi trường cấp giấy phép thăm dò, khai thác nước khoáng trên địa bàn tỉnh Quảng Ninh được quyền khai thác nước khoáng tại giếng khoan 3B, km9 phường Quảng Ninh, Tp. Cẩm Phả, theo Giấy phép số 10/QĐ-MĐC-QLTN. Do đó, Công ty nước khoáng Quảng Ninh là đơn vị được cấp phép nên có quyền khai thác nước khoáng tại vị trí nêu trên. Các nhà cung cấp nguyên liệu, vật tư và thiết bị của Công ty Nước khoáng Quảng Ninh bao gồm:\n– Nhà cung cấp hóa chất và các nguyên liệu khác cần thiết cho quá trình sản xuất nước khoáng.\n– Nhà cung cấp bình đựng nước khoáng và các thiết bị liên quan đến quá trình đóng gói sản phẩm.\n– Nhà cung cấp thiết bị và máy móc sản xuất nước khoáng, bao gồm máy lọc nước, máy đóng chai, máy đóng gói và các thiết bị khác.\n\n[qlsxks-l06-nhom2-p012-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 12 | Bố trí mặt bằng]\nHình 9: Quy trình sẩn xuất\nQuy trình sản xuất các sản phẩm này đều có sơ đồ chung như trên.\nVới diện tích nhà xưởng1440m2, và số lượng sản xuất nhiều cùng chủng loại ít (đều là nước suối), thì các sản phẩm ở xưởng sản xuất này được nhóm đề xuất bố trí mặt bằng sản xuất theo dạng bố trí mặt bằng theo sản phẩm.\nNước khoáng thiên nhiên Suối Mơ được khai thác và sản xuất từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long. Nhà xưởng đặt gần nguồn nước đồng thời cũng giúp cho quá trình sản xuất cũng như việc bố trí mặt bằng trở nên thuận lợi hơn.\n\n[qlsxks-l06-nhom2-p018-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 18 | Quản lý chuỗi cung ứng]\nNhư vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p015-para800-002",
+      "qlsxks-l06-nhom2-p012-para800-000",
+      "qlsxks-l06-nhom2-p018-para800-000"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p015-para800-002",
+        "page": 15,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "4.3 Hợp đồng sản xuất\nCông ty Quảng Ninh được Bộ Tài nguyên và Môi trường cấp giấy phép thăm dò, khai thác nước khoáng trên địa bàn tỉnh Quảng Ninh được quyền khai thác nước khoáng tại giếng khoan 3B, km9 phường Quảng Ninh, Tp. Cẩm Phả, theo Giấy phép số 10/QĐ-MĐC-QLTN. Do đó, Công ty nước khoáng Quảng Ninh là đơn vị được cấp phép nên có quyền khai thác nước khoáng tại vị trí nêu trên. Các nhà cung cấp nguyên liệu, vật tư và thiết bị của Công ty Nước khoáng Quảng Ninh bao gồm:\n– Nhà cung cấp hóa chất và các nguyên liệu khác cần thiết cho quá trình sản xuất nước khoáng.\n– Nhà cung cấp bình đựng nước khoáng và các thiết bị liên quan đến quá trình đóng gói sản phẩm.\n– Nhà cung cấp thiết bị và máy móc sản xuất nước khoáng, bao gồm máy lọc nước, máy đóng chai, máy đóng gói và các thiết bị khác."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p012-para800-000",
+        "page": 12,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Hình 9: Quy trình sẩn xuất\nQuy trình sản xuất các sản phẩm này đều có sơ đồ chung như trên.\nVới diện tích nhà xưởng1440m2, và số lượng sản xuất nhiều cùng chủng loại ít (đều là nước suối), thì các sản phẩm ở xưởng sản xuất này được nhóm đề xuất bố trí mặt bằng sản xuất theo dạng bố trí mặt bằng theo sản phẩm.\nNước khoáng thiên nhiên Suối Mơ được khai thác và sản xuất từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long. Nhà xưởng đặt gần nguồn nước đồng thời cũng giúp cho quá trình sản xuất cũng như việc bố trí mặt bằng trở nên thuận lợi hơn."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p018-para800-000",
+        "page": 18,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Như vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau."
+      }
+    ],
+    "queries": [
+      "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo giấy phép số mấy?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1317,
+        "completion_tokens": 61,
+        "wall_s": 8.166,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1317,
+    "completion_tokens": 61,
+    "elapsed_s": 8.35,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "so_lieu",
+    "answerable": true,
+    "question": "Mỗi ngày nhà máy sản xuất được bao nhiêu bình 19 lít và cần bao lâu để hoàn thành đơn hàng 10000 bình?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Mỗi ngày nhà máy sản xuất được 630 bình 19 lít [qlsxks-l06-nhom2-p016-para800-003]. Để hoàn thành đơn hàng 10.000 bình, cần 15 ngày [qlsxks-l06-nhom2-p016-para800-003].",
+    "citations": [
+      "qlsxks-l06-nhom2-p016-para800-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Mỗi ngày nhà máy sản xuất được bao nhiêu bình 19 lít và cần bao lâu để hoàn thành đơn hàng 10000 bình?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p016-para800-003",
+            "page": 16,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p017-para800-001",
+            "page": 17,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p018-para800-000",
+            "page": 18,
+            "score": 0.03125
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p016-para800-003",
+          "qlsxks-l06-nhom2-p017-para800-001",
+          "qlsxks-l06-nhom2-p018-para800-000"
+        ],
+        "context_chars": 1846,
+        "retrieval_ms": 207.94
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p016-para800-003 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 16 | Quản lý chuỗi cung ứng]\n4.5 Kế hoạch sản xuất vật tư và phân phối sản phẩm\nYêu cầu đơn hàng:10000 bình nước 19 (lít)\nThời gian:30/7/2023\nDanh sách vật tư:nước khai thác từ nguồn giếng khoan, phôi bình nhựa mua từ nhà sản xuất tin cậy, bao bì in ấn nhãn hiệu từ nhà cung cấp đáng tin cậy.\nThời gian sản suất sản phẩm:Công xuất đong nước của nhà máy 1000 (l/h). Thời gian làm việc của nhà máy 12h/ngày. Tổng sản phẩm (bình 19 lít) một ngày nhà máy có thể sản xuất: 630 bình, cần 15 ngày để đong 10000 bình.\n\n[qlsxks-l06-nhom2-p017-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 17 | Quản lý chuỗi cung ứng]\n[OCR ảnh 1 trang 17 — Tesseract, độ tin cậy 88]\nLead time Số lượng ltem\nl 10000 Thành phâm (T)\n15 10000 Nước được đong vào bình\n4 10000 Bao bì in nhăn hiệu nhà sản\nsuât (Z) :\n5 190000(1) Xử lý và kiêm tra chât\nlượng nước(])\n5 10000 Thôi bình, vệ sinh (H)\n5 200000(1) Nước khai thác từ nguôn\n4 10000 - Phôi bình (Y)\n\n[qlsxks-l06-nhom2-p018-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 18 | Quản lý chuỗi cung ứng]\nNhư vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p016-para800-003",
+      "qlsxks-l06-nhom2-p017-para800-001",
+      "qlsxks-l06-nhom2-p018-para800-000"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p016-para800-003",
+        "page": 16,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "4.5 Kế hoạch sản xuất vật tư và phân phối sản phẩm\nYêu cầu đơn hàng:10000 bình nước 19 (lít)\nThời gian:30/7/2023\nDanh sách vật tư:nước khai thác từ nguồn giếng khoan, phôi bình nhựa mua từ nhà sản xuất tin cậy, bao bì in ấn nhãn hiệu từ nhà cung cấp đáng tin cậy.\nThời gian sản suất sản phẩm:Công xuất đong nước của nhà máy 1000 (l/h). Thời gian làm việc của nhà máy 12h/ngày. Tổng sản phẩm (bình 19 lít) một ngày nhà máy có thể sản xuất: 630 bình, cần 15 ngày để đong 10000 bình."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p017-para800-001",
+        "page": 17,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "[OCR ảnh 1 trang 17 — Tesseract, độ tin cậy 88]\nLead time Số lượng ltem\nl 10000 Thành phâm (T)\n15 10000 Nước được đong vào bình\n4 10000 Bao bì in nhăn hiệu nhà sản\nsuât (Z) :\n5 190000(1) Xử lý và kiêm tra chât\nlượng nước(])\n5 10000 Thôi bình, vệ sinh (H)\n5 200000(1) Nước khai thác từ nguôn\n4 10000 - Phôi bình (Y)"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p018-para800-000",
+        "page": 18,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Như vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau."
+      }
+    ],
+    "queries": [
+      "Mỗi ngày nhà máy sản xuất được bao nhiêu bình 19 lít và cần bao lâu để hoàn thành đơn hàng 10000 bình?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1281,
+        "completion_tokens": 86,
+        "wall_s": 10.939,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1281,
+    "completion_tokens": 86,
+    "elapsed_s": 11.147,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "answerable": true,
+    "question": "Ngoài thị trường nội địa, sản phẩm của công ty được bán ra những thị trường nước ngoài nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Các thị trường nước ngoài mà sản phẩm của Công ty Cổ phần Nước khoáng Quảng Ninh được xuất khẩu bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc [qlsxks-l06-nhom2-p018-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p018-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Ngoài thị trường nội địa, sản phẩm của công ty được bán ra những thị trường nước ngoài nào?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p029-para800-002",
+            "page": 29,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p018-para800-001",
+            "page": 18,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p008-para800-000",
+            "page": 8,
+            "score": 0.031746
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p029-para800-002",
+          "qlsxks-l06-nhom2-p018-para800-001",
+          "qlsxks-l06-nhom2-p008-para800-000"
+        ],
+        "context_chars": 1989,
+        "retrieval_ms": 190.15
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p029-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 29 | Kết luận]\nVới sự phong phú trong từng dòng sản phẩm, đa dạng trong từng loại kích cỡ, hình dáng, hương vị... các sản phẩm từ Công ty luôn chiếm lĩnh thị trường tiêu dùng trong nước. Có thể khẳng định các sản phẩm của công ty đều có đủ các điều kiện và đã trở thành thương hiệu mạnh được tin dùng trong toàn quốc và xuất khẩu ra nước ngoài. Ta có thể thấy được thị trường của Công ty còn nhiều tiềm năng phát triển mở rộng và nâng cao sản lượng tiêu thụ.\n\n[qlsxks-l06-nhom2-p018-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 18 | Quản lý chuỗi cung ứng]\n– Trực tiếp đến khách hàng:Công ty Quảng Ninh cũng cung cấp dịch vụ giao hàng trực tiếp đến khách hàng qua các kênh mua hàng trực tuyến hoặc qua điện thoại.\n– Xuất khẩu:Ngoài thị trường trong nước, Quảng Ninh còn xuất khẩu sản phẩm đến nhiều thị trường quốc tế, bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc.\nCông ty nước khoáng Quảng Ninh cũng thường xuyên tham gia các triển lãm, hội chợ để quảng bá sản phẩm của mình và tìm kiếm các cơ hội hợp tác với các đối tác mới.\nSau khi nghiên cứu, nhóm đã đưa ra bảng mô hình BMC của doanh nghiệp như sau:\nHình 15: Mô hình Bussiness model canvas\n\n[qlsxks-l06-nhom2-p008-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 8 | Thiết kế sản phẩm và dịch vụ]\n– Vị trí địa lý thuận lợi:Công ty được đặt tại vị trí gần các trục đường chính, các khu công nghiệp, khu tái định cư... giúp cho việc vận chuyển và tiếp thị sản phẩm đơn giản và thuận tiện.\n– Thương hiệu uy tín:Với hơn 20 năm kinh nghiệm sản xuất và phân phối Nước khoáng, công ty đã xây dựng được thương hiệu uy tín và được đánh giá cao trên thị trường trong nước.\n– Sản phẩm đa dạng phong phú:Ngoài Nước khoáng truyền thống, công ty còn sản xuất các sản phẩm đóng chai đóng gói như nước trái cây, nước tinh khiết, nước uống giải khát,... đáp ứng nhu cầu người tiêu dùng.\n– Nguồn lực lao động:giá rẻ dồi dào từ nguồn lao động trong nước",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p029-para800-002",
+      "qlsxks-l06-nhom2-p018-para800-001",
+      "qlsxks-l06-nhom2-p008-para800-000"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p029-para800-002",
+        "page": 29,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Với sự phong phú trong từng dòng sản phẩm, đa dạng trong từng loại kích cỡ, hình dáng, hương vị... các sản phẩm từ Công ty luôn chiếm lĩnh thị trường tiêu dùng trong nước. Có thể khẳng định các sản phẩm của công ty đều có đủ các điều kiện và đã trở thành thương hiệu mạnh được tin dùng trong toàn quốc và xuất khẩu ra nước ngoài. Ta có thể thấy được thị trường của Công ty còn nhiều tiềm năng phát triển mở rộng và nâng cao sản lượng tiêu thụ."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p018-para800-001",
+        "page": 18,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Trực tiếp đến khách hàng:Công ty Quảng Ninh cũng cung cấp dịch vụ giao hàng trực tiếp đến khách hàng qua các kênh mua hàng trực tuyến hoặc qua điện thoại.\n– Xuất khẩu:Ngoài thị trường trong nước, Quảng Ninh còn xuất khẩu sản phẩm đến nhiều thị trường quốc tế, bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc.\nCông ty nước khoáng Quảng Ninh cũng thường xuyên tham gia các triển lãm, hội chợ để quảng bá sản phẩm của mình và tìm kiếm các cơ hội hợp tác với các đối tác mới.\nSau khi nghiên cứu, nhóm đã đưa ra bảng mô hình BMC của doanh nghiệp như sau:\nHình 15: Mô hình Bussiness model canvas"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p008-para800-000",
+        "page": 8,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Vị trí địa lý thuận lợi:Công ty được đặt tại vị trí gần các trục đường chính, các khu công nghiệp, khu tái định cư... giúp cho việc vận chuyển và tiếp thị sản phẩm đơn giản và thuận tiện.\n– Thương hiệu uy tín:Với hơn 20 năm kinh nghiệm sản xuất và phân phối Nước khoáng, công ty đã xây dựng được thương hiệu uy tín và được đánh giá cao trên thị trường trong nước.\n– Sản phẩm đa dạng phong phú:Ngoài Nước khoáng truyền thống, công ty còn sản xuất các sản phẩm đóng chai đóng gói như nước trái cây, nước tinh khiết, nước uống giải khát,... đáp ứng nhu cầu người tiêu dùng.\n– Nguồn lực lao động:giá rẻ dồi dào từ nguồn lao động trong nước"
+      }
+    ],
+    "queries": [
+      "Ngoài thị trường nội địa, sản phẩm của công ty được bán ra những thị trường nước ngoài nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1142,
+        "completion_tokens": 65,
+        "wall_s": 8.186,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1142,
+    "completion_tokens": 65,
+    "elapsed_s": 8.376,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "answerable": true,
+    "question": "Có bao nhiêu loại và gồm những loại nào?",
+    "filter": {
+      "section": "quan_ly_ton_kho"
+    },
+    "status": "answered",
+    "answer": "Có 4 loại tồn kho, bao gồm:  \n– Tồn kho nguyên vật liệu: là nguyên phụ liệu chưa được đưa vào quy trình sản xuất [qlsxks-l06-nhom2-p019-para800-001].  \n– Tồn kho bán thành phẩm: là các nguyên liệu đã trải qua một số thay đổi, sử dụng nhưng chưa trở thành thành phẩm [qlsxks-l06-nhom2-p019-para800-001].  \n– Tồn kho thành phẩm: là sản phẩm hoàn chỉnh và chờ giao hàng [qlsxks-l06-nhom2-p019-para800-001].  \n– Tồn kho phụ tùng: là những phụ tùng dành cho bảo trì/sửa chữa/vận hành [qlsxks-l06-nhom2-p019-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p019-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Có bao nhiêu loại và gồm những loại nào?",
+        "filter": {
+          "section": "quan_ly_ton_kho"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p019-para800-001",
+            "page": 19,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p021-para800-002",
+            "page": 21,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p020-para800-000",
+            "page": 20,
+            "score": 0.031258
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p019-para800-001",
+          "qlsxks-l06-nhom2-p021-para800-002",
+          "qlsxks-l06-nhom2-p020-para800-000"
+        ],
+        "context_chars": 2000,
+        "retrieval_ms": 170.21
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p019-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 19 | Quản lý tồn kho]\nCó 4 loại tồn kho bao gồm:\n– Tồn kho nguyên vật liệu:là nguyên phụ liệu chưa được đưa vào quy trình sản xuất\n– Tồn kho bán thành phẩm:là các nguyên liệu đã trải qua một số thay đổi, sử dụng nhưng chưa trở thành thành phẩm.\n– Tồn kho thành phẩm:là sản phẩm hoàn chỉnh và chờ giao hàng.\n– Tồn kho phụ tùng:là những phụ tùng dành cho bảo trì/ sửa chữa/ vận hành.\n\n[qlsxks-l06-nhom2-p021-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 21 | Quản lý tồn kho]\nNhững dự báo về tồn kho năm 2023: trong năm 2023 kinh tế của đất nước đã ổn định, dịch bệnh cũng đã gần như mất đi nên nhu cầu sử dụng nước khoáng của người dân cũng không có những biến đổi nhiều có thể dự đoán về số lượng hàng hóa cũng như nhu cầu sẽ cao hơn năm 2022 vì vậy tồn kho do nguyên vật liệu và công cụ để phục vụ sản xuất cũng sẽ tăng theo do công ty cần phải chuẩn bị số lượng nguyên liệu nhiều hơn, phải đầu tư thêm những công cụ mới để sản xuất một cách hiệu quả và đem về lợi nhuận cao nhất. Đây là 2 loại hình tồn kho có lợi không gây ảnh hưởng tới sự phát triển của công ty giúp cho công ty phát triển và ổn định.\n\n[qlsxks-l06-nhom2-p020-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 20 | Quản lý tồn kho]\nTrong năm này giá trị sản phẩm tồn kho lớn do ảnh hưởng của nhiều yếu tố thị trường, ảnh hưởng của dịch bệnh, cạnh tranh giữa các đổi thủ khác nên lượng hàng hóa tiêu thụ ít và không có nguồn dự trữ.\nSố loại hàng tồn kho ít nhưng giá trị cao, loại hàng hóa tồn kho thấp nhất do nhà sản xuất đã đánh giá được giá trị cung cầu nên đã ước lượng được lượng sản phẩm cần sản xuất nên giá trị tồn kho đã giảm 14.165.238 VND.\n• Năm 2021 có 4 loại chi phí hàng hóa tồn kho:\n– Tồn kho do hàng mua đang đi đường:giá trị đầu năm bằng 0 gia tăng đến cuối năm 2021 lên tới 1.605.800.000 VND.\n– Tồn kho nguyên vật liệu:giảm nhẹ từ 5.610.666.047 VND ( giá trị của năm 2020) đã giảm xuống 5.502.875.938 VND giảm 107.790.109 VND.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p019-para800-001",
+      "qlsxks-l06-nhom2-p021-para800-002",
+      "qlsxks-l06-nhom2-p020-para800-000"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p019-para800-001",
+        "page": 19,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Có 4 loại tồn kho bao gồm:\n– Tồn kho nguyên vật liệu:là nguyên phụ liệu chưa được đưa vào quy trình sản xuất\n– Tồn kho bán thành phẩm:là các nguyên liệu đã trải qua một số thay đổi, sử dụng nhưng chưa trở thành thành phẩm.\n– Tồn kho thành phẩm:là sản phẩm hoàn chỉnh và chờ giao hàng.\n– Tồn kho phụ tùng:là những phụ tùng dành cho bảo trì/ sửa chữa/ vận hành."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p021-para800-002",
+        "page": 21,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Những dự báo về tồn kho năm 2023: trong năm 2023 kinh tế của đất nước đã ổn định, dịch bệnh cũng đã gần như mất đi nên nhu cầu sử dụng nước khoáng của người dân cũng không có những biến đổi nhiều có thể dự đoán về số lượng hàng hóa cũng như nhu cầu sẽ cao hơn năm 2022 vì vậy tồn kho do nguyên vật liệu và công cụ để phục vụ sản xuất cũng sẽ tăng theo do công ty cần phải chuẩn bị số lượng nguyên liệu nhiều hơn, phải đầu tư thêm những công cụ mới để sản xuất một cách hiệu quả và đem về lợi nhuận cao nhất. Đây là 2 loại hình tồn kho có lợi không gây ảnh hưởng tới sự phát triển của công ty giúp cho công ty phát triển và ổn định."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p020-para800-000",
+        "page": 20,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Trong năm này giá trị sản phẩm tồn kho lớn do ảnh hưởng của nhiều yếu tố thị trường, ảnh hưởng của dịch bệnh, cạnh tranh giữa các đổi thủ khác nên lượng hàng hóa tiêu thụ ít và không có nguồn dự trữ.\nSố loại hàng tồn kho ít nhưng giá trị cao, loại hàng hóa tồn kho thấp nhất do nhà sản xuất đã đánh giá được giá trị cung cầu nên đã ước lượng được lượng sản phẩm cần sản xuất nên giá trị tồn kho đã giảm 14.165.238 VND.\n• Năm 2021 có 4 loại chi phí hàng hóa tồn kho:\n– Tồn kho do hàng mua đang đi đường:giá trị đầu năm bằng 0 gia tăng đến cuối năm 2021 lên tới 1.605.800.000 VND.\n– Tồn kho nguyên vật liệu:giảm nhẹ từ 5.610.666.047 VND ( giá trị của năm 2020) đã giảm xuống 5.502.875.938 VND giảm 107.790.109 VND."
+      }
+    ],
+    "queries": [
+      "Có bao nhiêu loại và gồm những loại nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1208,
+        "completion_tokens": 202,
+        "wall_s": 24.916,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1208,
+    "completion_tokens": 202,
+    "elapsed_s": 25.087,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "answerable": true,
+    "question": "Quy trình gồm những bước nào?",
+    "filter": {
+      "section": "quan_ly_rui_ro"
+    },
+    "status": "answered",
+    "answer": "Quy trình gồm các bước sau:  \n– Phân tích rủi ro  \n– Đánh giá rủi ro  \n– Đưa ra giải pháp xử lý rủi ro [qlsxks-l06-nhom2-p024-para800-001].",
+    "citations": [
+      "qlsxks-l06-nhom2-p024-para800-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Quy trình gồm những bước nào?",
+        "filter": {
+          "section": "quan_ly_rui_ro"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p024-para800-001",
+            "page": 24,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p024-para800-000",
+            "page": 24,
+            "score": 0.03101
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p028-para800-001",
+            "page": 28,
+            "score": 0.030835
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p024-para800-001",
+          "qlsxks-l06-nhom2-p024-para800-000",
+          "qlsxks-l06-nhom2-p028-para800-001"
+        ],
+        "context_chars": 1988,
+        "retrieval_ms": 143.61
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p024-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 24 | Quản lý rủi ro]\n7.2 Quy trình\nRủi ro trong hoạt động kinh doanh là yếu tố tiềm ẩn, khó phát hiện và nắm bắt, do đó mà lên kế hoạch quản lý rủi ro cho doanh nghiệp luôn được đánh giá là một công việc không hề dễ dàng. Và để doanh nghiệp có thể thực hiện nhiệm vụ quản trị rủi ro tốt nhất, doanh nghiệp cần phải triển khai quy trình một cách bài bản, chi tiết, bao gồm các bước như sau:\n– Phân tích rủi ro\n– Đánh giá rủi ro\n– Đưa ra giải pháp xử lý rủi ro\n\n[qlsxks-l06-nhom2-p024-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 24 | Quản lý rủi ro]\n7 Quản lý rủi ro\n7.1 Khái niệm\nQuản lý rủi ro là một hoạt động xây dựng quy trình có hệ thống bài bản, mang tính khoa học nhằm tìm ra, phòng ngừa và tìm ra giải pháp nhằm giảm thiểu tối đa những rủi ro có khả năng phát sinh trong quá trình hoạt động kinh doanh, gây ra những bất lợi, hạn chế cho doanh nghiệp. Việc triển khai các kế hoạch quản lý rủi ro không chỉ giúp cho các hoạt động kinh doanh, mục tiêu phát triển của doanh nghiệp được đi đúng hướng mà còn là cách để chính doanh nghiệp chủ động nắm bắt những cơ hội mới, nâng cao lợi thế cạnh tranh của mình trên thị trường.\n\n[qlsxks-l06-nhom2-p028-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 28 | Quản lý rủi ro]\n7.2.3 Kế hoạch quản lý rủi ro\nTrong quá trình họat động thì công ty không thể nào có thể tránh khỏi được những rủi ro có trong quá trình hoạt động này. Tuy nhiên, công ty cần đưa ra các đối sách khi rủi ro xảy ra bao gồm: giảm nhẹ rủi ro, tránh rủi ro, chuyển giao rủi ro, chấp nhận rủi ro.\n• Giảm nhẹ rủi ro:\n– Để giảm nhẹ khả năng xảy ra rủi ro hoặc giảm hậu quả của nó xuống mức có thể chấp nhận được, công ty có thể thực hiện các biện pháp bảo vệ hoặc các biện pháp kiểm soát, được lựa chọn cẩn thận từ phạm vi của các quy trình kiểm soát sẵn có. Điều cần thiết là đảm bảo rằng tất cả các chiến thuật đều phải giảm rủi ro đến mức đủ để tiếp tục kinh doanh.\n• Tránh rủi ro:",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p024-para800-001",
+      "qlsxks-l06-nhom2-p024-para800-000",
+      "qlsxks-l06-nhom2-p028-para800-001"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p024-para800-001",
+        "page": 24,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "7.2 Quy trình\nRủi ro trong hoạt động kinh doanh là yếu tố tiềm ẩn, khó phát hiện và nắm bắt, do đó mà lên kế hoạch quản lý rủi ro cho doanh nghiệp luôn được đánh giá là một công việc không hề dễ dàng. Và để doanh nghiệp có thể thực hiện nhiệm vụ quản trị rủi ro tốt nhất, doanh nghiệp cần phải triển khai quy trình một cách bài bản, chi tiết, bao gồm các bước như sau:\n– Phân tích rủi ro\n– Đánh giá rủi ro\n– Đưa ra giải pháp xử lý rủi ro"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p024-para800-000",
+        "page": 24,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "7 Quản lý rủi ro\n7.1 Khái niệm\nQuản lý rủi ro là một hoạt động xây dựng quy trình có hệ thống bài bản, mang tính khoa học nhằm tìm ra, phòng ngừa và tìm ra giải pháp nhằm giảm thiểu tối đa những rủi ro có khả năng phát sinh trong quá trình hoạt động kinh doanh, gây ra những bất lợi, hạn chế cho doanh nghiệp. Việc triển khai các kế hoạch quản lý rủi ro không chỉ giúp cho các hoạt động kinh doanh, mục tiêu phát triển của doanh nghiệp được đi đúng hướng mà còn là cách để chính doanh nghiệp chủ động nắm bắt những cơ hội mới, nâng cao lợi thế cạnh tranh của mình trên thị trường."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p028-para800-001",
+        "page": 28,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "7.2.3 Kế hoạch quản lý rủi ro\nTrong quá trình họat động thì công ty không thể nào có thể tránh khỏi được những rủi ro có trong quá trình hoạt động này. Tuy nhiên, công ty cần đưa ra các đối sách khi rủi ro xảy ra bao gồm: giảm nhẹ rủi ro, tránh rủi ro, chuyển giao rủi ro, chấp nhận rủi ro.\n• Giảm nhẹ rủi ro:\n– Để giảm nhẹ khả năng xảy ra rủi ro hoặc giảm hậu quả của nó xuống mức có thể chấp nhận được, công ty có thể thực hiện các biện pháp bảo vệ hoặc các biện pháp kiểm soát, được lựa chọn cẩn thận từ phạm vi của các quy trình kiểm soát sẵn có. Điều cần thiết là đảm bảo rằng tất cả các chiến thuật đều phải giảm rủi ro đến mức đủ để tiếp tục kinh doanh.\n• Tránh rủi ro:"
+      }
+    ],
+    "queries": [
+      "Quy trình gồm những bước nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1177,
+        "completion_tokens": 64,
+        "wall_s": 8.176,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1177,
+    "completion_tokens": 64,
+    "elapsed_s": 8.32,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "type": "truc_tiep",
+    "answerable": true,
+    "question": "Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Các rủi ro được xếp vào mức nghiêm trọng là: rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý [qlsxks-l06-nhom2-p028-para800-000].",
+    "citations": [
+      "qlsxks-l06-nhom2-p028-para800-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p027-para800-003",
+            "page": 27,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p028-para800-000",
+            "page": 28,
+            "score": 0.032018
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p027-para800-002",
+            "page": 27,
+            "score": 0.032002
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p027-para800-003",
+          "qlsxks-l06-nhom2-p028-para800-000",
+          "qlsxks-l06-nhom2-p027-para800-002"
+        ],
+        "context_chars": 993,
+        "retrieval_ms": 186.06
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p027-para800-003 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 27 | Quản lý rủi ro]\n[OCR ảnh 1 trang 27 — Tesseract, độ tin cậy 85]\ns Đỏ (rủi ro nghiêm trọng)\nMức độ nghiêm trọng Xanh (rủi ro nhỏ}\nRũi ro Mức độ Mức độ Độ khó | Chỉ số rủi\nthường nghiêm được phát ro\nxuyên xây trọng hiện (IxPxD)\nKhâu cung ứng đầu vào 1 5 5 25\nKhâu phân phối đầu ra 2 4 3 24\n3 5 3 75\n2 2 3 12\n5 1 1 3\n1 3 2 6\n4 4 2 32\n1 5 1 5\n\n[qlsxks-l06-nhom2-p028-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 28 | Quản lý rủi ro]\nVậy trong 9 rủi ro trên, ta có:\n– Rủi ro nhỏ: Rủi ro R&D, nhân lực, trong quá trình cạnh tranh.\n– Rủi ro trung bình: Rủi ro trong khâu cung ứng đầu vào, khâu phân phối đầu ra, nhân lực, tài chính.\n– Rủi ro nghiêm trọng: Rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý.\n\n[qlsxks-l06-nhom2-p027-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 27 | Quản lý rủi ro]\n7.2.2 Đánh giá rủi ro\nMa trận đánh giá rủi ro:\nHình 16: Ma trận đánh giá rủi ro",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p027-para800-003",
+      "qlsxks-l06-nhom2-p028-para800-000",
+      "qlsxks-l06-nhom2-p027-para800-002"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p027-para800-003",
+        "page": 27,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "[OCR ảnh 1 trang 27 — Tesseract, độ tin cậy 85]\ns Đỏ (rủi ro nghiêm trọng)\nMức độ nghiêm trọng Xanh (rủi ro nhỏ}\nRũi ro Mức độ Mức độ Độ khó | Chỉ số rủi\nthường nghiêm được phát ro\nxuyên xây trọng hiện (IxPxD)\nKhâu cung ứng đầu vào 1 5 5 25\nKhâu phân phối đầu ra 2 4 3 24\n3 5 3 75\n2 2 3 12\n5 1 1 3\n1 3 2 6\n4 4 2 32\n1 5 1 5"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p028-para800-000",
+        "page": 28,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Vậy trong 9 rủi ro trên, ta có:\n– Rủi ro nhỏ: Rủi ro R&D, nhân lực, trong quá trình cạnh tranh.\n– Rủi ro trung bình: Rủi ro trong khâu cung ứng đầu vào, khâu phân phối đầu ra, nhân lực, tài chính.\n– Rủi ro nghiêm trọng: Rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p027-para800-002",
+        "page": 27,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "7.2.2 Đánh giá rủi ro\nMa trận đánh giá rủi ro:\nHình 16: Ma trận đánh giá rủi ro"
+      }
+    ],
+    "queries": [
+      "Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1006,
+        "completion_tokens": 62,
+        "wall_s": 7.623,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1006,
+    "completion_tokens": 62,
+    "elapsed_s": 7.809,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "type": "so_lieu",
+    "answerable": true,
+    "question": "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là bao nhiêu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là 1.605.800.000 VND [qlsxks-l06-nhom2-p020-para800-000].",
+    "citations": [
+      "qlsxks-l06-nhom2-p020-para800-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là bao nhiêu?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p020-para800-000",
+            "page": 20,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p020-para800-001",
+            "page": 20,
+            "score": 0.032522
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p020-para800-002",
+            "page": 20,
+            "score": 0.031498
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p020-para800-000",
+          "qlsxks-l06-nhom2-p020-para800-001",
+          "qlsxks-l06-nhom2-p020-para800-002"
+        ],
+        "context_chars": 2344,
+        "retrieval_ms": 201.84
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p020-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 20 | Quản lý tồn kho]\nTrong năm này giá trị sản phẩm tồn kho lớn do ảnh hưởng của nhiều yếu tố thị trường, ảnh hưởng của dịch bệnh, cạnh tranh giữa các đổi thủ khác nên lượng hàng hóa tiêu thụ ít và không có nguồn dự trữ.\nSố loại hàng tồn kho ít nhưng giá trị cao, loại hàng hóa tồn kho thấp nhất do nhà sản xuất đã đánh giá được giá trị cung cầu nên đã ước lượng được lượng sản phẩm cần sản xuất nên giá trị tồn kho đã giảm 14.165.238 VND.\n• Năm 2021 có 4 loại chi phí hàng hóa tồn kho:\n– Tồn kho do hàng mua đang đi đường:giá trị đầu năm bằng 0 gia tăng đến cuối năm 2021 lên tới 1.605.800.000 VND.\n– Tồn kho nguyên vật liệu:giảm nhẹ từ 5.610.666.047 VND ( giá trị của năm 2020) đã giảm xuống 5.502.875.938 VND giảm 107.790.109 VND.\n\n[qlsxks-l06-nhom2-p020-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 20 | Quản lý tồn kho]\n– Tồn kho công cụ và dụng cụ sản xuất:giảm, từ đầu năm 2021 với giá trị 4.902.926.978 VND đến cuối năm giảm còn 3.380.721.899 VND giảm 1.522.205.079 VND.\n– Tồn kho thành phẩm:giá trị tồn kho nhỏ 18.434.697VND nhưng đã có khoản kinh phí dự trữ cho loại mặt hàng này là 19.508.606 VND.\n– Tồn kho hàng hóa: được giải quyết hết không còn để lại giá trị tồn kho.\nNăm 2021 giá trị tồn kho xuất phát từ các năm cũ, giá trị tồn kho không được cải thiện vẫn ở mức cao và ít biến đổi, tồn kho do nguyên vật liệu vẫn còn ở giá trị cao và giảm nhẹ do vẫn còn phải chịu ảnh hưởng nên nhu cầu sử dụng thấp không thể sản xuất được hàng hóa.\nLượng hàng mua đang đi đường phát sinh trong năm này do gặp khó khăn trong việc\n\n[qlsxks-l06-nhom2-p020-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 20 | Quản lý tồn kho]\nvận chuyển hàng hóa giữa các nước và trong nước ta gặp khó khăn do dịch bệnh nên hàng hóa đã mua rồi và không thể vận chuyển về công ty. Tồn kho do bán thành phẩm từ cũ không còn nữa và lượng hàng hóa thành phẩm tồn kho với giá trị cũng rất thấp.\n• Năm 2022 có 2 loại hàng hóa tồn kho:\n– Tồn kho nguyên vật liệu:tăng từ 5.502.875.938 VND đến cuối năm 2022 tăng lên 6.015.280.031 VND tăng 551.240.409 VND so với đầu năm.\n– Tồn kho do công cụ và dụng cụ sản xuất: giảm xuống từ 3.830.721.899 VND xuống còn 2.613.949.401 VND.\n– Các mặt hàng tồn kho như: hàng mua đang đi đường và thành phẩm đã được giải quyết hết tồn kho trong năm.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p020-para800-000",
+      "qlsxks-l06-nhom2-p020-para800-001",
+      "qlsxks-l06-nhom2-p020-para800-002"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p020-para800-000",
+        "page": 20,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Trong năm này giá trị sản phẩm tồn kho lớn do ảnh hưởng của nhiều yếu tố thị trường, ảnh hưởng của dịch bệnh, cạnh tranh giữa các đổi thủ khác nên lượng hàng hóa tiêu thụ ít và không có nguồn dự trữ.\nSố loại hàng tồn kho ít nhưng giá trị cao, loại hàng hóa tồn kho thấp nhất do nhà sản xuất đã đánh giá được giá trị cung cầu nên đã ước lượng được lượng sản phẩm cần sản xuất nên giá trị tồn kho đã giảm 14.165.238 VND.\n• Năm 2021 có 4 loại chi phí hàng hóa tồn kho:\n– Tồn kho do hàng mua đang đi đường:giá trị đầu năm bằng 0 gia tăng đến cuối năm 2021 lên tới 1.605.800.000 VND.\n– Tồn kho nguyên vật liệu:giảm nhẹ từ 5.610.666.047 VND ( giá trị của năm 2020) đã giảm xuống 5.502.875.938 VND giảm 107.790.109 VND."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p020-para800-001",
+        "page": 20,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Tồn kho công cụ và dụng cụ sản xuất:giảm, từ đầu năm 2021 với giá trị 4.902.926.978 VND đến cuối năm giảm còn 3.380.721.899 VND giảm 1.522.205.079 VND.\n– Tồn kho thành phẩm:giá trị tồn kho nhỏ 18.434.697VND nhưng đã có khoản kinh phí dự trữ cho loại mặt hàng này là 19.508.606 VND.\n– Tồn kho hàng hóa: được giải quyết hết không còn để lại giá trị tồn kho.\nNăm 2021 giá trị tồn kho xuất phát từ các năm cũ, giá trị tồn kho không được cải thiện vẫn ở mức cao và ít biến đổi, tồn kho do nguyên vật liệu vẫn còn ở giá trị cao và giảm nhẹ do vẫn còn phải chịu ảnh hưởng nên nhu cầu sử dụng thấp không thể sản xuất được hàng hóa.\nLượng hàng mua đang đi đường phát sinh trong năm này do gặp khó khăn trong việc"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p020-para800-002",
+        "page": 20,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "vận chuyển hàng hóa giữa các nước và trong nước ta gặp khó khăn do dịch bệnh nên hàng hóa đã mua rồi và không thể vận chuyển về công ty. Tồn kho do bán thành phẩm từ cũ không còn nữa và lượng hàng hóa thành phẩm tồn kho với giá trị cũng rất thấp.\n• Năm 2022 có 2 loại hàng hóa tồn kho:\n– Tồn kho nguyên vật liệu:tăng từ 5.502.875.938 VND đến cuối năm 2022 tăng lên 6.015.280.031 VND tăng 551.240.409 VND so với đầu năm.\n– Tồn kho do công cụ và dụng cụ sản xuất: giảm xuống từ 3.830.721.899 VND xuống còn 2.613.949.401 VND.\n– Các mặt hàng tồn kho như: hàng mua đang đi đường và thành phẩm đã được giải quyết hết tồn kho trong năm."
+      }
+    ],
+    "queries": [
+      "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là bao nhiêu?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1431,
+        "completion_tokens": 61,
+        "wall_s": 8.041,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1431,
+    "completion_tokens": 61,
+    "elapsed_s": 8.243,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "type": "truc_tiep",
+    "answerable": true,
+    "question": "Công ty áp dụng những hệ thống quản lý chất lượng theo tiêu chuẩn nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Công ty áp dụng hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế ISO 9001:2008 và Hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm HACCP - CODE: 2003 [qlsxks-l06-nhom2-p023-para800-000].",
+    "citations": [
+      "qlsxks-l06-nhom2-p023-para800-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Công ty áp dụng những hệ thống quản lý chất lượng theo tiêu chuẩn nào?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p023-para800-000",
+            "page": 23,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p022-para800-002",
+            "page": 22,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p022-para800-000",
+            "page": 22,
+            "score": 0.031498
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p023-para800-000",
+          "qlsxks-l06-nhom2-p022-para800-002",
+          "qlsxks-l06-nhom2-p022-para800-000"
+        ],
+        "context_chars": 2299,
+        "retrieval_ms": 207.52
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p023-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 23 | Quản lý chất lượng]\n6.2 Chất lượng sản phẩm công ty nước khoáng Quảng Ninh\nChất lượng các sản phẩm của cty nước khoảng Quảng Ninh đã được kiểm định bởi Chi cục an toàn thực phẩm sở y tế Quảng Ninh. Công ty đạt chuẩn kĩ thuật QCVN 6/1:2010/BYT.\nCông ty là đơn vị đầu tiên của ngành sản xuất nước giải khát ở Quảng Ninh đưa vào áp dụng hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế ISO 9001:2008 và Hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm HACCP - CODE: 2003.\nThiết lập các quy trình để chuẩn hoá cách thực hiện, kiểm soát các quá trình hệ thống.\nXây dựng hệ thống văn bản gồm:\n\n[qlsxks-l06-nhom2-p022-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 22 | Quản lý chất lượng]\n– Tiếp cận theo quá trình:Cần tạo ra sản phẩm theo trình tự hợp lý bởi nhiều hoạt động nhằm tạo ra giá trị cho doanh nghiệp. Việc quản lý chất lượng cần được xem xét tiếp cận như một quá trình.\n– Tính hệ thống:Cần xem xét và xử lý, giải quyết một cách đồng bộ và hài hòa giữa các yếu tố trong hệ thống.\n– Cải tiến liên tục:Sự thay đổi của khách hàng sẽ ảnh hưởng tới sản phẩm vì vậy cần liên tục cải tiến để theo kịp xu thế thị trường.\n– Quyết định dựa trên sự kiện:Mọi hoạt động quản lý đều dựa trên những phân tích, xây dựng một cách chính sách, không suy diễn. Việc đánh giá chất lượng dựa trên chiến lược của doanh nghiệp, quá trình,...\n\n[qlsxks-l06-nhom2-p022-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 22 | Quản lý chất lượng]\n6 Quản lý chất lượng\n6.1 Khái niệm\nQuản lý chất lượng đã được áp dụng trong mọi ngành công nghiệp, không chỉ trong sản xuất mà trong mọi lĩnh vực, trong mọi loại hình công ty, qui mô lớn đến qui mô nhỏ, cho dù có tham gia vào thị trường quốc tế hay không. Quản lý chất lượng đảm bảo cho công ty làm đúng những việc phải làm và những việc quan trọng. Nếu các công ty muốn cạnh tranh trên thị trường quốc tế, phải tìm hiểu và áp dụng các khái niệm về quản lý chất lượng có hiệu quả.\nQuản lý chất lượng là các hoạt động có phối hợp nhằm định hướng và kiểm soát một tổ chức về chất lượng. Việc định hướng và kiểm soát về chất lượng thường bao gồm lập chính sách, mục tiêu, hoạch định, kiểm soát, đảm bảo và cải tiến chất lượng.\nCác nguyên tắc để quản lý chất lượng sản phẩm bao gồm:",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p023-para800-000",
+      "qlsxks-l06-nhom2-p022-para800-002",
+      "qlsxks-l06-nhom2-p022-para800-000"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p023-para800-000",
+        "page": 23,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "6.2 Chất lượng sản phẩm công ty nước khoáng Quảng Ninh\nChất lượng các sản phẩm của cty nước khoảng Quảng Ninh đã được kiểm định bởi Chi cục an toàn thực phẩm sở y tế Quảng Ninh. Công ty đạt chuẩn kĩ thuật QCVN 6/1:2010/BYT.\nCông ty là đơn vị đầu tiên của ngành sản xuất nước giải khát ở Quảng Ninh đưa vào áp dụng hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế ISO 9001:2008 và Hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm HACCP - CODE: 2003.\nThiết lập các quy trình để chuẩn hoá cách thực hiện, kiểm soát các quá trình hệ thống.\nXây dựng hệ thống văn bản gồm:"
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p022-para800-002",
+        "page": 22,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Tiếp cận theo quá trình:Cần tạo ra sản phẩm theo trình tự hợp lý bởi nhiều hoạt động nhằm tạo ra giá trị cho doanh nghiệp. Việc quản lý chất lượng cần được xem xét tiếp cận như một quá trình.\n– Tính hệ thống:Cần xem xét và xử lý, giải quyết một cách đồng bộ và hài hòa giữa các yếu tố trong hệ thống.\n– Cải tiến liên tục:Sự thay đổi của khách hàng sẽ ảnh hưởng tới sản phẩm vì vậy cần liên tục cải tiến để theo kịp xu thế thị trường.\n– Quyết định dựa trên sự kiện:Mọi hoạt động quản lý đều dựa trên những phân tích, xây dựng một cách chính sách, không suy diễn. Việc đánh giá chất lượng dựa trên chiến lược của doanh nghiệp, quá trình,..."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p022-para800-000",
+        "page": 22,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "6 Quản lý chất lượng\n6.1 Khái niệm\nQuản lý chất lượng đã được áp dụng trong mọi ngành công nghiệp, không chỉ trong sản xuất mà trong mọi lĩnh vực, trong mọi loại hình công ty, qui mô lớn đến qui mô nhỏ, cho dù có tham gia vào thị trường quốc tế hay không. Quản lý chất lượng đảm bảo cho công ty làm đúng những việc phải làm và những việc quan trọng. Nếu các công ty muốn cạnh tranh trên thị trường quốc tế, phải tìm hiểu và áp dụng các khái niệm về quản lý chất lượng có hiệu quả.\nQuản lý chất lượng là các hoạt động có phối hợp nhằm định hướng và kiểm soát một tổ chức về chất lượng. Việc định hướng và kiểm soát về chất lượng thường bao gồm lập chính sách, mục tiêu, hoạch định, kiểm soát, đảm bảo và cải tiến chất lượng.\nCác nguyên tắc để quản lý chất lượng sản phẩm bao gồm:"
+      }
+    ],
+    "queries": [
+      "Công ty áp dụng những hệ thống quản lý chất lượng theo tiêu chuẩn nào?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1220,
+        "completion_tokens": 77,
+        "wall_s": 10.26,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1220,
+    "completion_tokens": 77,
+    "elapsed_s": 10.468,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "type": "dieu_kien",
+    "answerable": true,
+    "question": "Ở công đoạn thứ ba của quá trình sản xuất, nước được đưa qua những hệ thống lọc nào để loại bỏ tạp chất?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Ở công đoạn thứ ba, nước được đưa qua hệ thống lọc tinh nhằm loại bỏ tạp chất [qlsxks-l06-nhom2-p016-para800-002]. Sau đó, nước được đưa vào hệ thống phối trộn và được bơm qua hệ thống lọc thô để loại bỏ các tạp chất lơ lửng, tiếp theo là hệ thống lọc tinh và lọc RO [qlsxks-l06-nhom2-p016-para800-002].",
+    "citations": [
+      "qlsxks-l06-nhom2-p016-para800-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Ở công đoạn thứ ba của quá trình sản xuất, nước được đưa qua những hệ thống lọc nào để loại bỏ tạp chất?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p016-para800-002",
+            "page": 16,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p016-para800-001",
+            "page": 16,
+            "score": 0.030835
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p015-para800-001",
+            "page": 15,
+            "score": 0.030536
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p016-para800-002",
+          "qlsxks-l06-nhom2-p016-para800-001",
+          "qlsxks-l06-nhom2-p015-para800-001"
+        ],
+        "context_chars": 2052,
+        "retrieval_ms": 188.57
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p016-para800-002 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 16 | Quản lý chuỗi cung ứng]\n– Công đoạn thứ ba:Nước uống đóng chai chứa khoáng Quảng Ninh được bơm qua hệ thống là lọc tinh nhằm giảm bớt và loại bỏ tạp chất có trong nước khoáng. Sau đó được đưa vào hệ thống phối trộn nước sản xuất được chứa vào bồn chứa để chuẩn bị cho công đoạn xử lý từ bồn nước được bơm qua hệ thống lọc thô để loại bỏ các tạp chất lơ lửng sau đó qua hệ thống lọc tinh, lọc RO.\n– Công đoạn thứ tư:Nước được phối trộn vỏ chai nếp được đưa vào nhà máy chiết rót đóng nắp tự động. Sản phẩm được kiểm tra lần cuối qua công đoạn soi trai để loại bỏ sản phẩm không phù hợp, sau đó được chuyển qua công đoạn hoàn thiện.\n\n[qlsxks-l06-nhom2-p016-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 16 | Quản lý chuỗi cung ứng]\n4.4 Quá trình sản xuất\nSản phẩm nước uống đóng chai nước khoáng thiên nhiên Quảng Ninh được sản xuất thông qua các công đoạn như sau:\n– Công đoạn đầu:Vỏ chai khi mới nhập về từ nhà cung cấp được kiểm tra đảm bảo yêu cầu tiêu chuẩn kỹ thuật sau đó đưa vào hệ thống tráng rửa tự động. Tại đây vỏ chai được tráng rửa bằng nước đã được xử lý.\n– Công đoạn thứ hai:Nước khoáng Quảng Ninh được sản xuất tại phân xưởng Suối Mơ cơ sở 1 và phân xưởng suối mơ cơ sở 2. Khoáng nguồn (nguồn nước khoáng thiên nhiên Quảng Ninh dùng để phối trộn) lấy từ giếng khoan lk4 chứa trong bồn chứa nước chuyên dụng bảo đảm an toàn thực phẩm.\n\n[qlsxks-l06-nhom2-p015-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 15 | Quản lý chuỗi cung ứng]\n– Tái sử dụng hoặc tái chế:Nếu sản phẩm có thể tái sử dụng hoặc tái chế, nó sẽ được chuyển đến các cơ sở sản xuất để tiếp tục quá trình sản xuất. Nếu không thể tái sử dụng hoặc tái chế, sản phẩm sẽ được loại bỏ đúng cách\nNhìn chung, chuỗi cung ứng từ nhà máy, kho, siêu thị, người sử dụng và ngược lại là quá trình hoạt động phức tạp để đưa sản phẩm từ nguồn cung cấp đến người sử dụng cuối cùng và đảm bảo rằng sản phẩm được sử dụng và xử lý đúng cách để tối ưu hóa sử dụng tài nguyên và giảm thiểu lãng phí.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p016-para800-002",
+      "qlsxks-l06-nhom2-p016-para800-001",
+      "qlsxks-l06-nhom2-p015-para800-001"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p016-para800-002",
+        "page": 16,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Công đoạn thứ ba:Nước uống đóng chai chứa khoáng Quảng Ninh được bơm qua hệ thống là lọc tinh nhằm giảm bớt và loại bỏ tạp chất có trong nước khoáng. Sau đó được đưa vào hệ thống phối trộn nước sản xuất được chứa vào bồn chứa để chuẩn bị cho công đoạn xử lý từ bồn nước được bơm qua hệ thống lọc thô để loại bỏ các tạp chất lơ lửng sau đó qua hệ thống lọc tinh, lọc RO.\n– Công đoạn thứ tư:Nước được phối trộn vỏ chai nếp được đưa vào nhà máy chiết rót đóng nắp tự động. Sản phẩm được kiểm tra lần cuối qua công đoạn soi trai để loại bỏ sản phẩm không phù hợp, sau đó được chuyển qua công đoạn hoàn thiện."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p016-para800-001",
+        "page": 16,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "4.4 Quá trình sản xuất\nSản phẩm nước uống đóng chai nước khoáng thiên nhiên Quảng Ninh được sản xuất thông qua các công đoạn như sau:\n– Công đoạn đầu:Vỏ chai khi mới nhập về từ nhà cung cấp được kiểm tra đảm bảo yêu cầu tiêu chuẩn kỹ thuật sau đó đưa vào hệ thống tráng rửa tự động. Tại đây vỏ chai được tráng rửa bằng nước đã được xử lý.\n– Công đoạn thứ hai:Nước khoáng Quảng Ninh được sản xuất tại phân xưởng Suối Mơ cơ sở 1 và phân xưởng suối mơ cơ sở 2. Khoáng nguồn (nguồn nước khoáng thiên nhiên Quảng Ninh dùng để phối trộn) lấy từ giếng khoan lk4 chứa trong bồn chứa nước chuyên dụng bảo đảm an toàn thực phẩm."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p015-para800-001",
+        "page": 15,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Tái sử dụng hoặc tái chế:Nếu sản phẩm có thể tái sử dụng hoặc tái chế, nó sẽ được chuyển đến các cơ sở sản xuất để tiếp tục quá trình sản xuất. Nếu không thể tái sử dụng hoặc tái chế, sản phẩm sẽ được loại bỏ đúng cách\nNhìn chung, chuỗi cung ứng từ nhà máy, kho, siêu thị, người sử dụng và ngược lại là quá trình hoạt động phức tạp để đưa sản phẩm từ nguồn cung cấp đến người sử dụng cuối cùng và đảm bảo rằng sản phẩm được sử dụng và xử lý đúng cách để tối ưu hóa sử dụng tài nguyên và giảm thiểu lãng phí."
+      }
+    ],
+    "queries": [
+      "Ở công đoạn thứ ba của quá trình sản xuất, nước được đưa qua những hệ thống lọc nào để loại bỏ tạp chất?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1193,
+        "completion_tokens": 117,
+        "wall_s": 14.263,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1193,
+    "completion_tokens": 117,
+    "elapsed_s": 14.451,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "answerable": false,
+    "question": "Công ty Nước khoáng Quảng Ninh có tổng cộng bao nhiêu lao động (nhân viên) trong năm 2022?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Không có thông tin về số lượng lao động (nhân viên) của Công ty Cổ phần Nước khoáng Quảng Ninh trong năm 2022.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Công ty Nước khoáng Quảng Ninh có tổng cộng bao nhiêu lao động (nhân viên) trong năm 2022?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p004-para800-001",
+            "page": 4,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p007-para800-001",
+            "page": 7,
+            "score": 0.032002
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p015-para800-003",
+            "page": 15,
+            "score": 0.03055
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p004-para800-001",
+          "qlsxks-l06-nhom2-p007-para800-001",
+          "qlsxks-l06-nhom2-p015-para800-003"
+        ],
+        "context_chars": 2122,
+        "retrieval_ms": 269.08
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p004-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nCông ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau.\n\n[qlsxks-l06-nhom2-p007-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 7 | Thiết kế sản phẩm và dịch vụ]\nĐồng thời, công ty cũng đặt mục tiêu phát triển bền vững, tôn trọng và bảo vệ môi trường, đảm bảo an toàn, chất lượng cho nguồn tài nguyên Nước khoáng và cộng đồng xung quanh.\nNgoài ra, công ty còn kết hợp với các hoạt động xã hội, đóng góp cho sự phát triển kinh tế của địa phương và đất.\nSứ mệnh : Công ty Nước khoáng Quảng Ninh có sứ mệnh cung cấp cho người tiêu dùng Nước khoáng chất lượng tốt và an toàn, đáp ứng nhu cầu sức khỏe và sinh hoạt hàng ngày, đồng thời đóng góp vào phát triển địa phương và nâng cao chất lượng cuộc sống của cộng đồng.\nCác giá trị cốt lõi của công ty Nước khoáng Quảng Ninh bao gồm:\n– Sản phẩm chất lượng cao:Công ty cam kết cung cấp Nước khoáng đạt tiêu chuẩn chất lượng cao nhất cho khách hàng.\n\n[qlsxks-l06-nhom2-p015-para800-003 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 15 | Quản lý chuỗi cung ứng]\n– Các nhà thầu và đối tác liên quan đến việc xây dựng và bảo trì hệ thống sản xuất nước khoáng.\n– Các đại lý phân phối và các khách hàng mua sản phẩm của Công ty Nước khoáng Quảng Ninh.\nCác nhà cung cấp này đều có vai trò quan trọng trong quá trình sản xuất và kinh doanh của công ty, và sẽ cung cấp các sản phẩm, thiết bị và dịch vụ cần thiết để Công ty Nước khoáng Quảng Ninh có",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p004-para800-001",
+      "qlsxks-l06-nhom2-p007-para800-001",
+      "qlsxks-l06-nhom2-p015-para800-003"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-001",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Công ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p007-para800-001",
+        "page": 7,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Đồng thời, công ty cũng đặt mục tiêu phát triển bền vững, tôn trọng và bảo vệ môi trường, đảm bảo an toàn, chất lượng cho nguồn tài nguyên Nước khoáng và cộng đồng xung quanh.\nNgoài ra, công ty còn kết hợp với các hoạt động xã hội, đóng góp cho sự phát triển kinh tế của địa phương và đất.\nSứ mệnh : Công ty Nước khoáng Quảng Ninh có sứ mệnh cung cấp cho người tiêu dùng Nước khoáng chất lượng tốt và an toàn, đáp ứng nhu cầu sức khỏe và sinh hoạt hàng ngày, đồng thời đóng góp vào phát triển địa phương và nâng cao chất lượng cuộc sống của cộng đồng.\nCác giá trị cốt lõi của công ty Nước khoáng Quảng Ninh bao gồm:\n– Sản phẩm chất lượng cao:Công ty cam kết cung cấp Nước khoáng đạt tiêu chuẩn chất lượng cao nhất cho khách hàng."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p015-para800-003",
+        "page": 15,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "– Các nhà thầu và đối tác liên quan đến việc xây dựng và bảo trì hệ thống sản xuất nước khoáng.\n– Các đại lý phân phối và các khách hàng mua sản phẩm của Công ty Nước khoáng Quảng Ninh.\nCác nhà cung cấp này đều có vai trò quan trọng trong quá trình sản xuất và kinh doanh của công ty, và sẽ cung cấp các sản phẩm, thiết bị và dịch vụ cần thiết để Công ty Nước khoáng Quảng Ninh có"
+      }
+    ],
+    "queries": [
+      "Công ty Nước khoáng Quảng Ninh có tổng cộng bao nhiêu lao động (nhân viên) trong năm 2022?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1269,
+        "completion_tokens": 49,
+        "wall_s": 6.736,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1269,
+    "completion_tokens": 49,
+    "elapsed_s": 7.005,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "answerable": false,
+    "question": "Giá bán lẻ một chai nước khoáng Quảng Ninh loại 500ml là bao nhiêu đồng?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Không có thông tin về giá bán lẻ của chai nước khoáng Quảng Ninh loại 500ml trong các đoạn văn đã cung cấp.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "system_original_query",
+        "retriever": "hybrid_rrf(dense+bm25_bigram)",
+        "query": "Giá bán lẻ một chai nước khoáng Quảng Ninh loại 500ml là bao nhiêu đồng?",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "qlsxks-l06-nhom2-p016-para800-001",
+            "page": 16,
+            "score": 0.032002
+          },
+          {
+            "rank": 2,
+            "id": "qlsxks-l06-nhom2-p018-para800-000",
+            "page": 18,
+            "score": 0.031258
+          },
+          {
+            "rank": 3,
+            "id": "qlsxks-l06-nhom2-p004-para800-001",
+            "page": 4,
+            "score": 0.030777
+          }
+        ],
+        "context_ids": [
+          "qlsxks-l06-nhom2-p016-para800-001",
+          "qlsxks-l06-nhom2-p018-para800-000",
+          "qlsxks-l06-nhom2-p004-para800-001"
+        ],
+        "context_chars": 2359,
+        "retrieval_ms": 191.79
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "final_context": "[qlsxks-l06-nhom2-p016-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 16 | Quản lý chuỗi cung ứng]\n4.4 Quá trình sản xuất\nSản phẩm nước uống đóng chai nước khoáng thiên nhiên Quảng Ninh được sản xuất thông qua các công đoạn như sau:\n– Công đoạn đầu:Vỏ chai khi mới nhập về từ nhà cung cấp được kiểm tra đảm bảo yêu cầu tiêu chuẩn kỹ thuật sau đó đưa vào hệ thống tráng rửa tự động. Tại đây vỏ chai được tráng rửa bằng nước đã được xử lý.\n– Công đoạn thứ hai:Nước khoáng Quảng Ninh được sản xuất tại phân xưởng Suối Mơ cơ sở 1 và phân xưởng suối mơ cơ sở 2. Khoáng nguồn (nguồn nước khoáng thiên nhiên Quảng Ninh dùng để phối trộn) lấy từ giếng khoan lk4 chứa trong bồn chứa nước chuyên dụng bảo đảm an toàn thực phẩm.\n\n[qlsxks-l06-nhom2-p018-para800-000 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 18 | Quản lý chuỗi cung ứng]\nNhư vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau.\n\n[qlsxks-l06-nhom2-p004-para800-001 | docs/222_QLSXKS_L06_Nhom_2.pdf | trang 4 | Tổng quan về doanh nghiệp]\nCông ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau.",
+    "final_context_ids": [
+      "qlsxks-l06-nhom2-p016-para800-001",
+      "qlsxks-l06-nhom2-p018-para800-000",
+      "qlsxks-l06-nhom2-p004-para800-001"
+    ],
+    "final_context_chunks": [
+      {
+        "id": "qlsxks-l06-nhom2-p016-para800-001",
+        "page": 16,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "4.4 Quá trình sản xuất\nSản phẩm nước uống đóng chai nước khoáng thiên nhiên Quảng Ninh được sản xuất thông qua các công đoạn như sau:\n– Công đoạn đầu:Vỏ chai khi mới nhập về từ nhà cung cấp được kiểm tra đảm bảo yêu cầu tiêu chuẩn kỹ thuật sau đó đưa vào hệ thống tráng rửa tự động. Tại đây vỏ chai được tráng rửa bằng nước đã được xử lý.\n– Công đoạn thứ hai:Nước khoáng Quảng Ninh được sản xuất tại phân xưởng Suối Mơ cơ sở 1 và phân xưởng suối mơ cơ sở 2. Khoáng nguồn (nguồn nước khoáng thiên nhiên Quảng Ninh dùng để phối trộn) lấy từ giếng khoan lk4 chứa trong bồn chứa nước chuyên dụng bảo đảm an toàn thực phẩm."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p018-para800-000",
+        "page": 18,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Như vậy để cung ứng vật phù hợp với nhu cầu sản xuất của công ty tránh tình trạng tồn kho ta cần nhập sản phẩm phôi bình vào ngày 5/7, tiến hành khai thác nước vào ngày 4/7 đặt bao bày sản phẩm vào ngày 25/4. Như vậy công ty sẽ đạt được hiệu quả tối đa tránh trường hợp bị thiếu vật tư và trường hợp dự trữ vật tư quá lâu trong kho.\nCông ty Nước khoáng Quảng Ninh sản xuất và cung cấp các sản phẩm nước khoáng, bao gồm các loại nước khoáng thiên nhiên đóng chai và nước khoáng đóng thùng. Quảng Ninh phân phối sản phẩm của mình thông qua các kênh phân phối như sau:\n– Đại lý: Công ty Quảng Ninh đã xây dựng một mạng lưới đại lý rộng khắp trên toàn quốc để phân phối sản phẩm của mình đến các cửa hàng, siêu thị và nhà hàng khác nhau."
+      },
+      {
+        "id": "qlsxks-l06-nhom2-p004-para800-001",
+        "page": 4,
+        "source_id": "qlsxks-l06-nhom2",
+        "text": "Công ty Cổ phần Nước khoáng Quảng Ninh tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989. Năm 2006 Công ty được đổi tên là Công ty TNHH một thành viên nước khoáng và TMDV Quảng Ninh. Ngay 25 thang 12 năm 2015 công ty chuyên thanh Công ty cô phân Nươc khoang Quang Ninh.\nNgày mới thành lập Công ty chỉ có 90m2 nhà xưởng, một dây chuyền sản xuất nước khoáng công suất 1.000 chai/ca. Đến nay, Công ty đã có tổng mặt bằng công nghiệp rộng 9000m2 và trên 3000m2 nhà xưởng khang trang sạch đẹp với 5 dây chuyền thiết bị máy móc tương đối hiện đại, sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau."
+      }
+    ],
+    "queries": [
+      "Giá bán lẻ một chai nước khoáng Quảng Ninh loại 500ml là bao nhiêu đồng?"
+    ],
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "prompt_tokens": 1317,
+        "completion_tokens": 45,
+        "wall_s": 6.522,
+        "tools_offered": true
+      }
+    ],
+    "prompt_tokens": 1317,
+    "completion_tokens": 45,
+    "elapsed_s": 6.714,
+    "config": {
+      "retriever": "hybrid_bigram",
+      "top_k": 3,
+      "budget": 2600,
+      "context_policy": "append",
+      "max_searches": 3,
+      "max_steps": 6,
+      "original_first": true,
+      "neighbors": false,
+      "research_prompt": false
+    }
+  }
+]

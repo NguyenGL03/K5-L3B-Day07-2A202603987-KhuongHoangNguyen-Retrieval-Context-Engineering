@@ -1,0 +1,205 @@
+[
+ {
+  "query_id": "q01",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng tiền thân và ngày 17/7/1989; p004-001 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p004-para800-001"
+  ]
+ },
+ {
+  "query_id": "q02",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "45 triệu lít/năm, 10 chủng loại; p004-001. Không nêu '2 thương hiệu' nhưng câu hỏi chỉ hỏi số lít và số chủng loại.",
+  "citations": [
+   "qlsxks-l06-nhom2-p004-para800-001"
+  ]
+ },
+ {
+  "query_id": "q03",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "258,880 triệu VND; bảng OCR p005-001 cột 2022.",
+  "citations": [
+   "qlsxks-l06-nhom2-p005-para800-001"
+  ]
+ },
+ {
+  "query_id": "q05",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đơn hàng từ 500.000 VNĐ; p008-002.",
+  "citations": [
+   "qlsxks-l06-nhom2-p008-para800-002"
+  ]
+ },
+ {
+  "query_id": "q06",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Chiến lược chi phí thấp; p008-001.",
+  "citations": [
+   "qlsxks-l06-nhom2-p008-para800-001"
+  ]
+ },
+ {
+  "query_id": "q07",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ điều kiện và 4 yếu tố; p011-001.",
+  "citations": [
+   "qlsxks-l06-nhom2-p011-para800-001"
+  ]
+ },
+ {
+  "query_id": "q08",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Giếng khoan số 45, trên 140m; p012-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p012-para800-000"
+  ]
+ },
+ {
+  "query_id": "q09",
+  "answer_grade": 1,
+  "citation_support": [
+   true
+  ],
+  "reason": "4/5 nguyên tắc đúng; thiếu 'đảm bảo tính linh hoạt' ở chunk kế tiếp p013-001 không có trong context.",
+  "citations": [
+   "qlsxks-l06-nhom2-p013-para800-000"
+  ]
+ },
+ {
+  "query_id": "q10",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "10/QĐ-MĐC-QLTN; p015-002.",
+  "citations": [
+   "qlsxks-l06-nhom2-p015-para800-002"
+  ]
+ },
+ {
+  "query_id": "q11",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "630 bình/ngày, 15 ngày; p016-003.",
+  "citations": [
+   "qlsxks-l06-nhom2-p016-para800-003"
+  ]
+ },
+ {
+  "query_id": "q12",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đông Nam Á và Trung Quốc; p018-001.",
+  "citations": [
+   "qlsxks-l06-nhom2-p018-para800-001"
+  ]
+ },
+ {
+  "query_id": "q13",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ 4 loại tồn kho; p019-001.",
+  "citations": [
+   "qlsxks-l06-nhom2-p019-para800-001"
+  ]
+ },
+ {
+  "query_id": "q15",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Phân tích, đánh giá, đưa ra giải pháp xử lý rủi ro; p024-001 (BM25 trong hybrid đưa chunk này lên top-1).",
+  "citations": [
+   "qlsxks-l06-nhom2-p024-para800-001"
+  ]
+ },
+ {
+  "query_id": "q19",
+  "answer_grade": 0,
+  "citation_support": [
+   false
+  ],
+  "reason": "Sai: gold p028-000 không có trong context; p026-003 nói phế phẩm 'ảnh hưởng nghiêm trọng' nhưng không phải phân loại 'rủi ro nghiêm trọng' trong đánh giá rủi ro.",
+  "citations": [
+   "qlsxks-l06-nhom2-p026-para800-003"
+  ]
+ },
+ {
+  "query_id": "q22",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "1.605.800.000 VND; p020-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p020-para800-000"
+  ]
+ },
+ {
+  "query_id": "q23",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "ISO 9001:2008 và HACCP - CODE: 2003; p023-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p023-para800-000"
+  ]
+ },
+ {
+  "query_id": "q24",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Lọc thô, lọc tinh, lọc RO; p016-002.",
+  "citations": [
+   "qlsxks-l06-nhom2-p016-para800-002"
+  ]
+ },
+ {
+  "query_id": "u01",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng.",
+  "citations": []
+ },
+ {
+  "query_id": "u02",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng.",
+  "citations": []
+ }
+]

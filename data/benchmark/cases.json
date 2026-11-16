@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Công ty Cổ phần Nước khoáng Quảng Ninh có tiền thân là đơn vị nào và được thành lập vào ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Hiện nay công ty sản xuất và tiêu thụ bao nhiêu lít nước khoáng mỗi năm, với bao nhiêu chủng loại sản phẩm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Doanh thu thuần năm 2022 của doanh nghiệp đạt bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "So với kế hoạch đề ra, năm 2022 công ty hoàn thành chỉ tiêu lợi nhuận sau thuế ở mức bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Khách hàng được giao hàng tận nơi miễn phí trong trường hợp nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Dựa trên các lợi thế sẵn có, nhóm tác giả khuyến nghị công ty theo đuổi hướng cạnh tranh nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Bố trí mặt bằng theo sản phẩm được áp dụng trong những điều kiện nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Nước khoáng thiên nhiên Suối Mơ được khai thác từ giếng khoan nào và ở độ sâu bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Những nguyên tắc cần tuân thủ là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "bo_tri_mat_bang"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Công ty được quyền khai thác nước khoáng tại giếng khoan 3B theo giấy phép số mấy?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Mỗi ngày nhà máy sản xuất được bao nhiêu bình 19 lít và cần bao lâu để hoàn thành đơn hàng 10000 bình?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Ngoài thị trường nội địa, sản phẩm của công ty được bán ra những thị trường nước ngoài nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Có bao nhiêu loại và gồm những loại nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "quan_ly_ton_kho"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "test",
+    "type": "so_lieu",
+    "question": "Tổng giá trị hàng tồn kho năm 2022 giảm bao nhiêu, từ mức nào xuống mức nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Quy trình gồm những bước nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "quan_ly_rui_ro"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Sản phẩm của công ty đạt quy chuẩn kỹ thuật nào và do cơ quan nào kiểm định?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Những đồng ngoại tệ nào là nguồn chính gây rủi ro tỷ giá cho doanh nghiệp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Nếu sản phẩm lỗi do con người gây ra thì công ty nên xử lý thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Có những nguyên tắc nào cần tuân theo?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "quan_ly_chat_luong"
+    }
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Những ưu điểm chính là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "quan_ly_chuoi_cung_ung"
+    }
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Cuối năm 2021, giá trị tồn kho hàng mua đang đi đường là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Công ty áp dụng những hệ thống quản lý chất lượng theo tiêu chuẩn nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Ở công đoạn thứ ba của quá trình sản xuất, nước được đưa qua những hệ thống lọc nào để loại bỏ tạp chất?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Công ty Nước khoáng Quảng Ninh có tổng cộng bao nhiêu lao động (nhân viên) trong năm 2022?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ nói định tính về nguồn lao động/nhân sự (tr.8, 13, 25); không có số lượng lao động.",
+    "absence_check": [
+      "\\d[\\d.,]*\\s*(người|lao động|nhân viên|công nhân)",
+      "số lượng (lao động|nhân viên)"
+    ]
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Giá bán lẻ một chai nước khoáng Quảng Ninh loại 500ml là bao nhiêu đồng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu có giá trị tồn kho và ngưỡng giao hàng miễn phí 500.000 VNĐ, không có giá bán lẻ sản phẩm.",
+    "absence_check": [
+      "giá bán",
+      "đồng\\s*/\\s*chai",
+      "\\d[\\d.,]*\\s*(đ|đồng|vnđ|vnd)\\s*/\\s*(chai|bình)"
+    ]
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Ai đang giữ chức Tổng giám đốc của Công ty Cổ phần Nước khoáng Quảng Ninh?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu nói chung về 'ban lãnh đạo', không nêu tên hay chức danh giám đốc.",
+    "absence_check": [
+      "giám đốc",
+      "chủ tịch"
+    ]
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Vốn điều lệ của Công ty Cổ phần Nước khoáng Quảng Ninh là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu có doanh thu, tồn kho, chỉ số P/E, P/B nhưng không có vốn điều lệ.",
+    "absence_check": [
+      "vốn điều lệ",
+      "điều lệ"
+    ]
+  }
+]

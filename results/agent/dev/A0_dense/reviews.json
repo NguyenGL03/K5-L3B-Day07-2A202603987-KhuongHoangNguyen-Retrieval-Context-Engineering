@@ -1,0 +1,207 @@
+[
+ {
+  "query_id": "q01",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng tiền thân và ngày 17/7/1989; chunk p004-001 chứa nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p004-para800-001"
+  ]
+ },
+ {
+  "query_id": "q02",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối nhầm: truy vấn agent viết lại không lấy được p004-001 (45 triệu lít, 10 chủng loại); agent không tìm lại.",
+  "citations": []
+ },
+ {
+  "query_id": "q03",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "258,880 triệu VND; bảng OCR p005-001 có 'Doanh thu thuần ... 258,880' cột 2022. Thiếu 'tăng hơn 20%' nhưng câu hỏi chỉ hỏi mức đạt.",
+  "citations": [
+   "qlsxks-l06-nhom2-p005-para800-001"
+  ]
+ },
+ {
+  "query_id": "q05",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng điều kiện đơn hàng từ 500.000 VNĐ; p008-002 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p008-para800-002"
+  ]
+ },
+ {
+  "query_id": "q06",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Chiến lược chi phí thấp; p008-001 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p008-para800-001"
+  ]
+ },
+ {
+  "query_id": "q07",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ sản lượng lớn/ít chủng loại và 4 yếu tố; p011-001 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p011-para800-001"
+  ]
+ },
+ {
+  "query_id": "q08",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Giếng khoan số 45, trên 140m, Bãi Cháy; p012-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p012-para800-000"
+  ]
+ },
+ {
+  "query_id": "q09",
+  "answer_grade": 1,
+  "citation_support": [
+   true
+  ],
+  "reason": "Nêu đúng 4/5 nguyên tắc, mỗi ý có trong p013-000; thiếu 'đảm bảo tính linh hoạt' nằm ở chunk kế tiếp p013-001 không có trong context.",
+  "citations": [
+   "qlsxks-l06-nhom2-p013-para800-000"
+  ]
+ },
+ {
+  "query_id": "q10",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Giấy phép số 10/QĐ-MĐC-QLTN; p015-002.",
+  "citations": [
+   "qlsxks-l06-nhom2-p015-para800-002"
+  ]
+ },
+ {
+  "query_id": "q11",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "630 bình/ngày, 15 ngày; p016-003 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p016-para800-003"
+  ]
+ },
+ {
+  "query_id": "q12",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đông Nam Á và Trung Quốc; p018-001.",
+  "citations": [
+   "qlsxks-l06-nhom2-p018-para800-001"
+  ]
+ },
+ {
+  "query_id": "q13",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ 4 loại tồn kho; p019-001 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p019-para800-001"
+  ]
+ },
+ {
+  "query_id": "q15",
+  "answer_grade": 0,
+  "citation_support": [
+   true,
+   false,
+   false
+  ],
+  "reason": "Sai: gold p024-001 (phân tích, đánh giá, đưa ra giải pháp) không có trong context; agent ghép 3 đoạn khác thành 'quy trình'. p024-002 đúng là mục Phân tích rủi ro; p028-001 và p026-003 không nói đó là bước của quy trình.",
+  "citations": [
+   "qlsxks-l06-nhom2-p024-para800-002",
+   "qlsxks-l06-nhom2-p028-para800-001",
+   "qlsxks-l06-nhom2-p026-para800-003"
+  ]
+ },
+ {
+  "query_id": "q19",
+  "answer_grade": 0,
+  "citation_support": [
+   false,
+   false
+  ],
+  "reason": "Sai: gold p028-000 không có trong context; p024-002 và p026-003 không phân loại rủi ro 'nghiêm trọng'. Trả lời không có căn cứ.",
+  "citations": [
+   "qlsxks-l06-nhom2-p024-para800-002",
+   "qlsxks-l06-nhom2-p026-para800-003"
+  ]
+ },
+ {
+  "query_id": "q22",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "1.605.800.000 VND; p020-000 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p020-para800-000"
+  ]
+ },
+ {
+  "query_id": "q23",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "ISO 9001:2008 và HACCP - CODE: 2003; p023-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p023-para800-000"
+  ]
+ },
+ {
+  "query_id": "q24",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Lọc thô, lọc tinh, lọc RO; p016-002.",
+  "citations": [
+   "qlsxks-l06-nhom2-p016-para800-002"
+  ]
+ },
+ {
+  "query_id": "u01",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng, không đưa số liệu.",
+  "citations": []
+ },
+ {
+  "query_id": "u02",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng, không nhầm với ngưỡng 500.000 VNĐ.",
+  "citations": []
+ }
+]
