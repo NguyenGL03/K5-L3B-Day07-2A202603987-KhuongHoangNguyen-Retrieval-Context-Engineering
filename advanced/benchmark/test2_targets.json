@@ -1,0 +1,131 @@
+{
+ "seed": 20261116,
+ "excluded_pages_round1": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  15,
+  16,
+  20,
+  21,
+  28,
+  31,
+  32,
+  39,
+  247,
+  278,
+  283,
+  318,
+  322,
+  323,
+  325
+ ],
+ "excluded_visuals_round1": [
+  "p005-v1",
+  "p005-v3",
+  "p005-v4",
+  "p008-v6",
+  "p009-v1",
+  "p009-v5",
+  "p009-v6",
+  "p011-v1",
+  "p011-v4",
+  "p011-v5"
+ ],
+ "table": [
+  {
+   "chunk": "pbb-ar2025-fs-p135-t3",
+   "page": 135,
+   "note": "23. DEPOSITS FROM BANKS AND OTHER FINANCIAL INSTITUTIONS",
+   "row": "Other financial institutions | 2,371,188 | 4,107,467 | 8,103,039 | 9,076,623"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p029-t1",
+   "page": 29,
+   "note": "Statements of | Financial Position",
+   "row": "Reverse repurchase agreements 4(a): Group 2025 RM’000 = 1,642; 2024 RM’000 (Restated) = 6,103; Bank 2025 RM’000 = 1,642; 2024 RM’000 = 6,103 (ASSETS)"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p241-t1",
+   "page": 241,
+   "note": "52. CAPITAL ADEQUACY",
+   "row": "Tier I capital ratio | 13.909% | 14.192% | 12.040% | 12.245%"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p158-t2",
+   "page": 158,
+   "note": "38. OTHER OPERATING EXPENSES",
+   "row": "– Audit | 3,032 | 3,171 | 31 | 30"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p153-t3",
+   "page": 153,
+   "note": "34. INTEREST EXPENSE",
+   "row": "Others | 74,963 | 54,379 | 61,785 | 56,778"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p168-t6",
+   "page": 168,
+   "note": "45. RELATED PARTY TRANSACTIONS",
+   "row": "(row): Investments 2025 = 71,035; Investments 2024 = 54,423; Companies 2025 = 360,853; Companies 2024 = 291,221; Personnel* 2025 = 16,661; 2024 = 13,062; Substantial Interest 2025 = –; Substantial Interest 2024 = –; Benefits Fund 2025 = 43,880; Benefits Fund 2024 = 42,789 (Bank, RM’000)"
+  }
+ ],
+ "chart": [
+  "pbb-ar2025-fs-p009-v4",
+  "pbb-ar2025-fs-p008-v5",
+  "pbb-ar2025-fs-p011-v6",
+  "pbb-ar2025-fs-p008-v4",
+  "pbb-ar2025-fs-p005-v2"
+ ],
+ "visual": [
+  {
+   "diagram": "pbb-ar2025-fs-p278-v2",
+   "element": "first step and what it considers"
+  },
+  {
+   "diagram": "pbb-ar2025-fs-p322-v1",
+   "element": "Identification activities"
+  },
+  {
+   "diagram": "pbb-ar2025-fs-p318-v1",
+   "element": "activity prohibited without Board approval"
+  },
+  {
+   "diagram": "pbb-ar2025-fs-p323-v1",
+   "element": "oversight box on the left"
+  },
+  {
+   "diagram": "pbb-ar2025-fs-p325-v1",
+   "element": "Monitoring activities"
+  }
+ ],
+ "multihop_anchors": [
+  {
+   "chunk": "pbb-ar2025-fs-p012-t3",
+   "row": "Total distributed | 13,549,481 | 12,814,094"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p004-t3",
+   "row": "Gross impaired loans ratio | 0.51 | 0.52 | 0.38 | 0.39"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p010-t1",
+   "row": "Investment banking: Analysis Operating Revenue 2025 = 0.7; Analysis Operating Revenue 2024 = 0.9; Profit/(Loss) Before Tax 2025 = 0.7; Profit/(Loss) Before Tax 2024 = 1.0; Total Assets 2025 = 0.4; Total Assets 2024 = 0.4 (Segmental, (%))"
+  },
+  {
+   "chunk": "pbb-ar2025-fs-p006-t2",
+   "row": "Total liabilities: 2025 = 499,210; 2024 = 483,380*; 2023 = 454,218; 2022 = 441,737; 2021 = 413,314"
+  }
+ ],
+ "text_pages": [
+  75,
+  120,
+  274,
+  3
+ ]
+}

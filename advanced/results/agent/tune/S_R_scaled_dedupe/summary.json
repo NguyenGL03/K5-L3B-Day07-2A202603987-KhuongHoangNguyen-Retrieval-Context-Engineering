@@ -1,0 +1,17 @@
+{
+ "split": "tune",
+ "config": "S_R_scaled_dedupe",
+ "pass": 49,
+ "N": 49,
+ "rate": 1.0,
+ "by_group": {
+  "table": "9/9",
+  "visual": "8/8",
+  "chart": "8/8",
+  "multihop": "7/7",
+  "text": "7/7",
+  "unanswerable": "10/10"
+ },
+ "errors": 0,
+ "failed_ids": []
+}

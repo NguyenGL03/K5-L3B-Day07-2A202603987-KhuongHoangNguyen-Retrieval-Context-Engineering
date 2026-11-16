@@ -1,0 +1,127 @@
+{
+ "dense_k4": {
+  "method": "dense",
+  "top_k": 4,
+  "N": 15,
+  "hit_at_1": 13,
+  "hit_at_4": 14,
+  "all_required_pages": 13,
+  "by_group": {
+   "table": "2/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [
+   "dt02"
+  ],
+  "median_ms": 189.4
+ },
+ "bm25_k4": {
+  "method": "bm25",
+  "top_k": 4,
+  "N": 15,
+  "hit_at_1": 14,
+  "hit_at_4": 15,
+  "all_required_pages": 12,
+  "by_group": {
+   "table": "3/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [],
+  "median_ms": 4.9
+ },
+ "hybrid_k4": {
+  "method": "hybrid",
+  "top_k": 4,
+  "N": 15,
+  "hit_at_1": 14,
+  "hit_at_4": 14,
+  "all_required_pages": 12,
+  "by_group": {
+   "table": "2/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [
+   "dt02"
+  ],
+  "median_ms": 199.0
+ },
+ "dense_600_k6": {
+  "method": "dense_600",
+  "top_k": 6,
+  "N": 15,
+  "hit_at_1": 14,
+  "hit_at_6": 15,
+  "all_required_pages": 14,
+  "by_group": {
+   "table": "3/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [],
+  "median_ms": 380.2
+ },
+ "bm25_600_k6": {
+  "method": "bm25_600",
+  "top_k": 6,
+  "N": 15,
+  "hit_at_1": 13,
+  "hit_at_6": 15,
+  "all_required_pages": 12,
+  "by_group": {
+   "table": "3/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [],
+  "median_ms": 20.2
+ },
+ "hybrid_600_k6": {
+  "method": "hybrid_600",
+  "top_k": 6,
+  "N": 15,
+  "hit_at_1": 14,
+  "hit_at_6": 15,
+  "all_required_pages": 13,
+  "by_group": {
+   "table": "3/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [],
+  "median_ms": 441.8
+ },
+ "hybrid_k6": {
+  "method": "hybrid",
+  "top_k": 6,
+  "N": 15,
+  "hit_at_1": 14,
+  "hit_at_6": 14,
+  "all_required_pages": 12,
+  "by_group": {
+   "table": "2/3",
+   "visual": "3/3",
+   "chart": "3/3",
+   "multihop": "3/3",
+   "text": "3/3"
+  },
+  "misses": [
+   "dt02"
+  ],
+  "median_ms": 467.4
+ }
+}

@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "3,696,022; p12."
+ },
+ {
+  "id": "dt02",
+  "pass": false,
+  "reason": "Tìm đúng p6 (index 600) nhưng sai đơn vị: 'RM382,169,000' trong khi bảng là RM million. Guard không bắt do lỗi cắt số 0 (đã sửa sau)."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 / 21,125; p7."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đủ 3 hoạt động; p323."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": false,
+  "reason": "Chỉ có citation, không nêu giai đoạn."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "0.8% / 1.4%; p5."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88.51 → 88.12; p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11."
+ },
+ {
+  "id": "dm01",
+  "pass": false,
+  "reason": "Từ chối nhầm: p031-t3 được tìm ở lượt 3 nhưng bị cắt khỏi context (đóng gói theo thứ tự đến) và không chứa dòng Operating revenue."
+ },
+ {
+  "id": "dm02",
+  "pass": false,
+  "reason": "Từ chối nhầm: không có operating revenue Group trong context."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Sai: dùng 648,387,265 (không phải tổng tài sản Group 2025) → 97.9 bn; truy vấn kế hoạch 'total assets of the entity' không tìm ra p9/p6."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0m; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng; p15 (Directors' Report, trang chấp nhận)."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng; p21."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

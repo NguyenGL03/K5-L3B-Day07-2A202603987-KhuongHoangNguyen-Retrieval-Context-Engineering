@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "3,696,022 RM'000, trích p12 (Statement of Value Added)."
+ },
+ {
+  "id": "dt02",
+  "pass": false,
+  "reason": "Sai: trả lời 16.6% (total capital ratio, p7) thay cho core customer deposits 382,169 RM million ở p6; p6 không có trong context."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 và 21,125; p7."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đủ 3 hoạt động; p323 diagram."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4 thành phần ICAAP; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": false,
+  "reason": "Câu trả lời chỉ là header citation, không nêu giai đoạn (Identification) dù context có."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "0.8% và 1.4%; p5 donut."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88.51 → 88.12 RM bn, giảm; p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11 donut."
+ },
+ {
+  "id": "dm01",
+  "pass": false,
+  "reason": "Không gọi calculate, tự nhân sai: 13,609,848 (đúng 13,603,902 RM'000)."
+ },
+ {
+  "id": "dm02",
+  "pass": false,
+  "reason": "Từ chối nhầm: không tìm lượt 2 để lấy operating revenue (p31)."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Từ chối nhầm: không tìm lượt 2 để lấy total assets 2025."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0 million; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng (Bank, không phải Group); p39."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "SMEs, property, vehicle financing; p21. Ý thêm về phân khúc có trong p245 (segment description)."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng; nêu đúng là chỉ có cổ tức FY2025."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

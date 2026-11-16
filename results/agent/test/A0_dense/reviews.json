@@ -1,0 +1,101 @@
+[
+ {
+  "query_id": "q04",
+  "answer_grade": 1,
+  "citation_support": [
+   false
+  ],
+  "reason": "Con số 161% đúng (có trong p006-000 ở context) nhưng trích p006-001 là bảng OCR kế hoạch, không có 161%.",
+  "citations": [
+   "qlsxks-l06-nhom2-p006-para800-001"
+  ]
+ },
+ {
+  "query_id": "q14",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ 3 con số; p021-000 nguyên văn.",
+  "citations": [
+   "qlsxks-l06-nhom2-p021-para800-000"
+  ]
+ },
+ {
+  "query_id": "q16",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "QCVN 6/1:2010/BYT, Chi cục ATTP Sở Y tế Quảng Ninh; p023-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p023-para800-000"
+  ]
+ },
+ {
+  "query_id": "q17",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "USD và EUR; p026-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p026-para800-000"
+  ]
+ },
+ {
+  "query_id": "q18",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Tự động hóa + đào tạo nhân sự; p027-000.",
+  "citations": [
+   "qlsxks-l06-nhom2-p027-para800-000"
+  ]
+ },
+ {
+  "query_id": "q20",
+  "answer_grade": 1,
+  "citation_support": [
+   false,
+   true
+  ],
+  "reason": "4/7 nguyên tắc đúng (p022-002); thiếu 3 nguyên tắc ở p022-001 (không vào context); thêm 'kiểm soát chất lượng toàn diện' từ p023-003 vốn không thuộc danh sách nguyên tắc.",
+  "citations": [
+   "qlsxks-l06-nhom2-p023-para800-003",
+   "qlsxks-l06-nhom2-p022-para800-002"
+  ]
+ },
+ {
+  "query_id": "q21",
+  "answer_grade": 0,
+  "citation_support": [
+   false,
+   false,
+   false
+  ],
+  "reason": "Sai: agent viết lại thành 'ưu điểm quản lý chuỗi cung ứng' và tổng hợp các đoạn không nói về ưu điểm; gold p014-001/002 không có trong context.",
+  "citations": [
+   "qlsxks-l06-nhom2-p018-para800-000",
+   "qlsxks-l06-nhom2-p016-para800-000",
+   "qlsxks-l06-nhom2-p015-para800-003"
+  ]
+ },
+ {
+  "query_id": "u03",
+  "answer_grade": null,
+  "citation_support": [],
+  "reason": "Từ chối đúng.",
+  "citations": [],
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u04",
+  "answer_grade": null,
+  "citation_support": [],
+  "reason": "Từ chối đúng.",
+  "citations": [],
+  "abstention_correct": true
+ }
+]

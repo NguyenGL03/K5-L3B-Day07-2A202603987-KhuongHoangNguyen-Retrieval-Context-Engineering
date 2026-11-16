@@ -1,0 +1,47 @@
+{
+ "config": {
+  "retriever": "hybrid",
+  "top_k": 4,
+  "budget": 7000,
+  "max_searches": 4,
+  "original_first": true,
+  "plan": true,
+  "num_guard": true
+ },
+ "llm": {
+  "provider": "Ollama (local, Docker)",
+  "model": "qwen3:4b-instruct",
+  "options": {
+   "temperature": 0.0,
+   "seed": 7,
+   "num_ctx": 6144
+  },
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen3",
+   "families": [
+    "qwen3"
+   ],
+   "parameter_size": "4.0B",
+   "quantization_level": "Q4_K_M"
+  },
+  "capabilities": [
+   "tools",
+   "thinking",
+   "completion"
+  ],
+  "digest_modified_at": "2026-11-15T17:23:30.600026646Z"
+ },
+ "N": 19,
+ "errors": 0,
+ "abstain_on_unanswerable": "4/4",
+ "abstain_on_answerable": 2,
+ "context_has_required_pages": "12/15",
+ "median_latency_s": 13.693,
+ "total_latency_s": 593.7,
+ "mean_prompt_tokens": 3660.6,
+ "mean_llm_calls": 2.47,
+ "mean_searches": 2.42,
+ "cost_usd": 0.0
+}

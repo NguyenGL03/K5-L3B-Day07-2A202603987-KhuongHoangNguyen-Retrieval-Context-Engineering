@@ -1,0 +1,152 @@
+[
+ {
+  "id": "t2_01",
+  "pass": true,
+  "reason": "Bank RM8,103,039,000 và Group RM2,371,188,000 = 8,103,039 / 2,371,188 nghìn (p135, Note 23); đúng cột Group/Bank. Đổi đơn vị đúng (RM'000 -> RM) được chấp nhận."
+ },
+ {
+  "id": "t2_02",
+  "pass": false,
+  "reason": "Sai đơn vị năm 2025: 'RM1,642,000 thousand' (thực tế RM1,642 nghìn = RM1,642,000). Bản nháp của model đúng ('RM1,642,000'); bước unit_fix v2 thêm 'thousand' vì 1,642,000 cũng có trong câu văn của chunk p69 (chunk có tiêu đề RM'000). Lỗi pipeline, không sửa sau khi xem test. Số 2024 (RM6,103,000) đúng."
+ },
+ {
+  "id": "t2_03",
+  "pass": true,
+  "reason": "13.909% / 14.192%, đúng khối 'After deducting dividends' (p241)."
+ },
+ {
+  "id": "t2_04",
+  "pass": true,
+  "reason": "RM3,944 nghìn (parent auditor) và RM3,032 nghìn (firms affiliated), Group 2025 (p158)."
+ },
+ {
+  "id": "t2_05",
+  "pass": true,
+  "reason": "RM74,963,000 (2025), RM54,379,000 (2024), tăng RM20,584,000 (calculate) (p153). Đổi đơn vị đúng (RM'000 -> RM) được chấp nhận."
+ },
+ {
+  "id": "t2_06",
+  "pass": false,
+  "reason": "Từ chối nhầm: chunk p168-t6 (dòng tổng 'Expenditure incurred', không có nhãn dòng/cột trong text được index) không được truy hồi; context chỉ có p168-t2/t4. Giới hạn chunking bảng rộng + truy hồi."
+ },
+ {
+  "id": "g2_01",
+  "pass": true,
+  "reason": "Set Risk Appetite; strategic business directions, risk taking capacity, current risk profile (p278, đối chiếu crop)."
+ },
+ {
+  "id": "g2_02",
+  "pass": true,
+  "reason": "Đủ 5 hoạt động của Identification (p322, đối chiếu crop)."
+ },
+ {
+  "id": "g2_03",
+  "pass": true,
+  "reason": "Derivative activities for trading; Control & Mitigation (p318, đối chiếu crop)."
+ },
+ {
+  "id": "g2_04",
+  "pass": true,
+  "reason": "Independent Risk Management & Compliance Review (bên trái, p323, đối chiếu crop)."
+ },
+ {
+  "id": "g2_05",
+  "pass": true,
+  "reason": "Đủ 4 hoạt động của Monitoring (p325, đối chiếu crop)."
+ },
+ {
+  "id": "c2_01",
+  "pass": true,
+  "reason": "Cao nhất 2023 = 0.59%; 2025 = 0.51% (p9, đối chiếu crop)."
+ },
+ {
+  "id": "c2_02",
+  "pass": true,
+  "reason": "RM4.54 (2025) thấp hơn RM4.56 (2024) (p8, đối chiếu crop)."
+ },
+ {
+  "id": "c2_03",
+  "pass": true,
+  "reason": "Retail operations 50.1%; Hong Kong SAR 3.6% (p11; khớp bảng p10)."
+ },
+ {
+  "id": "c2_04",
+  "pass": true,
+  "reason": "15.2 -> 22.5 sen, +7.3 sen (calculate) (p8, đối chiếu crop)."
+ },
+ {
+  "id": "c2_05",
+  "pass": true,
+  "reason": "2.5% và 2.0% (p5, đối chiếu crop)."
+ },
+ {
+  "id": "m2_01",
+  "pass": true,
+  "reason": "45.92% = 13,549,481 / 29,509,548; cite p12 và p31."
+ },
+ {
+  "id": "m2_02",
+  "pass": true,
+  "reason": "0.38% (p4) và 1,259,611 / 333,871,515 = 0.3773% ≈ 0.38% (p88); kết luận nhất quán."
+ },
+ {
+  "id": "m2_03",
+  "pass": true,
+  "reason": "0.7% (p10); RM217,993 nghìn (p247); 0.739%. Model gọi cột là 'investment banking management' (nhãn cột ghép sai từ trích xuất) nhưng giá trị đúng cột Investment Banking. Câu cần người chấm xem lại."
+ },
+ {
+  "id": "m2_04",
+  "pass": true,
+  "reason": "Bank RM375,716,531 nghìn (p29); Group RM499,210 million (p6); 75.26% (calculate)."
+ },
+ {
+  "id": "x2_01",
+  "pass": true,
+  "reason": "Đủ hai ý của 'For Its Employees' (p3)."
+ },
+ {
+  "id": "x2_02",
+  "pass": true,
+  "reason": "Lãi RM1,861,000 (2025), lỗ RM2,043,000 (2024), dòng 'Net gains and losses on financial instruments' (p75; cite thêm p155 Note 36)."
+ },
+ {
+  "id": "x2_03",
+  "pass": true,
+  "reason": "Protective rights … unless approval; not material individually or in aggregate (p120)."
+ },
+ {
+  "id": "x2_04",
+  "pass": false,
+  "reason": "Sai người: nêu Ms Cheah Kim Ling/Ms Chan Sau Kuen được bổ nhiệm và Dato' Mohammed Najeeb nghỉ; đúng là Mr Chee Keng Eng (bổ nhiệm) và Dato' Chang Kat Kiam (nghỉ). Chunk p274-t2 trộn hai cột của bảng phụ lục (giới hạn trích xuất bố cục nhiều cột)."
+ },
+ {
+  "id": "u2_01",
+  "pass": true,
+  "reason": "Từ chối đúng, không thêm khẳng định; absence_check 0 kết quả trên 328 trang PDF."
+ },
+ {
+  "id": "u2_02",
+  "pass": true,
+  "reason": "Từ chối đúng, không thêm khẳng định; absence_check 0 kết quả trên 328 trang PDF."
+ },
+ {
+  "id": "u2_03",
+  "pass": true,
+  "reason": "Từ chối đúng, không thêm khẳng định; absence_check 0 kết quả trên 328 trang PDF."
+ },
+ {
+  "id": "u2_04",
+  "pass": true,
+  "reason": "Từ chối đúng, không thêm khẳng định; absence_check 0 kết quả trên 328 trang PDF."
+ },
+ {
+  "id": "u2_05",
+  "pass": true,
+  "reason": "Từ chối đúng, không thêm khẳng định; absence_check 0 kết quả trên 328 trang PDF."
+ },
+ {
+  "id": "u2_06",
+  "pass": true,
+  "reason": "Từ chối đúng, không thêm khẳng định; absence_check 0 kết quả trên 328 trang PDF."
+ }
+]

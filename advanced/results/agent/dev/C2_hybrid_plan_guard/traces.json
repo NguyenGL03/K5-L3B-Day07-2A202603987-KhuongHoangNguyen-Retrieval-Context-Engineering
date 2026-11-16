@@ -1,0 +1,3753 @@
+[
+ {
+  "status": "answered",
+  "answer": "The Group's personnel costs distributed to employees in 2025, according to the Statement of Value Added, were RM'000 3,696,022 [pbb-ar2025-fs-p012-t1].",
+  "citations": [
+   "pbb-ar2025-fs-p012-t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What were the Group's personnel costs distributed to employees in 2025 according to the Statement of Value Added?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p012-t2",
+      "page": 12,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p108-t3",
+      "page": 108,
+      "score": 0.031754
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p012-t1",
+      "page": 12,
+      "score": 0.031545
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p173-t1",
+      "page": 173,
+      "score": 0.030777
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p108-t3",
+     "pbb-ar2025-fs-p012-t1",
+     "pbb-ar2025-fs-p173-t1"
+    ],
+    "context_chars": 3745,
+    "retrieval_ms": 383.78
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "What is the personnel cost distributed to employees in 2025 according to the Statement of Value Added?"
+    ],
+    "raw": "[\"What is the personnel cost distributed to employees in 2025 according to the Statement of Value Added?\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What is the personnel cost distributed to employees in 2025 according to the Statement of Value Added?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p012-t1",
+      "page": 12,
+      "score": 0.031545
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p012-t2",
+      "page": 12,
+      "score": 0.031514
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p173-t1",
+      "page": 173,
+      "score": 0.030579
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p108-t3",
+      "page": 108,
+      "score": 0.029052
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p108-t3",
+     "pbb-ar2025-fs-p012-t1",
+     "pbb-ar2025-fs-p173-t1"
+    ],
+    "context_chars": 3745,
+    "retrieval_ms": 626.25
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p012-t2 | page 12 (printed 10) | table_text]\n[Statement of | Value Added]\n(columns: 2025 | 2024 / Distribution of Value Added | RM’000 | RM’000)\nNon-controlling interests | 182,687 | (127,967)\nTo reinvest in the Group:\nDepreciation | 310,606 | 331,405\nRetained profits | 2,984,992 | 2,931,257\nTotal distributed | 13,549,481 | 12,814,094\n\n[pbb-ar2025-fs-p108-t3 | page 108 (printed 106) | table_text]\n[Notes to the Financial Statements > 12. EMPLOYEE BENEFITS]\n(columns: Group | Bank / 2025 | 2024 | 2025 | 2024 / Note | RM’000 | RM’000 | RM’000 | RM’000)\nAllocation adjustment | – | – | (806) | (407)\nAmount included under “personnel costs\n– pension costs” | 38 | 85,798 | 83,967 | 83,667 | 82,300\nRemeasurements recognised in other comprehensive income are as follows:\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nNote | RM’000 | RM’000 | RM’000 | RM’000\nPresent value of funded obligations:\n– effects of changes in financial\nassumptions | (45,534) | (28,733) | (44,830) | (28,302)\nFair value of plan assets:\n– remeasurements on plan assets | 67,619 | 66,132 | 66,574 | 65,140\n– allocation adjustment | – | – | (255) | 51\n31 | 22,085 | 37,399 | 21,489 | 36,889\n\n[pbb-ar2025-fs-p012-t1 | page 12 (printed 10) | table_text]\n[Statement of | Value Added]\nPUBLIC BANK BERHAD\nStatement of | Value Added\nValue added is a measure of wealth created by the Public Bank Group through various business activities. The statement of\nvalue added shows the total wealth created and how it was distributed to stakeholders, including the Governments, as well as\nreinvestment for the replacement of assets and further expansion of the Group’s business.\n2025 | 2024\nValue Added | RM’000 | RM’000\nNet interest income | 9,583,686 | 9,451,106\nNet income from Islamic banking business | 1,839,388 | 1,707,000\nOther operating income | 3,272,080 | 2,852,568\nOther operating expenses excluding staff costs and depreciation | (1,122,074) | (945,667)\nAllowance for impairment on loans, advances and financing | (66,830) | (565)\nAllowance for impairment on other assets | (12,790) | (491,511)\nShare of results of equity accounted associated companies | 56,021 | 241,163\nValue added available for distribution | 13,549,481 | 12,814,094\n2025 | 2024\nDistribution of Value Added | RM’000 | RM’000\nTo employees:\nPersonnel costs | 3,696,022 | 3,551,060\nTo the Governments:\nTaxation | 2,007,768 | 2,052,094\nTo providers of capital:\nDividends paid to shareholders | 4,367,406 | 4,076,245\n\n[pbb-ar2025-fs-p173-t1 | page 173 (printed 171) | table_text]\n[Notes to the Financial Statements > 45. RELATED PARTY TRANSACTIONS]\n45. RELATED PARTY TRANSACTIONS (CONTINUED)\n(c) | Loans, advances and financing granted to the Directors of the Bank and other key management personnel of the\nGroup and of the Bank are on similar terms and conditions generally available to other employees within the Group.\nNone of the loans, advances and financing granted to key management personnel (2024 – None) are impaired.\n(d) | Key Management Personnel Compensation\nThe remuneration of Directors and other members of key management during the year are as follows:\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nEmployee benefits:\nFees | 5,529 | 5,597 | 3,252 | 3,255\nSalary and other remuneration, including\nmeeting allowances | 153,138 | 135,458 | 133,518 | 120,526\nBenefits-in-kind | 1,029 | 1,080 | 229 | 216\nPost-employment benefits:\nDefined contribution plan | 21,250 | 18,713 | 19,265 | 17,354\nAnnual service cost | 946 | 902 | 826 | 775\n181,892 | 161,750 | 157,090 | 142,126\nIncluded in the total key management personnel compensation are:\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nDirectors’ remuneration including\nbenefits-in-kind",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p012-t2",
+   "pbb-ar2025-fs-p108-t3",
+   "pbb-ar2025-fs-p012-t1",
+   "pbb-ar2025-fs-p173-t1"
+  ],
+  "final_context_pages": [
+   12,
+   108,
+   173
+  ],
+  "queries": [
+   "What were the Group's personnel costs distributed to employees in 2025 according to the Statement of Value Added?",
+   "What is the personnel cost distributed to employees in 2025 according to the Statement of Value Added?"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 97,
+    "completion_tokens": 25,
+    "wall_s": 5.96,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2242,
+    "completion_tokens": 57,
+    "wall_s": 35.03,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2339,
+  "completion_tokens": 82,
+  "elapsed_s": 42.003,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dt01",
+  "group": "table",
+  "question": "What were the Group's personnel costs distributed to employees in 2025 according to the Statement of Value Added?",
+  "cited_pages": [
+   12
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "The Group's core customer deposits figure for 2025 in the five-year financial highlights was 16.6%. [pbb-ar2025-fs-p007-t2]",
+  "citations": [
+   "pbb-ar2025-fs-p007-t2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What was the Group's core customer deposits figure for 2025 in the five-year financial highlights?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p007-t2",
+      "page": 7,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p009-v3",
+      "page": 9,
+      "score": 0.032522
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p019-t4",
+      "page": 19,
+      "score": 0.031746
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p134-t4",
+      "page": 134,
+      "score": 0.029211
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p007-t2",
+     "pbb-ar2025-fs-p009-v3",
+     "pbb-ar2025-fs-p019-t4",
+     "pbb-ar2025-fs-p134-t4"
+    ],
+    "context_chars": 2541,
+    "retrieval_ms": 854.6
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "core customer deposits figure for 2025 in five-year financial highlights"
+    ],
+    "raw": "[\"core customer deposits figure for 2025 in five-year financial highlights\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "core customer deposits figure for 2025 in five-year financial highlights",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p009-v3",
+      "page": 9,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p007-t2",
+      "page": 7,
+      "score": 0.032266
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p019-t4",
+      "page": 19,
+      "score": 0.032002
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p134-t4",
+      "page": 134,
+      "score": 0.03031
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p007-t2",
+     "pbb-ar2025-fs-p009-v3",
+     "pbb-ar2025-fs-p019-t4",
+     "pbb-ar2025-fs-p134-t4"
+    ],
+    "context_chars": 2541,
+    "retrieval_ms": 997.05
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p007-t2 | page 7 (printed 5) | table_text]\n[Five-Year | Group Financial Summary]\n(columns: Year Ended 31 December | 2025 | 2024 | 2023 | 2022 | 2021)\nDeposits per employee (RM’000) | 20,728 | 20,510 | 20,825 | 20,571 | 19,644\nProfit before tax per employee (RM’000) | 442 | 423 | 431 | 460 | 380\nMARKET SHARE (%)\nDomestic market share\nLoans, advances & financing | 17.8 | 17.7 | 17.5 | 17.4 | 17.4\nDeposits from customers | 16.4 | 16.5 | 16.3 | 16.3 | 16.2\nCore customer deposits | 16.6 | 16.9 | 16.4 | 16.8 | 17.2\n1 | Based on equity attributable to equity holders of the Bank, adjusted for dividend declared subsequent to year end.\n2 | After deducting dividend declared subsequent to year end.\n* Restated due to adjustments made retrospectively in relation to the purchase price allocation for the acquisition of LPI Capital Bhd and Public Bank\nSecurities Vietnam Company Limited.\n\n[pbb-ar2025-fs-p009-v3 | page 9 (printed 7) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'CUSTOMER DEPOSITS' (RM’Billion), five-year series 2021-2025 shown as bars with value labels: 2021: 380.39; 2022: 394.72; 2023: 412.90; 2024: 433.26; 2025: 447.11. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p019-t4 | page 19 (printed 17) | table_text]\n[Directors’ Report]\nThe Public Bank Group’s total customer deposits stood at RM447.1 billion as at the end of December 2025, representing a 3.2%\ngrowth from 2024. On the domestic front, total deposits grew by 3.8% to RM419.0 billion, supported by core deposits and\nwholesale deposits.\n\n[pbb-ar2025-fs-p134-t4 | page 134 (printed 132) | table_text]\n[Notes to the Financial Statements > 22. DEPOSITS FROM CUSTOMERS]\n(columns: Group | Bank / 2025 | 2024 | 2025 | 2024 / RM’000 | RM’000 | RM’000 | RM’000)\nIncluded in deposits from customers of the Group and of the Bank are deposits of RM4,927,740,000 (2024 – RM6,486,527,000)\nand RM3,765,295,000 (2024 – RM5,441,184,000) respectively held as collateral for loans, advances and financing.\nThe maturity structure of fixed deposits, negotiable instruments of deposit and money market deposits are as follows:\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nDue within six months | 263,287,578 | 244,259,365 | 193,174,362 | 176,855,847\nMore than six months to one year | 57,664,726 | 68,133,983 | 41,488,401 | 48,952,026\nMore than one year to three years | 753,445 | 444,664 | 23,700 | 51,154\nMore than three years to five years | 4,083 | 6,259 | 2,863 | 3,595\n321,709,832 | 312,844,271 | 234,689,326 | 225,862,622",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p007-t2",
+   "pbb-ar2025-fs-p009-v3",
+   "pbb-ar2025-fs-p019-t4",
+   "pbb-ar2025-fs-p134-t4"
+  ],
+  "final_context_pages": [
+   7,
+   9,
+   19,
+   134
+  ],
+  "queries": [
+   "What was the Group's core customer deposits figure for 2025 in the five-year financial highlights?",
+   "core customer deposits figure for 2025 in five-year financial highlights"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 95,
+    "completion_tokens": 18,
+    "wall_s": 13.037,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1827,
+    "completion_tokens": 44,
+    "wall_s": 29.94,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 1922,
+  "completion_tokens": 62,
+  "elapsed_s": 44.831,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dt02",
+  "group": "table",
+  "question": "What was the Group's core customer deposits figure for 2025 in the five-year financial highlights?",
+  "cited_pages": [
+   7
+  ],
+  "context_page_hit": {
+   "first_hit_rank": null,
+   "all_required": false
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "[\tpbb-ar2025-fs-p007-t1 | page 7 (printed 5) | table_text]\nPRODUCTIVITY RATIOS\nNumber of employees | 21,571 | 21,125 | 19,827 | 19,188 | 19,364\nGross loans per employee (RM’000) | 20,665 | 20,079 | 20,124 | 19,642 | 18,489\n\nThe number of employees in the Group for 2025 is 21,571 and for 2024 is 21,125. These figures are directly provided in the \"Number of employees\" row of the table under the \"PRODUCTIVITY RATIOS\" section. [pbb-ar2025-fs-p007-t1]",
+  "citations": [
+   "pbb-ar2025-fs-p007-t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How many employees did the Group have in 2025 and in 2024 according to the productivity ratios?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p007-t1",
+      "page": 7,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p109-t1",
+      "page": 109,
+      "score": 0.026316
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p009-v6",
+      "page": 9,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p067-t2",
+      "page": 67,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p007-t1",
+     "pbb-ar2025-fs-p109-t1",
+     "pbb-ar2025-fs-p009-v6",
+     "pbb-ar2025-fs-p067-t2"
+    ],
+    "context_chars": 4072,
+    "retrieval_ms": 954.72
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "How many employees did the Group have in 2024 according to productivity ratios",
+     "How many employees did the Group have in 2025 according to productivity ratios"
+    ],
+    "raw": "[\"How many employees did the Group have in 2024 according to productivity ratios\", \"How many employees did the Group have in 2025 according to productivity ratios\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How many employees did the Group have in 2024 according to productivity ratios",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p007-t1",
+      "page": 7,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p012-t2",
+      "page": 12,
+      "score": 0.016129
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p067-t2",
+      "page": 67,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p009-v6",
+      "page": 9,
+      "score": 0.015873
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p007-t1",
+     "pbb-ar2025-fs-p109-t1",
+     "pbb-ar2025-fs-p009-v6",
+     "pbb-ar2025-fs-p067-t2",
+     "pbb-ar2025-fs-p012-t2"
+    ],
+    "context_chars": 4425,
+    "retrieval_ms": 661.05
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How many employees did the Group have in 2025 according to productivity ratios",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p007-t1",
+      "page": 7,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p009-v6",
+      "page": 9,
+      "score": 0.016129
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p067-t2",
+      "page": 67,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p008-v3",
+      "page": 8,
+      "score": 0.015873
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p007-t1",
+     "pbb-ar2025-fs-p109-t1",
+     "pbb-ar2025-fs-p009-v6",
+     "pbb-ar2025-fs-p067-t2",
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p008-v3"
+    ],
+    "context_chars": 4708,
+    "retrieval_ms": 657.44
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p007-t1 | page 7 (printed 5) | table_text]\n[Five-Year | Group Financial Summary]\nYear Ended 31 December | 2025 | 2024 | 2023 | 2022 | 2021\nFINANCIAL RATIOS (%)\nProfitability Ratios\nNet interest margin on average interest bearing assets | 2.1 | 2.2 | 2.2 | 2.4 | 2.2\nNet return on equity1 | 12.8 | 13.2 | 13.0 | 12.8 | 12.4\nReturn on average assets | 1.7 | 1.7 | 1.7 | 1.8 | 1.6\nReturn on average risk-weighted assets | 2.7 | 2.6 | 2.6 | 2.9 | 2.5\nCost/income ratio | 34.9 | 34.5 | 33.7 | 31.5 | 31.6\nAsset Quality Ratios\nGross loans to fund ratio | 95.6 | 94.3* | 92.9 | 91.4 | 90.1\nGross loans to fund and equity ratio | 84.1 | 83.1* | 82.0 | 81.1 | 80.0\nGross impaired loans ratio | 0.51 | 0.52 | 0.59 | 0.42 | 0.31\nLoan loss coverage\n– Exclude regulatory reserve | 149.9 | 166.2 | 181.8 | 272.0 | 360.7\n– Include regulatory reserve | 248.7 | 237.7 | 212.8 | 291.8 | 383.2\nCapital Adequacy Ratio2\nCommon Equity Tier I (\"CET I\") capital ratio | 13.9 | 14.2* | 14.7 | 14.6 | 14.5\nTier I capital ratio | 13.9 | 14.2* | 14.7 | 14.6 | 14.6\nTotal capital ratio | 16.6 | 17.0* | 17.6 | 17.6 | 17.7\nPRODUCTIVITY RATIOS\nNumber of employees | 21,571 | 21,125 | 19,827 | 19,188 | 19,364\nGross loans per employee (RM’000) | 20,665 | 20,079 | 20,124 | 19,642 | 18,489\n\n[pbb-ar2025-fs-p109-t1 | page 109 (printed 107) | table_text]\n[Notes to the Financial Statements > 12. EMPLOYEE BENEFITS]\n12. EMPLOYEE BENEFITS (CONTINUED)\nDefined Benefit Plan (continued)\nActual return on plan assets is as follows:\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nInterest income on plan assets | 69,025 | 65,532 | 67,958 | 64,549\nRemeasurements on plan assets | 67,619 | 66,132 | 66,574 | 65,140\nAllocation adjustment | – | – | (126) | 593\nActual return on plan assets | 136,644 | 131,664 | 134,406 | 130,282\n(i) | Actuarial Assumptions\nPrincipal actuarial assumptions used at the reporting date (expressed as weighted averages) are as follows:\nGroup and Bank\n2025 | 2024\nDiscount rate | 4.10% | 4.40%\nExpected rate of salary increases | 6.00% | 6.00%\nThe discount rate used in the actuarial assumptions is based on a blend of yields of long term high quality corporate\nbonds. The expected rate of salary increases takes into account the increases in salaries from factors such as inflation,\nproductivity and promotions.\nAs at 31 December 2025, the weighted average duration of the defined benefit obligation was 10.0 years.\n\n[pbb-ar2025-fs-p009-v6 | page 9 (printed 7) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'TOTAL CAPITAL RATIO**' (Percentage (%)), five-year series 2021-2025 shown as bars with value labels: 2021: 17.7; 2022: 17.6; 2023: 17.6; 2024: 17.0#; 2025: 16.6. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p067-t2 | page 67 (printed 65) | table_text]\n[Notes to the Financial Statements > 2. BASIS OF PREPARATION AND ACCOUNTING POLICIES]\nthe associated services are rendered by employees of the Group and of the Bank. Short term accumulating\ncompensated absences such as paid annual leave are recognised when services are rendered by employees\nthat increases their entitlement to future compensated absences, and short term non-accumulating\ncompensated absences such as sick leave are recognised when the absences occur.\n(ii) | Defined Contribution Plan\nAs required by law, companies in Malaysia make contributions to the state pension scheme, the Employees’\nProvident Fund (“EPF”). Overseas subsidiary companies make contributions to their respective countries’\nstatutory pension schemes. Such contributions are recognised as an expense in profit or loss as incurred.\n(iii) Defined Benefit Plan\nThe Bank and certain subsidiary companies contribute to a fully-funded defined benefit plan approved by the\nInland Revenue Board known as the Public Bank Group Officers’ Retirement Benefits Fund (the “Fund”) for\nits eligible employees. The obligations under the Fund are determined based on actuarial valuation where the\namount of benefit that employees have earned in return for their service in the current and prior years are\n\n[pbb-ar2025-fs-p012-t2 | page 12 (printed 10) | table_text]\n[Statement of | Value Added]\n(columns: 2025 | 2024 / Distribution of Value Added | RM’000 | RM’000)\nNon-controlling interests | 182,687 | (127,967)\nTo reinvest in the Group:\nDepreciation | 310,606 | 331,405\nRetained profits | 2,984,992 | 2,931,257\nTotal distributed | 13,549,481 | 12,814,094\n\n[pbb-ar2025-fs-p008-v3 | page 8 (printed 6) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'EARNINGS PER SHARE' (Sen), five-year series 2021-2025 shown as bars with value labels: 2021: 29.1; 2022: 31.5; 2023: 34.3; 2024: 36.8; 2025: 37.4. 2025 bar highlighted in red.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p007-t1",
+   "pbb-ar2025-fs-p109-t1",
+   "pbb-ar2025-fs-p009-v6",
+   "pbb-ar2025-fs-p067-t2",
+   "pbb-ar2025-fs-p012-t2",
+   "pbb-ar2025-fs-p008-v3"
+  ],
+  "final_context_pages": [
+   7,
+   8,
+   9,
+   12,
+   67,
+   109
+  ],
+  "queries": [
+   "How many employees did the Group have in 2025 and in 2024 according to the productivity ratios?",
+   "How many employees did the Group have in 2024 according to productivity ratios",
+   "How many employees did the Group have in 2025 according to productivity ratios"
+  ],
+  "calculations": [],
+  "n_searches": 3,
+  "llm_calls": [
+   {
+    "prompt_tokens": 99,
+    "completion_tokens": 39,
+    "wall_s": 15.344,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2564,
+    "completion_tokens": 212,
+    "wall_s": 49.437,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2663,
+  "completion_tokens": 251,
+  "elapsed_s": 67.057,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dt03",
+  "group": "table",
+  "question": "How many employees did the Group have in 2025 and in 2024 according to the productivity ratios?",
+  "cited_pages": [
+   7
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "[Assessment & Measurement] activities listed in the operational risk management processes diagram are:\n- Scenario Analysis [pbb-ar2025-fs-p323-v1]\n- Risk and Control Self Assessment [pbb-ar2025-fs-p323-v1]\n- Independent Review [pbb-ar2025-fs-p323-v1]",
+  "citations": [
+   "pbb-ar2025-fs-p323-v1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Which activities are listed under 'Assessment & Measurement' in the operational risk management processes diagram?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p323-v1",
+      "page": 323,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p325-v1",
+      "page": 325,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p322-v1",
+      "page": 322,
+      "score": 0.031498
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p318-v1",
+      "page": 318,
+      "score": 0.031025
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p323-v1",
+     "pbb-ar2025-fs-p325-v1",
+     "pbb-ar2025-fs-p322-v1",
+     "pbb-ar2025-fs-p318-v1"
+    ],
+    "context_chars": 4871,
+    "retrieval_ms": 195.18
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "activities listed under 'Assessment & Measurement' in operational risk management processes diagram"
+    ],
+    "raw": "[\"activities listed under 'Assessment & Measurement' in operational risk management processes diagram\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "activities listed under 'Assessment & Measurement' in operational risk management processes diagram",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p323-v1",
+      "page": 323,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p325-v1",
+      "page": 325,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p322-v1",
+      "page": 322,
+      "score": 0.03125
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p278-v1",
+      "page": 278,
+      "score": 0.031054
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p323-v1",
+     "pbb-ar2025-fs-p325-v1",
+     "pbb-ar2025-fs-p322-v1",
+     "pbb-ar2025-fs-p318-v1",
+     "pbb-ar2025-fs-p278-v1"
+    ],
+    "context_chars": 5220,
+    "retrieval_ms": 221.92
+   },
+   {
+    "event": "citation_repair_requested",
+    "cited": [
+     "Assessment & Measurement"
+    ]
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": [
+     "Assessment & Measurement"
+    ]
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p323-v1 | page 323 (printed 321) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'OPERATIONAL RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Key Risk Indicators; Operational Risk Incident Data Collection; Principal Risk Positions | Stage 'Control & Mitigation': System of Internal Controls; Business Continuity Management; Insurance Coverage; Review of Outsourcing Arrangements | Stage 'Identification': Operational Risk Incident Reporting; Product/Process/System Evaluation; Emerging Risk Identification | Stage 'Assessment & Measurement': Scenario Analysis; Risk and Control Self Assessment; Independent Review. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p325-v1 | page 325 (printed 323) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'SHARIAH RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Key Risk Indicators; Shariah Risk Incident Data Collection; Principal Risk Positions | Stage 'Control & Mitigation': System of Internal Controls i.e. policies, procedures, systems; Knowledgeable Staff Force; Independent Control Assessment | Stage 'Identification': Shariah Risk Incident Reporting; Product/Process Evaluation | Stage 'Assessment & Measurement': Scenario Analysis; Risk and Control Self Assessment; Independent Review. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT SHARIAH RISK MANAGEMENT & SHARIAH COMPLIANCE REVIEW; BOARD, SHARIAH COMMITTEE AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT SHARIAH AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p322-v1 | page 322 (printed 320) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'LIQUIDITY AND FUNDING RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Review of Policies and Guidelines; Portfolio and Benchmarking Analysis; Principal Risk Positions | Stage 'Control & Mitigation': Setting of Risk Limits and Early Warning Indicators; Contingency Funding Plan; Maintenance of Liquidity Buffer; Policies and Guidelines | Stage 'Identification': Review the Liquidity Positions; Review the Contractual and Behavioural Profiles; Identify Abnormalities and Concentrations; Review of New Products/ Strategies for Potential Liquidity Risk; Emerging Risk Identification | Stage 'Assessment & Measurement': Analyse Liquidity and Funding Ratios; Measure the Size of Cash Flows Mismatches for Each Significant Currency; Measure Funding Concentration; Liquidity Projections; Stress Testing. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p318-v1 | page 318 (printed 316) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'MARKET RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Review of Policies and Guidelines; Review the Effectiveness of Hedging Activities; Principal Risk Positions | Stage 'Control & Mitigation': Setting of Risk Limits and Triggers; Policies and Guidelines; Discretionary Powers for Approving Parties; Compliance Checking; Hedging Strategies; Derivative Activities for Trading are Strictly Prohibited Unless Approval from the Board is Obtained | Stage 'Identification': Review of Economic Data and Outlook; Review of Market Movements and Outlook; Emerging Risk Identification; Identify Potential Market Risk arising from New Product/Strategies | Stage 'Assessment & Measurement': Mark-to-Market Techniques; Foreign Exchange Net Open Position Analysis; Repricing Gap Analysis; Sensitivity Simulation; Stress Testing. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p278-v1 | page 278 (printed 276) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'ICAAP': the risk management process is a cycle of stages Risk Appetite -> Risk Management -> Stress Test -> Internal Capital Requirement; activities listed next to each stage. . Oversight/assurance functions around the cycle (arrows into the cycle): .",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p323-v1",
+   "pbb-ar2025-fs-p325-v1",
+   "pbb-ar2025-fs-p322-v1",
+   "pbb-ar2025-fs-p318-v1",
+   "pbb-ar2025-fs-p278-v1"
+  ],
+  "final_context_pages": [
+   278,
+   318,
+   322,
+   323,
+   325
+  ],
+  "queries": [
+   "Which activities are listed under 'Assessment & Measurement' in the operational risk management processes diagram?",
+   "activities listed under 'Assessment & Measurement' in operational risk management processes diagram"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 92,
+    "completion_tokens": 18,
+    "wall_s": 3.152,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1858,
+    "completion_tokens": 33,
+    "wall_s": 6.055,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 1965,
+    "completion_tokens": 81,
+    "wall_s": 10.299,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 3915,
+  "completion_tokens": 132,
+  "elapsed_s": 19.925,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dg01",
+  "group": "visual",
+  "question": "Which activities are listed under 'Assessment & Measurement' in the operational risk management processes diagram?",
+  "cited_pages": [
+   323
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 4,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "The four key elements shown in the ICAAP cycle diagram are:\n\n1. Risk Appetite  \n2. Risk Management  \n3. Stress Test  \n4. Internal Capital Requirement  \n\n[Citation: [pbb-ar2025-fs-p278-v1]]",
+  "citations": [
+   "pbb-ar2025-fs-p278-v1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What are the four key elements shown in the ICAAP cycle diagram?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p278-v1",
+      "page": 278,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p323-v1",
+      "page": 323,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p325-v1",
+      "page": 325,
+      "score": 0.032002
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p322-v1",
+      "page": 322,
+      "score": 0.03101
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p278-v1",
+     "pbb-ar2025-fs-p323-v1",
+     "pbb-ar2025-fs-p325-v1",
+     "pbb-ar2025-fs-p322-v1"
+    ],
+    "context_chars": 3856,
+    "retrieval_ms": 197.51
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "what are the four key elements in the ICAAP cycle diagram"
+    ],
+    "raw": "[\"what are the four key elements in the ICAAP cycle diagram\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "what are the four key elements in the ICAAP cycle diagram",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p278-v1",
+      "page": 278,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p323-v1",
+      "page": 323,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p325-v1",
+      "page": 325,
+      "score": 0.032002
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p322-v1",
+      "page": 322,
+      "score": 0.03101
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p278-v1",
+     "pbb-ar2025-fs-p323-v1",
+     "pbb-ar2025-fs-p325-v1",
+     "pbb-ar2025-fs-p322-v1"
+    ],
+    "context_chars": 3856,
+    "retrieval_ms": 190.35
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p278-v1 | page 278 (printed 276) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'ICAAP': the risk management process is a cycle of stages Risk Appetite -> Risk Management -> Stress Test -> Internal Capital Requirement; activities listed next to each stage. . Oversight/assurance functions around the cycle (arrows into the cycle): .\n\n[pbb-ar2025-fs-p323-v1 | page 323 (printed 321) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'OPERATIONAL RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Key Risk Indicators; Operational Risk Incident Data Collection; Principal Risk Positions | Stage 'Control & Mitigation': System of Internal Controls; Business Continuity Management; Insurance Coverage; Review of Outsourcing Arrangements | Stage 'Identification': Operational Risk Incident Reporting; Product/Process/System Evaluation; Emerging Risk Identification | Stage 'Assessment & Measurement': Scenario Analysis; Risk and Control Self Assessment; Independent Review. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p325-v1 | page 325 (printed 323) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'SHARIAH RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Key Risk Indicators; Shariah Risk Incident Data Collection; Principal Risk Positions | Stage 'Control & Mitigation': System of Internal Controls i.e. policies, procedures, systems; Knowledgeable Staff Force; Independent Control Assessment | Stage 'Identification': Shariah Risk Incident Reporting; Product/Process Evaluation | Stage 'Assessment & Measurement': Scenario Analysis; Risk and Control Self Assessment; Independent Review. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT SHARIAH RISK MANAGEMENT & SHARIAH COMPLIANCE REVIEW; BOARD, SHARIAH COMMITTEE AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT SHARIAH AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p322-v1 | page 322 (printed 320) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'LIQUIDITY AND FUNDING RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Review of Policies and Guidelines; Portfolio and Benchmarking Analysis; Principal Risk Positions | Stage 'Control & Mitigation': Setting of Risk Limits and Early Warning Indicators; Contingency Funding Plan; Maintenance of Liquidity Buffer; Policies and Guidelines | Stage 'Identification': Review the Liquidity Positions; Review the Contractual and Behavioural Profiles; Identify Abnormalities and Concentrations; Review of New Products/ Strategies for Potential Liquidity Risk; Emerging Risk Identification | Stage 'Assessment & Measurement': Analyse Liquidity and Funding Ratios; Measure the Size of Cash Flows Mismatches for Each Significant Currency; Measure Funding Concentration; Liquidity Projections; Stress Testing. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p278-v1",
+   "pbb-ar2025-fs-p323-v1",
+   "pbb-ar2025-fs-p325-v1",
+   "pbb-ar2025-fs-p322-v1"
+  ],
+  "final_context_pages": [
+   278,
+   322,
+   323,
+   325
+  ],
+  "queries": [
+   "What are the four key elements shown in the ICAAP cycle diagram?",
+   "what are the four key elements in the ICAAP cycle diagram"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 88,
+    "completion_tokens": 16,
+    "wall_s": 2.327,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1553,
+    "completion_tokens": 57,
+    "wall_s": 8.001,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 1641,
+  "completion_tokens": 73,
+  "elapsed_s": 10.717,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dg02",
+  "group": "visual",
+  "question": "What are the four key elements shown in the ICAAP cycle diagram?",
+  "cited_pages": [
+   278
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "[ pbb-ar2025-fs-p283-v1 ] The stage that includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools' is 'Identification'.",
+  "citations": [
+   "pbb-ar2025-fs-p283-v1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "In the credit risk management processes diagram, which stage includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p283-v1",
+      "page": 283,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p322-v1",
+      "page": 322,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p323-v1",
+      "page": 323,
+      "score": 0.031498
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p318-v1",
+      "page": 318,
+      "score": 0.03031
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p283-v1",
+     "pbb-ar2025-fs-p322-v1",
+     "pbb-ar2025-fs-p323-v1",
+     "pbb-ar2025-fs-p318-v1"
+    ],
+    "context_chars": 5282,
+    "retrieval_ms": 212.05
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "What stage in the credit risk management processes diagram includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?"
+    ],
+    "raw": "[\"What stage in the credit risk management processes diagram includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What stage in the credit risk management processes diagram includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p283-v1",
+      "page": 283,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p322-v1",
+      "page": 322,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p323-v1",
+      "page": 323,
+      "score": 0.031746
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p318-v1",
+      "page": 318,
+      "score": 0.03101
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p283-v1",
+     "pbb-ar2025-fs-p322-v1",
+     "pbb-ar2025-fs-p323-v1",
+     "pbb-ar2025-fs-p318-v1"
+    ],
+    "context_chars": 5282,
+    "retrieval_ms": 208.63
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p283-v1 | page 283 (printed 281) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'CREDIT RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Loan Exposures Analysis; Periodic Reporting to Relevant Committees and Board; Post Approval Review; Review of Policies, Guidelines and Rating System; Principal Risk Positions | Stage 'Control & Mitigation': Credit Policies and Guidelines; Discretionary Powers for Approving Parties; Independent Credit Control and Monitoring; Benchmarking of Asset Quality; Setting of Risk Limits and Triggers | Stage 'Identification': Watchlist Accounts; Thematic Review of Loan Portfolios; Vintage/Flow Rates Analysis; Emerging Risk Identification; Migration of Credit Risk Grades; Triggering Events; Early Warning Surveillance Tools | Stage 'Assessment & Measurement': Standard Credit Evaluation Format; Credit Risk Scoring; Stress Testing; Cashflow Projection and Project Viability (for project financing); Sensitivity Analysis (for Corporate Loans); Independent Credit Review; Post-Mortem Review on Significant Credit-Impaired Loans. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p322-v1 | page 322 (printed 320) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'LIQUIDITY AND FUNDING RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Review of Policies and Guidelines; Portfolio and Benchmarking Analysis; Principal Risk Positions | Stage 'Control & Mitigation': Setting of Risk Limits and Early Warning Indicators; Contingency Funding Plan; Maintenance of Liquidity Buffer; Policies and Guidelines | Stage 'Identification': Review the Liquidity Positions; Review the Contractual and Behavioural Profiles; Identify Abnormalities and Concentrations; Review of New Products/ Strategies for Potential Liquidity Risk; Emerging Risk Identification | Stage 'Assessment & Measurement': Analyse Liquidity and Funding Ratios; Measure the Size of Cash Flows Mismatches for Each Significant Currency; Measure Funding Concentration; Liquidity Projections; Stress Testing. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p323-v1 | page 323 (printed 321) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'OPERATIONAL RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Key Risk Indicators; Operational Risk Incident Data Collection; Principal Risk Positions | Stage 'Control & Mitigation': System of Internal Controls; Business Continuity Management; Insurance Coverage; Review of Outsourcing Arrangements | Stage 'Identification': Operational Risk Incident Reporting; Product/Process/System Evaluation; Emerging Risk Identification | Stage 'Assessment & Measurement': Scenario Analysis; Risk and Control Self Assessment; Independent Review. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.\n\n[pbb-ar2025-fs-p318-v1 | page 318 (printed 316) | diagram]\n[Pillar 3 Disclosure] Cycle diagram 'MARKET RISK MANAGEMENT PROCESSES': the risk management process is a cycle of stages Identification -> Assessment & Measurement -> Control & Mitigation -> Monitoring; activities listed next to each stage. Stage 'Monitoring': Periodic Risk Profile Reporting; Review of Policies and Guidelines; Review the Effectiveness of Hedging Activities; Principal Risk Positions | Stage 'Control & Mitigation': Setting of Risk Limits and Triggers; Policies and Guidelines; Discretionary Powers for Approving Parties; Compliance Checking; Hedging Strategies; Derivative Activities for Trading are Strictly Prohibited Unless Approval from the Board is Obtained | Stage 'Identification': Review of Economic Data and Outlook; Review of Market Movements and Outlook; Emerging Risk Identification; Identify Potential Market Risk arising from New Product/Strategies | Stage 'Assessment & Measurement': Mark-to-Market Techniques; Foreign Exchange Net Open Position Analysis; Repricing Gap Analysis; Sensitivity Simulation; Stress Testing. Oversight/assurance functions around the cycle (arrows into the cycle): INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW; BOARD AND SENIOR MANAGEMENT OVERSIGHT; BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS; INDEPENDENT AUDIT & REVIEW.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p283-v1",
+   "pbb-ar2025-fs-p322-v1",
+   "pbb-ar2025-fs-p323-v1",
+   "pbb-ar2025-fs-p318-v1"
+  ],
+  "final_context_pages": [
+   283,
+   318,
+   322,
+   323
+  ],
+  "queries": [
+   "In the credit risk management processes diagram, which stage includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?",
+   "What stage in the credit risk management processes diagram includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 96,
+    "completion_tokens": 26,
+    "wall_s": 3.415,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1855,
+    "completion_tokens": 38,
+    "wall_s": 6.34,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 1951,
+  "completion_tokens": 64,
+  "elapsed_s": 10.176,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dg03",
+  "group": "visual",
+  "question": "In the credit risk management processes diagram, which stage includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?",
+  "cited_pages": [
+   283
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "In 2025, statutory deposits with Central Banks represented 0.8% of total assets in the Simplified Group Balance Sheet chart [pbb-ar2025-fs-p005-v3]. In 2024, they represented 1.4% of total assets [pbb-ar2025-fs-p005-v1].",
+  "citations": [
+   "pbb-ar2025-fs-p005-v3",
+   "pbb-ar2025-fs-p005-v1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What share of total assets did statutory deposits with Central Banks represent in 2025 and 2024 in the Simplified Group Balance Sheet charts?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p005-v3",
+      "page": 5,
+      "score": 0.032266
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p005-v1",
+      "page": 5,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p005-v4",
+      "page": 5,
+      "score": 0.031258
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p005-v2",
+      "page": 5,
+      "score": 0.03125
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p005-v1",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v2"
+    ],
+    "context_chars": 1932,
+    "retrieval_ms": 293.92
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "What percentage of total assets did statutory deposits with Central Banks represent in 2024 in the Simplified Group Balance Sheet charts?",
+     "What percentage of total assets did statutory deposits with Central Banks represent in 2025 in the Simplified Group Balance Sheet charts?"
+    ],
+    "raw": "[\"What percentage of total assets did statutory deposits with Central Banks represent in 2024 in the Simplified Group Balance Sheet charts?\", \"What percentage of total assets did statutory deposits with Central Banks represent in 2025 in the Simplified Group Balance Sheet charts?\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What percentage of total assets did statutory deposits with Central Banks represent in 2024 in the Simplified Group Balance Sheet charts?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p005-v1",
+      "page": 5,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p005-v3",
+      "page": 5,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p005-v2",
+      "page": 5,
+      "score": 0.031258
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p005-v4",
+      "page": 5,
+      "score": 0.030777
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p005-v1",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v2"
+    ],
+    "context_chars": 1932,
+    "retrieval_ms": 225.08
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What percentage of total assets did statutory deposits with Central Banks represent in 2025 in the Simplified Group Balance Sheet charts?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p005-v3",
+      "page": 5,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p005-v1",
+      "page": 5,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p005-v4",
+      "page": 5,
+      "score": 0.031258
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p110-t3",
+      "page": 110,
+      "score": 0.03101
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p005-v1",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v2",
+     "pbb-ar2025-fs-p110-t3"
+    ],
+    "context_chars": 2923,
+    "retrieval_ms": 203.33
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p005-v3 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'ASSETS 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Cash and balances with banks and reverse repurchase agreements: 3.0%; Portfolio of financial investments: 15.1%; Loans, advances and financing: 78.8%; Statutory deposits with Central Banks: 0.8%; Other assets (including intangible assets): 2.3%.\n\n[pbb-ar2025-fs-p005-v1 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'ASSETS 2024' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Cash and balances with banks and reverse repurchase agreements: 2.8%; Portfolio of financial investments: 16.0%; Loans, advances and financing: 77.4%; Statutory deposits with Central Banks: 1.4%; Other assets (including intangible assets): 2.4%.\n\n[pbb-ar2025-fs-p005-v4 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'LIABILITIES & EQUITY 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Deposit from customers: 79.6%; Deposits from banks and other financial institutions: 2.6%; Bills and acceptances payable and other liabilities: 4.4%; Debt securities issued and other borrowed funds: 2.3%; Share capital: 1.7%; Reserves: 9.0%; Non-controlling interests: 0.4%.\n\n[pbb-ar2025-fs-p005-v2 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'LIABILITIES & EQUITY 2024' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Deposit from customers: 79.8%; Deposits from banks and other financial institutions: 2.5%; Bills and acceptances payable and other liabilities: 4.7%; Debt securities issued and other borrowed funds: 2.0%; Share capital: 1.7%; Reserves: 8.8%; Non-controlling interests: 0.5%.\n\n[pbb-ar2025-fs-p110-t3 | page 110 (printed 108) | table_text]\n[Notes to the Financial Statements > 13. STATUTORY DEPOSITS WITH CENTRAL BANKS]\n13. STATUTORY DEPOSITS WITH CENTRAL BANKS\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nBank Negara Malaysia | 3,773,469 | 7,022,598 | 2,810,000 | 5,125,000\nOther central banks | 667,805 | 627,654 | 417 | 363\n4,441,274 | 7,650,252 | 2,810,417 | 5,125,363\nThe non-interest bearing statutory deposits are maintained with Bank Negara Malaysia (“BNM”) in compliance with Section\n26(2)(c) of the Central Bank of Malaysia Act, 2009. The amount of the Statutory Reserve Requirement (“SRR”) is determined\nbased on a set percentage of total eligible liabilities.\nThe statutory deposits of the overseas subsidiary companies and overseas branches are denominated in foreign currencies\nand are maintained with the central banks of the respective countries, in compliance with the applicable legislations in the\nrespective countries.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p005-v3",
+   "pbb-ar2025-fs-p005-v1",
+   "pbb-ar2025-fs-p005-v4",
+   "pbb-ar2025-fs-p005-v2",
+   "pbb-ar2025-fs-p110-t3"
+  ],
+  "final_context_pages": [
+   5,
+   110
+  ],
+  "queries": [
+   "What share of total assets did statutory deposits with Central Banks represent in 2025 and 2024 in the Simplified Group Balance Sheet charts?",
+   "What percentage of total assets did statutory deposits with Central Banks represent in 2024 in the Simplified Group Balance Sheet charts?",
+   "What percentage of total assets did statutory deposits with Central Banks represent in 2025 in the Simplified Group Balance Sheet charts?"
+  ],
+  "calculations": [],
+  "n_searches": 3,
+  "llm_calls": [
+   {
+    "prompt_tokens": 106,
+    "completion_tokens": 58,
+    "wall_s": 5.824,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1688,
+    "completion_tokens": 81,
+    "wall_s": 11.05,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 1794,
+  "completion_tokens": 139,
+  "elapsed_s": 17.598,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dc01",
+  "group": "chart",
+  "question": "What share of total assets did statutory deposits with Central Banks represent in 2025 and 2024 in the Simplified Group Balance Sheet charts?",
+  "cited_pages": [
+   5
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "The market capitalisation in 2024 was RM 88.51 billion, and in 2025 it decreased to RM 88.12 billion, showing a decline of RM 0.39 billion. [pbb-ar2025-fs-p008-v6]",
+  "citations": [
+   "pbb-ar2025-fs-p008-v6"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "According to the market capitalisation chart, how did market capitalisation change from 2024 to 2025?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p008-v6",
+      "page": 8,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p209-t1",
+      "page": 209,
+      "score": 0.03101
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p008-v5",
+      "page": 8,
+      "score": 0.027313
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p008-t1",
+      "page": 8,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p008-v6",
+     "pbb-ar2025-fs-p209-t1",
+     "pbb-ar2025-fs-p008-v5",
+     "pbb-ar2025-fs-p008-t1"
+    ],
+    "context_chars": 2211,
+    "retrieval_ms": 239.15
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "market capitalisation chart 2024 value",
+     "market capitalisation chart 2025 value"
+    ],
+    "raw": "[\"market capitalisation chart 2024 value\", \"market capitalisation chart 2025 value\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "market capitalisation chart 2024 value",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p008-v6",
+      "page": 8,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p008-v5",
+      "page": 8,
+      "score": 0.031754
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p009-v2",
+      "page": 9,
+      "score": 0.029324
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p009-v1",
+      "page": 9,
+      "score": 0.029211
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p008-v6",
+     "pbb-ar2025-fs-p209-t1",
+     "pbb-ar2025-fs-p008-v5",
+     "pbb-ar2025-fs-p008-t1",
+     "pbb-ar2025-fs-p009-v2",
+     "pbb-ar2025-fs-p009-v1"
+    ],
+    "context_chars": 2823,
+    "retrieval_ms": 211.25
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "market capitalisation chart 2025 value",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p008-v6",
+      "page": 8,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p008-v5",
+      "page": 8,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p009-v1",
+      "page": 9,
+      "score": 0.030536
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p009-v6",
+      "page": 9,
+      "score": 0.030118
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p008-v6",
+     "pbb-ar2025-fs-p209-t1",
+     "pbb-ar2025-fs-p008-v5",
+     "pbb-ar2025-fs-p008-t1",
+     "pbb-ar2025-fs-p009-v2",
+     "pbb-ar2025-fs-p009-v1",
+     "pbb-ar2025-fs-p009-v6"
+    ],
+    "context_chars": 3121,
+    "retrieval_ms": 248.59
+   },
+   {
+    "event": "numeric_guard_rejected",
+    "numbers": [
+     "0.39"
+    ],
+    "draft": "The market capitalisation in 2024 was RM 88.51 billion, and in 2025 it decreased to RM 88.12 billion, showing a decline of RM 0.39 billion. [pbb-ar2025-fs-p008-v6]"
+   },
+   {
+    "event": "calculate",
+    "expression": "88.51 - 88.12",
+    "result": "88.51 - 88.12 = 0.39"
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p008-v6 | page 8 (printed 6) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'MARKET CAPITALISATION' (RM’Billion), five-year series 2021-2025 shown as bars with value labels: 2021: 80.75; 2022: 83.85; 2023: 83.27; 2024: 88.51; 2025: 88.12. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p209-t1 | page 209 (printed 207) | table_text]\n[Notes to the Financial Statements > 47. FINANCIAL RISK MANAGEMENT]\n47. FINANCIAL RISK MANAGEMENT (CONTINUED)\nMarket Risk (continued)\n(ii) | Non-Traded Market Risk (continued)\n(c) | Equity Risk\nRisk Management Approach\nThe Group manages such risk via pre-approved portfolio size and cut-loss limits. Decisions concerning such\npositions are made by the Share Investment Committee.\nConsidering that other risk variables remain constant, the table below summarises the impact on the carrying\namount of equity positions as at each reporting date should there be a change in equity market prices:\nSensitivity\nChange in\nEquity | Profit Before\nMarket Prices | Tax | Equity\n% | RM’000 | RM’000\nGroup\n2025 | +/- 10 | +/- 1,325 | +/- 5,234\n2024 | +/- 10 | +/- 1,139 | +/- 1,068\nBank\n2025 | +/- 10 | – | –\n2024 | +/- 10 | – | –\nLiquidity and Funding Risk\nLiquidity and funding risk is the risk of insufficient liquid assets to meet obligations due and/or inefficient funding structure\nresulting in high funding cost.\nRisk Governance\nThe ALCO supports the RMC in liquidity and funding risk management oversight. The ALCO reviews the Group’s liquidity\nrisk policies and guidelines, and implements necessary actions to ensure that the liquidity and funding risk is well managed\n\n[pbb-ar2025-fs-p008-v5 | page 8 (printed 6) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'SHARE PRICE' (RM), five-year series 2021-2025 shown as bars with value labels: 2021: 4.16; 2022: 4.32; 2023: 4.29; 2024: 4.56; 2025: 4.54. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p008-t1 | page 8 (printed 6) | table_text]\n[Summary of | Five-Year Group Growth]\nPUBLIC BANK BERHAD\nSummary of | Five-Year Group Growth\nPublic Bank’s Ranking by Market Capitalisation on Bursa Malaysia Securities Berhad\nYear | 2025 | 2024 | 2023 | 2022 | 2021\nRanking | 3rd | 2nd | 2nd | 2nd | 2nd\n\n[pbb-ar2025-fs-p009-v2 | page 9 (printed 7) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'GROSS LOANS, ADVANCES AND FINANCING' (RM’Billion), five-year series 2021-2025 shown as bars with value labels: 2021: 358.03; 2022: 376.89; 2023: 399.00; 2024: 424.17; 2025: 445.76. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p009-v1 | page 9 (printed 7) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'TOTAL ASSETS' (RM’Billion), five-year series 2021-2025 shown as bars with value labels: 2021: 462.74; 2022: 493.26; 2023: 510.60; 2024: 543.31#; 2025: 561.65. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p009-v6 | page 9 (printed 7) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'TOTAL CAPITAL RATIO**' (Percentage (%)), five-year series 2021-2025 shown as bars with value labels: 2021: 17.7; 2022: 17.6; 2023: 17.6; 2024: 17.0#; 2025: 16.6. 2025 bar highlighted in red.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p008-v6",
+   "pbb-ar2025-fs-p209-t1",
+   "pbb-ar2025-fs-p008-v5",
+   "pbb-ar2025-fs-p008-t1",
+   "pbb-ar2025-fs-p009-v2",
+   "pbb-ar2025-fs-p009-v1",
+   "pbb-ar2025-fs-p009-v6"
+  ],
+  "final_context_pages": [
+   8,
+   9,
+   209
+  ],
+  "queries": [
+   "According to the market capitalisation chart, how did market capitalisation change from 2024 to 2025?",
+   "market capitalisation chart 2024 value",
+   "market capitalisation chart 2025 value"
+  ],
+  "calculations": [
+   {
+    "expression": "88.51 - 88.12",
+    "result": "88.51 - 88.12 = 0.39"
+   }
+  ],
+  "n_searches": 3,
+  "llm_calls": [
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 25,
+    "wall_s": 2.71,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1921,
+    "completion_tokens": 69,
+    "wall_s": 10.112,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 2050,
+    "completion_tokens": 30,
+    "wall_s": 4.406,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 2111,
+    "completion_tokens": 69,
+    "wall_s": 9.126,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 6182,
+  "completion_tokens": 193,
+  "elapsed_s": 27.054,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dc02",
+  "group": "chart",
+  "question": "According to the market capitalisation chart, how did market capitalisation change from 2024 to 2025?",
+  "cited_pages": [
+   8
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "[\tpbb-ar2025-fs-p011-v5 | page 11 (printed 9) | chart_donut\t] Treasury and capital market operations accounted for 15.6% of the Group's total assets in 2025.",
+  "citations": [
+   "pbb-ar2025-fs-p011-v5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What share of the Group's total assets did treasury and capital market operations account for in 2025 in the segment charts?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p011-v6",
+      "page": 11,
+      "score": 0.031054
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.030769
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p247-t1",
+      "page": 247,
+      "score": 0.029514
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p011-v6",
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p247-t1"
+    ],
+    "context_chars": 2758,
+    "retrieval_ms": 219.57
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "What percentage of the Group's total assets did treasury and capital market operations account for in 2025 according to segment charts?"
+    ],
+    "raw": "[\"What percentage of the Group's total assets did treasury and capital market operations account for in 2025 according to segment charts?\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What percentage of the Group's total assets did treasury and capital market operations account for in 2025 according to segment charts?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p011-v6",
+      "page": 11,
+      "score": 0.03055
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.030077
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p247-t1",
+      "page": 247,
+      "score": 0.029324
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p011-v6",
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p247-t1"
+    ],
+    "context_chars": 2758,
+    "retrieval_ms": 241.81
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p011-v5 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'TOTAL ASSETS 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire purchase: 11.7%; Retail operations: 49.2%; Corporate lending: 6.6%; Treasury and capital market operations: 15.6%; Investment banking: 0.4%; Fund management: 0.1%; General insurance: 0.7%; Others: 9.4%; Hong Kong SAR: 3.1%; Cambodia: 1.5%; Other countries: 1.7%.\n\n[pbb-ar2025-fs-p011-v6 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'TOTAL ASSETS 2024' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire purchase: 11.0%; Retail operations: 50.1%; Corporate lending: 7.1%; Treasury and capital market operations: 14.9%; Investment banking: 0.4%; Fund management: 0.1%; General insurance: 0.7%; Others: 8.8%; Hong Kong SAR: 3.6%; Cambodia: 1.6%; Other countries: 1.7%.\n\n[pbb-ar2025-fs-p011-v1 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'OPERATING REVENUE 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire Purchase: 13.2%; Retail operations: 46.1%; Corporate lending: 7.4%; Treasury and capital market operations: 4.8%; Investment banking: 0.7%; Fund management: 6.0%; General insurance: 6.5%; Others: 7.2%; Hong Kong SAR: 4.0%; Cambodia: 1.9%; Other countries: 2.2%.\n\n[pbb-ar2025-fs-p247-t1 | page 247 (printed 245) | table_rotated]\n[Notes to the Financial Statements > 54. SEGMENT INFORMATION]\n54. SEGMENT INFORMATION (CONTINUED)\nBy Business Segments:\nDomestic | Overseas\nTreasury | Head Office,\nand Capital | Funding | Total | Total | Inter-\nHire | Retail | Corporate | Market | Investment | Fund | General | Center | Domestic | Hong Kong | Other | Overseas | segment | Group\nPurchase | Operations | Lending | Operations | Banking Management | Insurance | and Others | Operations | SAR | Cambodia | Countries | Operations | Elimination | Total\n2025 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000\nExternal revenue | 3,892,661 | 13,592,846 | 2,177,646 | 1,423,632 | 217,993 | 1,780,403 | 1,915,436 | 2,120,851 | 27,121,468 | 1,182,608 | 550,744 | 654,728 | 2,388,080 | – | 29,509,548\nRevenue from other\nsegments | 15,432 | 1,382,766 | 66,297 | 2,838,722 | 2,580 | 63,634 | 3,995 | 571,415 | 4,944,841 | 28 | 116,359 | 128,709 | 245,096 | (5,189,937) | –\nTotal revenue | 3,908,093 | 14,975,612 | 2,243,943 | 4,262,354 | 220,573 | 1,844,037 | 1,919,431 | 2,692,266 | 32,066,309 | 1,182,636 | 667,103 | 783,437 | 2,633,176 | (5,189,937) | 29,509,548\nNet interest income/\n(expense) and\nIslamic banking",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p011-v5",
+   "pbb-ar2025-fs-p011-v6",
+   "pbb-ar2025-fs-p011-v1",
+   "pbb-ar2025-fs-p247-t1"
+  ],
+  "final_context_pages": [
+   11,
+   247
+  ],
+  "queries": [
+   "What share of the Group's total assets did treasury and capital market operations account for in 2025 in the segment charts?",
+   "What percentage of the Group's total assets did treasury and capital market operations account for in 2025 according to segment charts?"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 100,
+    "completion_tokens": 30,
+    "wall_s": 3.479,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 1924,
+    "completion_tokens": 59,
+    "wall_s": 9.494,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2024,
+  "completion_tokens": 89,
+  "elapsed_s": 13.435,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dc03",
+  "group": "chart",
+  "question": "What share of the Group's total assets did treasury and capital market operations account for in 2025 in the segment charts?",
+  "cited_pages": [
+   11
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "[retail operations share of operating revenue 2025] Retail operations share of operating revenue in 2025 is 46.1%.  \n[Group's total operating revenue 2025] The Group's total operating revenue in 2025 is RM29,509,548 (RM'000).  \n\nUsing the retail operations share:  \nCalculate: 46.1% of 29,509,548  \nExpression: (46.1 / 100) * 29,509,548  \n\nResult:  \n[calculate(\"(46.1 / 100) * 29509548\")] = 13,603,901.63 (RM'000)  \n\nFinal answer: RM13,603,901.63 (RM'000) [pbb-ar2025-fs-p011-v1]",
+  "citations": [
+   "pbb-ar2025-fs-p011-v1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Using the retail operations share of operating revenue in 2025 and the Group's total operating revenue, estimate the operating revenue attributable to retail operations in 2025.",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p247-t1",
+      "page": 247,
+      "score": 0.031054
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p246-t4",
+      "page": 246,
+      "score": 0.03031
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.029857
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p247-t1",
+     "pbb-ar2025-fs-p246-t4",
+     "pbb-ar2025-fs-p011-v5"
+    ],
+    "context_chars": 3046,
+    "retrieval_ms": 265.88
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "retail operations share of operating revenue 2025",
+     "group total operating revenue 2025"
+    ],
+    "raw": "[\"retail operations share of operating revenue 2025\", \"group total operating revenue 2025\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "retail operations share of operating revenue 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p011-v2",
+      "page": 11,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.031754
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p011-t1",
+      "page": 11,
+      "score": 0.030798
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p247-t1",
+     "pbb-ar2025-fs-p246-t4",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p011-v2",
+     "pbb-ar2025-fs-p011-t1"
+    ],
+    "context_chars": 4243,
+    "retrieval_ms": 262.16
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "group total operating revenue 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p246-t4",
+      "page": 246,
+      "score": 0.032018
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p247-t1",
+      "page": 247,
+      "score": 0.030579
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p126-t3",
+      "page": 126,
+      "score": 0.030092
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.030018
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p247-t1",
+     "pbb-ar2025-fs-p246-t4",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p011-v2",
+     "pbb-ar2025-fs-p011-t1",
+     "pbb-ar2025-fs-p126-t3"
+    ],
+    "context_chars": 4647,
+    "retrieval_ms": 334.98
+   },
+   {
+    "event": "numeric_guard_rejected",
+    "numbers": [
+     "13,600,348.43",
+     "13,600,348.43"
+    ],
+    "draft": "[retail operations share of operating revenue 2025] Retail operations share of operating revenue in 2025 is 46.1%.  \n[Group's total operating revenue 2025] The Group's total operating revenue in 2025 is RM29,509,548 (RM'000).  \n\nUsing the retail operations share:  \nCalculate: 46.1% of 29,509,548  \nExpression: (46.1 / 100) * 29,509,548  \n\nResult:  \n[calculate(\"(46.1 / 100) * 29,509,548\")] = 13,600,"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "retail operations share of operating revenue 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p011-v2",
+      "page": 11,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.031754
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p011-t1",
+      "page": 11,
+      "score": 0.030798
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p247-t1",
+     "pbb-ar2025-fs-p246-t4",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p011-v2",
+     "pbb-ar2025-fs-p011-t1",
+     "pbb-ar2025-fs-p126-t3"
+    ],
+    "context_chars": 4647,
+    "retrieval_ms": 25.73
+   },
+   {
+    "event": "calculate",
+    "expression": "(46.1 / 100) * 29509548",
+    "result": "(46.1 / 100) * 29509548 = 13,603,901.628"
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": [
+     "retail operations share of operating revenue 2025",
+     "Group's total operating revenue 2025",
+     "calculate(\"(46.1 / 100) * 29509548\")"
+    ]
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p011-v1 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'OPERATING REVENUE 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire Purchase: 13.2%; Retail operations: 46.1%; Corporate lending: 7.4%; Treasury and capital market operations: 4.8%; Investment banking: 0.7%; Fund management: 6.0%; General insurance: 6.5%; Others: 7.2%; Hong Kong SAR: 4.0%; Cambodia: 1.9%; Other countries: 2.2%.\n\n[pbb-ar2025-fs-p247-t1 | page 247 (printed 245) | table_rotated]\n[Notes to the Financial Statements > 54. SEGMENT INFORMATION]\n54. SEGMENT INFORMATION (CONTINUED)\nBy Business Segments:\nDomestic | Overseas\nTreasury | Head Office,\nand Capital | Funding | Total | Total | Inter-\nHire | Retail | Corporate | Market | Investment | Fund | General | Center | Domestic | Hong Kong | Other | Overseas | segment | Group\nPurchase | Operations | Lending | Operations | Banking Management | Insurance | and Others | Operations | SAR | Cambodia | Countries | Operations | Elimination | Total\n2025 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000\nExternal revenue | 3,892,661 | 13,592,846 | 2,177,646 | 1,423,632 | 217,993 | 1,780,403 | 1,915,436 | 2,120,851 | 27,121,468 | 1,182,608 | 550,744 | 654,728 | 2,388,080 | – | 29,509,548\nRevenue from other\nsegments | 15,432 | 1,382,766 | 66,297 | 2,838,722 | 2,580 | 63,634 | 3,995 | 571,415 | 4,944,841 | 28 | 116,359 | 128,709 | 245,096 | (5,189,937) | –\nTotal revenue | 3,908,093 | 14,975,612 | 2,243,943 | 4,262,354 | 220,573 | 1,844,037 | 1,919,431 | 2,692,266 | 32,066,309 | 1,182,636 | 667,103 | 783,437 | 2,633,176 | (5,189,937) | 29,509,548\nNet interest income/\n(expense) and\nIslamic banking\n\n[pbb-ar2025-fs-p246-t4 | page 246 (printed 244) | table_text]\n[Notes to the Financial Statements > 54. SEGMENT INFORMATION]\nThe Management Committee evaluates operating segments’ performance on the basis of revenue, profit, cost-to-income\nratio, loan and deposit growth and asset quality. Expenses directly associated with each operating segment are included\nin determining their respective profit. Transactions between operating segments are based on mutually agreed allocation\nbases. Funds are allocated between segments and inter-segment funding cost transfers are reflected in net interest income.\nMajor Customers\nThere is no single customer which contributes revenue amount greater than 10% of the Group’s revenues for the current\nfinancial year (2024 – none).\n\n[pbb-ar2025-fs-p011-v5 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'TOTAL ASSETS 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire purchase: 11.7%; Retail operations: 49.2%; Corporate lending: 6.6%; Treasury and capital market operations: 15.6%; Investment banking: 0.4%; Fund management: 0.1%; General insurance: 0.7%; Others: 9.4%; Hong Kong SAR: 3.1%; Cambodia: 1.5%; Other countries: 1.7%.\n\n[pbb-ar2025-fs-p011-v2 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'OPERATING REVENUE 2024' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire Purchase: 13.1%; Retail operations: 49.2%; Corporate lending: 8.3%; Treasury and capital market operations: 5.2%; Investment banking: 0.9%; Fund management: 6.3%; General insurance: 0.6%; Others: 7.6%; Hong Kong SAR: 4.9%; Cambodia: 2.2%; Other countries: 1.7%.\n\n[pbb-ar2025-fs-p011-t1 | page 11 (printed 9) | table_text]\n[Segmental | Analysis]\nOPERATING REVENUE\nHire Purchase\n\u0007Retail operations\n\u0007Corporate lending\n\u0007Treasury and capital\nmarket operations\n\u0007Investment banking\n\u0007Fund management\nGeneral insurance\n\u0007Others\n\u0007Hong Kong SAR\n\u0007Cambodia\n\u0007Other countries\nPROFIT/(LOSS) BEFORE TAX\nHire purchase\nRetail operations\nCorporate lending\n\u0007Treasury and capital\nmarket operations\nInvestment banking\nFund management\nGeneral insurance\nOthers\nHong Kong SAR\nCambodia\nOther countries\nTOTAL ASSETS\nHire purchase\nRetail operations\nCorporate lending\n\u0007Treasury and capital\nmarket operations\nInvestment banking\nFund management\nGeneral insurance\nOthers\nHong Kong SAR\nCambodia\nOther countries\n\n[pbb-ar2025-fs-p126-t3 | page 126 (printed 124) | table_text]\n[Notes to the Financial Statements > 19. LEASES]\nTotal future minimum lease payments under these non-cancellable operating leases are as follows:\nGroup\n2025 | 2024\nRM’000 | RM’000\nWithin one year | 14,183 | 19,794\nBetween one and five years | 9,789 | 13,972\n23,972 | 33,766\nThe Group and the Bank do not have any leases under finance lease.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p011-v1",
+   "pbb-ar2025-fs-p247-t1",
+   "pbb-ar2025-fs-p246-t4",
+   "pbb-ar2025-fs-p011-v5",
+   "pbb-ar2025-fs-p011-v2",
+   "pbb-ar2025-fs-p011-t1",
+   "pbb-ar2025-fs-p126-t3"
+  ],
+  "final_context_pages": [
+   11,
+   126,
+   246,
+   247
+  ],
+  "queries": [
+   "Using the retail operations share of operating revenue in 2025 and the Group's total operating revenue, estimate the operating revenue attributable to retail operations in 2025.",
+   "retail operations share of operating revenue 2025",
+   "group total operating revenue 2025",
+   "retail operations share of operating revenue 2025"
+  ],
+  "calculations": [
+   {
+    "expression": "(46.1 / 100) * 29509548",
+    "result": "(46.1 / 100) * 29509548 = 13,603,901.628"
+   }
+  ],
+  "n_searches": 4,
+  "llm_calls": [
+   {
+    "prompt_tokens": 110,
+    "completion_tokens": 26,
+    "wall_s": 3.314,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2427,
+    "completion_tokens": 226,
+    "wall_s": 37.589,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 2737,
+    "completion_tokens": 31,
+    "wall_s": 5.467,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 2690,
+    "completion_tokens": 38,
+    "wall_s": 9.508,
+    "tools_offered": [
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 2778,
+    "completion_tokens": 224,
+    "wall_s": 41.945,
+    "tools_offered": [
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 10742,
+  "completion_tokens": 545,
+  "elapsed_s": 98.714,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dm01",
+  "group": "multihop",
+  "question": "Using the retail operations share of operating revenue in 2025 and the Group's total operating revenue, estimate the operating revenue attributable to retail operations in 2025.",
+  "cited_pages": [
+   11
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "abstain",
+  "answer": "[Personnel costs in the 2025 Statement of Value Added are what percentage of the Group's 2025 operating revenue?]\n\nFrom the context:\n- Personnel costs (Group) in 2025: RM 3,696,022 [pbb-ar2025-fs-p157-t1]\n- Operating revenue is not directly provided in the context. The \"Statement of Value Added\" includes net interest income (RM 9,583,686) and other operating income (RM 3,272,080), but no total operating revenue is given.\n\nThus, there is no data on the Group's 2025 operating revenue in the provided context.\n\nINSUFFICIENT EVIDENCE: Operating revenue for 2025 is not provided in the context.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Personnel costs in the 2025 Statement of Value Added are what percentage of the Group's 2025 operating revenue?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p012-t2",
+      "page": 12,
+      "score": 0.032002
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p157-t1",
+      "page": 157,
+      "score": 0.031099
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p012-t1",
+      "page": 12,
+      "score": 0.030092
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p108-t3",
+      "page": 108,
+      "score": 0.03009
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p157-t1",
+     "pbb-ar2025-fs-p012-t1",
+     "pbb-ar2025-fs-p108-t3"
+    ],
+    "context_chars": 3769,
+    "retrieval_ms": 270.71
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "Personnel costs 2025 Statement of Value Added",
+     "Group operating revenue 2025",
+     "percentage of personnel costs to operating revenue 2025"
+    ],
+    "raw": "[\"Personnel costs 2025 Statement of Value Added\", \"Group operating revenue 2025\", \"percentage of personnel costs to operating revenue 2025\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Personnel costs 2025 Statement of Value Added",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p108-t3",
+      "page": 108,
+      "score": 0.032018
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p012-t1",
+      "page": 12,
+      "score": 0.031778
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p157-t1",
+      "page": 157,
+      "score": 0.031025
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p067-t3",
+      "page": 67,
+      "score": 0.030366
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p157-t1",
+     "pbb-ar2025-fs-p012-t1",
+     "pbb-ar2025-fs-p108-t3",
+     "pbb-ar2025-fs-p067-t3"
+    ],
+    "context_chars": 5102,
+    "retrieval_ms": 191.76
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Group operating revenue 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.031746
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p246-t4",
+      "page": 246,
+      "score": 0.031099
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p158-t2",
+      "page": 158,
+      "score": 0.029274
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p126-t3",
+      "page": 126,
+      "score": 0.029214
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p157-t1",
+     "pbb-ar2025-fs-p012-t1",
+     "pbb-ar2025-fs-p108-t3",
+     "pbb-ar2025-fs-p067-t3",
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p246-t4",
+     "pbb-ar2025-fs-p126-t3"
+    ],
+    "context_chars": 6756,
+    "retrieval_ms": 181.61
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "percentage of personnel costs to operating revenue 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p157-t1",
+      "page": 157,
+      "score": 0.032002
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p011-v1",
+      "page": 11,
+      "score": 0.031545
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p246-t4",
+      "page": 246,
+      "score": 0.030798
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p108-t3",
+      "page": 108,
+      "score": 0.030118
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p157-t1",
+     "pbb-ar2025-fs-p012-t1",
+     "pbb-ar2025-fs-p108-t3",
+     "pbb-ar2025-fs-p067-t3",
+     "pbb-ar2025-fs-p011-v1",
+     "pbb-ar2025-fs-p246-t4",
+     "pbb-ar2025-fs-p126-t3"
+    ],
+    "context_chars": 6756,
+    "retrieval_ms": 185.52
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p012-t2 | page 12 (printed 10) | table_text]\n[Statement of | Value Added]\n(columns: 2025 | 2024 / Distribution of Value Added | RM’000 | RM’000)\nNon-controlling interests | 182,687 | (127,967)\nTo reinvest in the Group:\nDepreciation | 310,606 | 331,405\nRetained profits | 2,984,992 | 2,931,257\nTotal distributed | 13,549,481 | 12,814,094\n\n[pbb-ar2025-fs-p157-t1 | page 157 (printed 155) | table_text]\n[Notes to the Financial Statements > 38. OTHER OPERATING EXPENSES]\n38. OTHER OPERATING EXPENSES\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nPersonnel costs\n– Salaries, allowances and bonuses | 3,049,678 | 2,936,436 | 2,292,744 | 2,205,056\n– Pension costs | 439,000 | 422,015 | 374,482 | 360,877\n– Others | 207,344 | 192,609 | 154,461 | 146,111\n3,696,022 | 3,551,060 | 2,821,687 | 2,712,044\nEstablishment costs\n– Depreciation | 310,606 | 331,405 | 217,899 | 227,746\n– Insurance | 25,655 | 25,805 | 20,414 | 20,670\n– Water and electricity | 50,578 | 57,621 | 31,470 | 37,157\n– General repairs and maintenance | 73,434 | 66,820 | 44,046 | 43,759\n– Information technology expenses | 294,997 | 271,325 | 234,986 | 215,923\n– Others | 157,065 | 106,481 | 48,412 | 48,789\n912,335 | 859,457 | 597,227 | 594,044\nMarketing expenses\n– Advertisement and publicity | 39,298 | 38,289 | 17,389 | 16,784\n– Others | 106,250 | 84,695 | 62,391 | 51,067\n145,548 | 122,984 | 79,780 | 67,851\nAdministration and general expenses\n– Communication expenses | 82,862 | 59,932 | 55,706 | 41,935\n– Legal and professional fees | 63,490 | 53,623 | 42,250 | 35,822\n– Others | 228,445 | 181,076 | 120,737 | 74,374\n374,797 | 294,631 | 218,693 | 152,131\n\n[pbb-ar2025-fs-p012-t1 | page 12 (printed 10) | table_text]\n[Statement of | Value Added]\nPUBLIC BANK BERHAD\nStatement of | Value Added\nValue added is a measure of wealth created by the Public Bank Group through various business activities. The statement of\nvalue added shows the total wealth created and how it was distributed to stakeholders, including the Governments, as well as\nreinvestment for the replacement of assets and further expansion of the Group’s business.\n2025 | 2024\nValue Added | RM’000 | RM’000\nNet interest income | 9,583,686 | 9,451,106\nNet income from Islamic banking business | 1,839,388 | 1,707,000\nOther operating income | 3,272,080 | 2,852,568\nOther operating expenses excluding staff costs and depreciation | (1,122,074) | (945,667)\nAllowance for impairment on loans, advances and financing | (66,830) | (565)\nAllowance for impairment on other assets | (12,790) | (491,511)\nShare of results of equity accounted associated companies | 56,021 | 241,163\nValue added available for distribution | 13,549,481 | 12,814,094\n2025 | 2024\nDistribution of Value Added | RM’000 | RM’000\nTo employees:\nPersonnel costs | 3,696,022 | 3,551,060\nTo the Governments:\nTaxation | 2,007,768 | 2,052,094\nTo providers of capital:\nDividends paid to shareholders | 4,367,406 | 4,076,245\n\n[pbb-ar2025-fs-p108-t3 | page 108 (printed 106) | table_text]\n[Notes to the Financial Statements > 12. EMPLOYEE BENEFITS]\n(columns: Group | Bank / 2025 | 2024 | 2025 | 2024 / Note | RM’000 | RM’000 | RM’000 | RM’000)\nAllocation adjustment | – | – | (806) | (407)\nAmount included under “personnel costs\n– pension costs” | 38 | 85,798 | 83,967 | 83,667 | 82,300\nRemeasurements recognised in other comprehensive income are as follows:\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nNote | RM’000 | RM’000 | RM’000 | RM’000\nPresent value of funded obligations:\n– effects of changes in financial\nassumptions | (45,534) | (28,733) | (44,830) | (28,302)\nFair value of plan assets:\n– remeasurements on plan assets | 67,619 | 66,132 | 66,574 | 65,140\n– allocation adjustment | – | – | (255) | 51\n31 | 22,085 | 37,399 | 21,489 | 36,889\n\n[pbb-ar2025-fs-p067-t3 | page 67 (printed 65) | table_text]\n[Notes to the Financial Statements > 2. BASIS OF PREPARATION AND ACCOUNTING POLICIES]\nestimated. The benefit is calculated using the Projected Unit Credit Method in order to determine its present\nvalue. Remeasurement, comprising actuarial gains and losses, the effect of the changes to the asset ceiling\n(if applicable) and the return on plan assets (excluding interest), are recognised immediately in defined benefit\nreserve via other comprehensive income and are not subsequently recycled to profit or loss. Past service costs,\nwhether unvested or already vested, are recognised immediately in profit or loss as incurred. Net interest\nincome or cost is calculated by applying the discount rate to the net defined benefit asset or liability. The\nGroup recognises the changes in the net defined benefit obligation which includes current service costs, past\nservice costs and net interest expense or income under “Personnel costs” in the statement of profit or loss.\nThe amount recognised in the statements of financial position represents the actual deficit or surplus in the\nFund. Any surplus resulting from this calculation is limited to the present value of any economic benefits\navailable in the form of refunds from or reductions in future contributions to the Fund.\n\n[pbb-ar2025-fs-p011-v1 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'OPERATING REVENUE 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire Purchase: 13.2%; Retail operations: 46.1%; Corporate lending: 7.4%; Treasury and capital market operations: 4.8%; Investment banking: 0.7%; Fund management: 6.0%; General insurance: 6.5%; Others: 7.2%; Hong Kong SAR: 4.0%; Cambodia: 1.9%; Other countries: 2.2%.\n\n[pbb-ar2025-fs-p246-t4 | page 246 (printed 244) | table_text]\n[Notes to the Financial Statements > 54. SEGMENT INFORMATION]\nThe Management Committee evaluates operating segments’ performance on the basis of revenue, profit, cost-to-income\nratio, loan and deposit growth and asset quality. Expenses directly associated with each operating segment are included\nin determining their respective profit. Transactions between operating segments are based on mutually agreed allocation\nbases. Funds are allocated between segments and inter-segment funding cost transfers are reflected in net interest income.\nMajor Customers\nThere is no single customer which contributes revenue amount greater than 10% of the Group’s revenues for the current\nfinancial year (2024 – none).\n\n[pbb-ar2025-fs-p126-t3 | page 126 (printed 124) | table_text]\n[Notes to the Financial Statements > 19. LEASES]\nTotal future minimum lease payments under these non-cancellable operating leases are as follows:\nGroup\n2025 | 2024\nRM’000 | RM’000\nWithin one year | 14,183 | 19,794\nBetween one and five years | 9,789 | 13,972\n23,972 | 33,766\nThe Group and the Bank do not have any leases under finance lease.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p012-t2",
+   "pbb-ar2025-fs-p157-t1",
+   "pbb-ar2025-fs-p012-t1",
+   "pbb-ar2025-fs-p108-t3",
+   "pbb-ar2025-fs-p067-t3",
+   "pbb-ar2025-fs-p011-v1",
+   "pbb-ar2025-fs-p246-t4",
+   "pbb-ar2025-fs-p126-t3"
+  ],
+  "final_context_pages": [
+   11,
+   12,
+   67,
+   108,
+   126,
+   157,
+   246
+  ],
+  "queries": [
+   "Personnel costs in the 2025 Statement of Value Added are what percentage of the Group's 2025 operating revenue?",
+   "Personnel costs 2025 Statement of Value Added",
+   "Group operating revenue 2025",
+   "percentage of personnel costs to operating revenue 2025"
+  ],
+  "calculations": [],
+  "n_searches": 4,
+  "llm_calls": [
+   {
+    "prompt_tokens": 101,
+    "completion_tokens": 39,
+    "wall_s": 4.34,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 3273,
+    "completion_tokens": 181,
+    "wall_s": 38.599,
+    "tools_offered": [
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 3374,
+  "completion_tokens": 220,
+  "elapsed_s": 43.769,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dm02",
+  "group": "multihop",
+  "question": "Personnel costs in the 2025 Statement of Value Added are what percentage of the Group's 2025 operating revenue?",
+  "cited_pages": [],
+  "context_page_hit": {
+   "first_hit_rank": 2,
+   "all_required": false
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "The portfolio of financial investments in 2025 is estimated at RM40,427,656 (RM'000) [pbb-ar2025-fs-p005-v3].",
+  "citations": [
+   "pbb-ar2025-fs-p005-v3"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Using the 2025 share of the portfolio of financial investments in total assets (balance sheet chart) and 2025 total assets, estimate the portfolio of financial investments.",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p005-v3",
+      "page": 5,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.030077
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p005-v4",
+      "page": 5,
+      "score": 0.02971
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p005-v1",
+      "page": 5,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v1"
+    ],
+    "context_chars": 1906,
+    "retrieval_ms": 317.98
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "What is the 2025 share of the portfolio of financial investments in total assets?",
+     "What is the 2025 total assets of the entity?",
+     "How to calculate the portfolio of financial investments from the share and total assets?"
+    ],
+    "raw": "[\"What is the 2025 share of the portfolio of financial investments in total assets?\", \"What is the 2025 total assets of the entity?\", \"How to calculate the portfolio of financial investments from the share and total assets?\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What is the 2025 share of the portfolio of financial investments in total assets?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p005-v3",
+      "page": 5,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p005-v1",
+      "page": 5,
+      "score": 0.031054
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p121-t1",
+      "page": 121,
+      "score": 0.028309
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p011-v5",
+      "page": 11,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v1",
+     "pbb-ar2025-fs-p121-t1"
+    ],
+    "context_chars": 3153,
+    "retrieval_ms": 242.29
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What is the 2025 total assets of the entity?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p061-t3",
+      "page": 61,
+      "score": 0.016393
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p225-t2",
+      "page": 225,
+      "score": 0.016393
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p047-t1",
+      "page": 47,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p199-t2",
+      "page": 199,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v1",
+     "pbb-ar2025-fs-p121-t1",
+     "pbb-ar2025-fs-p061-t3",
+     "pbb-ar2025-fs-p225-t2",
+     "pbb-ar2025-fs-p047-t1",
+     "pbb-ar2025-fs-p199-t2"
+    ],
+    "context_chars": 6266,
+    "retrieval_ms": 243.94
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How to calculate the portfolio of financial investments from the share and total assets?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p005-v3",
+      "page": 5,
+      "score": 0.032002
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p005-t1",
+      "page": 5,
+      "score": 0.030679
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p005-v1",
+      "page": 5,
+      "score": 0.030622
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p014-t2",
+      "page": 14,
+      "score": 0.027864
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p005-v3",
+     "pbb-ar2025-fs-p011-v5",
+     "pbb-ar2025-fs-p005-v4",
+     "pbb-ar2025-fs-p005-v1",
+     "pbb-ar2025-fs-p121-t1",
+     "pbb-ar2025-fs-p061-t3",
+     "pbb-ar2025-fs-p225-t2",
+     "pbb-ar2025-fs-p047-t1",
+     "pbb-ar2025-fs-p199-t2",
+     "pbb-ar2025-fs-p005-t1"
+    ],
+    "context_chars": 6785,
+    "retrieval_ms": 183.06
+   },
+   {
+    "event": "calculate",
+    "expression": "15.1 / 100 * 267732818",
+    "result": "15.1 / 100 * 267732818 = 40,427,655.518"
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p005-v3 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'ASSETS 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Cash and balances with banks and reverse repurchase agreements: 3.0%; Portfolio of financial investments: 15.1%; Loans, advances and financing: 78.8%; Statutory deposits with Central Banks: 0.8%; Other assets (including intangible assets): 2.3%.\n\n[pbb-ar2025-fs-p011-v5 | page 11 (printed 9) | chart_donut]\n[Segmental | Analysis] Donut chart 'TOTAL ASSETS 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Hire purchase: 11.7%; Retail operations: 49.2%; Corporate lending: 6.6%; Treasury and capital market operations: 15.6%; Investment banking: 0.4%; Fund management: 0.1%; General insurance: 0.7%; Others: 9.4%; Hong Kong SAR: 3.1%; Cambodia: 1.5%; Other countries: 1.7%.\n\n[pbb-ar2025-fs-p005-v4 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'LIABILITIES & EQUITY 2025' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Deposit from customers: 79.6%; Deposits from banks and other financial institutions: 2.6%; Bills and acceptances payable and other liabilities: 4.4%; Debt securities issued and other borrowed funds: 2.3%; Share capital: 1.7%; Reserves: 9.0%; Non-controlling interests: 0.4%.\n\n[pbb-ar2025-fs-p005-v1 | page 5 (printed 3) | chart_donut]\n[Simplified Group | Balance Sheet] Donut chart 'ASSETS 2024' (share of total, %), segments labelled with percentages (segment matched to legend by colour): Cash and balances with banks and reverse repurchase agreements: 2.8%; Portfolio of financial investments: 16.0%; Loans, advances and financing: 77.4%; Statutory deposits with Central Banks: 1.4%; Other assets (including intangible assets): 2.4%.\n\n[pbb-ar2025-fs-p121-t1 | page 121 (printed 119) | table_text]\n[Notes to the Financial Statements > 17. INVESTMENT IN ASSOCIATED COMPANIES]\n17. INVESTMENT IN ASSOCIATED COMPANIES\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nUnquoted shares, at cost | 135,010 | 135,010 | 67,500 | 67,500\nShare of post-acquisition reserves | 306,217 | 249,041 | – | –\n441,227 | 384,051 | 67,500 | 67,500\nRepresented by:\nGroup’s share of net assets | 441,227 | 384,051\nThe summarised financial information of associated companies is as follows:\nGroup\n2025 | 2024\nRM’000 | RM’000\nTotal assets | 5,633,596 | 4,872,801\nTotal liabilities | 4,173,197 | 3,537,872\nOperating revenue | 1,237,264 | 1,380,541\nProfit after tax | 186,736 | 803,875\nTotal comprehensive income | 190,595 | 807,693\nDetails of the associated companies, all of which are unquoted, are as follows:\nEffective Interest\nPlace of | 2025 | 2024\nName | Principal Activities | Incorporation | % | %\nAIA PUBLIC Takaful Berhad | Family takaful | Malaysia | 30.0 | 30.0\nCPB Properties Co., Ltd. | Property holding | Cambodia | 49.0 | 49.0\nThere are no significant restrictions on the ability of the associated companies to transfer funds to the Group in the form\nof cash dividends.\n\n[pbb-ar2025-fs-p061-t3 | page 61 (printed 59) | table_text]\n[Notes to the Financial Statements > 2. BASIS OF PREPARATION AND ACCOUNTING POLICIES]\nor more frequently if events or changes in circumstances indicate that it might be impaired, by comparing\nthe recoverable amount from the CGU against the carrying amount of its net assets, including attributable\ngoodwill. Gains and losses on the disposal of an entity include the carrying amount of goodwill relating to\nthe entity sold.\nWhere the fair value of the Group’s share of the identifiable net assets acquired exceeds the amount of\nconsideration transferred, any non-controlling interests and the acquisition-date fair value of any previously-\nheld equity interest, the entire resulting gain is recognised immediately in profit or loss.\n\n[pbb-ar2025-fs-p225-t2 | page 225 (printed 223) | table_text]\n[Notes to the Financial Statements > 48. FAIR VALUE MEASUREMENTS]\n(columns: 2025 | RM’000 | RM’000 | RM’000 | RM’000)\nTotal financial assets measured at fair value | 67,514 | 53,419,784 | 914,302 | 54,401,600\nNon–financial assets\nInvestment properties | – | – | 694,875 | 694,875\nFinancial liabilities\nDerivative financial liabilities | – | 641,642 | – | 641,642\nTotal financial liabilities measured at fair value | – | 641,642 | – | 641,642\n\n[pbb-ar2025-fs-p047-t1 | page 47 (printed 45) | table_text]\n[Notes to the Financial Statements > 2. BASIS OF PREPARATION AND ACCOUNTING POLICIES]\n2. | BASIS OF PREPARATION AND ACCOUNTING POLICIES (CONTINUED)\n(iii) Material Accounting Policy Information (continued)\n(b) | Basis of Consolidation (continued)\n(iii) Associated Companies (continued)\nIn the Bank’s separate financial statements, the investment in associated companies is stated at cost less\nimpairment losses, if any, determined on an individual basis. On disposal of such investment, the difference\nbetween the net disposal proceeds and the carrying amount of the investment is recognised in profit or\nloss.\n(c) | Foreign Currency\n(i) | Functional and Presentation Currency\nItems included in the financial statements of each entity in the Group are measured using the currency of\nthe primary economic environment in which the entity operates, i.e. the functional currency. The financial\nstatements of the Group and of the Bank are presented in RM, which is also the Bank’s functional currency.\n(ii) | Foreign Currency Transactions and Balances\nIn preparing the financial statements of the individual entities, transactions in currencies other than each\nentity’s functional currency, i.e. foreign currencies, are translated into the functional currency at exchange\n\n[pbb-ar2025-fs-p199-t2 | page 199 (printed 197) | table_text]\n[Notes to the Financial Statements > 47. FINANCIAL RISK MANAGEMENT]\n(columns: 2025 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | RM’000 | %)\n– credit-impaired* | – | – | – | – | – | (1,051,716) | – | (1,051,716) | –\nOther asset balances | – | 87,824 | – | – | – 25,547,343 | 96,799 25,731,966 | 0.07\nTOTAL ASSETS | 267,732,818 12,332,668 17,524,479 77,493,624 18,883,763 28,747,080 | 1,187,166 423,901,598\n\n[pbb-ar2025-fs-p005-t1 | page 5 (printed 3) | table_text]\n[Simplified Group | Balance Sheet]\nSimplified Group | Balance Sheet\nASSETS\nreverse repurchase agreements | intangible assets)\n\u0007Statutory deposits with Central\n\u0007Portfolio of financial investments | Banks\nLIABILITIES & EQUITY\nDeposit from customers | \u0007Bills and acceptances payable | Share capital\nand other liabilities\n\u0007Deposits from banks and | Reserves\nother financial institutions | \u0007Debt securities issued and\nNon-controlling interests\nother borrowed funds",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p005-v3",
+   "pbb-ar2025-fs-p011-v5",
+   "pbb-ar2025-fs-p005-v4",
+   "pbb-ar2025-fs-p005-v1",
+   "pbb-ar2025-fs-p121-t1",
+   "pbb-ar2025-fs-p061-t3",
+   "pbb-ar2025-fs-p225-t2",
+   "pbb-ar2025-fs-p047-t1",
+   "pbb-ar2025-fs-p199-t2",
+   "pbb-ar2025-fs-p005-t1"
+  ],
+  "final_context_pages": [
+   5,
+   11,
+   47,
+   61,
+   121,
+   199,
+   225
+  ],
+  "queries": [
+   "Using the 2025 share of the portfolio of financial investments in total assets (balance sheet chart) and 2025 total assets, estimate the portfolio of financial investments.",
+   "What is the 2025 share of the portfolio of financial investments in total assets?",
+   "What is the 2025 total assets of the entity?",
+   "How to calculate the portfolio of financial investments from the share and total assets?"
+  ],
+  "calculations": [
+   {
+    "expression": "15.1 / 100 * 267732818",
+    "result": "15.1 / 100 * 267732818 = 40,427,655.518"
+   }
+  ],
+  "n_searches": 4,
+  "llm_calls": [
+   {
+    "prompt_tokens": 111,
+    "completion_tokens": 53,
+    "wall_s": 6.022,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2915,
+    "completion_tokens": 200,
+    "wall_s": 37.417,
+    "tools_offered": [
+     "calculate"
+    ]
+   },
+   {
+    "prompt_tokens": 3002,
+    "completion_tokens": 50,
+    "wall_s": 10.815,
+    "tools_offered": [
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 6028,
+  "completion_tokens": 303,
+  "elapsed_s": 55.244,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dm03",
+  "group": "multihop",
+  "question": "Using the 2025 share of the portfolio of financial investments in total assets (balance sheet chart) and 2025 total assets, estimate the portfolio of financial investments.",
+  "cited_pages": [
+   5
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": false
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "RM141.0 million [pbb-ar2025-fs-p020-t1]",
+  "citations": [
+   "pbb-ar2025-fs-p020-t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How much did LPI Capital Group contribute to the Public Bank Group's net profit in 2025?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p020-t1",
+      "page": 20,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p021-t4",
+      "page": 21,
+      "score": 0.031258
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p020-t2",
+      "page": 20,
+      "score": 0.030415
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p021-t3",
+      "page": 21,
+      "score": 0.028309
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p021-t4",
+     "pbb-ar2025-fs-p020-t2",
+     "pbb-ar2025-fs-p021-t3"
+    ],
+    "context_chars": 4421,
+    "retrieval_ms": 228.87
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "LPI Capital Group contribution to Public Bank Group net profit 2025"
+    ],
+    "raw": "[\"LPI Capital Group contribution to Public Bank Group net profit 2025\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "LPI Capital Group contribution to Public Bank Group net profit 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p020-t1",
+      "page": 20,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p021-t4",
+      "page": 21,
+      "score": 0.030835
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p004-t1",
+      "page": 4,
+      "score": 0.030798
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p037-t3",
+      "page": 37,
+      "score": 0.030536
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p021-t4",
+     "pbb-ar2025-fs-p020-t2",
+     "pbb-ar2025-fs-p021-t3",
+     "pbb-ar2025-fs-p004-t1",
+     "pbb-ar2025-fs-p037-t3"
+    ],
+    "context_chars": 6253,
+    "retrieval_ms": 198.85
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p020-t1 | page 20 (printed 18) | table_text]\n[Directors’ Report]\nPUBLIC BANK BERHAD\nDirectors’ Report\nFor the Financial Year Ended 31 December 2025\nBUSINESS REVIEW 2025 (CONTINUED)\nNet interest and financing income recorded a more moderate growth of 2.1% in 2025, due to net interest/financing margin\ncompression arising from the intense competition in the loans and deposits markets.\nThe Public Bank Group’s non-interest and non-financing income recorded a double-digit growth of 15.2% in 2025, supported\nby the newly acquired general insurance income, as well as investment and unit trust income which grew by 76.5% and 4.8%\nrespectively.\nThe Public Bank Group’s wholly owned unit trust management subsidiary, Public Mutual, retained its leading market share of\n43.6% in the domestic retail private unit trust industry (excluding money market funds) as at the end 2025. Public Mutual posted\nprofit before tax of RM850.6 million in 2025, contributing 8.9% to the Public Bank Group’s profit for 2025.\nIn 2025, the Public Bank Group’s newly acquired subsidiary LPI Capital Group (“LPI”) contributed RM141.0 million to the Public\nBank Group’s net profit. The Group continued to leverage on LPI’s agency network and the Group’s broad customer base to\n\n[pbb-ar2025-fs-p021-t4 | page 21 (printed 19) | table_text]\n[Directors’ Report]\nwill proactively collaborate with LPI to identify and pursue cooperative opportunities, including cross-selling, to improve the\nGroup’s non-interest income contributions.\nAmid a volatile capital market, the Public Bank Group will maintain a vigilant and prudent approach in growing its treasury\nbusiness, while further enhancing its risk management capabilities to navigate ongoing market uncertainties.\nOn digitalisation and technological innovation, the Public Bank Group remains committed to advancing innovation, inclusivity\nand sustainability through ongoing digital transformation initiatives. The Group’s digital platforms will continue to be enhanced\nto ensure secure, efficient and user-centric digital banking services.\n\n[pbb-ar2025-fs-p020-t2 | page 20 (printed 18) | table_text]\n[Directors’ Report]\nexpand cross-selling opportunities. Meanwhile, the Group’s bancassurance business through its strategic partnership with AIA\nBerhad achieved commendable results, with growth in annualised new premium by 15.6% to RM616.7 million in 2025.\nIn terms of cost efficiency, the Public Bank Group maintained an efficient cost-to-income ratio of 34.9%, which was well below\nthe banking industry’s average of 45.2%. The Group stays committed to its prudent cost management.\nAs at the end of 2025, the Public Bank Group continued to uphold sound asset quality, maintaining a gross impaired loans\nratio of 0.5% as compared to the banking industry’s gross impaired loans ratio of 1.4%. The Group’s loan loss coverage ratio\nstood at a prudent level of 149.9% as at the end of 2025, exceeding the banking industry’s loan loss coverage ratio of 84.8%.\nThe Public Bank Group maintained healthy capital and liquidity positions. The Group’s Common Equity Tier I capital ratio, Tier\nI capital ratio and total capital ratio stood at 13.9%, 13.9% and 16.6% respectively as at the end of 2025, well above the minimum\n\n[pbb-ar2025-fs-p021-t3 | page 21 (printed 19) | table_text]\n[Directors’ Report]\nThe Public Bank Group continues to proactively grow its business by leveraging on its core strength in the retail banking\nsegments. The Group’s priorities will remain centred on the lending support to SMEs as well as property and vehicle financing\nsegments.\nThe Public Bank Group will maintain prudence in its credit risk management, supported by strong corporate governance and\nsound risk management practices. The Group remains committed to preserving stakeholder interests as well as ensuring that\nit stays well capitalised and adequately funded to support sustainable business growth.\nThe Public Bank Group will continue to expand its deposit base, focusing on growing savings and demand deposits while\noptimising funding costs to support long term business sustainability. The Group also remains committed to offering a\ncomprehensive selection of wealth management products to meet the increasingly diverse investment needs while deepening\ncustomer relationships.\nThe acquisition of LPI strengthens the Public Bank Group’s presence in the general insurance segment in Malaysia. The Group\n\n[pbb-ar2025-fs-p004-t1 | page 4 (printed 2) | table_text]\n[Financial | Highlights]\nPUBLIC BANK BERHAD\nFinancial | Highlights\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nPROFITABILITY (RM’MILLION)\nOperating revenue | 29,510 | 27,205 | 19,473 | 18,839\nOperating profit | 9,566 | 9,183 | 7,821 | 7,186\nProfit before tax expense and zakat | 9,543 | 8,932 | 7,987 | 7,324\nNet profit attributable to equity holders of the Bank | 7,224 | 7,147 | 6,335 | 5,921\nKEY BALANCE SHEET DATA (RM’MILLION)\nTotal assets | 561,651 | 543,310* | 423,902 | 407,794\nGross loans, advances and financing | 445,758 | 424,171 | 333,872 | 316,795\nDeposits from customers | 447,114 | 433,264 | 331,378 | 318,136\nShareholders’ equity | 59,938 | 57,335 | 48,185 | 45,872\nFINANCIAL RATIOS (%)\nProfitability Ratios\nNet interest margin on average interest bearing assets | 2.1 | 2.2 | 2.1 | 2.2\nNet return on equity1 | 12.8 | 13.2 | 14.1 | 13.9\nReturn on average assets | 1.7 | 1.7 | 1.9 | 1.8\nReturn on average risk-weighted assets | 2.7 | 2.6 | 2.9 | 2.8\nCapital Adequacy Ratio2\nCommon Equity Tier I capital ratio | 13.9 | 14.2* | 12.0 | 12.2\nTier I capital ratio | 13.9 | 14.2* | 12.0 | 12.2\nTotal capital ratio | 16.6 | 17.0* | 14.9 | 15.3\nAsset Quality Ratio\nGross impaired loans ratio | 0.51 | 0.52 | 0.38 | 0.39\n\n[pbb-ar2025-fs-p037-t3 | page 37 (printed 35) | table_text]\n[Statements of | Cash Flows]\n(columns: Group | Bank / 2025 | 2024 | 2025 | 2024 / Note | RM’000 | RM’000 | RM’000 | RM’000)\nDistributions received from collective investments | – | – | 233,178 | 239,314\nDividends received from subsidiary companies | – | – | 872,578 | 702,373\nDividends received from financial investments at\nfair value through other comprehensive income | 36 | 6,851 | 3,486 | 6,220 | 2,879\nNet cash outflow on acquisition of LPI Capital\nBhd | 16 | – | (1,504,980) | – | –",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p020-t1",
+   "pbb-ar2025-fs-p021-t4",
+   "pbb-ar2025-fs-p020-t2",
+   "pbb-ar2025-fs-p021-t3",
+   "pbb-ar2025-fs-p004-t1",
+   "pbb-ar2025-fs-p037-t3"
+  ],
+  "final_context_pages": [
+   4,
+   20,
+   21,
+   37
+  ],
+  "queries": [
+   "How much did LPI Capital Group contribute to the Public Bank Group's net profit in 2025?",
+   "LPI Capital Group contribution to Public Bank Group net profit 2025"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 96,
+    "completion_tokens": 19,
+    "wall_s": 3.302,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2624,
+    "completion_tokens": 25,
+    "wall_s": 6.811,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2720,
+  "completion_tokens": 44,
+  "elapsed_s": 10.543,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dx01",
+  "group": "text",
+  "question": "How much did LPI Capital Group contribute to the Public Bank Group's net profit in 2025?",
+  "cited_pages": [
+   20
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 2,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "The principal activities of the Bank itself (not the Group) are all aspects of commercial banking and the provision of related financial services. [pbb-ar2025-fs-p039-t2]",
+  "citations": [
+   "pbb-ar2025-fs-p039-t2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What are the principal activities of the Bank itself (not the Group)?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p039-t2",
+      "page": 39,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p166-t3",
+      "page": 166,
+      "score": 0.02879
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p245-t2",
+      "page": 245,
+      "score": 0.028205
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p015-t1",
+      "page": 15,
+      "score": 0.016393
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p039-t2",
+     "pbb-ar2025-fs-p166-t3",
+     "pbb-ar2025-fs-p245-t2",
+     "pbb-ar2025-fs-p015-t1"
+    ],
+    "context_chars": 4774,
+    "retrieval_ms": 242.9
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "principal activities of the Bank itself"
+    ],
+    "raw": "[\"principal activities of the Bank itself\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "principal activities of the Bank itself",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p039-t2",
+      "page": 39,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p013-t2",
+      "page": 13,
+      "score": 0.016129
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p015-t1",
+      "page": 15,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p115-t1",
+      "page": 115,
+      "score": 0.015873
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p039-t2",
+     "pbb-ar2025-fs-p166-t3",
+     "pbb-ar2025-fs-p245-t2",
+     "pbb-ar2025-fs-p015-t1",
+     "pbb-ar2025-fs-p013-t2",
+     "pbb-ar2025-fs-p115-t1"
+    ],
+    "context_chars": 5742,
+    "retrieval_ms": 292.66
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p039-t2 | page 39 (printed 37) | table_text]\n[Notes to the | Financial Statements > 1. PRINCIPAL ACTIVITIES AND GENERAL INFORMATION]\n1. | PRINCIPAL ACTIVITIES AND GENERAL INFORMATION\nThe Group is principally engaged in all aspects of commercial banking, investment banking, financing and Islamic banking\nbusiness, stock-broking, provision of related financial services, management of unit trust funds and sale of trust units,\nunderwriting of general insurance, trustee services and investment holding.\nThe Bank is principally engaged in all aspects of commercial banking and the provision of related financial services.\nThere have been no significant changes to these principal activities during the financial year.\nThe Bank is a public limited liability company, incorporated and domiciled in Malaysia, and is listed on the Main Market\nof Bursa Malaysia Securities Berhad. The registered office of the Bank is located at 27th Floor, Menara Public Bank, 146,\nJalan Ampang, 50450 Kuala Lumpur.\nThe financial statements were approved and authorised for issue by the Board of Directors on 25 February 2026.\n\n[pbb-ar2025-fs-p166-t3 | page 166 (printed 164) | table_text]\n[Notes to the Financial Statements > 45. RELATED PARTY TRANSACTIONS]\n45. RELATED PARTY TRANSACTIONS\nParties are considered to be related if one party has the ability to control the other party or exercise significant influence\nover the other party in making financial or operational decisions, or if one other party controls both. The related parties\nof the Group and of the Bank are:\n(i) | Collective Investments\nCollective investments are those investments as disclosed in Note 15.\n(ii) | Subsidiary Companies\nDetails of the subsidiary companies are shown in Note 16.\n(iii) Associated Companies\nAssociated companies are those entities in which the Group has significant influence but not control, as disclosed in\nNote 17.\n(iv) Key Management Personnel and the Close Members of His/Her Family\nKey management personnel are defined as those persons having authority and responsibility for planning, directing\nand controlling the activities of the Group and of the Bank either directly or indirectly. The key management personnel\nof the Group and of the Bank include Executive Director and Non-Executive Directors of the Bank, chief executive\nofficers of major subsidiary companies of the Bank and certain key members of senior management of the Bank and\n\n[pbb-ar2025-fs-p245-t2 | page 245 (printed 243) | table_text]\n[Notes to the Financial Statements > 53. CAPITAL MANAGEMENT]\ninherent in its business operations. These initiatives include issuances of capital securities, adjustments to the amount of\ndividends distributed to shareholders and focus on growth in non-interest income and other less capital-intensive business\nactivities. The Group’s Internal Capital Adequacy Assessment Process (“ICAAP”) assesses the Group’s internal capital\nrequirements beyond the minimum regulatory requirements to ensure its capital commensurates with the Group’s risk\nprofile, the complexity of the business activities undertaken and its risk appetite.\nThe Group’s and the Bank’s regulatory capital are determined under BNM’s Capital Adequacy Frameworks on Capital\nComponents and Basel II – Risk-Weighted Assets and their capital ratios have complied with the minimum requirements\nset under this guideline. Information on the Group’s and the Bank’s capital adequacy ratios, regulatory minimum capital\nrequirements and the components of total capital are disclosed in Note 52 (a) and (b).\n\n[pbb-ar2025-fs-p015-t1 | page 15 (printed 13) | table_text]\n[Directors’ | Report]\nDirectors’ | Report\nFor the Financial Year Ended 31 December 2025\nThe Directors have pleasure in presenting to the members their report together with the audited financial statements of the\nGroup and of the Bank for the year ended 31 December 2025.\nPRINCIPAL ACTIVITIES\nThe Bank is principally engaged in all aspects of commercial banking and the provision of related financial services.\nThe principal activities of the subsidiary and associated companies are as disclosed in Notes 16 and 17 to the financial\nstatements respectively.\nThere have been no significant changes to these principal activities during the financial year.\nFINANCIAL RESULTS\nGroup | Bank\nRM’000 | RM’000\nProfit before tax expense and zakat | 9,542,853 | 7,987,020\nTax expense and zakat | (2,135,744) | (1,651,663)\nProfit for the year | 7,407,109 | 6,335,357\nAttributable to:\nEquity holders of the Bank | 7,224,422 | 6,335,357\nNon-controlling interests | 182,687 | –\nProfit for the year | 7,407,109 | 6,335,357\nDIVIDENDS\nThe amount of dividends paid by the Bank since 31 December 2024 were as follows:\nRM’000\nIn respect of financial year ended 31 December 2024:\n\n[pbb-ar2025-fs-p013-t2 | page 13 (printed 11) | table_text]\n[Statement of | Responsibility By Directors]\nThe Directors also have a general responsibility to take reasonable steps to safeguard the assets of the Group and of the Bank,\nand to prevent and detect fraud as well as other irregularities.\n\n[pbb-ar2025-fs-p115-t1 | page 115 (printed 113) | table_text]\n[Notes to the Financial Statements > 15. COLLECTIVE INVESTMENTS]\n15. COLLECTIVE INVESTMENTS\nDetails of the collective investments of the Bank are as follows:\nEffective Interest\nPlace of | 2025 | 2024\nName of Funds | Principal Activities | Incorporation | % | %\nPublic Institutional Bond Fund | Bond fund | Malaysia | 99.9 | 100.0\nPublic Wholesale Income Fund | Wholesale income fund | Malaysia | 93.5 | 93.6\nPublic Islamic Wholesale Income Fund | Wholesale income fund | Malaysia | 94.1 | 94.1\nThe collective investments have been consolidated in accordance with MFRS 10 Consolidated Financial Statements.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p039-t2",
+   "pbb-ar2025-fs-p166-t3",
+   "pbb-ar2025-fs-p245-t2",
+   "pbb-ar2025-fs-p015-t1",
+   "pbb-ar2025-fs-p013-t2",
+   "pbb-ar2025-fs-p115-t1"
+  ],
+  "final_context_pages": [
+   13,
+   15,
+   39,
+   115,
+   166,
+   245
+  ],
+  "queries": [
+   "What are the principal activities of the Bank itself (not the Group)?",
+   "principal activities of the Bank itself"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 87,
+    "completion_tokens": 9,
+    "wall_s": 1.836,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2101,
+    "completion_tokens": 44,
+    "wall_s": 8.762,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2188,
+  "completion_tokens": 53,
+  "elapsed_s": 11.135,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dx02",
+  "group": "text",
+  "question": "What are the principal activities of the Bank itself (not the Group)?",
+  "cited_pages": [
+   39
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 2,
+   "all_required": true
+  }
+ },
+ {
+  "status": "answered",
+  "answer": "The Group's priorities will remain centred on lending support to SMEs as well as property and vehicle financing segments [pbb-ar2025-fs-p021-t3]. Specifically, within the retail operations segment, credit facilities such as mortgages, trade and personal loans are offered, and hire purchase operations focus on passenger vehicle financing [pbb-ar2025-fs-p245-t4]. Thus, the key lending segments are SME lending, property financing, and vehicle financing.",
+  "citations": [
+   "pbb-ar2025-fs-p021-t3",
+   "pbb-ar2025-fs-p245-t4"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "According to the business outlook for 2026, which lending segments will the Group's priorities remain centred on?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p021-t3",
+      "page": 21,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p021-t2",
+      "page": 21,
+      "score": 0.031754
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p022-t1",
+      "page": 22,
+      "score": 0.031498
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p245-t4",
+      "page": 245,
+      "score": 0.031281
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p021-t3",
+     "pbb-ar2025-fs-p021-t2",
+     "pbb-ar2025-fs-p022-t1",
+     "pbb-ar2025-fs-p245-t4"
+    ],
+    "context_chars": 4471,
+    "retrieval_ms": 233.11
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "What are the lending segments with priority in the Group's business outlook for 2026?"
+    ],
+    "raw": "[\"What are the lending segments with priority in the Group's business outlook for 2026?\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What are the lending segments with priority in the Group's business outlook for 2026?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p021-t3",
+      "page": 21,
+      "score": 0.032018
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p021-t1",
+      "page": 21,
+      "score": 0.031778
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p245-t4",
+      "page": 245,
+      "score": 0.031025
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p246-t4",
+      "page": 246,
+      "score": 0.030622
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p021-t3",
+     "pbb-ar2025-fs-p021-t2",
+     "pbb-ar2025-fs-p022-t1",
+     "pbb-ar2025-fs-p245-t4",
+     "pbb-ar2025-fs-p021-t1",
+     "pbb-ar2025-fs-p246-t4"
+    ],
+    "context_chars": 6515,
+    "retrieval_ms": 665.45
+   },
+   {
+    "event": "answer",
+    "invalid_citations_dropped": []
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p021-t3 | page 21 (printed 19) | table_text]\n[Directors’ Report]\nThe Public Bank Group continues to proactively grow its business by leveraging on its core strength in the retail banking\nsegments. The Group’s priorities will remain centred on the lending support to SMEs as well as property and vehicle financing\nsegments.\nThe Public Bank Group will maintain prudence in its credit risk management, supported by strong corporate governance and\nsound risk management practices. The Group remains committed to preserving stakeholder interests as well as ensuring that\nit stays well capitalised and adequately funded to support sustainable business growth.\nThe Public Bank Group will continue to expand its deposit base, focusing on growing savings and demand deposits while\noptimising funding costs to support long term business sustainability. The Group also remains committed to offering a\ncomprehensive selection of wealth management products to meet the increasingly diverse investment needs while deepening\ncustomer relationships.\nThe acquisition of LPI strengthens the Public Bank Group’s presence in the general insurance segment in Malaysia. The Group\n\n[pbb-ar2025-fs-p021-t2 | page 21 (printed 19) | table_text]\n[Directors’ Report]\nin strategic sectors under the New Industrial Masterplan 2030, 13th Malaysia Plan and National Energy Transition Roadmap as\nwell as targeted assistance programs will further support growth. Visit Malaysia 2026 is set to provide a boost to the services\nsector, particularly in retail, transportation and hospitality-related activities. The manufacturing and trade sector will also remain\nsupportive of growth.\nDomestic financial conditions in Malaysia remain conducive for financial intermediation, underpinned by ample liquidity and\nhealthy capital buffers. Banks will remain proactive in monitoring asset quality and maintaining resilient credit quality. Banks\nin Malaysia will also continue to focus on enhancing operational and cost efficiencies as well as digital innovation.\nBUSINESS OUTLOOK FOR 2026\nThe business environment in Malaysia is expected to be supported by appropriate Government policies and reform initiatives\nthat enhance business resilience and encourage domestic investments. Nevertheless, business growth will also continue to be\nhighly dependent on overall macroeconomic developments.\n\n[pbb-ar2025-fs-p022-t1 | page 22 (printed 20) | table_text]\n[Directors’ Report]\nPUBLIC BANK BERHAD\nDirectors’ Report\nFor the Financial Year Ended 31 December 2025\nBUSINESS OUTLOOK FOR 2026 (CONTINUED)\nWith market competition accelerating across the financial sector, the Public Bank Group will continue to leverage on the\nadvancement of technology to enhance its service delivery standards and infrastructure for enriched customer experience. The\nGroup remains committed to delivering integrated and seamless banking services across its multi-channel platforms, while\nenhancing service efficiency through its extensive network of physical and digital channels.\nThe Public Bank Group will continue to enhance scam awareness and fraud prevention efforts by delivering high-quality learning\nexperience and leveraging on interactive engagement platforms. The Group will utilise multiple communication channels,\nincluding email communications, social media, online banking and mobile banking platforms as well as conducting public\nroadshows, to deliver insightful scam-related information to the public, with the aim of strengthening public awareness and\nbuilding resilience against evolving scam threats.\n\n[pbb-ar2025-fs-p245-t4 | page 245 (printed 243) | table_text]\n[Notes to the Financial Statements > 54. SEGMENT INFORMATION]\nThe Group’s domestic business, which also includes Islamic banking business, is organised into the following key operating\nsegments:\n(i) | Hire Purchase\nHire purchase operations focus on the provision of passenger vehicle financing to all levels of customers.\n(ii) | Retail Operations\nRetail operations focus on providing products and services to individual customers and small and medium enterprises.\nThe products and services offered to customers include credit facilities (mortgages, trade and personal loans), credit\ncards, remittance services, deposit collection and investment products.\n(iii) Corporate Lending\nThe corporate lending operations cater to the funding needs of large corporate customers which are primarily public\nlisted companies and their related corporations.\n\n[pbb-ar2025-fs-p021-t1 | page 21 (printed 19) | table_text]\n[Directors’ Report]\nECONOMIC OUTLOOK AND PROSPECTS FOR 2026\nGlobal growth in 2026 is expected to be relatively moderate. Global economic risks for 2026 remain skewed to the downside,\nincluding renewed tariff escalations, geopolitical disruptions to energy and trade flows, persistent fiscal imbalances and\nheightened volatility in global financial markets. The US economy is expected to improve slightly, driven by solid domestic\ndemand and investment sentiment, while supported by an accommodative monetary policy. Growth in the Euro area and Japan\nare projected to moderate, weighed by elevated uncertainties and higher tariffs. China’s economy is expected to be moderate\namid trade restrictions and subdued external demand, coupled with heightened risks from global trade tensions, supply chain\ndisruptions and prolonged property sector weakness. Growth across emerging market and developing economies are anticipated\nto soften due to moderations in China and India.\nMalaysia’s economy is expected to maintain a resilient growth trajectory, anchored by strong domestic demand, stable labour\nmarket, a diversified economic structure and sound policy management against heightened global uncertainties. Investments\n\n[pbb-ar2025-fs-p246-t4 | page 246 (printed 244) | table_text]\n[Notes to the Financial Statements > 54. SEGMENT INFORMATION]\nThe Management Committee evaluates operating segments’ performance on the basis of revenue, profit, cost-to-income\nratio, loan and deposit growth and asset quality. Expenses directly associated with each operating segment are included\nin determining their respective profit. Transactions between operating segments are based on mutually agreed allocation\nbases. Funds are allocated between segments and inter-segment funding cost transfers are reflected in net interest income.\nMajor Customers\nThere is no single customer which contributes revenue amount greater than 10% of the Group’s revenues for the current\nfinancial year (2024 – none).",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p021-t3",
+   "pbb-ar2025-fs-p021-t2",
+   "pbb-ar2025-fs-p022-t1",
+   "pbb-ar2025-fs-p245-t4",
+   "pbb-ar2025-fs-p021-t1",
+   "pbb-ar2025-fs-p246-t4"
+  ],
+  "final_context_pages": [
+   21,
+   22,
+   245,
+   246
+  ],
+  "queries": [
+   "According to the business outlook for 2026, which lending segments will the Group's priorities remain centred on?",
+   "What are the lending segments with priority in the Group's business outlook for 2026?"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 98,
+    "completion_tokens": 23,
+    "wall_s": 5.01,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2006,
+    "completion_tokens": 104,
+    "wall_s": 20.689,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2104,
+  "completion_tokens": 127,
+  "elapsed_s": 26.599,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "dx03",
+  "group": "text",
+  "question": "According to the business outlook for 2026, which lending segments will the Group's priorities remain centred on?",
+  "cited_pages": [
+   21,
+   245
+  ],
+  "context_page_hit": {
+   "first_hit_rank": 1,
+   "all_required": true
+  }
+ },
+ {
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The dividend proposed for the financial year 2026 is not mentioned in the provided context. The context only details dividends declared for the financial year ended 31 December 2025, such as the second interim dividend of 12.0 sen per share declared on 25 February 2026, which relates to the 2025 financial year, not 2026. There is no information about a proposed dividend for the 2026 financial year.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What dividend per share has the Bank proposed for the financial year 2026?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p166-t2",
+      "page": 166,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p015-t2",
+      "page": 15,
+      "score": 0.031754
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p165-t1",
+      "page": 165,
+      "score": 0.031498
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p165-t2",
+      "page": 165,
+      "score": 0.030214
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p166-t2",
+     "pbb-ar2025-fs-p015-t2",
+     "pbb-ar2025-fs-p165-t1",
+     "pbb-ar2025-fs-p165-t2"
+    ],
+    "context_chars": 3992,
+    "retrieval_ms": 240.09
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "dividend per share proposed for financial year 2026"
+    ],
+    "raw": "[\"dividend per share proposed for financial year 2026\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "dividend per share proposed for financial year 2026",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p166-t2",
+      "page": 166,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p015-t2",
+      "page": 15,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p165-t1",
+      "page": 165,
+      "score": 0.031258
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p004-t2",
+      "page": 4,
+      "score": 0.030118
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p166-t2",
+     "pbb-ar2025-fs-p015-t2",
+     "pbb-ar2025-fs-p165-t1",
+     "pbb-ar2025-fs-p165-t2",
+     "pbb-ar2025-fs-p004-t2"
+    ],
+    "context_chars": 4504,
+    "retrieval_ms": 207.6
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p166-t2 | page 166 (printed 164) | table_text]\n[Notes to the Financial Statements > 44. DIVIDENDS]\n44. DIVIDENDS (CONTINUED)\nSubsequent to the financial year end, on 25 February 2026, the Directors declared a second interim dividend of 12.0 sen\nper share, with the total amounting to approximately RM2,329,283,008 computed based on 19,410,691,735 ordinary shares\nin respect of the financial year ended 31 December 2025. The financial statements for the current financial year do not\nreflect these dividends. Upon declaration, the dividend payment will be accounted for in equity as an appropriation of\nretained earnings during the financial year ending 31 December 2026. The Directors do not propose any final dividend in\nrespect of the financial year ended 31 December 2025.\nAccordingly, based on the above, the dividend declared per share for each financial year are as follows:\nGroup and Bank\nDividend per share\n2025 | 2024\nSen | Sen\nDividends per ordinary share:\nPaid:\nFirst interim dividend | 10.5 | 10.0\nDeclared subsequent to the financial year end:\nSecond interim dividend | 12.0 | 11.0\n22.5 | 21.0\n\n[pbb-ar2025-fs-p015-t2 | page 15 (printed 13) | table_text]\n[Directors’ | Report]\n(columns: RM’000)\nSecond interim dividend of 11.0 sen based on 19,410,691,735 ordinary shares paid on 24 March 2025 | 2,135,176\nIn respect of financial year ended 31 December 2025:\nFirst interim dividend of 10.5 sen based on 19,410,691,735 ordinary shares paid on 24 September 2025 | 2,038,123\n4,173,299\nSubsequent to the financial year end, on 25 February 2026 the Directors declared a second interim dividend of 12.0 sen per\nshare, with the total amounting to approximately RM2,329,283,008 in respect of the current financial year. This is computed\nbased on 19,410,691,735 ordinary shares in issue as at 31 December 2025, to be paid and distributed to shareholders whose\nnames appear in the Record of Depositors at the close of business on 12 March 2026. The financial statements for the current\nfinancial year do not reflect these dividends. Upon declaration, this dividend payment will be accounted for in equity as an\nappropriation of retained earnings during the financial year ending 31 December 2026.\nThe Directors do not propose any final dividend for the financial year ended 31 December 2025.\n\n[pbb-ar2025-fs-p165-t1 | page 165 (printed 163) | table_text]\n[Notes to the Financial Statements > 43. EARNINGS PER SHARE]\n43. EARNINGS PER SHARE\n(a) | Basic Earnings Per Share\nThe calculation of the basic earnings per share is based on the net profit attributable to equity holders of the Bank\nfor the year divided by the weighted average number of ordinary shares in issue or issuable during the year, if any.\nGroup\n2025 | 2024\nNet profit attributable to equity holders of the Bank (RM’000) | 7,224,422 | 7,147,031\n’000\nNumber of ordinary shares in issue at beginning of the year | 19,410,692 | 19,410,692\nEffects of treasury shares | (97,260) | (8,238)\nAdjusted number of ordinary shares in issue or issuable at end of the year | 19,313,432 | 19,402,454\nBasic earnings per share (sen) | 37.41 | 36.84\n(b) | Diluted Earnings Per Share\nThe Group and the Bank have no dilution in their earnings per ordinary share as there are no dilutive potential\nordinary shares.\n\n[pbb-ar2025-fs-p165-t2 | page 165 (printed 163) | table_text]\n[Notes to the Financial Statements > 44. DIVIDENDS]\n44. DIVIDENDS\nGroup and Bank\n2025 | 2024\nRM’000 | RM’000\nDividends recognised as distribution to ordinary equity holders of the Bank:\nFirst interim dividend of 10.5 sen (2024 – 10.0 sen) in respect of the financial year\nended 31 December 2025 | 2,038,123 | 1,941,069\nSecond interim dividend of 11.0 sen (2023 – 10.0 sen) in respect of the financial year\nended 31 December 2024 | 2,135,176 | 1,941,069\nDividends recognised as distribution at Bank | 4,173,299 | 3,882,138\nLess: Dividend attributable to treasury shares | (20,911) | –\nDividends recognised as distribution at Group | 4,152,388 | 3,882,138\n\n[pbb-ar2025-fs-p004-t2 | page 4 (printed 2) | table_text]\n[Financial | Highlights]\n(columns: Group | Bank / 2025 | 2024 | 2025 | 2024)\n1 | Based on average equity attributable to equity holders of the Bank, adjusted for dividend declared subsequent to year end.\n2 | After deducting dividend declared subsequent to year end.\n* Restated due to adjustments made retrospectively in relation to the purchase price allocation for the acquisition of LPI Capital Bhd and Public Bank\nSecurities Vietnam Company Limited.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p166-t2",
+   "pbb-ar2025-fs-p015-t2",
+   "pbb-ar2025-fs-p165-t1",
+   "pbb-ar2025-fs-p165-t2",
+   "pbb-ar2025-fs-p004-t2"
+  ],
+  "final_context_pages": [
+   4,
+   15,
+   165,
+   166
+  ],
+  "queries": [
+   "What dividend per share has the Bank proposed for the financial year 2026?",
+   "dividend per share proposed for financial year 2026"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 91,
+    "completion_tokens": 16,
+    "wall_s": 2.603,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2168,
+    "completion_tokens": 113,
+    "wall_s": 18.994,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2259,
+  "completion_tokens": 129,
+  "elapsed_s": 22.046,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "du01",
+  "group": "unanswerable",
+  "question": "What dividend per share has the Bank proposed for the financial year 2026?",
+  "cited_pages": []
+ },
+ {
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The context does not contain information about the number of unit holders that Public Mutual served at the end of 2025.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How many unit holders did Public Mutual serve at the end of 2025?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p020-t1",
+      "page": 20,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p030-t1",
+      "page": 30,
+      "score": 0.028372
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p004-t2",
+      "page": 4,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p280-t1",
+      "page": 280,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p030-t1",
+     "pbb-ar2025-fs-p004-t2",
+     "pbb-ar2025-fs-p280-t1"
+    ],
+    "context_chars": 3099,
+    "retrieval_ms": 223.03
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "number of unit holders",
+     "Public Mutual",
+     "end of 2025"
+    ],
+    "raw": "[\"number of unit holders\", \"Public Mutual\", \"end of 2025\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "number of unit holders",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p064-t5",
+      "page": 64,
+      "score": 0.031099
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p008-v1",
+      "page": 8,
+      "score": 0.029083
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p165-t1",
+      "page": 165,
+      "score": 0.016393
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p219-t4",
+      "page": 219,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p030-t1",
+     "pbb-ar2025-fs-p004-t2",
+     "pbb-ar2025-fs-p280-t1",
+     "pbb-ar2025-fs-p064-t5",
+     "pbb-ar2025-fs-p008-v1",
+     "pbb-ar2025-fs-p165-t1",
+     "pbb-ar2025-fs-p219-t4"
+    ],
+    "context_chars": 5226,
+    "retrieval_ms": 157.56
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Public Mutual",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p020-t1",
+      "page": 20,
+      "score": 0.016393
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p280-t1",
+      "page": 280,
+      "score": 0.016393
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p010-t1",
+      "page": 10,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p324-t3",
+      "page": 324,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p030-t1",
+     "pbb-ar2025-fs-p004-t2",
+     "pbb-ar2025-fs-p280-t1",
+     "pbb-ar2025-fs-p064-t5",
+     "pbb-ar2025-fs-p008-v1",
+     "pbb-ar2025-fs-p165-t1",
+     "pbb-ar2025-fs-p219-t4",
+     "pbb-ar2025-fs-p010-t1"
+    ],
+    "context_chars": 6239,
+    "retrieval_ms": 163.09
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "end of 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p001-t1",
+      "page": 1,
+      "score": 0.016393
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p004-t2",
+      "page": 4,
+      "score": 0.016393
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p020-t2",
+      "page": 20,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p272-t3",
+      "page": 272,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p030-t1",
+     "pbb-ar2025-fs-p004-t2",
+     "pbb-ar2025-fs-p280-t1",
+     "pbb-ar2025-fs-p064-t5",
+     "pbb-ar2025-fs-p008-v1",
+     "pbb-ar2025-fs-p165-t1",
+     "pbb-ar2025-fs-p219-t4",
+     "pbb-ar2025-fs-p010-t1",
+     "pbb-ar2025-fs-p001-t1",
+     "pbb-ar2025-fs-p272-t3"
+    ],
+    "context_chars": 6474,
+    "retrieval_ms": 236.16
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p020-t1 | page 20 (printed 18) | table_text]\n[Directors’ Report]\nPUBLIC BANK BERHAD\nDirectors’ Report\nFor the Financial Year Ended 31 December 2025\nBUSINESS REVIEW 2025 (CONTINUED)\nNet interest and financing income recorded a more moderate growth of 2.1% in 2025, due to net interest/financing margin\ncompression arising from the intense competition in the loans and deposits markets.\nThe Public Bank Group’s non-interest and non-financing income recorded a double-digit growth of 15.2% in 2025, supported\nby the newly acquired general insurance income, as well as investment and unit trust income which grew by 76.5% and 4.8%\nrespectively.\nThe Public Bank Group’s wholly owned unit trust management subsidiary, Public Mutual, retained its leading market share of\n43.6% in the domestic retail private unit trust industry (excluding money market funds) as at the end 2025. Public Mutual posted\nprofit before tax of RM850.6 million in 2025, contributing 8.9% to the Public Bank Group’s profit for 2025.\nIn 2025, the Public Bank Group’s newly acquired subsidiary LPI Capital Group (“LPI”) contributed RM141.0 million to the Public\nBank Group’s net profit. The Group continued to leverage on LPI’s agency network and the Group’s broad customer base to\n\n[pbb-ar2025-fs-p030-t1 | page 30 (printed 28) | table_text]\n[Statements of Financial Position]\nPUBLIC BANK BERHAD\nStatements of Financial Position\nAs at 31 December 2025\nGroup | Bank\n2025 | 2024 | 2025 | 2024\nRM’000 | RM’000 | RM’000 | RM’000\nNote | (Restated)\nEQUITY\nShare capital | 29 | 9,417,653 | 9,417,653 | 9,417,653 | 9,417,653\nRegulatory reserves | 30 | 2,257,273 | 1,591,435 | 1,794,651 | 1,263,013\nOther reserves | 31 | 1,492,268 | 1,949,712 | 805,105 | 653,841\nRetained profits | 47,205,232 | 44,811,446 | 36,167,658 | 34,537,427\nTreasury shares | 32 | (434,752) | (434,752) | – | –\nEquity attributable to equity holders of the Bank | 59,937,674 | 57,335,494 | 48,185,067 | 45,871,934\nNon-controlling interests | 2,503,934 | 2,594,117 | – | –\nTOTAL EQUITY | 62,441,608 | 59,929,611 | 48,185,067 | 45,871,934\nTOTAL LIABILITIES AND EQUITY | 561,651,157 | 543,309,888 | 423,901,598 | 407,794,449\nCOMMITMENTS AND CONTINGENCIES | 51 | 138,683,553 | 131,891,860 | 124,814,332 | 121,130,279\nNet assets per share attributable to equity\nholders of the Bank (RM) | 3.10 | 2.97\nThe accompanying notes form an integral part of the financial statements\n\n[pbb-ar2025-fs-p004-t2 | page 4 (printed 2) | table_text]\n[Financial | Highlights]\n(columns: Group | Bank / 2025 | 2024 | 2025 | 2024)\n1 | Based on average equity attributable to equity holders of the Bank, adjusted for dividend declared subsequent to year end.\n2 | After deducting dividend declared subsequent to year end.\n* Restated due to adjustments made retrospectively in relation to the purchase price allocation for the acquisition of LPI Capital Bhd and Public Bank\nSecurities Vietnam Company Limited.\n\n[pbb-ar2025-fs-p280-t1 | page 280 (printed 278) | table_text]\n[Pillar 3 Disclosure > 1. SCOPE OF APPLICATION]\nPUBLIC BANK BERHAD\nPillar 3 Disclosure\nAs at 31 December 2025\n\n[pbb-ar2025-fs-p064-t5 | page 64 (printed 62) | table_text]\n[Notes to the Financial Statements > 2. BASIS OF PREPARATION AND ACCOUNTING POLICIES]\nyears, and recognising in profit or loss the amount of the CSM allocated to coverage units provided in the\nyear. The number of coverage units is the quantity of services provided by the contracts in the group,\ndetermined by considering for each contract the quantity of the benefits provided and its expected coverage\nperiod. The coverage units will be reviewed and updated at each reporting date.\n\n[pbb-ar2025-fs-p008-v1 | page 8 (printed 6) | chart_bar]\n[Summary of | Five-Year Group Growth] Bar chart 'NET PROFIT ATTRIBUTABLE TO EQUITY HOLDERS' (RM’Million), five-year series 2021-2025 shown as bars with value labels: 2021: 5,656.5; 2022: 6,119.5; 2023: 6,649.3; 2024: 7,147.0; 2025: 7,224.4. 2025 bar highlighted in red.\n\n[pbb-ar2025-fs-p165-t1 | page 165 (printed 163) | table_text]\n[Notes to the Financial Statements > 43. EARNINGS PER SHARE]\n43. EARNINGS PER SHARE\n(a) | Basic Earnings Per Share\nThe calculation of the basic earnings per share is based on the net profit attributable to equity holders of the Bank\nfor the year divided by the weighted average number of ordinary shares in issue or issuable during the year, if any.\nGroup\n2025 | 2024\nNet profit attributable to equity holders of the Bank (RM’000) | 7,224,422 | 7,147,031\n’000\nNumber of ordinary shares in issue at beginning of the year | 19,410,692 | 19,410,692\nEffects of treasury shares | (97,260) | (8,238)\nAdjusted number of ordinary shares in issue or issuable at end of the year | 19,313,432 | 19,402,454\nBasic earnings per share (sen) | 37.41 | 36.84\n(b) | Diluted Earnings Per Share\nThe Group and the Bank have no dilution in their earnings per ordinary share as there are no dilutive potential\nordinary shares.\n\n[pbb-ar2025-fs-p219-t4 | page 219 (printed 217) | table_text]\n[Notes to the Financial Statements > 47. FINANCIAL RISK MANAGEMENT]\nthrough a number of initiatives and activities to ensure compliance with statutory and regulatory requirements as\nwell as internal policies and guidelines.\n\n[pbb-ar2025-fs-p010-t1 | page 10 (printed 8) | table_text]\n[Segmental | Analysis]\nPUBLIC BANK BERHAD\nSegmental | Analysis\nOperating Revenue | Profit/(Loss) Before Tax | Total Assets\n2025 (%) | 2024 (%) | 2025 (%) | 2024 (%) | 2025 (%) | 2024 (%)\nHire Purchase | 13.2 | 13.1 | 7.0 | 11.7 | 11.7 | 11.0\nRetail operations | 46.1 | 49.2 | 49.0 | 49.8 | 49.2 | 50.1\nCorporate lending | 7.4 | 8.3 | 8.9 | 9.4 | 6.6 | 7.1\nTreasury and capital market operations | 4.8 | 5.2 | 3.2 | 3.3 | 15.6 | 14.9\nInvestment banking | 0.7 | 0.9 | 0.7 | 1.0 | 0.4 | 0.4\nFund management | 6.0 | 6.3 | 8.9 | 9.6 | 0.1 | 0.1\nGeneral insurance | 6.5 | 0.6 | 4.1 | 0.4 | 0.7 | 0.7\nOthers | 7.2 | 7.6 | 13.5 | 16.3 | 9.4 | 8.8\nTotal domestic | 91.9 | 91.2 | 95.3 | 101.5 | 93.7 | 93.1\nHong Kong SAR | 4.0 | 4.9 | 0.7 | (6.7) | 3.1 | 3.6\nCambodia | 1.9 | 2.2 | 3.1 | 4.2 | 1.5 | 1.6\nOther countries | 2.2 | 1.7 | 0.9 | 1.0 | 1.7 | 1.7\nTotal overseas | 8.1 | 8.8 | 4.7 | (1.5) | 6.3 | 6.9\nTotal | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0\n\n[pbb-ar2025-fs-p001-t1 | page 1 | table_text]\n[]\n2025 INTEGRATED ANNUAL REPORT\nFINANCIAL STATEMENTS\n\n[pbb-ar2025-fs-p272-t3 | page 272 (printed 270) | table_text]\n[Appendix > 59. ISLAMIC BANKING BUSINESS]\n(resigned on 1 January 2026)",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p020-t1",
+   "pbb-ar2025-fs-p030-t1",
+   "pbb-ar2025-fs-p004-t2",
+   "pbb-ar2025-fs-p280-t1",
+   "pbb-ar2025-fs-p064-t5",
+   "pbb-ar2025-fs-p008-v1",
+   "pbb-ar2025-fs-p165-t1",
+   "pbb-ar2025-fs-p219-t4",
+   "pbb-ar2025-fs-p010-t1",
+   "pbb-ar2025-fs-p001-t1",
+   "pbb-ar2025-fs-p272-t3"
+  ],
+  "final_context_pages": [
+   1,
+   4,
+   8,
+   10,
+   20,
+   30,
+   64,
+   165,
+   219,
+   272,
+   280
+  ],
+  "queries": [
+   "How many unit holders did Public Mutual serve at the end of 2025?",
+   "number of unit holders",
+   "Public Mutual",
+   "end of 2025"
+  ],
+  "calculations": [],
+  "n_searches": 4,
+  "llm_calls": [
+   {
+    "prompt_tokens": 91,
+    "completion_tokens": 20,
+    "wall_s": 2.858,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 3222,
+    "completion_tokens": 34,
+    "wall_s": 10.157,
+    "tools_offered": [
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 3313,
+  "completion_tokens": 54,
+  "elapsed_s": 13.795,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "du02",
+  "group": "unanswerable",
+  "question": "How many unit holders did Public Mutual serve at the end of 2025?",
+  "cited_pages": []
+ },
+ {
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: No information about customer complaints is provided in the document.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "How many customer complaints did Public Bank receive in 2025?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p010-t1",
+      "page": 10,
+      "score": 0.016393
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p300-t2",
+      "page": 300,
+      "score": 0.016393
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p210-t5",
+      "page": 210,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p280-t1",
+      "page": 280,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p010-t1",
+     "pbb-ar2025-fs-p300-t2",
+     "pbb-ar2025-fs-p210-t5",
+     "pbb-ar2025-fs-p280-t1"
+    ],
+    "context_chars": 2975,
+    "retrieval_ms": 214.92
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "number of customer complaints for Public Bank in 2025"
+    ],
+    "raw": "[\"number of customer complaints for Public Bank in 2025\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "number of customer complaints for Public Bank in 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p019-t4",
+      "page": 19,
+      "score": 0.030579
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p010-t1",
+      "page": 10,
+      "score": 0.016393
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p020-t1",
+      "page": 20,
+      "score": 0.016393
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p165-t1",
+      "page": 165,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p010-t1",
+     "pbb-ar2025-fs-p300-t2",
+     "pbb-ar2025-fs-p210-t5",
+     "pbb-ar2025-fs-p280-t1",
+     "pbb-ar2025-fs-p019-t4",
+     "pbb-ar2025-fs-p020-t1",
+     "pbb-ar2025-fs-p165-t1"
+    ],
+    "context_chars": 5552,
+    "retrieval_ms": 235.96
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p010-t1 | page 10 (printed 8) | table_text]\n[Segmental | Analysis]\nPUBLIC BANK BERHAD\nSegmental | Analysis\nOperating Revenue | Profit/(Loss) Before Tax | Total Assets\n2025 (%) | 2024 (%) | 2025 (%) | 2024 (%) | 2025 (%) | 2024 (%)\nHire Purchase | 13.2 | 13.1 | 7.0 | 11.7 | 11.7 | 11.0\nRetail operations | 46.1 | 49.2 | 49.0 | 49.8 | 49.2 | 50.1\nCorporate lending | 7.4 | 8.3 | 8.9 | 9.4 | 6.6 | 7.1\nTreasury and capital market operations | 4.8 | 5.2 | 3.2 | 3.3 | 15.6 | 14.9\nInvestment banking | 0.7 | 0.9 | 0.7 | 1.0 | 0.4 | 0.4\nFund management | 6.0 | 6.3 | 8.9 | 9.6 | 0.1 | 0.1\nGeneral insurance | 6.5 | 0.6 | 4.1 | 0.4 | 0.7 | 0.7\nOthers | 7.2 | 7.6 | 13.5 | 16.3 | 9.4 | 8.8\nTotal domestic | 91.9 | 91.2 | 95.3 | 101.5 | 93.7 | 93.1\nHong Kong SAR | 4.0 | 4.9 | 0.7 | (6.7) | 3.1 | 3.6\nCambodia | 1.9 | 2.2 | 3.1 | 4.2 | 1.5 | 1.6\nOther countries | 2.2 | 1.7 | 0.9 | 1.0 | 1.7 | 1.7\nTotal overseas | 8.1 | 8.8 | 4.7 | (1.5) | 6.3 | 6.9\nTotal | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0\n\n[pbb-ar2025-fs-p300-t2 | page 300 (printed 298) | table_text]\n[Pillar 3 Disclosure > 4. CREDIT RISK]\n4. | CREDIT RISK (CONT’D.)\n4.3 Credit Risk Mitigation\nThe Group’s approach in granting credit facilities is based on the credit standing of the customer, source of repayment\nand debt servicing ability rather than placing primary reliance on credit risk mitigants (“CRM”). Depending on a\ncustomer’s credit standing and the type of product, facilities may be provided unsecured. Nevertheless, mitigation of\ncredit risk is a key aspect of effective risk management and takes many forms.\nThe main types of collateral obtained by the Group to mitigate credit risk are as follows:\n(a) | for residential mortgages - charges over residential properties;\n(b) | for commercial property loans/financing - charges over the properties being financed;\n(c) | for motor vehicle financing - ownership claims over the vehicles financed;\n(d) | for share margin financing - pledges over securities from listed exchange; and\n(e) | for other loans/financing - charges over business assets such as premises, inventories, trade receivables or\ndeposits.\nThe reliance that can be placed on CRM is carefully assessed in light of issues such as legal enforceability, market\n\n[pbb-ar2025-fs-p210-t5 | page 210 (printed 208) | table_text]\n[Notes to the Financial Statements > 47. FINANCIAL RISK MANAGEMENT]\nand commitments as set out in Note 51 to the financial statements. The total outstanding contractual amounts of\nthese items do not represent future cash requirements since the Group and the Bank expect many of these\ncommitments (such as direct credit substitutes) to expire without being called or drawn upon, whereas many of the\ncontingent liabilities (such as letters of credit) are reimbursable by customers.\n\n[pbb-ar2025-fs-p280-t1 | page 280 (printed 278) | table_text]\n[Pillar 3 Disclosure > 1. SCOPE OF APPLICATION]\nPUBLIC BANK BERHAD\nPillar 3 Disclosure\nAs at 31 December 2025\n\n[pbb-ar2025-fs-p019-t4 | page 19 (printed 17) | table_text]\n[Directors’ Report]\nThe Public Bank Group’s total customer deposits stood at RM447.1 billion as at the end of December 2025, representing a 3.2%\ngrowth from 2024. On the domestic front, total deposits grew by 3.8% to RM419.0 billion, supported by core deposits and\nwholesale deposits.\n\n[pbb-ar2025-fs-p020-t1 | page 20 (printed 18) | table_text]\n[Directors’ Report]\nPUBLIC BANK BERHAD\nDirectors’ Report\nFor the Financial Year Ended 31 December 2025\nBUSINESS REVIEW 2025 (CONTINUED)\nNet interest and financing income recorded a more moderate growth of 2.1% in 2025, due to net interest/financing margin\ncompression arising from the intense competition in the loans and deposits markets.\nThe Public Bank Group’s non-interest and non-financing income recorded a double-digit growth of 15.2% in 2025, supported\nby the newly acquired general insurance income, as well as investment and unit trust income which grew by 76.5% and 4.8%\nrespectively.\nThe Public Bank Group’s wholly owned unit trust management subsidiary, Public Mutual, retained its leading market share of\n43.6% in the domestic retail private unit trust industry (excluding money market funds) as at the end 2025. Public Mutual posted\nprofit before tax of RM850.6 million in 2025, contributing 8.9% to the Public Bank Group’s profit for 2025.\nIn 2025, the Public Bank Group’s newly acquired subsidiary LPI Capital Group (“LPI”) contributed RM141.0 million to the Public\nBank Group’s net profit. The Group continued to leverage on LPI’s agency network and the Group’s broad customer base to\n\n[pbb-ar2025-fs-p165-t1 | page 165 (printed 163) | table_text]\n[Notes to the Financial Statements > 43. EARNINGS PER SHARE]\n43. EARNINGS PER SHARE\n(a) | Basic Earnings Per Share\nThe calculation of the basic earnings per share is based on the net profit attributable to equity holders of the Bank\nfor the year divided by the weighted average number of ordinary shares in issue or issuable during the year, if any.\nGroup\n2025 | 2024\nNet profit attributable to equity holders of the Bank (RM’000) | 7,224,422 | 7,147,031\n’000\nNumber of ordinary shares in issue at beginning of the year | 19,410,692 | 19,410,692\nEffects of treasury shares | (97,260) | (8,238)\nAdjusted number of ordinary shares in issue or issuable at end of the year | 19,313,432 | 19,402,454\nBasic earnings per share (sen) | 37.41 | 36.84\n(b) | Diluted Earnings Per Share\nThe Group and the Bank have no dilution in their earnings per ordinary share as there are no dilutive potential\nordinary shares.",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p010-t1",
+   "pbb-ar2025-fs-p300-t2",
+   "pbb-ar2025-fs-p210-t5",
+   "pbb-ar2025-fs-p280-t1",
+   "pbb-ar2025-fs-p019-t4",
+   "pbb-ar2025-fs-p020-t1",
+   "pbb-ar2025-fs-p165-t1"
+  ],
+  "final_context_pages": [
+   10,
+   19,
+   20,
+   165,
+   210,
+   280,
+   300
+  ],
+  "queries": [
+   "How many customer complaints did Public Bank receive in 2025?",
+   "number of customer complaints for Public Bank in 2025"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 88,
+    "completion_tokens": 16,
+    "wall_s": 2.916,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2545,
+    "completion_tokens": 19,
+    "wall_s": 6.696,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2633,
+  "completion_tokens": 35,
+  "elapsed_s": 10.064,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "du03",
+  "group": "unanswerable",
+  "question": "How many customer complaints did Public Bank receive in 2025?",
+  "cited_pages": []
+ },
+ {
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The document does not contain information on the Group's Scope 3 financed emissions (in tCO2e) for 2025.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "system_original_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "What were the Group's Scope 3 financed emissions (in tCO2e) for 2025?",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p012-t2",
+      "page": 12,
+      "score": 0.016393
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p020-t3",
+      "page": 20,
+      "score": 0.016393
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p022-t2",
+      "page": 22,
+      "score": 0.016129
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p277-t1",
+      "page": 277,
+      "score": 0.016129
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p020-t3",
+     "pbb-ar2025-fs-p022-t2",
+     "pbb-ar2025-fs-p277-t1"
+    ],
+    "context_chars": 4139,
+    "retrieval_ms": 243.62
+   },
+   {
+    "event": "plan",
+    "queries": [
+     "Scope 3 emissions in tCO2e for the Group in 2025"
+    ],
+    "raw": "[\"Scope 3 emissions in tCO2e for the Group in 2025\"]"
+   },
+   {
+    "event": "search",
+    "tool": "system_plan_query",
+    "retriever": "hybrid_rrf(dense+bm25)",
+    "query": "Scope 3 emissions in tCO2e for the Group in 2025",
+    "top_k": 4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pbb-ar2025-fs-p279-t4",
+      "page": 279,
+      "score": 0.030118
+     },
+     {
+      "rank": 2,
+      "id": "pbb-ar2025-fs-p279-t3",
+      "page": 279,
+      "score": 0.028778
+     },
+     {
+      "rank": 3,
+      "id": "pbb-ar2025-fs-p020-t3",
+      "page": 20,
+      "score": 0.016393
+     },
+     {
+      "rank": 4,
+      "id": "pbb-ar2025-fs-p301-t1",
+      "page": 301,
+      "score": 0.016393
+     }
+    ],
+    "context_ids": [
+     "pbb-ar2025-fs-p012-t2",
+     "pbb-ar2025-fs-p020-t3",
+     "pbb-ar2025-fs-p022-t2",
+     "pbb-ar2025-fs-p277-t1",
+     "pbb-ar2025-fs-p279-t4",
+     "pbb-ar2025-fs-p279-t3",
+     "pbb-ar2025-fs-p301-t1"
+    ],
+    "context_chars": 6989,
+    "retrieval_ms": 251.09
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "final_context": "[pbb-ar2025-fs-p012-t2 | page 12 (printed 10) | table_text]\n[Statement of | Value Added]\n(columns: 2025 | 2024 / Distribution of Value Added | RM’000 | RM’000)\nNon-controlling interests | 182,687 | (127,967)\nTo reinvest in the Group:\nDepreciation | 310,606 | 331,405\nRetained profits | 2,984,992 | 2,931,257\nTotal distributed | 13,549,481 | 12,814,094\n\n[pbb-ar2025-fs-p020-t3 | page 20 (printed 18) | table_text]\n[Directors’ Report]\nregulatory requirements. The Group’s average liquidity coverage ratio stood at a comfortable level of 127.7% in 2025, surpassing\nthe minimum regulatory requirement of 100%.\nFor efficient service delivery, the Public Bank Group operates 314 branches and more than 2,000 units of self-service terminals\nin Malaysia, with a combined workforce of over 21,000 employees. The Group’s regional presence comprises a network of 72\nbranches in Hong Kong, 5 in China, 32 in Cambodia, 40 in Vietnam, 4 in Laos, 3 in Sri Lanka and 1 in Singapore.\nThe Public Bank Group integrates sustainability within its business strategy and operations through a comprehensive range of\nenvironmental, social and governance initiatives, in line with the Group’s steadfast commitment to decarbonisation, aiming to\nachieve Carbon Neutral status for Scope 1 and 2 emissions by 2030 and Net Zero Carbon by 2050. The Group launched ’PB\nSustain’in January 2025, a sustainable financing hub to support Public Bank’s customers in adopting more sustainable business\npractices.\nAs part of the Public Bank Group’s sustainability initiatives, the Group strategically collaborated with property developers to\n\n[pbb-ar2025-fs-p022-t2 | page 22 (printed 20) | table_text]\n[Directors’ Report]\nAs the Public Bank Group proactively grows its business, the Group remains committed to strengthening its sustainability\nagenda. Supported by its decarbonisation commitment, the Group aims to achieve a Carbon Neutral status by 2030 and Net\nZero Carbon status by 2050. The Group has achieved over 77% of its target to mobilise RM100 billion of sustainable financing\nby 2030. The installations of solar panels at domestic branches owned by the Bank are scheduled to take place from 2025-2027,\nwith about 40% installations completed as at the end of 2025.\nDecarbonisation targets have been established for the cement, construction, palm oil and real estate sectors. At the same time,\nthe Public Bank Group is piloting the Locate, Evaluate, Assess and Prepare approach under the Taskforce on Nature-related\nFinancial Disclosures to strengthen the Group’s capacity to manage nature-related risks and opportunities.\nOn overseas operations, the Public Bank Group will remain committed to strengthening and expanding its business and regional\npresence in Indochina and Hong Kong.\nAUDITORS\nThe retiring auditors, Messrs. Ernst & Young PLT, have indicated their willingness to accept re-appointment.\n\n[pbb-ar2025-fs-p277-t1 | page 277 (printed 275) | table_text]\n[Pillar 3 Disclosure > 1. SCOPE OF APPLICATION]\n1. | SCOPE OF APPLICATION\nThe Pillar 3 Disclosure is prepared on a consolidated basis and comprises information on the Bank and its subsidiary and\nassociated companies. The Group offers Islamic banking financial services via the Bank’s wholly-owned subsidiary company,\nPublic Islamic Bank Berhad (“Public Islamic”). Information on subsidiary and associated companies of the Group is available\nin Notes 16 and 17 to the financial statements respectively.\nThe basis of consolidation for financial accounting purposes is described in Note 2(iii)(b) to the financial statements, and\ndiffers from that used for regulatory capital purposes. The investment in its insurance associated company, which is equity-\naccounted in the financial accounting consolidation and the investments in the subsidiary companies engaged in insurance\nactivities are excluded from the regulatory consolidation and is deducted from the regulatory capital.\nThere were no significant restrictions or impediments on the transfer of funds or regulatory capital within the Group.\nThere were no capital deficiencies in any of the subsidiary companies of the Group during the financial year.\n\n[pbb-ar2025-fs-p279-t4 | page 279 (printed 277) | table_text]\n[Pillar 3 Disclosure > 1. SCOPE OF APPLICATION]\narising from the business outlooks and potential market stresses and the available supply of capital including the sources\nof the capital. The Group’s capital plans are reviewed regularly by the Board against the Group’s Internal Capital Targets.\n\n[pbb-ar2025-fs-p279-t3 | page 279 (printed 277) | table_text]\n[Pillar 3 Disclosure > 1. SCOPE OF APPLICATION]\n(v) | To ensure the adverse unexpected outcomes are identified and that capital buffers are set aside to absorb losses\nthat may be experienced during an economic downturn.\nThe key focus of the stress test is to identify the potential adverse impact on the Group’s capital, profitability, asset\nquality and liquidity positions followed by the identification of the appropriate actions to mitigate the risk of such\npossibilities. The results of the stress test are reviewed and deliberated by the ICAAP Working Group and the RMC\nand are applied to recalibrate the Group’s Internal Capital Targets.\n(d) | Internal Capital Requirement\nThe Group’s internal capital requirement is articulated through its capital plans which are drawn up annually, covering a\nthree-year horizon, and are approved by the Board. The capital plan ensures that adequate levels of capital and an efficient\nmix of different components of capital are maintained to support the Group’s strategic directions and business plans. In\nformulating the Group’s capital plans, the Group considers the current regulatory requirements, the demands for capital\n\n[pbb-ar2025-fs-p301-t1 | page 301 (printed 299) | table_text]\n[Pillar 3 Disclosure > 4. CREDIT RISK]\n4. | CREDIT RISK (CONT’D.)\n4.3 Credit Risk Mitigation (Cont’d.)\nCredit Risk Mitigation Analysis\nThe following tables present the credit risk mitigation analysis of the Group i.e. credit exposures covered by eligible\nfinancial collateral and financial guarantees as defined under the Standardised Approach. Eligible financial collateral\nconsists primarily of cash, securities from listed exchange, unit trust or marketable securities. The Group does not\nhave any credit exposure which is reduced through the application of other eligible collateral.\nTotal | Total\nTotal | Exposures | Exposures\nExposures | Total | Covered by | Covered by\nbefore | Exposures | Eligible | Other\nCredit Risk | Covered by | Financial | Eligible\nGroup | Mitigation | Guarantees | Collateral | Collateral\nExposure Class | RM’000 | RM’000 | RM’000 | RM’000\n2025\nOn-Balance Sheet Exposures\nSovereigns/Central Banks | 68,904,774 | – | – | –\nPublic Sector Entities | 1,543,585 | 1,223,690 | – | –\nBanks, DFIs and MDBs | 16,975,949 | 16,580 | – | –\nInsurance Companies, Securities Firms and\nFund Managers | 710,955 | 8,350 | 143,639 | –\nCorporates | 96,128,398 | 3,354,406 | 4,010,207 | –",
+  "final_context_ids": [
+   "pbb-ar2025-fs-p012-t2",
+   "pbb-ar2025-fs-p020-t3",
+   "pbb-ar2025-fs-p022-t2",
+   "pbb-ar2025-fs-p277-t1",
+   "pbb-ar2025-fs-p279-t4",
+   "pbb-ar2025-fs-p279-t3",
+   "pbb-ar2025-fs-p301-t1"
+  ],
+  "final_context_pages": [
+   12,
+   20,
+   22,
+   277,
+   279,
+   301
+  ],
+  "queries": [
+   "What were the Group's Scope 3 financed emissions (in tCO2e) for 2025?",
+   "Scope 3 emissions in tCO2e for the Group in 2025"
+  ],
+  "calculations": [],
+  "n_searches": 2,
+  "llm_calls": [
+   {
+    "prompt_tokens": 97,
+    "completion_tokens": 21,
+    "wall_s": 3.344,
+    "tools_offered": [],
+    "step": "plan"
+   },
+   {
+    "prompt_tokens": 2505,
+    "completion_tokens": 37,
+    "wall_s": 8.234,
+    "tools_offered": [
+     "search_documents",
+     "calculate"
+    ]
+   }
+  ],
+  "prompt_tokens": 2602,
+  "completion_tokens": 58,
+  "elapsed_s": 12.073,
+  "config": {
+   "retriever": "hybrid",
+   "top_k": 4,
+   "budget": 7000,
+   "max_searches": 4,
+   "max_steps": 10,
+   "original_first": true,
+   "plan": true,
+   "num_guard": true
+  },
+  "id": "du04",
+  "group": "unanswerable",
+  "question": "What were the Group's Scope 3 financed emissions (in tCO2e) for 2025?",
+  "cited_pages": []
+ }
+]

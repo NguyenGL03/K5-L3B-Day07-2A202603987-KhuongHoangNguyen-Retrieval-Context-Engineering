@@ -1,0 +1,381 @@
+{
+ "counts": {
+  "test2/chart": 5,
+  "test2/multihop": 4,
+  "test2/table": 6,
+  "test2/text": 4,
+  "test2/unanswerable": 6,
+  "test2/visual": 5
+ },
+ "test_total": 30,
+ "visual_check": "Visual evidence (donut/bar/diagram/flow) read on pages rendered with PyMuPDF (p5, p8, p9, p11, p278, p283, p318, p322, p323, p325); p11 donut values also equal the p10 table; p8/p9 bar values equal the p6/p7 tables.",
+ "problems": [],
+ "rows": [
+  {
+   "id": "t2_01",
+   "split": "test2",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 135,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t2_02",
+   "split": "test2",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 29,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t2_03",
+   "split": "test2",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 241,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t2_04",
+   "split": "test2",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 158,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t2_05",
+   "split": "test2",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 153,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t2_06",
+   "split": "test2",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 168,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g2_01",
+   "split": "test2",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 278,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g2_02",
+   "split": "test2",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 322,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g2_03",
+   "split": "test2",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 318,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g2_04",
+   "split": "test2",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 323,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g2_05",
+   "split": "test2",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 325,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c2_01",
+   "split": "test2",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 9,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c2_02",
+   "split": "test2",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 8,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c2_03",
+   "split": "test2",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 11,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c2_04",
+   "split": "test2",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 8,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c2_05",
+   "split": "test2",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 5,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m2_01",
+   "split": "test2",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 12,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 31,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m2_02",
+   "split": "test2",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 4,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 88,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m2_03",
+   "split": "test2",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 10,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 247,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m2_04",
+   "split": "test2",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 6,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 29,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x2_01",
+   "split": "test2",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 3,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x2_02",
+   "split": "test2",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 75,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x2_03",
+   "split": "test2",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 120,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x2_04",
+   "split": "test2",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 274,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "u2_01",
+   "split": "test2",
+   "group": "unanswerable",
+   "absence_hits": {
+    "cost of funds": 0,
+    "funding costs? (was|were|of|at) \\d": 0
+   }
+  },
+  {
+   "id": "u2_02",
+   "split": "test2",
+   "group": "unanswerable",
+   "absence_hits": {
+    "cyber ?attack": 0,
+    "data breach": 0,
+    "cyber incident": 0
+   }
+  },
+  {
+   "id": "u2_03",
+   "split": "test2",
+   "group": "unanswerable",
+   "absence_hits": {
+    "training hours": 0,
+    "hours of training": 0,
+    "learning hours": 0
+   }
+  },
+  {
+   "id": "u2_04",
+   "split": "test2",
+   "group": "unanswerable",
+   "absence_hits": {
+    "call cent": 0,
+    "contact cent": 0
+   }
+  },
+  {
+   "id": "u2_05",
+   "split": "test2",
+   "group": "unanswerable",
+   "absence_hits": {
+    "loans? growth": 0,
+    "growth target": 0,
+    "target(ed)? (loan|financing) growth": 0,
+    "financing growth": 0
+   }
+  },
+  {
+   "id": "u2_06",
+   "split": "test2",
+   "group": "unanswerable",
+   "absence_hits": {
+    "The Banker": 0,
+    "Top 1000": 0
+   }
+  }
+ ]
+}

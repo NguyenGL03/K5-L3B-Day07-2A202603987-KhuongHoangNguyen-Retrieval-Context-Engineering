@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "3,696,022; p12."
+ },
+ {
+  "id": "dt02",
+  "pass": false,
+  "reason": "Tìm đúng p6 nhưng sai đơn vị: 'RM382,169,000' (bảng là RM million → 382,169 triệu ≈ RM382.17 bn); hai con số mâu thuẫn."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 / 21,125; p7."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đủ 3; p323."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": false,
+  "reason": "Chỉ có citation, không nêu giai đoạn."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "1.4% / 0.8%; p5."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88,513 → 88,125 RM million, giảm 388 triệu; p6 (bảng) + p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11."
+ },
+ {
+  "id": "dm01",
+  "pass": false,
+  "reason": "Dùng operating revenue của công ty liên kết (p121, 1,237,264) thay cho Group."
+ },
+ {
+  "id": "dm02",
+  "pass": false,
+  "reason": "Từ chối nhầm."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Từ chối nhầm: không tìm tổng tài sản."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0m; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng; p39."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng; p21."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

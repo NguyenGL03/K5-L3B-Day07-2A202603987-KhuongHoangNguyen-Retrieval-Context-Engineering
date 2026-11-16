@@ -1,0 +1,25 @@
+{
+ "split": "tune",
+ "config": "P_L_unit2",
+ "pass": 42,
+ "N": 49,
+ "rate": 0.8571,
+ "by_group": {
+  "table": "7/9",
+  "visual": "8/8",
+  "chart": "7/8",
+  "multihop": "3/7",
+  "text": "7/7",
+  "unanswerable": "10/10"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "t03",
+  "t05",
+  "c05",
+  "m01",
+  "m04",
+  "dm01",
+  "dm03"
+ ]
+}

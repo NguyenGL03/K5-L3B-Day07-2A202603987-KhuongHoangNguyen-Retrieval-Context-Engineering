@@ -1,0 +1,63 @@
+{
+ "dense_600_k6": {
+  "method": "dense_600",
+  "top_k": 6,
+  "N": 24,
+  "hit_at_1": 19,
+  "hit_at_6": 21,
+  "all_required_pages": 20,
+  "by_group": {
+   "table": "5/6",
+   "visual": "5/5",
+   "chart": "5/5",
+   "multihop": "2/4",
+   "text": "4/4"
+  },
+  "misses": [
+   "t02",
+   "m02",
+   "m04"
+  ],
+  "median_ms": 269.1
+ },
+ "bm25_600_k6": {
+  "method": "bm25_600",
+  "top_k": 6,
+  "N": 24,
+  "hit_at_1": 17,
+  "hit_at_6": 21,
+  "all_required_pages": 19,
+  "by_group": {
+   "table": "4/6",
+   "visual": "5/5",
+   "chart": "5/5",
+   "multihop": "3/4",
+   "text": "4/4"
+  },
+  "misses": [
+   "t02",
+   "t06",
+   "m01"
+  ],
+  "median_ms": 11.9
+ },
+ "hybrid_600_k6": {
+  "method": "hybrid_600",
+  "top_k": 6,
+  "N": 24,
+  "hit_at_1": 18,
+  "hit_at_6": 23,
+  "all_required_pages": 20,
+  "by_group": {
+   "table": "5/6",
+   "visual": "5/5",
+   "chart": "5/5",
+   "multihop": "4/4",
+   "text": "4/4"
+  },
+  "misses": [
+   "t02"
+  ],
+  "median_ms": 259.7
+ }
+}

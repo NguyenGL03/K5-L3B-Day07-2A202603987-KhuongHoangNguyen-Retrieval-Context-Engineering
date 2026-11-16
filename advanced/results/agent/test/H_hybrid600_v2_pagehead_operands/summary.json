@@ -1,0 +1,28 @@
+{
+ "split": "test",
+ "config": "H_hybrid600_v2_pagehead_operands",
+ "pass": 20,
+ "N": 30,
+ "rate": 0.6667,
+ "by_group": {
+  "table": "3/6",
+  "visual": "4/5",
+  "chart": "3/5",
+  "multihop": "0/4",
+  "text": "4/4",
+  "unanswerable": "6/6"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "t01",
+  "t03",
+  "t04",
+  "g04",
+  "c04",
+  "c05",
+  "m01",
+  "m02",
+  "m03",
+  "m04"
+ ]
+}

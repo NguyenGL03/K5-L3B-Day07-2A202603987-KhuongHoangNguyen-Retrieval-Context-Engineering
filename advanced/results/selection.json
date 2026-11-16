@@ -1,0 +1,244 @@
+{
+ "selected_at": "2026-11-16T17:43:41+0700",
+ "split_used": "dev",
+ "criterion": "1) dev pass rate (manual pass/fail labels) 2) fewer wrong abstentions 3) fewer system errors 4) lower median latency 5) fewer prompt tokens",
+ "ranking": [
+  "H_hybrid600_v2_pagehead_operands",
+  "G_hybrid600_v2_pagehead",
+  "I_hybrid600_full",
+  "F_hybrid600_v2",
+  "C2_hybrid_plan_guard",
+  "C_hybrid_plan_guard",
+  "B_hybrid_plan",
+  "A_bm25",
+  "E_hybrid600_plan_guard_cite",
+  "D_hybrid600_plan_guard",
+  "A_hybrid",
+  "A_dense"
+ ],
+ "selected": "H_hybrid600_v2_pagehead_operands",
+ "selected_config": {
+  "retriever": "hybrid_600",
+  "top_k": 6,
+  "budget": 10000,
+  "max_searches": 4,
+  "original_first": true,
+  "plan": true,
+  "num_guard": true,
+  "cite_guard": true,
+  "v2": true,
+  "page_head": true,
+  "guard_rounds": 2,
+  "cite_operands": true
+ },
+ "dev_rows": [
+  {
+   "config": "H_hybrid600_v2_pagehead_operands",
+   "pass": 17,
+   "N": 19,
+   "by_group": {
+    "table": "3/3",
+    "visual": "3/3",
+    "chart": "3/3",
+    "multihop": "1/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 0,
+   "median_latency_s": 14.766,
+   "mean_prompt_tokens": 6057
+  },
+  {
+   "config": "G_hybrid600_v2_pagehead",
+   "pass": 17,
+   "N": 19,
+   "by_group": {
+    "table": "3/3",
+    "visual": "3/3",
+    "chart": "3/3",
+    "multihop": "1/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 0,
+   "median_latency_s": 19.51,
+   "mean_prompt_tokens": 5760.7
+  },
+  {
+   "config": "I_hybrid600_full",
+   "pass": 16,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "3/3",
+    "chart": "3/3",
+    "multihop": "1/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 0,
+   "median_latency_s": 13.512,
+   "mean_prompt_tokens": 5498.8
+  },
+  {
+   "config": "F_hybrid600_v2",
+   "pass": 16,
+   "N": 19,
+   "by_group": {
+    "table": "3/3",
+    "visual": "3/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 1,
+   "median_latency_s": 12.618,
+   "mean_prompt_tokens": 4574.5
+  },
+  {
+   "config": "C2_hybrid_plan_guard",
+   "pass": 15,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "3/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 1,
+   "median_latency_s": 19.925,
+   "mean_prompt_tokens": 3283.9
+  },
+  {
+   "config": "C_hybrid_plan_guard",
+   "pass": 15,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "1/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 13.693,
+   "mean_prompt_tokens": 3660.6
+  },
+  {
+   "config": "B_hybrid_plan",
+   "pass": 14,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 1,
+   "wrong_abstain": 1,
+   "median_latency_s": 22.0325,
+   "mean_prompt_tokens": 2414.8
+  },
+  {
+   "config": "A_bm25",
+   "pass": 14,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 6.275,
+   "mean_prompt_tokens": 1731.2
+  },
+  {
+   "config": "E_hybrid600_plan_guard_cite",
+   "pass": 14,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 9.365,
+   "mean_prompt_tokens": 2890.7
+  },
+  {
+   "config": "D_hybrid600_plan_guard",
+   "pass": 14,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 9.869,
+   "mean_prompt_tokens": 2717.5
+  },
+  {
+   "config": "A_hybrid",
+   "pass": 14,
+   "N": 19,
+   "by_group": {
+    "table": "2/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "4/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 11.211,
+   "mean_prompt_tokens": 1806.5
+  },
+  {
+   "config": "A_dense",
+   "pass": 12,
+   "N": 19,
+   "by_group": {
+    "table": "1/3",
+    "visual": "2/3",
+    "chart": "3/3",
+    "multihop": "0/3",
+    "text": "3/3",
+    "unanswerable": "3/4"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 11.423,
+   "mean_prompt_tokens": 2174.4
+  }
+ ],
+ "benchmark_sha256": "329897e00777ad00f44b4608b962968cff4fa88e1ddaec85208bd570d6f711f8",
+ "index": "PBB600 (advanced/data/chunks_600.json, 1631 chunks)",
+ "llm": "qwen3:4b-instruct (Ollama, temp 0, seed 7, num_ctx 6144)",
+ "note": "Frozen on dev before any test run of the advanced benchmark. Test is run once with the selected config."
+}

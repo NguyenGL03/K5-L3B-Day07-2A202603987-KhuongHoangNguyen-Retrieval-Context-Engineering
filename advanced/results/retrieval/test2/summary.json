@@ -1,0 +1,19 @@
+{
+ "hybrid_600_k6": {
+  "method": "hybrid_600",
+  "top_k": 6,
+  "N": 24,
+  "hit_at_1": 21,
+  "hit_at_6": 24,
+  "all_required_pages": 24,
+  "by_group": {
+   "table": "6/6",
+   "visual": "5/5",
+   "chart": "5/5",
+   "multihop": "4/4",
+   "text": "4/4"
+  },
+  "misses": [],
+  "median_ms": 188.9
+ }
+}

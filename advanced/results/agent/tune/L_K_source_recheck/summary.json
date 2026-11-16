@@ -1,0 +1,26 @@
+{
+ "split": "tune",
+ "config": "L_K_source_recheck",
+ "pass": 41,
+ "N": 49,
+ "rate": 0.8367,
+ "by_group": {
+  "table": "7/9",
+  "visual": "8/8",
+  "chart": "6/8",
+  "multihop": "3/7",
+  "text": "7/7",
+  "unanswerable": "10/10"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "t03",
+  "t05",
+  "c04",
+  "c05",
+  "m01",
+  "m04",
+  "dm01",
+  "dm03"
+ ]
+}

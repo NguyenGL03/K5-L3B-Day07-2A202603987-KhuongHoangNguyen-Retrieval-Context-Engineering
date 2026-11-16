@@ -1,0 +1,21 @@
+{
+ "split": "dev",
+ "config": "F_hybrid600_v2",
+ "pass": 16,
+ "N": 19,
+ "rate": 0.8421,
+ "by_group": {
+  "table": "3/3",
+  "visual": "3/3",
+  "chart": "3/3",
+  "multihop": "0/3",
+  "text": "3/3",
+  "unanswerable": "4/4"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "dm01",
+  "dm02",
+  "dm03"
+ ]
+}

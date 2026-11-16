@@ -1,0 +1,176 @@
+{
+ "selected_at": "2026-11-16T22:59:55+0700",
+ "round": 2,
+ "split_used": "tune = dev (19) + round-1 test (30); the round-1 test was seen after its single run, so it is tuning data now",
+ "criterion": "1) tune pass rate (manual labels) 2) fewer wrong abstentions 3) fewer system errors 4) lower median latency 5) fewer prompt tokens",
+ "baseline_round1_H_on_tune": "37/49 (dev 17/19 + round-1 test 20/30, round-1 labels)",
+ "ranking": [
+  {
+   "config": "S_R_scaled_dedupe",
+   "pass": 49,
+   "N": 49,
+   "by_group": {
+    "table": "9/9",
+    "visual": "8/8",
+    "chart": "8/8",
+    "multihop": "7/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 0,
+   "median_latency_s": 7.803,
+   "mean_prompt_tokens": 11842.6,
+   "cost_usd": 0.193,
+   "llm": "gemini-3.5-flash-lite"
+  },
+  {
+   "config": "P_L_unit2",
+   "pass": 42,
+   "N": 49,
+   "by_group": {
+    "table": "7/9",
+    "visual": "8/8",
+    "chart": "7/8",
+    "multihop": "3/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 15.897,
+   "mean_prompt_tokens": 8833.7,
+   "cost_usd": 0.0,
+   "llm": "qwen3:4b-instruct"
+  },
+  {
+   "config": "L_K_source_recheck",
+   "pass": 41,
+   "N": 49,
+   "by_group": {
+    "table": "7/9",
+    "visual": "8/8",
+    "chart": "6/8",
+    "multihop": "3/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 2,
+   "median_latency_s": 25.086,
+   "mean_prompt_tokens": 8833.7,
+   "cost_usd": 0.0,
+   "llm": "qwen3:4b-instruct"
+  },
+  {
+   "config": "M_J_source_recheck",
+   "pass": 41,
+   "N": 49,
+   "by_group": {
+    "table": "7/9",
+    "visual": "8/8",
+    "chart": "7/8",
+    "multihop": "2/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 4,
+   "median_latency_s": 17.655,
+   "mean_prompt_tokens": 5743.6,
+   "cost_usd": 0.0,
+   "llm": "qwen3:4b-instruct"
+  },
+  {
+   "config": "J_H_display_unit",
+   "pass": 41,
+   "N": 49,
+   "by_group": {
+    "table": "7/9",
+    "visual": "8/8",
+    "chart": "7/8",
+    "multihop": "2/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 5,
+   "median_latency_s": 17.153,
+   "mean_prompt_tokens": 5976.7,
+   "cost_usd": 0.0,
+   "llm": "qwen3:4b-instruct"
+  },
+  {
+   "config": "K_J_plan3_retry",
+   "pass": 40,
+   "N": 49,
+   "by_group": {
+    "table": "6/9",
+    "visual": "8/8",
+    "chart": "7/8",
+    "multihop": "2/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 3,
+   "median_latency_s": 20.065,
+   "mean_prompt_tokens": 10713.1,
+   "cost_usd": 0.0,
+   "llm": "qwen3:4b-instruct"
+  },
+  {
+   "config": "N_M_unit2",
+   "pass": 40,
+   "N": 49,
+   "by_group": {
+    "table": "7/9",
+    "visual": "7/8",
+    "chart": "7/8",
+    "multihop": "2/7",
+    "text": "7/7",
+    "unanswerable": "10/10"
+   },
+   "errors": 0,
+   "wrong_abstain": 4,
+   "median_latency_s": 14.795,
+   "mean_prompt_tokens": 5518.1,
+   "cost_usd": 0.0,
+   "llm": "qwen3:4b-instruct"
+  }
+ ],
+ "selected": "S_R_scaled_dedupe",
+ "selected_config": {
+  "retriever": "hybrid_600",
+  "top_k": 6,
+  "budget": 10000,
+  "max_searches": 6,
+  "original_first": true,
+  "plan": true,
+  "num_guard": true,
+  "cite_guard": true,
+  "v2": true,
+  "page_head": true,
+  "guard_rounds": 2,
+  "cite_operands": true,
+  "display": true,
+  "unit_fix": true,
+  "abstain_start": true,
+  "plan_v3": true,
+  "rules_v4": true,
+  "abstain_retry": true,
+  "source_rule": true,
+  "calc_recheck": true,
+  "unit_fix_v2": true,
+  "_llm": "gemini-3.5-flash-lite",
+  "scaled_ok": true,
+  "dedupe_calc": true
+ },
+ "index": "PBB600 (advanced/data/chunks_600.json, 1631 chunks; indexed text unchanged since round 1, agent reads the `display` field)",
+ "chunks_sha256": "103638dcfb3083dc0c89b423c7821064d0b325bab4d83ccfc0ed7966e5d92d9e",
+ "caveat": "49/49 on tune is optimistic: these 49 questions were used to find and fix failure modes. The round-2 test (test2) is written after this selection, frozen, and run once.",
+ "experiments_not_kept": [
+  "Q_N_think: qwen3:4b thinking variant, calls exceeded the 300 s client timeout on 8 hard questions; stopped",
+  "R_P_gemini35lite: 3-question smoke test only; the numeric guard rejected correct unit conversions and the model looped on calculate -> S"
+ ]
+}

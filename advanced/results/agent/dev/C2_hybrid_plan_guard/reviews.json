@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "3,696,022; p12."
+ },
+ {
+  "id": "dt02",
+  "pass": false,
+  "reason": "Sai: 16.6% (p7) thay vì 382,169 RM million; p6 không vào context."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 / 21,125; p7 (chép kèm đoạn context nhưng câu trả lời đúng, citation đúng)."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Sau bước sửa citation: đủ 3 hoạt động, trích p323."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4 thành phần; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": true,
+  "reason": "Identification; p283."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "0.8% / 1.4%; p5."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88.51 → 88.12, giảm 0.39 RM bn; p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Sai: dùng 267,732,818 (p199) làm tổng tài sản → RM40.4 bn; p9/p6 không vào context."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0m; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng; p39."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng; p21; ý bổ sung có trong p245."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "dm01",
+  "pass": false,
+  "reason": "calculate đúng 13,603,901.63 RM'000 nhưng chỉ trích p11; dữ kiện 29,509,548 (p247/p31) không có citation → thiếu evidence cho một phần câu trả lời."
+ },
+ {
+  "id": "dm02",
+  "pass": false,
+  "reason": "Từ chối nhầm: operating revenue (p31) không vào context dù tìm 4 lượt."
+ }
+]

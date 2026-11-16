@@ -1,0 +1,33 @@
+{
+ "pdf": "publicbank_fr-2025_hr.pdf",
+ "pages": 328,
+ "chunks": 1631,
+ "by_kind": {
+  "chart_bar": 12,
+  "chart_donut": 10,
+  "diagram": 7,
+  "table_rotated": 28,
+  "table_text": 1574
+ },
+ "skipped_pages": [
+  {
+   "page": 327,
+   "reason": "no text layer (blank or full-page image)"
+  }
+ ],
+ "max_chars": 600,
+ "decorative_images_not_indexed": [
+  {
+   "page": 1,
+   "images": 1
+  },
+  {
+   "page": 2,
+   "images": 2
+  },
+  {
+   "page": 14,
+   "images": 1
+  }
+ ]
+}

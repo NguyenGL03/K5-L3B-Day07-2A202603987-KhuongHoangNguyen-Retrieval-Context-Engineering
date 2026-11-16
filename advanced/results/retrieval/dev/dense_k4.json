@@ -1,0 +1,587 @@
+[
+ {
+  "id": "dt01",
+  "group": "table",
+  "query": "What were the Group's personnel costs distributed to employees in 2025 according to the Statement of Value Added?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p012-t2",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.817525
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p108-t3",
+    "page": 108,
+    "kind": "table_text",
+    "score": 0.792598
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p157-t1",
+    "page": 157,
+    "kind": "table_text",
+    "score": 0.791475
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p173-t1",
+    "page": 173,
+    "kind": "table_text",
+    "score": 0.788062
+   }
+  ],
+  "ms": 201.09,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dt02",
+  "group": "table",
+  "query": "What was the Group's core customer deposits figure for 2025 in the five-year financial highlights?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p009-v3",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.84192
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p007-t2",
+    "page": 7,
+    "kind": "table_text",
+    "score": 0.828578
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p019-t4",
+    "page": 19,
+    "kind": "table_text",
+    "score": 0.81834
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p009-v2",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.812947
+   }
+  ],
+  "ms": 192.98,
+  "first_hit_rank": null,
+  "all_required": false
+ },
+ {
+  "id": "dt03",
+  "group": "table",
+  "query": "How many employees did the Group have in 2025 and in 2024 according to the productivity ratios?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p007-t1",
+    "page": 7,
+    "kind": "table_text",
+    "score": 0.811229
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p009-v6",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.776166
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p012-t2",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.765347
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p008-v3",
+    "page": 8,
+    "kind": "chart_bar",
+    "score": 0.757305
+   }
+  ],
+  "ms": 173.73,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dg01",
+  "group": "visual",
+  "query": "Which activities are listed under 'Assessment & Measurement' in the operational risk management processes diagram?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p323-v1",
+    "page": 323,
+    "kind": "diagram",
+    "score": 0.835888
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p325-v1",
+    "page": 325,
+    "kind": "diagram",
+    "score": 0.778718
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.778084
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p278-v1",
+    "page": 278,
+    "kind": "diagram",
+    "score": 0.776225
+   }
+  ],
+  "ms": 189.38,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dg02",
+  "group": "visual",
+  "query": "What are the four key elements shown in the ICAAP cycle diagram?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p278-v1",
+    "page": 278,
+    "kind": "diagram",
+    "score": 0.815487
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p325-v1",
+    "page": 325,
+    "kind": "diagram",
+    "score": 0.717193
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p323-v1",
+    "page": 323,
+    "kind": "diagram",
+    "score": 0.714911
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.705179
+   }
+  ],
+  "ms": 216.07,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dg03",
+  "group": "visual",
+  "query": "In the credit risk management processes diagram, which stage includes 'Watchlist Accounts' and 'Early Warning Surveillance Tools'?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p283-v1",
+    "page": 283,
+    "kind": "diagram",
+    "score": 0.813181
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.762338
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p278-v1",
+    "page": 278,
+    "kind": "diagram",
+    "score": 0.745738
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p323-v1",
+    "page": 323,
+    "kind": "diagram",
+    "score": 0.745264
+   }
+  ],
+  "ms": 238.7,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dc01",
+  "group": "chart",
+  "query": "What share of total assets did statutory deposits with Central Banks represent in 2025 and 2024 in the Simplified Group Balance Sheet charts?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p005-v3",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.821719
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p005-v1",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.818228
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p005-v4",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.786098
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p005-v2",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.778523
+   }
+  ],
+  "ms": 210.39,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dc02",
+  "group": "chart",
+  "query": "According to the market capitalisation chart, how did market capitalisation change from 2024 to 2025?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p008-v6",
+    "page": 8,
+    "kind": "chart_bar",
+    "score": 0.824722
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p241-t4",
+    "page": 241,
+    "kind": "table_text",
+    "score": 0.766027
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p319-t1",
+    "page": 319,
+    "kind": "table_text",
+    "score": 0.75265
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p209-t1",
+    "page": 209,
+    "kind": "table_text",
+    "score": 0.751039
+   }
+  ],
+  "ms": 185.57,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dc03",
+  "group": "chart",
+  "query": "What share of the Group's total assets did treasury and capital market operations account for in 2025 in the segment charts?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p011-v5",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.823537
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p247-t3",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.789209
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p248-t2",
+    "page": 248,
+    "kind": "table_rotated",
+    "score": 0.788357
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p247-t1",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.785764
+   }
+  ],
+  "ms": 168.73,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dm01",
+  "group": "multihop",
+  "query": "Using the retail operations share of operating revenue in 2025 and the Group's total operating revenue, estimate the operating revenue attributable to retail operations in 2025.",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p011-v1",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.774287
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p247-t1",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.769425
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p012-t2",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.753529
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p031-t2",
+    "page": 31,
+    "kind": "table_text",
+    "score": 0.752061
+   }
+  ],
+  "ms": 206.97,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dm02",
+  "group": "multihop",
+  "query": "Personnel costs in the 2025 Statement of Value Added are what percentage of the Group's 2025 operating revenue?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p157-t1",
+    "page": 157,
+    "kind": "table_text",
+    "score": 0.779777
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p247-t3",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.765713
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p012-t2",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.764886
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p247-t2",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.755785
+   }
+  ],
+  "ms": 181.77,
+  "first_hit_rank": 2,
+  "all_required": true
+ },
+ {
+  "id": "dm03",
+  "group": "multihop",
+  "query": "Using the 2025 share of the portfolio of financial investments in total assets (balance sheet chart) and 2025 total assets, estimate the portfolio of financial investments.",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p005-v3",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.787296
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p225-t2",
+    "page": 225,
+    "kind": "table_text",
+    "score": 0.778975
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p195-t2",
+    "page": 195,
+    "kind": "table_text",
+    "score": 0.775649
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p247-t2",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.772647
+   }
+  ],
+  "ms": 197.51,
+  "first_hit_rank": 1,
+  "all_required": false
+ },
+ {
+  "id": "dx01",
+  "group": "text",
+  "query": "How much did LPI Capital Group contribute to the Public Bank Group's net profit in 2025?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p020-t1",
+    "page": 20,
+    "kind": "table_text",
+    "score": 0.833337
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p020-t2",
+    "page": 20,
+    "kind": "table_text",
+    "score": 0.792411
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p021-t4",
+    "page": 21,
+    "kind": "table_text",
+    "score": 0.790982
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p030-t1",
+    "page": 30,
+    "kind": "table_text",
+    "score": 0.785849
+   }
+  ],
+  "ms": 178.97,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dx02",
+  "group": "text",
+  "query": "What are the principal activities of the Bank itself (not the Group)?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p039-t2",
+    "page": 39,
+    "kind": "table_text",
+    "score": 0.766826
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p246-t3",
+    "page": 246,
+    "kind": "table_text",
+    "score": 0.760118
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p028-t2",
+    "page": 28,
+    "kind": "table_text",
+    "score": 0.752175
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p027-t1",
+    "page": 27,
+    "kind": "table_text",
+    "score": 0.751394
+   }
+  ],
+  "ms": 166.39,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "dx03",
+  "group": "text",
+  "query": "According to the business outlook for 2026, which lending segments will the Group's priorities remain centred on?",
+  "method": "dense",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p021-t3",
+    "page": 21,
+    "kind": "table_text",
+    "score": 0.759041
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p245-t4",
+    "page": 245,
+    "kind": "table_text",
+    "score": 0.75229
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p022-t1",
+    "page": 22,
+    "kind": "table_text",
+    "score": 0.74544
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p021-t2",
+    "page": 21,
+    "kind": "table_text",
+    "score": 0.744816
+   }
+  ],
+  "ms": 183.42,
+  "first_hit_rank": 1,
+  "all_required": true
+ }
+]

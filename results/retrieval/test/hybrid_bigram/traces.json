@@ -1,0 +1,566 @@
+[
+  {
+    "query_id": "q04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "query": "So với kế hoạch đề ra, năm 2022 công ty hoàn thành chỉ tiêu lợi nhuận sau thuế ở mức bao nhiêu?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p006-para800-001",
+        "page": 6,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.032787,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.815443
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 62.503448
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p006-para800-000",
+        "page": 6,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.032258,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.802835
+          },
+          "bm25_bigram": {
+            "rank": 2,
+            "score": 62.300926
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p005-para800-000",
+        "page": 5,
+        "section": "tong_quan_ve_doanh_nghiep",
+        "score": 0.031746,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.76586
+          },
+          "bm25_bigram": {
+            "rank": 3,
+            "score": 29.356305
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p006-para800-001",
+      "qlsxks-l06-nhom2-p006-para800-000",
+      "qlsxks-l06-nhom2-p005-para800-000"
+    ],
+    "context_chars": 1504,
+    "elapsed_ms": 123.95,
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "rr": 0.5,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q14",
+    "split": "test",
+    "type": "so_lieu",
+    "query": "Tổng giá trị hàng tồn kho năm 2022 giảm bao nhiêu, từ mức nào xuống mức nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p021-para800-000",
+        "page": 21,
+        "section": "quan_ly_ton_kho",
+        "score": 0.032787,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.881964
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 41.733372
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p020-para800-002",
+        "page": 20,
+        "section": "quan_ly_ton_kho",
+        "score": 0.032002,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.815399
+          },
+          "bm25_bigram": {
+            "rank": 2,
+            "score": 33.513826
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p020-para800-000",
+        "page": 20,
+        "section": "quan_ly_ton_kho",
+        "score": 0.031754,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.819675
+          },
+          "bm25_bigram": {
+            "rank": 4,
+            "score": 31.789036
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p021-para800-000",
+      "qlsxks-l06-nhom2-p020-para800-002",
+      "qlsxks-l06-nhom2-p020-para800-000"
+    ],
+    "context_chars": 2420,
+    "elapsed_ms": 107.03,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "query": "Sản phẩm của công ty đạt quy chuẩn kỹ thuật nào và do cơ quan nào kiểm định?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p023-para800-000",
+        "page": 23,
+        "section": "quan_ly_chat_luong",
+        "score": 0.032787,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.771079
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 30.048877
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p025-para800-000",
+        "page": 25,
+        "section": "quan_ly_rui_ro",
+        "score": 0.031754,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.747253
+          },
+          "bm25_bigram": {
+            "rank": 4,
+            "score": 18.225026
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p007-para800-003",
+        "page": 7,
+        "section": "thiet_ke_san_pham_va_dich_vu",
+        "score": 0.031025,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.71993
+          },
+          "bm25_bigram": {
+            "rank": 3,
+            "score": 19.321356
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p023-para800-000",
+      "qlsxks-l06-nhom2-p025-para800-000",
+      "qlsxks-l06-nhom2-p007-para800-003"
+    ],
+    "context_chars": 1995,
+    "elapsed_ms": 105.15,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "query": "Những đồng ngoại tệ nào là nguồn chính gây rủi ro tỷ giá cho doanh nghiệp?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p026-para800-000",
+        "page": 26,
+        "section": "quan_ly_rui_ro",
+        "score": 0.032787,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.849999
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 40.886902
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p026-para800-001",
+        "page": 26,
+        "section": "quan_ly_rui_ro",
+        "score": 0.031054,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.754363
+          },
+          "bm25_bigram": {
+            "rank": 7,
+            "score": 16.71355
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p027-para800-001",
+        "page": 27,
+        "section": "quan_ly_rui_ro",
+        "score": 0.031025,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.725183
+          },
+          "bm25_bigram": {
+            "rank": 6,
+            "score": 18.104689
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p026-para800-000",
+      "qlsxks-l06-nhom2-p026-para800-001",
+      "qlsxks-l06-nhom2-p027-para800-001"
+    ],
+    "context_chars": 2152,
+    "elapsed_ms": 104.89,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "type": "dieu_kien",
+    "query": "Nếu sản phẩm lỗi do con người gây ra thì công ty nên xử lý thế nào?",
+    "query_kind": "original",
+    "filter": null,
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p027-para800-000",
+        "page": 27,
+        "section": "quan_ly_rui_ro",
+        "score": 0.032787,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.783565
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 28.559384
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p026-para800-003",
+        "page": 26,
+        "section": "quan_ly_rui_ro",
+        "score": 0.032002,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.745238
+          },
+          "bm25_bigram": {
+            "rank": 3,
+            "score": 20.129466
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p023-para800-002",
+        "page": 23,
+        "section": "quan_ly_chat_luong",
+        "score": 0.031754,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.723646
+          },
+          "bm25_bigram": {
+            "rank": 2,
+            "score": 22.775355
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p027-para800-000",
+      "qlsxks-l06-nhom2-p026-para800-003",
+      "qlsxks-l06-nhom2-p023-para800-002"
+    ],
+    "context_chars": 2086,
+    "elapsed_ms": 100.25,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "type": "metadata_filter",
+    "query": "Có những nguyên tắc nào cần tuân theo?",
+    "query_kind": "original",
+    "filter": {
+      "section": "quan_ly_chat_luong"
+    },
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p022-para800-001",
+        "page": 22,
+        "section": "quan_ly_chat_luong",
+        "score": 0.032018,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.723338
+          },
+          "bm25_bigram": {
+            "rank": 4,
+            "score": 5.080741
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p022-para800-000",
+        "page": 22,
+        "section": "quan_ly_chat_luong",
+        "score": 0.031778,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.687893
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 9.13809
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p023-para800-002",
+        "page": 23,
+        "section": "quan_ly_chat_luong",
+        "score": 0.031754,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.696161
+          },
+          "bm25_bigram": {
+            "rank": 2,
+            "score": 6.933724
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p022-para800-001",
+      "qlsxks-l06-nhom2-p022-para800-000",
+      "qlsxks-l06-nhom2-p023-para800-002"
+    ],
+    "context_chars": 2471,
+    "elapsed_ms": 99.23,
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_evidence": false
+  },
+  {
+    "query_id": "q21",
+    "split": "test",
+    "type": "metadata_filter",
+    "query": "Những ưu điểm chính là gì?",
+    "query_kind": "original",
+    "filter": {
+      "section": "quan_ly_chuoi_cung_ung"
+    },
+    "method": "hybrid_bigram",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "results": [
+      {
+        "rank": 1,
+        "id": "qlsxks-l06-nhom2-p014-para800-001",
+        "page": 14,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.031778,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.676339
+          },
+          "bm25_bigram": {
+            "rank": 1,
+            "score": 8.365279
+          }
+        },
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "qlsxks-l06-nhom2-p018-para800-002",
+        "page": 18,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.031778,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.703787
+          },
+          "bm25_bigram": {
+            "rank": 5,
+            "score": 2.657821
+          }
+        },
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "qlsxks-l06-nhom2-p014-para800-000",
+        "page": 14,
+        "section": "quan_ly_chuoi_cung_ung",
+        "score": 0.03055,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.66177
+          },
+          "bm25_bigram": {
+            "rank": 4,
+            "score": 2.829946
+          }
+        },
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "qlsxks-l06-nhom2-p014-para800-001",
+      "qlsxks-l06-nhom2-p018-para800-002",
+      "qlsxks-l06-nhom2-p014-para800-000"
+    ],
+    "context_chars": 2481,
+    "elapsed_ms": 140.93,
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_evidence": false
+  }
+]

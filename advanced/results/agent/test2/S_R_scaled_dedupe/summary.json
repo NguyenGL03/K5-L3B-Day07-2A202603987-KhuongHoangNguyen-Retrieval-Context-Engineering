@@ -1,0 +1,21 @@
+{
+ "split": "test2",
+ "config": "S_R_scaled_dedupe",
+ "pass": 27,
+ "N": 30,
+ "rate": 0.9,
+ "by_group": {
+  "table": "4/6",
+  "visual": "5/5",
+  "chart": "5/5",
+  "multihop": "4/4",
+  "text": "3/4",
+  "unanswerable": "6/6"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "t2_02",
+  "t2_06",
+  "x2_04"
+ ]
+}

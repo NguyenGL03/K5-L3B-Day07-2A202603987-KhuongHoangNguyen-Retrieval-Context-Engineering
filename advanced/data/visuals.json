@@ -1,0 +1,668 @@
+[
+ {
+  "id": "pbb-ar2025-fs-p005-v1",
+  "page": 5,
+  "kind": "chart_donut",
+  "title": "ASSETS 2024",
+  "data": {
+   "Cash and balances with banks and reverse repurchase agreements": "2.8%",
+   "Portfolio of financial investments": "16.0%",
+   "Loans, advances and financing": "77.4%",
+   "Statutory deposits with Central Banks": "1.4%",
+   "Other assets (including intangible assets)": "2.4%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p005-v2",
+  "page": 5,
+  "kind": "chart_donut",
+  "title": "LIABILITIES & EQUITY 2024",
+  "data": {
+   "Deposit from customers": "79.8%",
+   "Deposits from banks and other financial institutions": "2.5%",
+   "Bills and acceptances payable and other liabilities": "4.7%",
+   "Debt securities issued and other borrowed funds": "2.0%",
+   "Share capital": "1.7%",
+   "Reserves": "8.8%",
+   "Non-controlling interests": "0.5%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p005-v3",
+  "page": 5,
+  "kind": "chart_donut",
+  "title": "ASSETS 2025",
+  "data": {
+   "Cash and balances with banks and reverse repurchase agreements": "3.0%",
+   "Portfolio of financial investments": "15.1%",
+   "Loans, advances and financing": "78.8%",
+   "Statutory deposits with Central Banks": "0.8%",
+   "Other assets (including intangible assets)": "2.3%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p005-v4",
+  "page": 5,
+  "kind": "chart_donut",
+  "title": "LIABILITIES & EQUITY 2025",
+  "data": {
+   "Deposit from customers": "79.6%",
+   "Deposits from banks and other financial institutions": "2.6%",
+   "Bills and acceptances payable and other liabilities": "4.4%",
+   "Debt securities issued and other borrowed funds": "2.3%",
+   "Share capital": "1.7%",
+   "Reserves": "9.0%",
+   "Non-controlling interests": "0.4%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p008-v1",
+  "page": 8,
+  "kind": "chart_bar",
+  "title": "NET PROFIT ATTRIBUTABLE TO EQUITY HOLDERS (RM’Million)",
+  "data": {
+   "2021": "5,656.5",
+   "2022": "6,119.5",
+   "2023": "6,649.3",
+   "2024": "7,147.0",
+   "2025": "7,224.4"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p008-v2",
+  "page": 8,
+  "kind": "chart_bar",
+  "title": "NET RETURN ON EQUITY (Percentage (%))",
+  "data": {
+   "2021": "12.4",
+   "2022": "12.8",
+   "2023": "13.0",
+   "2024": "13.2",
+   "2025": "12.8"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p008-v3",
+  "page": 8,
+  "kind": "chart_bar",
+  "title": "EARNINGS PER SHARE (Sen)",
+  "data": {
+   "2021": "29.1",
+   "2022": "31.5",
+   "2023": "34.3",
+   "2024": "36.8",
+   "2025": "37.4"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p008-v4",
+  "page": 8,
+  "kind": "chart_bar",
+  "title": "DIVIDEND PER SHARE (Sen)",
+  "data": {
+   "2021": "15.2",
+   "2022": "17.0",
+   "2023": "19.0",
+   "2024": "21.0",
+   "2025": "22.5"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p008-v5",
+  "page": 8,
+  "kind": "chart_bar",
+  "title": "SHARE PRICE (RM)",
+  "data": {
+   "2021": "4.16",
+   "2022": "4.32",
+   "2023": "4.29",
+   "2024": "4.56",
+   "2025": "4.54"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p008-v6",
+  "page": 8,
+  "kind": "chart_bar",
+  "title": "MARKET CAPITALISATION (RM’Billion)",
+  "data": {
+   "2021": "80.75",
+   "2022": "83.85",
+   "2023": "83.27",
+   "2024": "88.51",
+   "2025": "88.12"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p009-v1",
+  "page": 9,
+  "kind": "chart_bar",
+  "title": "TOTAL ASSETS (RM’Billion)",
+  "data": {
+   "2021": "462.74",
+   "2022": "493.26",
+   "2023": "510.60",
+   "2024": "543.31#",
+   "2025": "561.65"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p009-v2",
+  "page": 9,
+  "kind": "chart_bar",
+  "title": "GROSS LOANS, ADVANCES AND FINANCING (RM’Billion)",
+  "data": {
+   "2021": "358.03",
+   "2022": "376.89",
+   "2023": "399.00",
+   "2024": "424.17",
+   "2025": "445.76"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p009-v3",
+  "page": 9,
+  "kind": "chart_bar",
+  "title": "CUSTOMER DEPOSITS (RM’Billion)",
+  "data": {
+   "2021": "380.39",
+   "2022": "394.72",
+   "2023": "412.90",
+   "2024": "433.26",
+   "2025": "447.11"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p009-v4",
+  "page": 9,
+  "kind": "chart_bar",
+  "title": "GROSS IMPAIRED LOANS RATIO (Percentage (%))",
+  "data": {
+   "2021": "0.31",
+   "2022": "0.42",
+   "2023": "0.59",
+   "2024": "0.52",
+   "2025": "0.51"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p009-v5",
+  "page": 9,
+  "kind": "chart_bar",
+  "title": "LOAN LOSS COVERAGE* (Percentage (%))",
+  "data": {
+   "2021": "383.2",
+   "2022": "291.8",
+   "2023": "212.8",
+   "2024": "237.7",
+   "2025": "248.7"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p009-v6",
+  "page": 9,
+  "kind": "chart_bar",
+  "title": "TOTAL CAPITAL RATIO** (Percentage (%))",
+  "data": {
+   "2021": "17.7",
+   "2022": "17.6",
+   "2023": "17.6",
+   "2024": "17.0#",
+   "2025": "16.6"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p011-v1",
+  "page": 11,
+  "kind": "chart_donut",
+  "title": "OPERATING REVENUE 2025",
+  "data": {
+   "Hire Purchase": "13.2%",
+   "Retail operations": "46.1%",
+   "Corporate lending": "7.4%",
+   "Treasury and capital market operations": "4.8%",
+   "Investment banking": "0.7%",
+   "Fund management": "6.0%",
+   "General insurance": "6.5%",
+   "Others": "7.2%",
+   "Hong Kong SAR": "4.0%",
+   "Cambodia": "1.9%",
+   "Other countries": "2.2%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p011-v2",
+  "page": 11,
+  "kind": "chart_donut",
+  "title": "OPERATING REVENUE 2024",
+  "data": {
+   "Hire Purchase": "13.1%",
+   "Retail operations": "49.2%",
+   "Corporate lending": "8.3%",
+   "Treasury and capital market operations": "5.2%",
+   "Investment banking": "0.9%",
+   "Fund management": "6.3%",
+   "General insurance": "0.6%",
+   "Others": "7.6%",
+   "Hong Kong SAR": "4.9%",
+   "Cambodia": "2.2%",
+   "Other countries": "1.7%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p011-v3",
+  "page": 11,
+  "kind": "chart_donut",
+  "title": "PROFIT/(LOSS) BEFORE TAX 2025",
+  "data": {
+   "Hire purchase": "7.0%",
+   "Retail operations": "49.0%",
+   "Corporate lending": "8.9%",
+   "Treasury and capital market operations": "3.2%",
+   "Investment banking": "0.7%",
+   "Fund management": "8.9%",
+   "General insurance": "4.1%",
+   "Others": "13.5%",
+   "Hong Kong SAR": "0.7%",
+   "Cambodia": "3.1%",
+   "Other countries": "0.9%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p011-v4",
+  "page": 11,
+  "kind": "chart_donut",
+  "title": "PROFIT/(LOSS) BEFORE TAX 2024",
+  "data": {
+   "Hire purchase": "11.7%",
+   "Retail operations": "49.8%",
+   "Corporate lending": "9.4%",
+   "Treasury and capital market operations": "3.3%",
+   "Investment banking": "1.0%",
+   "Fund management": "9.6%",
+   "General insurance": "0.4%",
+   "Others": "16.3%",
+   "Hong Kong SAR": "(6.7%) (negative, no segment drawn)",
+   "Cambodia": "4.2%",
+   "Other countries": "1.0%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p011-v5",
+  "page": 11,
+  "kind": "chart_donut",
+  "title": "TOTAL ASSETS 2025",
+  "data": {
+   "Hire purchase": "11.7%",
+   "Retail operations": "49.2%",
+   "Corporate lending": "6.6%",
+   "Treasury and capital market operations": "15.6%",
+   "Investment banking": "0.4%",
+   "Fund management": "0.1%",
+   "General insurance": "0.7%",
+   "Others": "9.4%",
+   "Hong Kong SAR": "3.1%",
+   "Cambodia": "1.5%",
+   "Other countries": "1.7%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p011-v6",
+  "page": 11,
+  "kind": "chart_donut",
+  "title": "TOTAL ASSETS 2024",
+  "data": {
+   "Hire purchase": "11.0%",
+   "Retail operations": "50.1%",
+   "Corporate lending": "7.1%",
+   "Treasury and capital market operations": "14.9%",
+   "Investment banking": "0.4%",
+   "Fund management": "0.1%",
+   "General insurance": "0.7%",
+   "Others": "8.8%",
+   "Hong Kong SAR": "3.6%",
+   "Cambodia": "1.6%",
+   "Other countries": "1.7%"
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p278-v1",
+  "page": 278,
+  "kind": "diagram",
+  "title": "ICAAP",
+  "data": {
+   "stages": [
+    "Risk Appetite",
+    "Risk Management",
+    "Stress Test",
+    "Internal Capital Requirement"
+   ],
+   "activities": {},
+   "oversight": [],
+   "stage_positions": {
+    "Risk Appetite": "top-right",
+    "Risk Management": "bottom-right",
+    "Stress Test": "bottom-left",
+    "Internal Capital Requirement": "top-left"
+   },
+   "oversight_positions": {}
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p278-v2",
+  "page": 278,
+  "kind": "diagram",
+  "title": "Set Risk Appetite -> Cascade Risk Appetite -> Monitor Risk Appetite -> Review/Revise Risk Appetite",
+  "data": {
+   "steps": [
+    "Set Risk Appetite",
+    "Cascade Risk Appetite",
+    "Monitor Risk Appetite",
+    "Review/Revise Risk Appetite"
+   ],
+   "columns": [
+    "Step 'Set Risk Appetite': Set the desired risk • appetite considering: Strategic business directions Risk taking capacity Current risk profile Articulate risk appetite • using: Risk Appetite Metrics",
+    "Step 'Cascade Risk Appetite': Cascade the applicable • risk appetite via: Financial budgeting process to: Entity level Business units/ Control units level Assimilation of the • risk appetite into policies, frameworks and procedures Implementation of Key • Risk Indicators",
+    "Step 'Monitor Risk Appetite': Regular monitoring of • the risk profile against the risk appetite Identify the underlying • reason for the non-achievements of the risk appetite and develop action plans to address the non-achievements",
+    "Step 'Review/Revise Risk Appetite': Review/revise risk • appetite in the light of: Changing business and economic condition Evolving strategic business directions"
+   ]
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p283-v1",
+  "page": 283,
+  "kind": "diagram",
+  "title": "CREDIT RISK MANAGEMENT PROCESSES",
+  "data": {
+   "stages": [
+    "Identification",
+    "Assessment & Measurement",
+    "Control & Mitigation",
+    "Monitoring"
+   ],
+   "activities": {
+    "Monitoring": [
+     "Loan Exposures Analysis",
+     "Periodic Reporting to Relevant Committees and Board",
+     "Post Approval Review",
+     "Review of Policies, Guidelines and Rating System",
+     "Principal Risk Positions"
+    ],
+    "Control & Mitigation": [
+     "Credit Policies and Guidelines",
+     "Discretionary Powers for Approving Parties",
+     "Independent Credit Control and Monitoring",
+     "Benchmarking of Asset Quality",
+     "Setting of Risk Limits and Triggers"
+    ],
+    "Identification": [
+     "Watchlist Accounts",
+     "Thematic Review of Loan Portfolios",
+     "Vintage/Flow Rates Analysis",
+     "Emerging Risk Identification",
+     "Migration of Credit Risk Grades",
+     "Triggering Events",
+     "Early Warning Surveillance Tools"
+    ],
+    "Assessment & Measurement": [
+     "Standard Credit Evaluation Format",
+     "Credit Risk Scoring",
+     "Stress Testing",
+     "Cashflow Projection and Project Viability (for project financing)",
+     "Sensitivity Analysis (for Corporate Loans)",
+     "Independent Credit Review",
+     "Post-Mortem Review on Significant Credit-Impaired Loans"
+    ]
+   },
+   "oversight": [
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS",
+    "INDEPENDENT AUDIT & REVIEW"
+   ],
+   "stage_positions": {
+    "Identification": "top-right",
+    "Assessment & Measurement": "bottom-right",
+    "Control & Mitigation": "centre",
+    "Monitoring": "top-left"
+   },
+   "oversight_positions": {
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW": "left",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT": "top",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS": "bottom",
+    "INDEPENDENT AUDIT & REVIEW": "right"
+   }
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p318-v1",
+  "page": 318,
+  "kind": "diagram",
+  "title": "MARKET RISK MANAGEMENT PROCESSES",
+  "data": {
+   "stages": [
+    "Identification",
+    "Assessment & Measurement",
+    "Control & Mitigation",
+    "Monitoring"
+   ],
+   "activities": {
+    "Monitoring": [
+     "Periodic Risk Profile Reporting",
+     "Review of Policies and Guidelines",
+     "Review the Effectiveness of Hedging Activities",
+     "Principal Risk Positions"
+    ],
+    "Control & Mitigation": [
+     "Setting of Risk Limits and Triggers",
+     "Policies and Guidelines",
+     "Discretionary Powers for Approving Parties",
+     "Compliance Checking",
+     "Hedging Strategies",
+     "Derivative Activities for Trading are Strictly Prohibited Unless Approval from the Board is Obtained"
+    ],
+    "Identification": [
+     "Review of Economic Data and Outlook",
+     "Review of Market Movements and Outlook",
+     "Emerging Risk Identification",
+     "Identify Potential Market Risk arising from New Product/Strategies"
+    ],
+    "Assessment & Measurement": [
+     "Mark-to-Market Techniques",
+     "Foreign Exchange Net Open Position Analysis",
+     "Repricing Gap Analysis",
+     "Sensitivity Simulation",
+     "Stress Testing"
+    ]
+   },
+   "oversight": [
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS",
+    "INDEPENDENT AUDIT & REVIEW"
+   ],
+   "stage_positions": {
+    "Identification": "top-right",
+    "Assessment & Measurement": "bottom-right",
+    "Control & Mitigation": "centre",
+    "Monitoring": "top-left"
+   },
+   "oversight_positions": {
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW": "left",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT": "top",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS": "bottom",
+    "INDEPENDENT AUDIT & REVIEW": "right"
+   }
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p322-v1",
+  "page": 322,
+  "kind": "diagram",
+  "title": "LIQUIDITY AND FUNDING RISK MANAGEMENT PROCESSES",
+  "data": {
+   "stages": [
+    "Identification",
+    "Assessment & Measurement",
+    "Control & Mitigation",
+    "Monitoring"
+   ],
+   "activities": {
+    "Monitoring": [
+     "Periodic Risk Profile Reporting",
+     "Review of Policies and Guidelines",
+     "Portfolio and Benchmarking Analysis",
+     "Principal Risk Positions"
+    ],
+    "Control & Mitigation": [
+     "Setting of Risk Limits and Early Warning Indicators",
+     "Contingency Funding Plan",
+     "Maintenance of Liquidity Buffer",
+     "Policies and Guidelines"
+    ],
+    "Identification": [
+     "Review the Liquidity Positions",
+     "Review the Contractual and Behavioural Profiles",
+     "Identify Abnormalities and Concentrations",
+     "Review of New Products/ Strategies for Potential Liquidity Risk",
+     "Emerging Risk Identification"
+    ],
+    "Assessment & Measurement": [
+     "Analyse Liquidity and Funding Ratios",
+     "Measure the Size of Cash Flows Mismatches for Each Significant Currency",
+     "Measure Funding Concentration",
+     "Liquidity Projections",
+     "Stress Testing"
+    ]
+   },
+   "oversight": [
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS",
+    "INDEPENDENT AUDIT & REVIEW"
+   ],
+   "stage_positions": {
+    "Identification": "top-right",
+    "Assessment & Measurement": "bottom-right",
+    "Control & Mitigation": "centre",
+    "Monitoring": "top-left"
+   },
+   "oversight_positions": {
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW": "left",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT": "top",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS": "bottom",
+    "INDEPENDENT AUDIT & REVIEW": "right"
+   }
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p323-v1",
+  "page": 323,
+  "kind": "diagram",
+  "title": "OPERATIONAL RISK MANAGEMENT PROCESSES",
+  "data": {
+   "stages": [
+    "Identification",
+    "Assessment & Measurement",
+    "Control & Mitigation",
+    "Monitoring"
+   ],
+   "activities": {
+    "Monitoring": [
+     "Periodic Risk Profile Reporting",
+     "Key Risk Indicators",
+     "Operational Risk Incident Data Collection",
+     "Principal Risk Positions"
+    ],
+    "Control & Mitigation": [
+     "System of Internal Controls",
+     "Business Continuity Management",
+     "Insurance Coverage",
+     "Review of Outsourcing Arrangements"
+    ],
+    "Identification": [
+     "Operational Risk Incident Reporting",
+     "Product/Process/System Evaluation",
+     "Emerging Risk Identification"
+    ],
+    "Assessment & Measurement": [
+     "Scenario Analysis",
+     "Risk and Control Self Assessment",
+     "Independent Review"
+    ]
+   },
+   "oversight": [
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS",
+    "INDEPENDENT AUDIT & REVIEW"
+   ],
+   "stage_positions": {
+    "Identification": "top-right",
+    "Assessment & Measurement": "bottom-right",
+    "Control & Mitigation": "centre",
+    "Monitoring": "top-left"
+   },
+   "oversight_positions": {
+    "INDEPENDENT RISK MANAGEMENT & COMPLIANCE REVIEW": "left",
+    "BOARD AND SENIOR MANAGEMENT OVERSIGHT": "top",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS": "bottom",
+    "INDEPENDENT AUDIT & REVIEW": "right"
+   }
+  }
+ },
+ {
+  "id": "pbb-ar2025-fs-p325-v1",
+  "page": 325,
+  "kind": "diagram",
+  "title": "SHARIAH RISK MANAGEMENT PROCESSES",
+  "data": {
+   "stages": [
+    "Identification",
+    "Assessment & Measurement",
+    "Control & Mitigation",
+    "Monitoring"
+   ],
+   "activities": {
+    "Monitoring": [
+     "Periodic Risk Profile Reporting",
+     "Key Risk Indicators",
+     "Shariah Risk Incident Data Collection",
+     "Principal Risk Positions"
+    ],
+    "Control & Mitigation": [
+     "System of Internal Controls i.e. policies, procedures, systems",
+     "Knowledgeable Staff Force",
+     "Independent Control Assessment"
+    ],
+    "Identification": [
+     "Shariah Risk Incident Reporting",
+     "Product/Process Evaluation"
+    ],
+    "Assessment & Measurement": [
+     "Scenario Analysis",
+     "Risk and Control Self Assessment",
+     "Independent Review"
+    ]
+   },
+   "oversight": [
+    "INDEPENDENT SHARIAH RISK MANAGEMENT & SHARIAH COMPLIANCE REVIEW",
+    "BOARD, SHARIAH COMMITTEE AND SENIOR MANAGEMENT OVERSIGHT",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS",
+    "INDEPENDENT SHARIAH AUDIT & REVIEW"
+   ],
+   "stage_positions": {
+    "Identification": "top-right",
+    "Assessment & Measurement": "bottom-right",
+    "Control & Mitigation": "centre",
+    "Monitoring": "top-left"
+   },
+   "oversight_positions": {
+    "INDEPENDENT SHARIAH RISK MANAGEMENT & SHARIAH COMPLIANCE REVIEW": "left",
+    "BOARD, SHARIAH COMMITTEE AND SENIOR MANAGEMENT OVERSIGHT": "top",
+    "BUSINESS UNITS’ ADHERENCE TO POLICIES, PROCEDURES AND LIMITS": "bottom",
+    "INDEPENDENT SHARIAH AUDIT & REVIEW": "right"
+   }
+  }
+ }
+]

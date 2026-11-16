@@ -1,0 +1,22 @@
+{
+ "split": "dev",
+ "config": "C2_hybrid_plan_guard",
+ "pass": 15,
+ "N": 19,
+ "rate": 0.7895,
+ "by_group": {
+  "table": "2/3",
+  "visual": "3/3",
+  "chart": "3/3",
+  "multihop": "0/3",
+  "text": "3/3",
+  "unanswerable": "4/4"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "dt02",
+  "dm03",
+  "dm01",
+  "dm02"
+ ]
+}

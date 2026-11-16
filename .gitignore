@@ -9,3 +9,9 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge: source PDF and derived page images/text are not redistributed (regenerate with advanced/ingest.py)
+docs/publicbank_fr-2025_hr.pdf
+docs/Rural Life*.pdf
+advanced/data/crops/
+advanced/data/chunks*.json

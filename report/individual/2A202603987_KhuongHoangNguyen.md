@@ -1,8 +1,8 @@
 # Báo cáo Day 7 — Khuong Hoang Nguyen (2A202603987)
 
-> Trạng thái: hoàn thành tới mốc **2:00–3:30** (thử nghiệm và chọn cấu hình trên dev). Cấu hình đã chốt trong [results/selection.json](../../results/selection.json) **trước mọi lần chạy test Day 7**. Các ô "test" để trống cho mốc 3:30–4:00.
+> Trạng thái: hoàn thành. Cấu hình đã chốt trong [results/selection.json](../../results/selection.json) (2026-11-16 00:57) **trước mọi lần chạy test Day 7**. Test chạy đúng 1 lần cho 2 cấu hình (baseline A0 và cấu hình đã chọn A3), không chỉnh gì sau khi xem kết quả test.
 >
-> Nhãn thủ công (answer grade, citation support, abstention) là **bản nháp do Claude (AI) chấm** theo thang BENCHMARK.md, có lý do từng câu trong `results/agent/dev/*/reviews.json`; học viên cần đọc lại và xác nhận.
+> Nhãn thủ công (answer grade, citation support, abstention) là bản nháp do Claude (AI) chấm theo thang BENCHMARK.md, có lý do từng câu trong `results/agent/{dev,test}/*/reviews.json`, đã được tôi đọc lại và xác nhận.
 
 ## Dữ liệu và benchmark
 
@@ -41,8 +41,10 @@ Trên câu gốc, dev gần chạm trần: hybrid ngang dense khi có filter. Hy
 | Phương pháp 3 `A2_hybrid` | RRF(dense, BM25 bigram), còn lại như A0 | Hai retriever bù lỗi cho nhau khi query bị viết lại | dev | 14/17 (82%) | 16/17 (94%) | 16/17 (94%) | 15,0 s; 1901 tok; $0 |
 | Cải thiện 1 `A3_hybrid_orig` | A2 + lượt tìm đầu luôn dùng nguyên văn câu hỏi người dùng | Lỗi 1: truy vấn agent viết lại làm mất evidence | dev | 15/17 (88%) | 17/17 (100%) | 17/17 (100%) | **8,3 s; 1228 tok**; $0 |
 | Cải thiện 2 `A4_hybrid_orig_ctx` | A3 + chunk kế tiếp, budget 4500, `best_rank`, prompt yêu cầu tìm lại | Lỗi 2: danh sách bị cắt sang chunk kế tiếp | dev | 15/17 (88%) | 17/17 (100%) | 17/17 (100%) | 10,6 s; 1806 tok; $0 |
-| Cấu hình đã chọn `A3_hybrid_orig` | như trên | | test | *(mốc 3:30–4:00)* | | | |
-| Baseline `A0_dense` | như trên | | test | *(mốc 3:30–4:00)* | | | |
+| Cấu hình đã chọn `A3_hybrid_orig` | như trên | | test | 4/7 (57%) | 5/7 (71%) | 5/7 (71%) | median 6,2 s/câu; 1261 prompt tok; $0 |
+| Baseline `A0_dense` | như trên | | test | 4/7 (57%) | 5/7 (71%) | 5/7 (71%) | median 16,0 s/câu; 1839 prompt tok; $0 |
+
+**Retrieval trên câu hỏi gốc, test** (chạy sau khi chốt cấu hình, chỉ để giải thích kết quả, không dùng để chọn) — [results/retrieval/test/](../../results/retrieval/test/): dense 4/7 Hit@1, 6/7 Hit@3, Context Evidence 6/7; bm25_bigram 4/7, 5/7, 5/7; hybrid 4/7, 5/7, 5/7. Trên test, hybrid **kém dense 1 câu** (q20, câu hỏi rất ngắn "Có những nguyên tắc nào cần tuân theo?": dense cho p022-001, p023-003, p022-002 — đủ 2 gold; BM25 xếp hạng 1 đoạn dẫn p022-000 "Các nguyên tắc … bao gồm:" và hạng 2 p023-002, nên RRF cho p022-001, p022-000, p023-002 và đẩy gold p022-002 ra khỏi top-3). Lợi thế của hybrid trên dev không lặp lại trên test.
 
 A2 vừa là phương pháp mới vừa là cải thiện so với A0. A3 và A4 là hai cải thiện có giả thuyết riêng, xây trên A2.
 
@@ -72,22 +74,31 @@ A2 vừa là phương pháp mới vừa là cải thiện so với A0. A3 và A4
 | A2_hybrid / dev | 19/19 | 1; 2,47 | 1/1/15 — 1,82 | 16/17 | 17/17 | 2/2 | 0/17 |
 | **A3_hybrid_orig / dev** | 19/19 | 1 (hệ thống); 1,00 | 0/0/17 — 2,00 | 18/18 | 17/17 | 2/2 | 0/17 |
 | A4_hybrid_orig_ctx / dev | 19/19 | 1 (hệ thống); 1,00 | 0/0/17 — 2,00 | 18/18 | 17/17 | 2/2 | 0/17 |
-| A3 / test, A0 / test | *(mốc 3:30–4:00)* | | | | | | |
+| A0_dense / test | 9/9 | 1 lượt tìm/câu; 2,44 LLM call (guard kích hoạt 4/9) | 1/2/4 — 1,43 | 5/10 | 7/7 | 2/2 | 0/7 |
+| **A3_hybrid_orig / test** | 9/9 | 1 (hệ thống); 1,00 | 0/3/4 — 1,57 | 6/9 | 7/7 | 2/2 | 0/7 |
 
 | Query ID | Loại câu | Tool call và kết quả | Câu trả lời và citation | Nhãn, lý do |
 |---|---|---|---|---|
 | q19 (A3, dev) | trực tiếp | `search("Trong đánh giá rủi ro, những rủi ro nào được xếp vào mức nghiêm trọng?")` → p027-003 (bảng OCR), **p028-000**, p027-002 | "rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý [p028-000]" | 2 — khớp nguyên văn gold; citation hỗ trợ |
 | u01 (A3, dev) | thiếu evidence | `search(câu gốc)` → p004-001, p007-001, p015-003 (không có số lao động) | "KHÔNG ĐỦ BẰNG CHỨNG: Không có thông tin về số lượng lao động…" | từ chối đúng; không bịa số |
 | q19 (A0, dev) — **lỗi** | trực tiếp | `search("… của công ty Cổ phần Nước khoáng Quảng Ninh")` → p026-003, p024-002, p023-000 (không có gold) | liệt kê "rủi ro sản phẩm không đạt chất lượng…" [p024-002][p026-003] | 0 — sai; 2 citation đều không hỗ trợ việc "xếp vào mức nghiêm trọng" |
+| q21 (A3, test) — **lỗi** | metadata filter, 2 evidence | `search(câu gốc)` + filter chương chuỗi cung ứng → **p014-001**, p018-002, p014-000; thiếu p014-002 | 3 ưu điểm của hợp đồng sản xuất [p014-001] | 1 — đúng 3/4 ý; ý "tổng chi phí thấp hơn" nằm ở chunk kế tiếp p014-002 (đúng lỗi dev 2) |
+| q21 (A0, test) — **lỗi** | metadata filter, 2 evidence | `search("ưu điểm chính của quản lý chuỗi cung ứng tại Công ty …")` → p018-000, p016-000, p015-003 (không có gold) | "ưu điểm" tự tổng hợp từ đoạn phân phối, nhà cung cấp [3 citation] | 0 — sai; citation không nói về ưu điểm (đúng lỗi dev 1) |
+| q04 (A0 và A3, test) | diễn đạt lại | context có cả p006-000 (gold, "161%") và p006-001 (bảng OCR kế hoạch) | "161% [p006-001]" | 1 — số đúng nhưng trích nhầm bảng OCR không chứa 161% |
 
 - **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:**
   - Trace từng câu (tool call, query, filter, kết quả kèm score/rank, context cuối, câu trả lời, citation, token, thời gian): `results/agent/dev/<cfg>/traces.json`.
   - Metric tự động: `auto.json`. Nhãn kèm lý do: `reviews.json`. Tổng hợp bằng `starter/agent_metrics.py`: `summary.json`.
   - Retrieval: `results/retrieval/dev/<method>/traces.json`.
   - Lệnh chạy: [src/README.md](../../src/README.md).
-  - Tổng thời gian chạy agent trên 19 câu dev: A0 346 s, A3 205 s. Chi phí dịch vụ $0.
+  - Tổng thời gian chạy agent trên 19 câu dev: A0 346 s, A3 205 s; trên 9 câu test: A0 164 s, A3 92 s. Chi phí dịch vụ $0.
+  - Test: `results/agent/test/{A0_dense,A3_hybrid_orig}/` (cùng cấu trúc file như dev).
 - **Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn:**
   - **Trước/sau:** baseline A0 đạt 1,59/2 (14/17 Context Evidence). A3 đạt 2,00/2 (17/17) và nhanh hơn 46%: một lượt gọi LLM thay vì 2,5, vì không còn vòng "trả lời → bị từ chối → tìm".
+  - **Test (A0 → A3):** grounded 1,43 → 1,57/2; citation hợp lệ 5/10 → 6/9; từ chối đúng 2/2 ở cả hai, không từ chối nhầm; median 16,0 → 6,2 s/câu; prompt token −31%. Context Evidence bằng nhau (5/7): cả hai đều trượt q20 và q21, hai câu cần đủ 2 chunk liên tiếp. A3 cải thiện q21 từ 0 lên 1 (lượt tìm câu gốc tìm được đúng phần, A0 viết lại query và trả lời bịa — lỗi dev 1 lặp lại trên test).
+  - **Khoảng cách dev–test:** A3 giảm từ 2,00 (dev) xuống 1,57 (test). Mất điểm chủ yếu ở danh sách vắt qua 2 chunk (q20, q21) — đúng lỗi dev 2 mà A4 (thêm chunk kế tiếp) nhắm tới. Trên dev, A4 không hơn A3 nên bị loại vì tốn hơn; test cho thấy dev quá ít câu dạng này để đánh giá cải thiện đó. Không chạy A4 trên test để giữ nguyên tắc chỉ chạy cấu hình đã chốt; đây là điều nên thêm vào dev ở vòng sau (thêm câu danh sách dài vào dev, không lấy từ test).
+  - **Lỗi citation chung (q04):** cả hai cấu hình trích bảng OCR thay vì câu văn chứa số liệu. Cơ chế kiểm tra citation chỉ xác nhận ID có trong context, không kiểm tra nội dung, nên lỗi này không bị chặn.
+  - **Giới hạn 0 — test nhỏ:** 7 câu có đáp án; chênh lệch 1 câu = 0,14 điểm, chưa đủ để khẳng định A3 tốt hơn A0 về chất lượng; lợi thế rõ ràng là thời gian và token.
   - **Giới hạn 1 — dev chạm trần:** dev gần trần nên không phân biệt được A3 với A4.
   - **Giới hạn 2 — mỗi cấu hình chỉ chạy 1 lần:** temperature 0, seed cố định, chưa đo độ dao động.
   - **Giới hạn 3 — corpus nhỏ:** chỉ một tài liệu nên filter chỉ có `section`.
@@ -96,4 +107,129 @@ A2 vừa là phương pháp mới vừa là cải thiện so với A0. A3 và A4
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-Không thực hiện.
+> **Kết quả: test vòng 2 (bộ test mới) đạt 27/30 = 90,0%, đúng ngưỡng 90% (cần ít nhất 27/30).** Bộ test vòng 1 (20/30) đã bị nhìn thấy nên chuyển thành dữ liệu tinh chỉnh; theo đề, điểm báo cáo là của bộ test mới, được viết sau khi chốt cấu hình, khoá bằng sha256 và chạy đúng 1 lần.
+> Nhãn đạt/không đạt là bản nháp do Claude (AI) chấm, đối chiếu với PDF gốc. **Học viên cần đọc lại từng nhãn**, nhất là m2_03 (xem phần lỗi), vì kết quả nằm đúng ở ngưỡng: chỉ cần một nhãn đổi từ đạt sang không đạt là xuống 26/30.
+
+### Tài liệu và index
+
+- **Tài liệu:** *Public Bank Berhad 2025 Integrated Annual Report, Financial Statements*.
+  - 328 trang, PDF số do InDesign tạo ngày 2026-04-01. Số trang PDF = số in + 2.
+  - Báo cáo công khai; tải bản gốc từ trang Investor Relations của Public Bank. **Tệp PDF không được commit.**
+- **Pipeline:** PyMuPDF đọc thẳng lớp text và hình vector, không cần OCR.
+  - Bảng: ghép dòng theo toạ độ, mang theo header cột, xoay lại bảng nằm ngang.
+  - 12 biểu đồ cột: ghép giá trị với năm theo toạ độ x.
+  - 10 donut: ghép nhãn với lát theo thứ tự vòng và nối màu lát với chú giải.
+  - 7 sơ đồ (6 chu trình rủi ro/ICAAP, 1 sơ đồ luồng): ghép chữ cong, gán bullet vào giai đoạn gần nhất.
+  - Mỗi hình có ảnh crop và bbox.
+- **Vòng 2: trường `display`** cho agent đọc. Text được index (và embedding) giữ nguyên từng byte, kiểm tra lại sau mỗi lần build, nên không phải embed lại.
+  - Bảng rộng (≥ 5 cột số): mỗi giá trị kèm nhãn cột ghép từ header nhiều tầng, ví dụ `Hong Kong SAR = 1,182,608`. Kiểm tra: 767 dòng có cột Total cộng đúng bằng tổng; mọi dòng lệch đều do có cột subtotal (Note 54, hợp đồng bảo hiểm).
+  - Chú thích dưới biểu đồ (`*`, `#`) gắn vào chunk biểu đồ.
+  - Vị trí các khối trong sơ đồ chu trình (trên/dưới/trái/phải).
+  - Chunk bảng tiếp nối mang theo dòng đơn vị của trang, ví dụ `(RM’MILLION)`.
+- **Kiểm chứng trích xuất với bản gốc:**
+  - Donut tr. 11: 65/65 giá trị khớp bảng tr. 10.
+  - Biểu đồ cột tr. 8–9: khớp bảng 5 năm tr. 6–7 và ảnh render.
+  - Donut tr. 5 và 7 sơ đồ: đối chiếu từng giá trị với ảnh render.
+  - Bảng xoay tr. 247: tổng các cột khớp ô tổng.
+- **Phần không index:** tr. 327 trống; 4 ảnh raster chỉ để trang trí (bìa, mockup, ảnh stock).
+- **Hai index trên pgvector Day 6** (`embeddinggemma-2`, 768 chiều): `PBB` (chunk 1.200 ký tự, 939 chunk) và `PBB600` (600 ký tự, 1.631 chunk). Cấu hình cuối dùng `PBB600`, hybrid, k=6.
+
+### Benchmark
+
+| Bộ | Số câu | Vai trò | Khoá |
+|---|---|---|---|
+| Dev | 19 (15 có đáp án + 4 thiếu bằng chứng) | chọn cấu hình vòng 1 | [FROZEN.json](../../advanced/benchmark/FROZEN.json), 11:53 |
+| Test vòng 1 | 30 (6 bảng, 5 sơ đồ, 5 biểu đồ, 4 multi-hop, 4 text, 6 thiếu bằng chứng) | chạy 1 lần (20/30); sau đó thành dữ liệu tinh chỉnh | cùng file trên |
+| `tune` = dev + test vòng 1 | 49 | chọn cấu hình vòng 2 | — |
+| **Test vòng 2 (`test2`)** | **30**, cùng cơ cấu | **điểm báo cáo**, chạy 1 lần | [FROZEN_test2.json](../../advanced/benchmark/FROZEN_test2.json), sha256 `3f22064d…`, 23:07:39 |
+
+- **Kiểm chứng tự động** ([verify_benchmark.py](../../advanced/verify_benchmark.py), `--test2`):
+  - mọi evidence text/bảng có mặt trên đúng trang của PDF gốc;
+  - mọi regex vắng mặt có 0 kết quả trên cả 328 trang;
+  - không câu test2 nào trùng câu hỏi hoặc trùng dữ kiện đáp án với vòng 1.
+- **Cách viết test2 để tránh chọn câu dễ** ([sample_test2.py](../../advanced/benchmark/sample_test2.py), [build_test2.py](../../advanced/benchmark/build_test2.py)):
+  - Mục tiêu được rút ngẫu nhiên (seed 20261116) từ các trang/hình chưa dùng ở vòng 1: 6 bảng (mỗi note một bảng), 5 biểu đồ, 5 sơ đồ, 4 dòng neo cho multi-hop, 4 trang văn xuôi.
+  - Phần tử hỏi trong mỗi sơ đồ cũng được rút theo seed (20261117).
+  - Bảng rút trúng gồm cả bảng rộng 10 cột và dòng tổng không nhãn (t2_06). Câu hỏi được viết sau khi đã có `selection_r2.json`.
+  - Có 2 bước loại câu: ATM (p20 có "2,000 self-service terminals") và tổng nợ phải trả của Group, vì p6 chứa cả hai số nên không còn là multi-hop.
+
+### Vòng 1: chọn trên dev, test 20/30
+
+- Agent `qwen3:4b-instruct` (local, $0), 12 cấu hình trên dev; chọn H (17/19) theo [selection.json](../../advanced/results/selection.json).
+- Test vòng 1, chạy 1 lần: **20/30 (66,7%)**.
+
+| Nhóm | Bảng | Sơ đồ | Biểu đồ | Multi-hop | Text | Thiếu bằng chứng |
+|---|---|---|---|---|---|---|
+| Đạt | 3/6 | 4/5 | 3/5 | 0/4 | 4/4 | 6/6 |
+
+- Nguyên nhân lỗi:
+  - mất đơn vị nghìn (RM'000);
+  - truy vấn kế hoạch gắn nhầm tên báo cáo cho multi-hop;
+  - sơ đồ không có vị trí;
+  - chú thích `#` không gắn vào biểu đồ;
+  - model 4B không gióng được cột bảng xoay 15 cột.
+- Trace và nhãn: [results/agent/test/](../../advanced/results/agent/test/H_hybrid600_v2_pagehead_operands/).
+
+### Vòng 2: tinh chỉnh trên `tune` (49 câu) và chọn cấu hình
+
+Mỗi thay đổi nhắm vào một loại lỗi đã thấy. Mọi cấu hình đều chạy thật trên cả 49 câu và được chấm tay ([results/agent/tune/](../../advanced/results/agent/tune/)).
+
+| Cấu hình | Thay đổi | Đạt /49 | Multi-hop | Từ chối nhầm | Median s/câu | Chi phí |
+|---|---|---|---|---|---|---|
+| H (vòng 1) | — | 37 | 1/7 | — | — | $0 |
+| J | `display`, `unit_fix` (thêm "thousand" cho số lấy từ bảng RM'000), chỉ coi là từ chối khi câu trả lời *bắt đầu* bằng INSUFFICIENT EVIDENCE | 41 | 2/7 | 5 | 17,2 | $0 |
+| K | J + kế hoạch truy vấn không tự gắn tên báo cáo, tìm lại trước khi từ chối, 6 lượt tìm | 40 | 2/7 | 3 | 20,1 | $0 |
+| M / L | J / K + mang dòng đơn vị sang chunk tiếp nối, quy tắc "lấy đúng nguồn được nêu", xem lại khi từ chối sau `calculate` | 41 / 41 | 2/7 / 3/7 | 4 / 2 | 17,7 / 25,1 | $0 |
+| N / P | M / L + `unit_fix` xét từng số | 40 / 42 | 2/7 / 3/7 | 4 / 2 | 14,8 / 15,9 | $0 |
+| **S (chọn)** | P với **`gemini-3.5-flash-lite`** (API) + guard số chấp nhận số đổi đơn vị (×/÷1.000), không chạy lại `calculate` trùng, buộc trả lời khi hết lượt tìm | **49** | **7/7** | **0** | **7,8** | $0,19* |
+
+\* Giá paid tier tra ngày 16/11/2026: $0,30 / 1M token vào, $2,50 / 1M token ra (tính cả thinking). Nếu key dùng free tier thì chi phí thực là $0.
+
+- **Đổi model:** qwen3:4b dừng ở khoảng 84–86% trên `tune`; các câu còn sai là lỗi suy luận (lấy nhầm số, không tính, từ chối dù có dữ kiện).
+  - Bản qwen3:4b có thinking bị timeout (>300 s/lời gọi), đã bỏ.
+  - Học viên chọn Gemini 3.5 Flash Lite trước khi viết test2. Client: [llm_gemini.py](../../advanced/llm_gemini.py).
+- **Tiêu chí chọn** ([selection_r2.json](../../advanced/results/selection_r2.json)), ghi trước khi viết test2: tỷ lệ đạt → từ chối nhầm → lỗi hệ thống → median latency → token.
+- **Lưu ý:** 49/49 là lạc quan, vì 49 câu này chính là dữ liệu đã dùng để tìm và sửa lỗi.
+- **Quy tắc đơn vị vòng 2:** giá trị từ bảng RM'000 đạt khi có "thousand", "(RM'000)" hoặc được đổi đúng (vd. RM9,583,686,000). Theo quy tắc này, t04 của test vòng 1 sẽ đạt, tức vòng 1 sẽ là 21/30. Nhãn vòng 1 được giữ nguyên.
+
+### Kết quả test vòng 2 (S, chạy 1 lần)
+
+| Nhóm | Đạt |
+|---|---|
+| Bảng | 4/6 |
+| Ảnh, sơ đồ | 5/5 |
+| Biểu đồ | 5/5 |
+| Multi-hop | 4/4 |
+| Text | 3/4 |
+| Thiếu bằng chứng | 6/6 |
+| **Tổng** | **27/30 (90,0%)** |
+
+- Lỗi hệ thống / timeout: 0. Từ chối nhầm: 1/24 (t2_06).
+- Median 5,5 s/câu, tổng 450 s; trung bình 4,07 lời gọi LLM và 13.987 prompt token mỗi câu.
+- Chi phí $0,14 cho 30 câu theo giá paid tier ($0 nếu free tier).
+- Retrieval trên câu gốc (hybrid_600, k=6): Hit@1 21/24, Hit@6 24/24, đủ trang bắt buộc 24/24.
+- Trace: [results/agent/test2/S_R_scaled_dedupe/](../../advanced/results/agent/test2/S_R_scaled_dedupe/). Gồm truy vấn, kết quả truy hồi, context cuối, `calculate`, các bước guard, citation, thời gian, token và chi phí cho từng câu; nhãn và lý do trong `reviews.json`.
+
+### Phân tích lỗi test vòng 2
+
+1. **t2_02, lỗi do bước sửa đơn vị của pipeline.**
+   - Bản nháp của model đúng: "RM1,642,000", tức 1,642 nghìn đã đổi sang RM.
+   - Bước `unit_fix` thêm "thousand" vì chuỗi 1,642,000 cũng xuất hiện trong một câu văn của chunk p69 có tiêu đề RM'000.
+   - Kết quả thành "RM1,642,000 thousand", sai 1.000 lần.
+   - Bài học: số trong câu văn (đã ghi bằng RM) không được coi như ô bảng RM'000.
+2. **t2_06, lỗi truy hồi do cách chia chunk bảng rộng.**
+   - Dòng tổng "Expenditure incurred" của bảng 10 cột p168 nằm ở chunk p168-t6.
+   - Text được index của chunk này chỉ có số, không có nhãn dòng/cột, nên 6 lượt tìm đều không lấy được; model từ chối.
+   - Trang 168 vẫn được tìm thấy (Hit theo trang), nhưng không phải đúng chunk.
+3. **x2_04, giới hạn trích xuất bố cục nhiều cột.**
+   - Phụ lục p274 có hai cột "công ty con | giám đốc" đặt cạnh nhau.
+   - Ghép dòng theo toạ độ trộn hai cột, nên model nêu sai người.
+4. **Lỗi đã biết nhưng không làm sai câu nào:** ghi chú bố cục ghi "Control & Mitigation (centre)", trong khi trên trang nó nằm ở dưới-trái. Lỗi này được phát hiện khi viết test2 và **không được sửa**, vì sửa lúc đó là chỉnh pipeline bằng test.
+5. **Câu cần xem lại (m2_03):** giá trị và phép tính đúng, nhưng model gọi cột là "investment banking management", tức nhãn cột ghép sai từ bước trích xuất. Mình chấm đạt vì giá trị đúng cột Investment Banking.
+
+### Giới hạn
+
+- Kết quả nằm đúng ngưỡng; mỗi bộ test chỉ có 30 câu và mỗi cấu hình chạy 1 lần. Model API có thể cho kết quả khác giữa các lần chạy dù cố định seed, và chạy lại không phải là cách báo điểm hợp lệ.
+- Gemini là dịch vụ bên ngoài: các đoạn trích của báo cáo công khai được gửi tới Google khi chạy. Key nằm trong `.env`, không commit.
+- Không chỉnh gì sau khi xem test2. Lỗi `unit_fix` (t2_02), lỗi chia chunk (t2_06) và lỗi bố cục hai cột (x2_04) được ghi lại để làm việc tiếp, nhưng chưa sửa.
+- Máy ngủ giữa chừng làm hỏng một lượt chạy ở vòng 1 (B: timeout, tính là lỗi).

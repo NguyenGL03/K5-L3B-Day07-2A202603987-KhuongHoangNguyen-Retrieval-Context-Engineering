@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "3,696,022 RM'000; p12."
+ },
+ {
+  "id": "dt02",
+  "pass": false,
+  "reason": "Hồi quy do prompt đơn vị v3: 'RM382,169 thousand' trong khi bảng là RM'MILLION."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 / 21,125; p7."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đủ 3; p323."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": true,
+  "reason": "Identification; p283."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "0.8% / 1.4%; p5."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88.51 → 88.12; p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11."
+ },
+ {
+  "id": "dm01",
+  "pass": true,
+  "reason": "RM13,603,901.63 (RM'000) bằng calculate; đầu vào 29,509,548 (RM'000) trích p031-t1, 46.1% trích p11."
+ },
+ {
+  "id": "dm02",
+  "pass": false,
+  "reason": "12.52% đúng nhưng ghi đầu vào 'RM3,696,022' và 'RM29,509,548' thiếu đơn vị nghìn."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Kết quả chép sai thành 'RM84,809,324,707 (RM'000)' (thừa chữ số)."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0m; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng; p39."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng; p21."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

@@ -1,0 +1,247 @@
+[
+ {
+  "id": "t01",
+  "pass": false,
+  "reason": "Chênh lệch ghi 'RM132,580' không kèm đơn vị nghìn (unit_fix bỏ qua vì câu trả lời đã có RM'000 ở chỗ khác); không nêu giá trị 2024."
+ },
+ {
+  "id": "t02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "t03",
+  "pass": false,
+  "reason": "Từ chối nhầm: p247 có nhãn cột 'Hong Kong SAR = 1,182,608' trong context."
+ },
+ {
+  "id": "t04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "t05",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "t06",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "g01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "g02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "g03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "g04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "g05",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "c01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "c02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "c03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "c04",
+  "pass": false,
+  "reason": "Hỏi theo biểu đồ (6.7%); trả lời bằng số bảng p249 và không cite biểu đồ p11."
+ },
+ {
+  "id": "c05",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "m01",
+  "pass": false,
+  "reason": "Không tính: chỉ trả lại chunk donut (4.0%)."
+ },
+ {
+  "id": "m02",
+  "pass": false,
+  "reason": "Từ chối nhầm dù có 4,367,406 và 7,224,422."
+ },
+ {
+  "id": "m03",
+  "pass": false,
+  "reason": "Từ chối nhầm: không thấy tổng tài sản 2025."
+ },
+ {
+  "id": "m04",
+  "pass": false,
+  "reason": "Citation sai định dạng 'p031-t4-t1' → lợi nhuận trước thuế 9,542,853 không có citation hợp lệ."
+ },
+ {
+  "id": "x01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "x02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "x03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "x04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "u01",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "u02",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "u03",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "u04",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "u05",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "u06",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dt02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dg03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dm01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dm02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Từ chối nhầm: không thấy tổng tài sản 2025."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số chép từ bảng RM'000 đạt khi có kèm 'thousand' hoặc '(RM'000)'; số trần 'RM9,583,686' không đạt."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF."
+ }
+]

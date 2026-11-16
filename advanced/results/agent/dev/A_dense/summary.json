@@ -1,0 +1,25 @@
+{
+ "split": "dev",
+ "config": "A_dense",
+ "pass": 12,
+ "N": 19,
+ "rate": 0.6316,
+ "by_group": {
+  "table": "1/3",
+  "visual": "2/3",
+  "chart": "3/3",
+  "multihop": "0/3",
+  "text": "3/3",
+  "unanswerable": "3/4"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "dt01",
+  "dt02",
+  "dg03",
+  "dm01",
+  "dm02",
+  "dm03",
+  "du01"
+ ]
+}

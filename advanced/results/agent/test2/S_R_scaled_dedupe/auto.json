@@ -1,0 +1,52 @@
+{
+ "config": {
+  "retriever": "hybrid_600",
+  "top_k": 6,
+  "budget": 10000,
+  "max_searches": 6,
+  "original_first": true,
+  "plan": true,
+  "num_guard": true,
+  "cite_guard": true,
+  "v2": true,
+  "page_head": true,
+  "guard_rounds": 2,
+  "cite_operands": true,
+  "display": true,
+  "unit_fix": true,
+  "abstain_start": true,
+  "plan_v3": true,
+  "rules_v4": true,
+  "abstain_retry": true,
+  "source_rule": true,
+  "calc_recheck": true,
+  "unit_fix_v2": true,
+  "_llm": "gemini-3.5-flash-lite",
+  "scaled_ok": true,
+  "dedupe_calc": true
+ },
+ "llm": {
+  "provider": "Google Gemini API (generateContent)",
+  "model": "gemini-3.5-flash-lite",
+  "options": {
+   "temperature": "model default",
+   "seed": 7
+  },
+  "price_usd_per_1M": {
+   "input": 0.3,
+   "output_incl_thinking": 2.5
+  }
+ },
+ "N": 30,
+ "errors": 0,
+ "abstain_on_unanswerable": "6/6",
+ "abstain_on_answerable": 1,
+ "context_has_required_pages": "24/24",
+ "median_latency_s": 5.5085,
+ "total_latency_s": 450.3,
+ "mean_prompt_tokens": 13986.7,
+ "mean_llm_calls": 4.07,
+ "mean_searches": 3.93,
+ "cost_usd": 0.1391,
+ "cost_note": "paid-tier list price (USD/1M tokens) {\"price_in\": 0.3, \"price_out\": 2.5}, checked 2026-11-16 on aistudio.google.com/docs/pricing; 0 if the key is on the free tier"
+}

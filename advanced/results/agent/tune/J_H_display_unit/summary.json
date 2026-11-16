@@ -1,0 +1,26 @@
+{
+ "split": "tune",
+ "config": "J_H_display_unit",
+ "pass": 41,
+ "N": 49,
+ "rate": 0.8367,
+ "by_group": {
+  "table": "7/9",
+  "visual": "8/8",
+  "chart": "7/8",
+  "multihop": "2/7",
+  "text": "7/7",
+  "unanswerable": "10/10"
+ },
+ "errors": 0,
+ "failed_ids": [
+  "t03",
+  "t04",
+  "c04",
+  "m01",
+  "m02",
+  "m03",
+  "dm02",
+  "dm03"
+ ]
+}

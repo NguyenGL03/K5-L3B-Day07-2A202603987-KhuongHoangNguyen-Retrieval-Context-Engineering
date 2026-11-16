@@ -1,0 +1,23 @@
+{
+ "split": "dev",
+ "config": "B_hybrid_plan",
+ "pass": 14,
+ "N": 19,
+ "rate": 0.7368,
+ "by_group": {
+  "table": "2/3",
+  "visual": "2/3",
+  "chart": "3/3",
+  "multihop": "0/3",
+  "text": "3/3",
+  "unanswerable": "4/4"
+ },
+ "errors": 1,
+ "failed_ids": [
+  "dt02",
+  "dg01",
+  "dm03",
+  "dm01",
+  "dm02"
+ ]
+}

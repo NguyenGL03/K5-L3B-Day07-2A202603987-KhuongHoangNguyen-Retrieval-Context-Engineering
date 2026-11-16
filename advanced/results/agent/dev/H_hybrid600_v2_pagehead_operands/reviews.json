@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "3,696,022 RM'000; p12."
+ },
+ {
+  "id": "dt02",
+  "pass": true,
+  "reason": "RM382,169 million, đúng đơn vị; p6."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 / 21,125; p7."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đủ 3; p323."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": true,
+  "reason": "Identification; p283."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "0.8% / 1.4%; p5."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88.51 → 88.12; p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11."
+ },
+ {
+  "id": "dm01",
+  "pass": false,
+  "reason": "Kết quả đúng 13,603,902 RM'000, trích đủ p11 + p31, nhưng ghi đầu vào 'RM29,509,548' thiếu đơn vị nghìn (thực là RM29.5 bn) → một khẳng định sai đơn vị."
+ },
+ {
+  "id": "dm02",
+  "pass": true,
+  "reason": "12.52% (calculate); trích p12 và p031-t1."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "Trích đủ p5 + p195/p29/p30, calculate đúng, nhưng 'total assets RM561,651,157' và kết quả 'RM84,809,325' thiếu đơn vị nghìn."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0m; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng; p39."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng; p21."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": "t01",
+  "pass": false,
+  "reason": "Giá trị và chênh lệch đúng (9,583,686; +132,580; p31) nhưng ghi 'RM9,583,686' / 'RM132,580' thiếu đơn vị nghìn (bảng RM'000) → sai đơn vị 1000 lần."
+ },
+ {
+  "id": "t02",
+  "pass": true,
+  "reason": "RM19,473 million (Bank) vs RM29,510 million (Group); trích p4 Financial Highlights (RM'MILLION, cột Bank 2025 = 19,473) — đối chiếu bản gốc p4 đúng; bằng 19,472,966 RM'000 ở p31 làm tròn. Trang p4 không có trong accept_pages ban đầu nhưng là evidence hợp lệ."
+ },
+ {
+  "id": "t03",
+  "pass": false,
+  "reason": "Từ chối nhầm: p247 có trong context nhưng model không đọc được cột Hong Kong SAR của bảng xoay 15 cột."
+ },
+ {
+  "id": "t04",
+  "pass": false,
+  "reason": "Đúng hàng/năm (4,367,406; 4,076,245; p12) nhưng ghi 'RM4,367,406' thiếu đơn vị nghìn."
+ },
+ {
+  "id": "t05",
+  "pass": true,
+  "reason": "3rd 2025, 2nd 2021–2024; p8."
+ },
+ {
+  "id": "t06",
+  "pass": true,
+  "reason": "34.9% / 34.5%; p7."
+ },
+ {
+  "id": "g01",
+  "pass": true,
+  "reason": "Đủ 7 hoạt động, đúng vị trí; p283."
+ },
+ {
+  "id": "g02",
+  "pass": true,
+  "reason": "Control & Mitigation; p318."
+ },
+ {
+  "id": "g03",
+  "pass": true,
+  "reason": "Đủ 4 hoạt động; p322."
+ },
+ {
+  "id": "g04",
+  "pass": false,
+  "reason": "Từ chối nhầm: chunk sơ đồ p325 liệt kê các chức năng giám sát nhưng không mã hoá vị trí (trên/dưới/trái/phải) → không trả lời được 'ở trên cùng'. Giới hạn của pipeline trích xuất sơ đồ."
+ },
+ {
+  "id": "g05",
+  "pass": true,
+  "reason": "Monitor Risk Appetite + hai nội dung; p278 (flow diagram)."
+ },
+ {
+  "id": "c01",
+  "pass": true,
+  "reason": "78.8% / 77.4%; p5."
+ },
+ {
+  "id": "c02",
+  "pass": true,
+  "reason": "Reserves 9.0%, Bills… 4.4%; p5."
+ },
+ {
+  "id": "c03",
+  "pass": true,
+  "reason": "248.7%, có tính regulatory reserves; trích bảng p7 (trang chấp nhận, cùng số liệu với biểu đồ p9)."
+ },
+ {
+  "id": "c04",
+  "pass": false,
+  "reason": "Nêu đúng Hong Kong SAR (6.7%) nhưng kết thúc bằng INSUFFICIENT EVIDENCE vì đi tìm giá trị RM'000 không được hỏi → hệ thống tính là từ chối."
+ },
+ {
+  "id": "c05",
+  "pass": false,
+  "reason": "Nêu đúng hai cột có '#' (543.31, 17.0; p9) nhưng nói ý nghĩa '#' không có và từ chối; chú thích '# Restated…' nằm ở chunk text p9 không gắn vào chunk biểu đồ."
+ },
+ {
+  "id": "m01",
+  "pass": false,
+  "reason": "Không tính: trả về chunk donut (4.0%) thay vì 1,182,608 / 29,509,548; p247 và p31 đều có trong context."
+ },
+ {
+  "id": "m02",
+  "pass": false,
+  "reason": "Từ chối nhầm: truy vấn kế hoạch gắn 'Statement of Value Added' cho cả lợi nhuận → p6/p8/p31-t5 không được dùng."
+ },
+ {
+  "id": "m03",
+  "pass": false,
+  "reason": "Từ chối nhầm: truy vấn 'Total assets 2025 Simplified Group Balance Sheet' không tìm ra p9/p6."
+ },
+ {
+  "id": "m04",
+  "pass": false,
+  "reason": "21.04% đúng (2,007,768 / 9,542,853; p12 + p164 PBT RM'000) nhưng ghi 'RM2,007,768' và 'RM9,542,853' thiếu đơn vị nghìn."
+ },
+ {
+  "id": "x01",
+  "pass": true,
+  "reason": "Ernst & Young PLT, 25 February 2026; p28."
+ },
+ {
+  "id": "x02",
+  "pass": true,
+  "reason": "Không phát hành cổ phiếu mới, không mua lại; p16."
+ },
+ {
+  "id": "x03",
+  "pass": true,
+  "reason": "43.6%, thị trường đúng điều kiện, RM850.6 million; p20."
+ },
+ {
+  "id": "x04",
+  "pass": true,
+  "reason": "2.1%, nén biên lãi do cạnh tranh; p20."
+ },
+ {
+  "id": "u01",
+  "pass": true,
+  "reason": "Từ chối đúng, không suy đoán."
+ },
+ {
+  "id": "u02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "u03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "u04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "u05",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "u06",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

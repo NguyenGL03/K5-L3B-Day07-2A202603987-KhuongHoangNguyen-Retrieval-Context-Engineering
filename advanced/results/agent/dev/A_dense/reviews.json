@@ -1,0 +1,97 @@
+[
+ {
+  "id": "dt01",
+  "pass": false,
+  "reason": "Từ chối nhầm: p12 có trong context nhưng model cho rằng Statement of Value Added không có personnel costs."
+ },
+ {
+  "id": "dt02",
+  "pass": false,
+  "reason": "Sai: 16.6% (p7) thay vì 382,169; p6 không vào context."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "21,571 / 21,125; p7."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đủ 3 hoạt động; p323."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đủ 4; p278."
+ },
+ {
+  "id": "dg03",
+  "pass": false,
+  "reason": "Chỉ có citation, không nêu giai đoạn."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "0.8% / 1.4%; p5."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "88.51 → 88.12; p8."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "15.6%; p11."
+ },
+ {
+  "id": "dm01",
+  "pass": false,
+  "reason": "Không gọi calculate thật; viết lời gọi giả trong câu trả lời và kết quả trung gian sai '136,000,000'; đáp số làm tròn 13,600,000."
+ },
+ {
+  "id": "dm02",
+  "pass": false,
+  "reason": "Từ chối nhầm; operating revenue không vào context."
+ },
+ {
+  "id": "dm03",
+  "pass": false,
+  "reason": "84,809,325 RM'000 gần đúng nhưng chỉ trích p5; tổng tài sản không có citation."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "RM141.0m; p20."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng; p39."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng; p21."
+ },
+ {
+  "id": "du01",
+  "pass": false,
+  "reason": "Bịa: gán cổ tức tạm ứng thứ hai 12.0 sen của FY2025 thành 'proposed for FY2026'."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng."
+ }
+]

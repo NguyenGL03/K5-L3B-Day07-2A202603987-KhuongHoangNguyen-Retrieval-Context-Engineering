@@ -1,0 +1,115 @@
+{
+  "dense": {
+    "method": "dense",
+    "description": "Dense: embeddinggemma-2 query -> pgvector index B (Day 6), cosine, exact search",
+    "split": "test",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 7,
+    "hit_at_1": {
+      "n": 4,
+      "N": 7,
+      "rate": 0.571
+    },
+    "evidence_hit_at_3": {
+      "n": 6,
+      "N": 7,
+      "rate": 0.857
+    },
+    "mrr_at_3": 0.69,
+    "context_evidence_rate": {
+      "n": 6,
+      "N": 7,
+      "rate": 0.857
+    },
+    "avg_context_chars": 1948.1,
+    "median_ms": 105.2,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q21"
+    ],
+    "not_top1": [
+      "q04",
+      "q20",
+      "q21"
+    ]
+  },
+  "bm25_bigram": {
+    "method": "bm25_bigram",
+    "description": "Lexical: BM25 with syllable unigrams + bigrams",
+    "split": "test",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 7,
+    "hit_at_1": {
+      "n": 4,
+      "N": 7,
+      "rate": 0.571
+    },
+    "evidence_hit_at_3": {
+      "n": 5,
+      "N": 7,
+      "rate": 0.714
+    },
+    "mrr_at_3": 0.643,
+    "context_evidence_rate": {
+      "n": 5,
+      "N": 7,
+      "rate": 0.714
+    },
+    "avg_context_chars": 2090.9,
+    "median_ms": 0.56,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q20",
+      "q21"
+    ],
+    "not_top1": [
+      "q04",
+      "q20",
+      "q21"
+    ]
+  },
+  "hybrid_bigram": {
+    "method": "hybrid_bigram",
+    "description": "Hybrid: RRF(k=60) of dense top-20 and bm25_bigram top-20",
+    "split": "test",
+    "top_k": 3,
+    "budget_chars": 2600,
+    "context_policy": "append",
+    "filter": true,
+    "N": 7,
+    "hit_at_1": {
+      "n": 4,
+      "N": 7,
+      "rate": 0.571
+    },
+    "evidence_hit_at_3": {
+      "n": 5,
+      "N": 7,
+      "rate": 0.714
+    },
+    "mrr_at_3": 0.643,
+    "context_evidence_rate": {
+      "n": 5,
+      "N": 7,
+      "rate": 0.714
+    },
+    "avg_context_chars": 2158.4,
+    "median_ms": 105.15,
+    "cost_usd": 0.0,
+    "misses_at_3": [
+      "q20",
+      "q21"
+    ],
+    "not_top1": [
+      "q04",
+      "q20",
+      "q21"
+    ]
+  }
+}

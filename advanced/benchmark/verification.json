@@ -1,0 +1,631 @@
+{
+ "counts": {
+  "dev/chart": 3,
+  "dev/multihop": 3,
+  "dev/table": 3,
+  "dev/text": 3,
+  "dev/unanswerable": 4,
+  "dev/visual": 3,
+  "test/chart": 5,
+  "test/multihop": 4,
+  "test/table": 6,
+  "test/text": 4,
+  "test/unanswerable": 6,
+  "test/visual": 5
+ },
+ "test_total": 30,
+ "visual_check": "Visual evidence (donut/bar/diagram/flow) read on pages rendered with PyMuPDF (p5, p8, p9, p11, p278, p283, p318, p322, p323, p325); p11 donut values also equal the p10 table; p8/p9 bar values equal the p6/p7 tables.",
+ "problems": [],
+ "rows": [
+  {
+   "id": "t01",
+   "split": "test",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 31,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t02",
+   "split": "test",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 31,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t03",
+   "split": "test",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 247,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t04",
+   "split": "test",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 12,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t05",
+   "split": "test",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 8,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "t06",
+   "split": "test",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 7,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g01",
+   "split": "test",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 283,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g02",
+   "split": "test",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 318,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g03",
+   "split": "test",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 322,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g04",
+   "split": "test",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 325,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "g05",
+   "split": "test",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 278,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c01",
+   "split": "test",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 5,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "split": "test",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 5,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "split": "test",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 9,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "split": "test",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 11,
+     "kind": "visual",
+     "ok": true
+    },
+    {
+     "page": 10,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "split": "test",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 9,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m01",
+   "split": "test",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 247,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 31,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m02",
+   "split": "test",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 12,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 6,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m03",
+   "split": "test",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 5,
+     "kind": "visual",
+     "ok": true
+    },
+    {
+     "page": 9,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "m04",
+   "split": "test",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 12,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 6,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x01",
+   "split": "test",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 28,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x02",
+   "split": "test",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 16,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x03",
+   "split": "test",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 20,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "x04",
+   "split": "test",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 20,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "u01",
+   "split": "test",
+   "group": "unanswerable",
+   "absence_hits": {
+    "Net Promoter": 0,
+    "customer satisfaction": 0,
+    "\\bNPS\\b": 0
+   }
+  },
+  {
+   "id": "u02",
+   "split": "test",
+   "group": "unanswerable",
+   "absence_hits": {
+    "\\bwomen\\b": 0,
+    "\\bfemale\\b": 0,
+    "gender": 0
+   }
+  },
+  {
+   "id": "u03",
+   "split": "test",
+   "group": "unanswerable",
+   "absence_hits": {
+    "mobile banking users": 0,
+    "digital users": 0,
+    "active users": 0,
+    "PB engage": 0
+   }
+  },
+  {
+   "id": "u04",
+   "split": "test",
+   "group": "unanswerable",
+   "absence_hits": {
+    "share price.{0,60}2026": 0,
+    "2026.{0,60}share price": 0,
+    "31 March 2026": 0
+   }
+  },
+  {
+   "id": "u05",
+   "split": "test",
+   "group": "unanswerable",
+   "absence_hits": {
+    "board rate": 0,
+    "fixed deposit rate": 0,
+    "12-month fixed": 0
+   }
+  },
+  {
+   "id": "u06",
+   "split": "test",
+   "group": "unanswerable",
+   "absence_hits": {
+    "cards in circulation": 0,
+    "number of (credit )?cards": 0
+   }
+  },
+  {
+   "id": "dt01",
+   "split": "dev",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 12,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dt02",
+   "split": "dev",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 6,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dt03",
+   "split": "dev",
+   "group": "table",
+   "evidence_checks": [
+    {
+     "page": 7,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dg01",
+   "split": "dev",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 323,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dg02",
+   "split": "dev",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 278,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dg03",
+   "split": "dev",
+   "group": "visual",
+   "evidence_checks": [
+    {
+     "page": 283,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dc01",
+   "split": "dev",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 5,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dc02",
+   "split": "dev",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 8,
+     "kind": "visual",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dc03",
+   "split": "dev",
+   "group": "chart",
+   "evidence_checks": [
+    {
+     "page": 11,
+     "kind": "visual",
+     "ok": true
+    },
+    {
+     "page": 10,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dm01",
+   "split": "dev",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 10,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 31,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dm02",
+   "split": "dev",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 12,
+     "kind": "text",
+     "ok": true
+    },
+    {
+     "page": 31,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dm03",
+   "split": "dev",
+   "group": "multihop",
+   "evidence_checks": [
+    {
+     "page": 5,
+     "kind": "visual",
+     "ok": true
+    },
+    {
+     "page": 9,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dx01",
+   "split": "dev",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 20,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dx02",
+   "split": "dev",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 39,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "dx03",
+   "split": "dev",
+   "group": "text",
+   "evidence_checks": [
+    {
+     "page": 21,
+     "kind": "text",
+     "ok": true
+    }
+   ]
+  },
+  {
+   "id": "du01",
+   "split": "dev",
+   "group": "unanswerable",
+   "absence_hits": {
+    "(financial year|FY) ?2026.{0,80}dividend": 0,
+    "dividend.{0,80}(financial year|FY) ?2026": 0
+   }
+  },
+  {
+   "id": "du02",
+   "split": "dev",
+   "group": "unanswerable",
+   "absence_hits": {
+    "unit ?holders": 0
+   }
+  },
+  {
+   "id": "du03",
+   "split": "dev",
+   "group": "unanswerable",
+   "absence_hits": {
+    "customer complaints?": 0,
+    "complaints? received": 0,
+    "number of complaints": 0
+   }
+  },
+  {
+   "id": "du04",
+   "split": "dev",
+   "group": "unanswerable",
+   "absence_hits": {
+    "Scope 3": 0,
+    "financed emission": 0,
+    "tCO2": 0
+   }
+  }
+ ]
+}

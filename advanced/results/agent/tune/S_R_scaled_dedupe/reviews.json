@@ -1,0 +1,247 @@
+[
+ {
+  "id": "t01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "t02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "t03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "t04",
+  "pass": true,
+  "reason": "RM4,367,406,000 và RM4,076,245,000 = đổi đúng từ RM'000 (p12). Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "t05",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "t06",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "g01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "g02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "g03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "g04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "g05",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "c01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "c02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "c03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "c04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "c05",
+  "pass": true,
+  "reason": "Nêu đúng hai cột có '#' (Total assets 2024 = 543.31 RM'Billion; Total capital ratio 2024 = 17.0, ghi như nhãn trên biểu đồ, biểu đồ đơn vị %) và đúng ý nghĩa '#'. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "m01",
+  "pass": true,
+  "reason": "4.01% = 1,182,608 / 29,509,548; cả hai giá trị có ở p247-t2 (cột Group Total). Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "m02",
+  "pass": true,
+  "reason": "60.45% = 4,367,406 / 7,224,422; 7,224,422 có ở p15 (Directors' Report, Attributable to equity holders of the Bank). Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "m03",
+  "pass": true,
+  "reason": "RM442,581,111,716 ≈ RM442.6 billion = 78.8% × 561,651,157 thousand; tổng tài sản Group lấy từ p248 (Note 54, Group Total = 561,651,157), đã kiểm tra trên chunk. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "m04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "x01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "x02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "x03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "x04",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "u01",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "u02",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "u03",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "u04",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "u05",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "u06",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "dt01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dt02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dt03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dg01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dg02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dg03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dc01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dc02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dc03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dm01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dm02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dm03",
+  "pass": true,
+  "reason": "RM84,809,324.707 thousand ≈ RM84.8 billion = 15.1% × 561,651,157 thousand (p248/p195). Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dx01",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dx02",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "dx03",
+  "pass": true,
+  "reason": "Đúng giá trị/đơn vị, citation đúng trang evidence. Quy tắc đơn vị vòng 2: số từ bảng RM'000 đạt khi có 'thousand', '(RM'000)' hoặc đổi đúng sang RM/RM million/billion."
+ },
+ {
+  "id": "du01",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "du02",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "du03",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ },
+ {
+  "id": "du04",
+  "pass": true,
+  "reason": "Từ chối đúng; absence_check 0 kết quả trên PDF; không thêm khẳng định."
+ }
+]

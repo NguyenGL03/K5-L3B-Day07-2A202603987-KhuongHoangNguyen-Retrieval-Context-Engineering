@@ -1,0 +1,5 @@
+{
+ "sha256": "3f22064d506c79ad1f6b2fd318e66c8e4bd6ea0c75bee8ab6852d985e603ab37",
+ "frozen_at": "2026-11-16T23:07:39+0700",
+ "note": "Round-2 test, written after the round-2 configuration was selected on `tune` (results/selection_r2.json) and frozen before any run on it."
+}

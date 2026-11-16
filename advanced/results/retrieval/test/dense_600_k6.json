@@ -1,0 +1,1274 @@
+[
+ {
+  "id": "t01",
+  "group": "table",
+  "query": "What was the Group's net interest income for the financial year 2025, and by how much did it change compared with 2024?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p153-t2",
+    "page": 153,
+    "kind": "table_text",
+    "score": 0.813552
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p167-t3",
+    "page": 167,
+    "kind": "table_text",
+    "score": 0.805854
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p007-t1",
+    "page": 7,
+    "kind": "table_text",
+    "score": 0.804264
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p155-t3",
+    "page": 155,
+    "kind": "table_text",
+    "score": 0.797074
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p154-t4",
+    "page": 154,
+    "kind": "table_text",
+    "score": 0.796606
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p031-t5",
+    "page": 31,
+    "kind": "table_text",
+    "score": 0.788973
+   }
+  ],
+  "ms": 258.62,
+  "first_hit_rank": 6,
+  "all_required": true
+ },
+ {
+  "id": "t02",
+  "group": "table",
+  "query": "What operating revenue did Public Bank Berhad report at the Bank (company) level for 2025, as opposed to the Group?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p004-t1",
+    "page": 4,
+    "kind": "table_text",
+    "score": 0.848099
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p010-t1",
+    "page": 10,
+    "kind": "table_text",
+    "score": 0.838406
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p036-t1",
+    "page": 36,
+    "kind": "table_text",
+    "score": 0.829
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p012-t1",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.828932
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p324-t1",
+    "page": 324,
+    "kind": "table_text",
+    "score": 0.823582
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p020-t1",
+    "page": 20,
+    "kind": "table_text",
+    "score": 0.819878
+   }
+  ],
+  "ms": 236.55,
+  "first_hit_rank": null,
+  "all_required": false
+ },
+ {
+  "id": "t03",
+  "group": "table",
+  "query": "In the 2025 segment information by business segments, what was the external revenue of the Hong Kong SAR operations?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p247-t2",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.823569
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p247-t1",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.820512
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p011-v1",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.818576
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p247-t4",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.803016
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p247-t3",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.791496
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p011-v5",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.786624
+   }
+  ],
+  "ms": 248.74,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "t04",
+  "group": "table",
+  "query": "According to the Statement of Value Added, how much was distributed as dividends paid to shareholders in 2025 and in 2024?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p012-t3",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.845302
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p012-t2",
+    "page": 12,
+    "kind": "table_text",
+    "score": 0.823379
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p165-t4",
+    "page": 165,
+    "kind": "table_text",
+    "score": 0.81071
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p165-t3",
+    "page": 165,
+    "kind": "table_text",
+    "score": 0.798548
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p281-t4",
+    "page": 281,
+    "kind": "table_text",
+    "score": 0.794268
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p166-t3",
+    "page": 166,
+    "kind": "table_text",
+    "score": 0.785836
+   }
+  ],
+  "ms": 250.01,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "t05",
+  "group": "table",
+  "query": "What was Public Bank's ranking by market capitalisation on Bursa Malaysia Securities Berhad in 2025, and how does it compare with 2021-2024?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p008-t1",
+    "page": 8,
+    "kind": "table_text",
+    "score": 0.824139
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p010-t1",
+    "page": 10,
+    "kind": "table_text",
+    "score": 0.786428
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p030-t1",
+    "page": 30,
+    "kind": "table_text",
+    "score": 0.773554
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p004-t1",
+    "page": 4,
+    "kind": "table_text",
+    "score": 0.767499
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p282-t1",
+    "page": 282,
+    "kind": "table_text",
+    "score": 0.764651
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p320-t1",
+    "page": 320,
+    "kind": "table_text",
+    "score": 0.761346
+   }
+  ],
+  "ms": 287.49,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "t06",
+  "group": "table",
+  "query": "What was the Group's cost/income ratio in 2025 and in 2024?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p007-t1",
+    "page": 7,
+    "kind": "table_text",
+    "score": 0.827025
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p247-t8",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.813593
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p154-t4",
+    "page": 154,
+    "kind": "table_text",
+    "score": 0.806235
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p249-t8",
+    "page": 249,
+    "kind": "table_rotated",
+    "score": 0.800783
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p006-t4",
+    "page": 6,
+    "kind": "table_text",
+    "score": 0.798998
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p164-t2",
+    "page": 164,
+    "kind": "table_text",
+    "score": 0.798448
+   }
+  ],
+  "ms": 301.53,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "g01",
+  "group": "visual",
+  "query": "In the credit risk management processes diagram, which activities are listed under the 'Assessment & Measurement' stage?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p283-v1",
+    "page": 283,
+    "kind": "diagram",
+    "score": 0.85542
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.794606
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p323-v1",
+    "page": 323,
+    "kind": "diagram",
+    "score": 0.776691
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p177-t2",
+    "page": 177,
+    "kind": "table_text",
+    "score": 0.770855
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p318-v1",
+    "page": 318,
+    "kind": "diagram",
+    "score": 0.770381
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p175-t4",
+    "page": 175,
+    "kind": "table_text",
+    "score": 0.765313
+   }
+  ],
+  "ms": 262.18,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "g02",
+  "group": "visual",
+  "query": "In the market risk management processes diagram, under which stage of the cycle are 'Hedging Strategies' and 'Compliance Checking' placed?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p318-v1",
+    "page": 318,
+    "kind": "diagram",
+    "score": 0.847438
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.789935
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p325-v1",
+    "page": 325,
+    "kind": "diagram",
+    "score": 0.763442
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p323-v1",
+    "page": 323,
+    "kind": "diagram",
+    "score": 0.763067
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p278-v1",
+    "page": 278,
+    "kind": "diagram",
+    "score": 0.762629
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p283-v1",
+    "page": 283,
+    "kind": "diagram",
+    "score": 0.753944
+   }
+  ],
+  "ms": 311.25,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "g03",
+  "group": "visual",
+  "query": "Which activities does the liquidity and funding risk management processes diagram list under 'Control & Mitigation'?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.849421
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p210-t5",
+    "page": 210,
+    "kind": "table_text",
+    "score": 0.787056
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p210-t3",
+    "page": 210,
+    "kind": "table_text",
+    "score": 0.77906
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p210-t2",
+    "page": 210,
+    "kind": "table_text",
+    "score": 0.777549
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p322-t2",
+    "page": 322,
+    "kind": "table_text",
+    "score": 0.773689
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p283-v1",
+    "page": 283,
+    "kind": "diagram",
+    "score": 0.771418
+   }
+  ],
+  "ms": 269.67,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "g04",
+  "group": "visual",
+  "query": "In the Shariah non-compliance (SNC) risk management processes diagram, which oversight function is shown at the top of the cycle?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p325-v1",
+    "page": 325,
+    "kind": "diagram",
+    "score": 0.833272
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p221-t6",
+    "page": 221,
+    "kind": "table_text",
+    "score": 0.808033
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p325-t1",
+    "page": 325,
+    "kind": "table_text",
+    "score": 0.797724
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p223-t5",
+    "page": 223,
+    "kind": "table_text",
+    "score": 0.791555
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p223-t1",
+    "page": 223,
+    "kind": "table_text",
+    "score": 0.787724
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p222-t2",
+    "page": 222,
+    "kind": "table_text",
+    "score": 0.783463
+   }
+  ],
+  "ms": 250.81,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "g05",
+  "group": "visual",
+  "query": "In the Risk Appetite framework flow diagram, which step comes right after 'Cascade Risk Appetite', and what does that step involve?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p278-v2",
+    "page": 278,
+    "kind": "diagram",
+    "score": 0.85165
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p278-v1",
+    "page": 278,
+    "kind": "diagram",
+    "score": 0.789999
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p278-t2",
+    "page": 278,
+    "kind": "table_text",
+    "score": 0.757315
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p323-v1",
+    "page": 323,
+    "kind": "diagram",
+    "score": 0.718395
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p283-v1",
+    "page": 283,
+    "kind": "diagram",
+    "score": 0.715887
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p322-v1",
+    "page": 322,
+    "kind": "diagram",
+    "score": 0.7145
+   }
+  ],
+  "ms": 347.63,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "c01",
+  "group": "chart",
+  "query": "In the Simplified Group Balance Sheet charts, what share of total assets did loans, advances and financing represent in 2025 and in 2024?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p005-v3",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.821134
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p005-v1",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.808967
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p088-t6",
+    "page": 88,
+    "kind": "table_text",
+    "score": 0.792441
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p005-v4",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.788602
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p005-v2",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.77957
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p085-t1",
+    "page": 85,
+    "kind": "table_text",
+    "score": 0.779264
+   }
+  ],
+  "ms": 348.45,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "c02",
+  "group": "chart",
+  "query": "In the 2025 'Liabilities & Equity' donut chart, apart from deposits from customers, which two components have the largest shares and what are those shares?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p005-v4",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.851269
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p005-v2",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.818107
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p200-t4",
+    "page": 200,
+    "kind": "table_text",
+    "score": 0.779259
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p005-v3",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.776026
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p248-t3",
+    "page": 248,
+    "kind": "table_rotated",
+    "score": 0.775373
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p213-t3",
+    "page": 213,
+    "kind": "table_text",
+    "score": 0.770237
+   }
+  ],
+  "ms": 275.47,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "c03",
+  "group": "chart",
+  "query": "What loan loss coverage does the five-year growth chart show for 2025, and does that chart figure include or exclude regulatory reserves?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p009-v5",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.843152
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p009-v4",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.79647
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p009-v2",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.77832
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p091-t1",
+    "page": 91,
+    "kind": "table_text",
+    "score": 0.754183
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p086-t2",
+    "page": 86,
+    "kind": "table_text",
+    "score": 0.750531
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p007-t2",
+    "page": 7,
+    "kind": "table_text",
+    "score": 0.746724
+   }
+  ],
+  "ms": 333.53,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "c04",
+  "group": "chart",
+  "query": "In the profit/(loss) before tax segment charts, which segment had a negative contribution in 2024 and how large was it?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p011-v4",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.832985
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p011-v3",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.796772
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p249-t7",
+    "page": 249,
+    "kind": "table_rotated",
+    "score": 0.794393
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p247-t7",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.773599
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p250-t2",
+    "page": 250,
+    "kind": "table_rotated",
+    "score": 0.749036
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p031-t4",
+    "page": 31,
+    "kind": "table_text",
+    "score": 0.747978
+   }
+  ],
+  "ms": 236.12,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "c05",
+  "group": "chart",
+  "query": "Which bar values in the five-year growth charts on the page with total assets and capital ratios are marked with '#', and what does the '#' mean?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p009-v6",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.815932
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p009-v1",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.793844
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p008-v4",
+    "page": 8,
+    "kind": "chart_bar",
+    "score": 0.786934
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p009-v4",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.78005
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p009-v2",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.776069
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p008-v2",
+    "page": 8,
+    "kind": "chart_bar",
+    "score": 0.775173
+   }
+  ],
+  "ms": 297.5,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "m01",
+  "group": "multihop",
+  "query": "Hong Kong SAR external revenue in 2025 represents what percentage of the Group's total operating revenue for 2025?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p247-t2",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.764933
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p011-v1",
+    "page": 11,
+    "kind": "chart_donut",
+    "score": 0.758438
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p247-t4",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.744577
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p247-t3",
+    "page": 247,
+    "kind": "table_rotated",
+    "score": 0.734256
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p156-t2",
+    "page": 156,
+    "kind": "table_text",
+    "score": 0.732639
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p290-t2",
+    "page": 290,
+    "kind": "table_text",
+    "score": 0.729686
+   }
+  ],
+  "ms": 274.89,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "m02",
+  "group": "multihop",
+  "query": "Dividends paid to shareholders in 2025 (from the Statement of Value Added) were what percentage of the 2025 net profit attributable to equity holders of the Bank?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p165-t3",
+    "page": 165,
+    "kind": "table_text",
+    "score": 0.810932
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p035-t1",
+    "page": 35,
+    "kind": "table_text",
+    "score": 0.802982
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p031-t5",
+    "page": 31,
+    "kind": "table_text",
+    "score": 0.795889
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p166-t3",
+    "page": 166,
+    "kind": "table_text",
+    "score": 0.795
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p165-t1",
+    "page": 165,
+    "kind": "table_text",
+    "score": 0.793024
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p004-t2",
+    "page": 4,
+    "kind": "table_text",
+    "score": 0.789137
+   }
+  ],
+  "ms": 284.49,
+  "first_hit_rank": null,
+  "all_required": false
+ },
+ {
+  "id": "m03",
+  "group": "multihop",
+  "query": "Using the 2025 share of loans, advances and financing in total assets from the Simplified Group Balance Sheet chart and the 2025 total assets figure, estimate the value of loans, advances and financing in 2025.",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p005-v3",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.809941
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p288-t4",
+    "page": 288,
+    "kind": "table_text",
+    "score": 0.777572
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p085-t1",
+    "page": 85,
+    "kind": "table_text",
+    "score": 0.775494
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p088-t6",
+    "page": 88,
+    "kind": "table_text",
+    "score": 0.77496
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p005-v4",
+    "page": 5,
+    "kind": "chart_donut",
+    "score": 0.77419
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p200-t4",
+    "page": 200,
+    "kind": "table_text",
+    "score": 0.77295
+   }
+  ],
+  "ms": 253.56,
+  "first_hit_rank": 1,
+  "all_required": false
+ },
+ {
+  "id": "m04",
+  "group": "multihop",
+  "query": "What percentage of the Group's 2025 profit before tax and zakat does the taxation amount in the Statement of Value Added represent?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p164-t2",
+    "page": 164,
+    "kind": "table_text",
+    "score": 0.846602
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p163-t3",
+    "page": 163,
+    "kind": "table_text",
+    "score": 0.837952
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p147-t1",
+    "page": 147,
+    "kind": "table_text",
+    "score": 0.832397
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p164-t3",
+    "page": 164,
+    "kind": "table_text",
+    "score": 0.831737
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p163-t5",
+    "page": 163,
+    "kind": "table_text",
+    "score": 0.813613
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p164-t4",
+    "page": 164,
+    "kind": "table_text",
+    "score": 0.809669
+   }
+  ],
+  "ms": 278.31,
+  "first_hit_rank": null,
+  "all_required": false
+ },
+ {
+  "id": "x01",
+  "group": "text",
+  "query": "Which audit firm signed the Independent Auditors' Report on the 2025 financial statements, and on what date?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p024-t2",
+    "page": 24,
+    "kind": "table_text",
+    "score": 0.794674
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p028-t7",
+    "page": 28,
+    "kind": "table_text",
+    "score": 0.785458
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p024-t1",
+    "page": 24,
+    "kind": "table_text",
+    "score": 0.777944
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p024-t5",
+    "page": 24,
+    "kind": "table_text",
+    "score": 0.777159
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p028-t4",
+    "page": 28,
+    "kind": "table_text",
+    "score": 0.776457
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p024-t3",
+    "page": 24,
+    "kind": "table_text",
+    "score": 0.774036
+   }
+  ],
+  "ms": 245.71,
+  "first_hit_rank": 2,
+  "all_required": true
+ },
+ {
+  "id": "x02",
+  "group": "text",
+  "query": "Did the Bank issue any new shares or carry out any share buy-backs during 2025?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p016-t1",
+    "page": 16,
+    "kind": "table_text",
+    "score": 0.824146
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p147-t2",
+    "page": 147,
+    "kind": "table_text",
+    "score": 0.807919
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p033-t1",
+    "page": 33,
+    "kind": "table_text",
+    "score": 0.798082
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p035-t1",
+    "page": 35,
+    "kind": "table_text",
+    "score": 0.797657
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p165-t3",
+    "page": 165,
+    "kind": "table_text",
+    "score": 0.79739
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p038-t1",
+    "page": 38,
+    "kind": "table_text",
+    "score": 0.796414
+   }
+  ],
+  "ms": 260.63,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "x03",
+  "group": "text",
+  "query": "What market share did Public Mutual hold at the end of 2025, in which market, and how much profit before tax did it post?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p020-t2",
+    "page": 20,
+    "kind": "table_text",
+    "score": 0.824602
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p010-t1",
+    "page": 10,
+    "kind": "table_text",
+    "score": 0.778502
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p019-t7",
+    "page": 19,
+    "kind": "table_text",
+    "score": 0.769288
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p030-t1",
+    "page": 30,
+    "kind": "table_text",
+    "score": 0.766576
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p004-t1",
+    "page": 4,
+    "kind": "table_text",
+    "score": 0.754033
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p020-t1",
+    "page": 20,
+    "kind": "table_text",
+    "score": 0.751756
+   }
+  ],
+  "ms": 268.52,
+  "first_hit_rank": 1,
+  "all_required": true
+ },
+ {
+  "id": "x04",
+  "group": "text",
+  "query": "How much did net interest and financing income grow in 2025, and why was the growth more moderate?",
+  "method": "dense_600",
+  "results": [
+   {
+    "rank": 1,
+    "id": "pbb-ar2025-fs-p020-t1",
+    "page": 20,
+    "kind": "table_text",
+    "score": 0.777157
+   },
+   {
+    "rank": 2,
+    "id": "pbb-ar2025-fs-p019-t6",
+    "page": 19,
+    "kind": "table_text",
+    "score": 0.771719
+   },
+   {
+    "rank": 3,
+    "id": "pbb-ar2025-fs-p262-t2",
+    "page": 262,
+    "kind": "table_text",
+    "score": 0.770441
+   },
+   {
+    "rank": 4,
+    "id": "pbb-ar2025-fs-p087-t1",
+    "page": 87,
+    "kind": "table_text",
+    "score": 0.768013
+   },
+   {
+    "rank": 5,
+    "id": "pbb-ar2025-fs-p248-t2",
+    "page": 248,
+    "kind": "table_rotated",
+    "score": 0.767721
+   },
+   {
+    "rank": 6,
+    "id": "pbb-ar2025-fs-p009-v2",
+    "page": 9,
+    "kind": "chart_bar",
+    "score": 0.761809
+   }
+  ],
+  "ms": 246.52,
+  "first_hit_rank": 1,
+  "all_required": true
+ }
+]
